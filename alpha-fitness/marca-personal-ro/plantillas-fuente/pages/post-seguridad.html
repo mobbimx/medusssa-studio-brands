@@ -1,0 +1,80 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<style>/* ==========================================================================
+   COACH RO — Sistema de marca personal · Medusssa Studio
+   Hoja de estilos compartida para plantillas de historias y overlays.
+   ========================================================================== */
+
+@font-face { font-family:'Fredoka'; src:url('../fonts/Fredoka-Bold.ttf'); font-weight:600 700; }
+@font-face { font-family:'Baloo 2'; src:url('../fonts/Baloo2.ttf'); font-weight:400 800; }
+@font-face { font-family:'Poppins'; src:url('../fonts/Poppins-Regular.ttf'); font-weight:400; }
+@font-face { font-family:'Poppins'; src:url('../fonts/Poppins-SemiBold.ttf'); font-weight:600; }
+@font-face { font-family:'Poppins'; src:url('../fonts/Poppins-Bold.ttf'); font-weight:700; }
+@font-face { font-family:'Nunito'; src:url('../fonts/Nunito.ttf'); font-weight:400 800; }
+
+:root{
+  /* Rosa Coach Ro */
+  --rosa:        #FF4F97;
+  --rosa-vivo:   #FF2E86;
+  --rosa-pastel: #FFD9EC;
+  --rosa-nube:   #FFEBF4;
+  /* Arcoíris pastel */
+  --lila:        #C6B2FF;
+  --menta:       #9FE7DC;
+  --celeste:     #B9E4FF;
+  --amarillo:    #FFDE7A;
+  /* Neutros */
+  --crema:       #FFF7FB;
+  --carbon:      #2A2028;
+  --blanco:      #FFFFFF;
+
+  --grad-arcoiris: linear-gradient(100deg,#FF4F97 0%,#C6B2FF 38%,#B9E4FF 68%,#9FE7DC 100%);
+  --grad-rosa:     linear-gradient(160deg,#FF6FAC 0%,#FF2E86 100%);
+  --grad-nube:     linear-gradient(165deg,#FFF7FB 0%,#FFE6F3 55%,#F3ECFF 100%);
+
+  --sombra-suave: 0 18px 50px rgba(255,79,151,.22);
+  --sombra-card:  0 22px 60px rgba(42,32,40,.16);
+}
+
+*{ box-sizing:border-box; margin:0; padding:0; -webkit-font-smoothing:antialiased; }
+
+/* Lienzo historia 1080x1920 */
+.story{
+  width:1080px; height:1920px; position:relative; overflow:hidden;
+  font-family:'Poppins',sans-serif; color:var(--carbon);
+}
+
+/* Utilidades tipográficas */
+.display{ font-family:'Fredoka',sans-serif; font-weight:700; letter-spacing:-.5px; line-height:.98; }
+.round{ font-family:'Baloo 2',sans-serif; }
+.eyebrow{ font-family:'Poppins',sans-serif; font-weight:700; letter-spacing:6px; text-transform:uppercase; }
+
+/* Marca de agua / firma */
+.firma{ font-family:'Poppins'; font-weight:600; letter-spacing:2px; text-transform:uppercase; opacity:.6; font-size:20px; }
+
+/* Sparkles */
+.spark{ position:absolute; color:var(--blanco); filter:drop-shadow(0 2px 6px rgba(255,79,151,.4)); }
+.post{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:'Poppins',sans-serif;color:var(--carbon)}</style></head><body>
+<div class="post" style="background:var(--carbon);padding:0;display:flex;flex-direction:column">
+  <div style="padding:90px 80px 0">
+    <div class="eyebrow" style="font-size:26px;color:var(--menta)">Para mamás y papás</div>
+    <div class="display" style="font-size:110px;color:#fff;margin-top:14px;line-height:1">¿Es<br><span style="color:var(--rosa)">seguro</span> para<br>mi hija?</div>
+  </div>
+  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:26px;padding:60px 80px">
+    <div style="display:flex;align-items:center;gap:24px;background:rgba(255,255,255,.06);border-radius:26px;padding:30px 34px"><div style="width:60px;height:60px;border-radius:50%;background:var(--rosa);flex:0 0 auto;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="34" height="34" style="display:block"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.1 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.3l6.1-.7z" fill="none" stroke="#fff" stroke-width="2.6" stroke-linejoin="round"/></svg></div><span style="font-family:Poppins;font-weight:600;font-size:34px;color:#fff">Colchonetas y piso de seguridad bajo cada tela</span></div><div style="display:flex;align-items:center;gap:24px;background:rgba(255,255,255,.06);border-radius:26px;padding:30px 34px"><div style="width:60px;height:60px;border-radius:50%;background:var(--rosa);flex:0 0 auto;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="34" height="34" style="display:block"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.1 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.3l6.1-.7z" fill="none" stroke="#fff" stroke-width="2.6" stroke-linejoin="round"/></svg></div><span style="font-family:Poppins;font-weight:600;font-size:34px;color:#fff">Instrucciones claras y supervisión en cada movimiento</span></div><div style="display:flex;align-items:center;gap:24px;background:rgba(255,255,255,.06);border-radius:26px;padding:30px 34px"><div style="width:60px;height:60px;border-radius:50%;background:var(--rosa);flex:0 0 auto;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="34" height="34" style="display:block"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.1 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.3l6.1-.7z" fill="none" stroke="#fff" stroke-width="2.6" stroke-linejoin="round"/></svg></div><span style="font-family:Poppins;font-weight:600;font-size:34px;color:#fff">Progresión a su ritmo — nadie se salta pasos</span></div><div style="display:flex;align-items:center;gap:24px;background:rgba(255,255,255,.06);border-radius:26px;padding:30px 34px"><div style="width:60px;height:60px;border-radius:50%;background:var(--rosa);flex:0 0 auto;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="34" height="34" style="display:block"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.1 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.3l6.1-.7z" fill="none" stroke="#fff" stroke-width="2.6" stroke-linejoin="round"/></svg></div><span style="font-family:Poppins;font-weight:600;font-size:34px;color:#fff">15 años de experiencia respaldando cada clase</span></div>
+  </div>
+  <div style="background:var(--grad-rosa);padding:50px 80px;display:flex;align-items:center;justify-content:space-between">
+    <span style="font-family:'Baloo 2';font-weight:800;font-size:40px;color:#fff">Rompe el miedo, no la confianza.</span>
+    
+    <div style="display:inline-flex;flex-direction:column;align-items:center;line-height:1">
+      <div style="font-family:'Poppins';font-weight:700;letter-spacing:5.0px;
+                  font-size:11.0px;color:#fff;text-transform:uppercase;
+                  margin-bottom:-1.0px;margin-left:5.0px">Coach</div>
+      <div style="position:relative;display:inline-block">
+        <span class="display" style="font-size:60.0px;color:#fff">Ro</span>
+        <svg class="spark" style="left:59.0px;top:-3.0px;width:17.0px;height:17.0px;opacity:1.0;transform:rotate(0deg)" viewBox="0 0 24 24" fill="#fff"><path d="M12 0c.7 5.5 2.5 8 12 12-9.5 4-11.3 6.5-12 12-.7-5.5-2.5-8-12-12 9.5-4 11.3-6.5 12-12z"/></svg>
+        <svg class="spark" style="left:75.0px;top:17.0px;width:9.0px;height:9.0px;opacity:0.8;transform:rotate(0deg)" viewBox="0 0 24 24" fill="#fff"><path d="M12 0c.7 5.5 2.5 8 12 12-9.5 4-11.3 6.5-12 12-.7-5.5-2.5-8-12-12 9.5-4 11.3-6.5 12-12z"/></svg>
+      </div>
+      
+    </div>
+  </div>
+</div></body></html>
