@@ -12,14 +12,12 @@ Elaborado por **Medusssa Studio** · Plan Esencial
 ## 1. Quién es Ro
 
 Ro es una entrenadora que **convierte la disciplina en juego**. Deportista vigente
-—no solo enseña, sigue entrenando todos los días— con 15 años en artes circenses
-(danza aérea, trapecio, aro aéreo), cinta roja avanzada de taekwondo (camino a la
-negra), más de 10 años en pesas y formación como entrenadora deportiva y en masajes
-deportivos.
+—no solo enseña, sigue entrenando todos los días— con formación como entrenadora
+deportiva y en masajes deportivos, y una pasión que la mantiene siempre actualizándose.
 
-Su magia no es solo lo que hace en las telas: es cómo **conecta con cada niño**, le
-rompe el miedo y lo hace creer que sí puede. Enseña con cuentos, retos y juegos con
-propósito, cuidando siempre la seguridad y los valores.
+Su magia está en cómo **conecta con cada niño**, le rompe el miedo y lo hace creer que
+sí puede. Enseña con cuentos, retos y juegos con propósito, cuidando siempre la
+seguridad y los valores.
 
 **En una frase:** la coach que hace que los niños crean en ellos mismos —jugando.
 
