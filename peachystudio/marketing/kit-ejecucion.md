@@ -187,9 +187,55 @@ El guion del punto 4.
 
 ---
 
-# 6. Pedir reseña en Google
+# 6. Google Business
 
-> ⚠️ **Requisito previo:** tener ficha de Google Business. Si no existe, créala primero — es gratis y toma 20 minutos.
+> ✅ **La ficha ya existe** (confirmado julio 2026). El trabajo no es crearla, es **auditarla y llenarla bien**. Toma una hora y es el canal gratuito de mayor intención del negocio.
+
+## 6.1 Auditoría — revisa estos 10 puntos
+
+| # | Punto | Cómo debe estar |
+|---|-------|-----------------|
+| 1 | **Categoría principal** | `Salón de uñas`. Si dice "Salón de belleza" o "Spa", cámbiala — la categoría es el factor de ranking más fuerte |
+| 2 | Categorías secundarias | `Salón de manicura y pedicura` |
+| 3 | **Nombre del negocio** | Solo `Peachy Studio`. ⚠️ Ver advertencia abajo |
+| 4 | Dirección | Exacta y con el pin bien puesto en el mapa |
+| 5 | Teléfono | 228-848-5375 |
+| 6 | Horarios | Reales. Si cierras un día, márcalo — un horario mal puesto genera reseñas negativas |
+| 7 | **Servicios con precio** | Softgel $150 · Polygel $170 · Manicura rusa $50. Google permite listarlos |
+| 8 | **Fotos** | 15–20 de trabajos propios. Nunca de banco de imágenes |
+| 9 | Atributos | "Se requiere cita", "Atendido por mujeres" si aplica |
+| 10 | Enlace | WhatsApp directo (`wa.me/52228848XXXX`) |
+
+### ⚠️ Advertencia importante sobre el nombre
+
+En Instagram te recomendé poner **"Peachy Studio · Uñas Xalapa"** en el campo de nombre, porque ahí sí es indexable.
+
+**En Google NO hagas eso.** Meter palabras clave en el nombre del negocio viola las políticas de Google Business y es causa común de **suspensión de la ficha**. El nombre debe ser exactamente como se llama el negocio: `Peachy Studio`.
+
+Las palabras clave en Google van en la **categoría**, los **servicios** y las **publicaciones** — no en el nombre.
+
+## 6.2 Las dos cosas que más mueven la aguja
+
+**a) Fotos propias, muchas.** Las fichas con fotos reciben significativamente más solicitudes de indicaciones y clics. Sube 15–20 de entrada y agrega 2–3 por semana. Es la misma foto que ya le mandas a la clienta por WhatsApp.
+
+**b) Publicaciones semanales.** Google Posts, 1 por semana. Reutiliza el diseño de la semana del calendario de contenido. Cero trabajo extra.
+
+## 6.3 Preguntas frecuentes — siémbralas tú
+
+Google permite que cualquiera pregunte, y **también que tú preguntes y respondas**. Si no las siembras, las llena el azar.
+
+Publica y responde estas cuatro:
+
+| Pregunta | Respuesta |
+|----------|-----------|
+| ¿Necesito cita? | "Sí, trabajo con cita para dedicarte el tiempo completo. Mándame WhatsApp al 228-848-5375 y te aparto 💗" |
+| ¿Cuánto cuesta? | "Softgel $150, polygel $170, manicura rusa $50. El diseño va incluido." |
+| ¿Cuánto duran? | "De 3 a 4 semanas. A las 3 es lo ideal para el relleno, así tu uña no se maltrata." |
+| ¿Retiran trabajo de otro lado? | "Sí, el retiro de trabajo ajeno tiene costo aparte. Mándame foto y te digo." |
+
+---
+
+## 6.4 Pedir reseña
 
 ### Cuándo pedirla
 
@@ -245,7 +291,9 @@ Configúralas una vez en WhatsApp Business → Herramientas → Respuestas rápi
 | Reagenda en mostrador | 40% |
 | Recordatorios que terminan en cita | 25% |
 | Clientas de 1ª vez que regresan | 50% |
-| Ficha de Google | creada |
+| Ficha de Google auditada (los 10 puntos) | ✅ |
+| Fotos propias en la ficha | 15–20 |
+| Preguntas frecuentes sembradas | 4 |
 | Reseñas | 10+ |
 
 ---

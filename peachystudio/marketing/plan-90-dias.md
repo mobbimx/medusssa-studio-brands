@@ -39,9 +39,12 @@
 
 **Foco:** canales gratuitos de alta intención. Nada de pauta todavía.
 
-### Semana 5 — Google Business
-- [ ] Crear/reclamar ficha con categoría "Salón de uñas"
+### Semana 5 — Google Business *(la ficha ya existe — se audita, no se crea)*
+- [ ] Auditar los 10 puntos de la ficha (checklist en `kit-ejecucion.md` §6)
+- [ ] Verificar que la categoría principal sea **"Salón de uñas"** — es el factor de ranking más fuerte
+- [ ] Cargar los servicios con precio
 - [ ] Subir 15–20 fotos de trabajos propios
+- [ ] Sembrar y responder las 4 preguntas frecuentes
 - [ ] Empezar a pedir reseña a cada clienta al mandarle su foto
 - [ ] **Objetivo del mes: llegar a 10 reseñas** (umbral donde desaparece la penalización de conversión)
 

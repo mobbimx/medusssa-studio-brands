@@ -112,11 +112,11 @@ Ese es el diferenciador con más potencial porque:
 | Identidad verbal completa (tono, vocabulario, claims) | ✅ Existe — la mayoría de la competencia improvisa |
 | El claim "uña sana" | ⚠️ Existe pero subutilizado |
 | Arquetipo definido (El Amante) | ✅ Existe |
-| Ficha de Google Business | ❌ Por confirmar si existe |
-| Reseñas | ❌ Por medir |
+| Ficha de Google Business | ✅ **Existe** — falta auditarla y llenarla |
+| Reseñas | ⚠️ Por medir (calificación y volumen actuales) |
 | Sistema de reagenda | ❌ No existe |
 
-> Tres de seis son gratis y se resuelven en semanas. Ahí está el avance más rápido disponible.
+> Cuatro de seis ya existen. El avance más rápido disponible es **llenar bien la ficha de Google** —que ya está creada— y montar la reagenda. Ninguna de las dos cuesta dinero.
 
 ---
 

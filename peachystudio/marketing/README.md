@@ -61,7 +61,8 @@
 - [ ] Tasa actual de reagendado (¿la clienta sale con próxima cita?)
 - [ ] Ticket promedio real (con retiros, decoración, add-ons)
 - [ ] Días/horarios con huecos sin llenar
-- [ ] Si existe ficha de Google Business y cuántas reseñas tiene
+- [x] ~~Si existe ficha de Google Business~~ — **sí existe** (confirmado julio 2026)
+- [ ] Calificación y número de reseñas actuales de la ficha
 - [ ] Herramienta de agenda actual (¿libreta, WhatsApp, app?)
 - [ ] Costo de material por servicio (para calcular margen real)
 

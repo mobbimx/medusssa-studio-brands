@@ -51,7 +51,9 @@
 
 ## 2. Ficha de Google Business
 
-**Qué es:** tener y trabajar la ficha de Google Maps del estudio.
+**Qué es:** trabajar la ficha de Google Maps del estudio.
+
+> ✅ **La ficha ya existe** (confirmado julio 2026). El trabajo es **auditarla y llenarla bien**, no crearla. Checklist de 10 puntos en [`kit-ejecucion.md`](kit-ejecucion.md) sección 6.
 
 **Evidencia:**
 - **46%** de las búsquedas en Google tienen intención local; **76%** de quien busca "cerca de mí" visita el negocio en 24 h.
@@ -63,11 +65,14 @@
 **Por qué es la de mayor retorno gratuito:** alguien que busca "uñas en Xalapa" en Google tiene intención de compra hoy. Es tráfico de fondo de embudo, gratis, que la mayoría de la competencia local probablemente no está trabajando.
 
 **Cómo se implementa:**
-1. Crear/reclamar la ficha con categoría **"Salón de uñas"**.
-2. Horarios reales, WhatsApp como contacto, ubicación exacta.
+1. **Auditar la ficha existente** — sobre todo que la categoría principal sea **"Salón de uñas"** y no "Salón de belleza". La categoría es el factor de ranking más fuerte.
+2. Verificar horarios reales, WhatsApp como contacto, ubicación exacta y **servicios con precio**.
 3. **Subir 15–20 fotos de trabajos propios** (no de banco de imágenes).
 4. **Llegar a 10 reseñas lo antes posible** — es el umbral donde deja de haber penalización.
 5. Publicar en Google Posts 1 vez por semana (los mismos diseños que van a Instagram).
+6. Sembrar y responder las 4 preguntas frecuentes.
+
+> ⚠️ **No meter palabras clave en el nombre del negocio.** A diferencia de Instagram, en Google eso viola las políticas y es causa común de suspensión de la ficha. El nombre va tal cual: `Peachy Studio`.
 
 **Cómo pedir la reseña sin incomodar** — al mandarle su foto por WhatsApp:
 > "Aquí está tu foto 💗 Si te gustó cómo quedaron, ¿me dejas una reseñita en Google? Me ayuda un montón a que me encuentren. Aquí el link 📲"
