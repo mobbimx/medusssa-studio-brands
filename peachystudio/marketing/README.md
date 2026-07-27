@@ -20,6 +20,7 @@
 |---------|-----------|
 | `kit-ejecucion.md` | ⭐ Guiones, hoja de registro, tarjeta de lealtad y respuestas de WhatsApp del Mes 1 |
 | `campana-cliente-frecuente.md` | ⭐ Campaña de promoción en 3 fases con la tarjeta como eje |
+| `difusion-y-promocion-tarjeta.md` | Canales de difusión por rentabilidad y mecánicas promocionales |
 | `calendario-contenido.md` | 13 piezas de contenido con hook, guion, caption y hashtags |
 | `precios-y-paquetes.md` | Análisis de precios, tabulador de add-ons y paquete prepagado |
 
