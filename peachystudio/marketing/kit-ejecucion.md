@@ -132,8 +132,8 @@ Fíjate que el guion **no pide un favor** — ofrece una conveniencia: guardarle
 │                                      │
 │   Ya empezaste con 2 de regalo 💗    │
 │                                      │
-│   A la mitad: decoración de cortesía │
-│   Al llenarla: manicura rusa incluida│
+│   A la mitad: un detalle de mi cuenta│
+│   Al llenarla: tú eliges tu premio   │
 │                                      │
 │   Peachy Studio · 228-848-5375       │
 │   Vigencia: 8 meses                  │

@@ -57,8 +57,8 @@ Peachy es servicio **1 a 1** con capacidad tope de ~84 servicios al mes. Una cam
 │                                      │
 │   Ya empezaste con 2 de regalo 💗    │
 │                                      │
-│   A la mitad: decoración de cortesía │
-│   Al llenarla: manicura rusa incluida│
+│   A la mitad: un detalle de mi cuenta│
+│   Al llenarla: tú eliges tu premio   │
 │                                      │
 │   Peachy Studio · 228-848-5375       │
 │   Vigencia: 8 meses                  │
@@ -71,8 +71,9 @@ Peachy es servicio **1 a 1** con capacidad tope de ~84 servicios al mes. Una cam
 |---------|----------|
 | Se inscribe | Recibe **2 sellos de regalo** al instante |
 | Visitas 1 a 5 | Un sello por visita |
-| **Visita 3** | Premio intermedio: **decoración de cortesía** |
-| Tarjeta llena (7/7) | Su siguiente servicio incluye **manicura rusa** |
+| **Visita 3** | Detalle de cortesía *(ver escalera de recompensas en 2.b)* |
+| **Visita 5** | Mini aceite de cutícula de marca |
+| Tarjeta llena (7/7) | **Elige su premio**: kit de cuidado o manicura rusa incluida |
 
 **Ojo:** son **las mismas 5 visitas** que el diseño anterior. No estás regalando nada extra con los 2 sellos — estás cambiando cómo se siente.
 
@@ -91,17 +92,128 @@ Esto haría fracasar el programa… si la tarjeta fuera la fuente de verdad. **N
 
 Con eso, la tarjeta física es un **recordatorio motivacional** en su cartera, no un documento que si se pierde borra su progreso. Neutralizas el 80% sin pagar una app.
 
-### Costo real del programa
+---
 
-| Concepto | Valor de lista | Cuándo |
+## 2.b Las recompensas: por qué NO deben ser servicio gratis
+
+> Propuesta del cliente (julio 2026), y es la dirección correcta. Aquí está desarrollada.
+
+### El problema de premiar con servicio
+
+Premiar con manicura rusa gratis parece barato porque "solo" son $50 de lista. Pero en un negocio 1 a 1 con **capacidad tope de ~84 servicios al mes**, un servicio regalado no cuesta $50:
+
+```
+Costo real de un servicio regalado
+= material  +  el tiempo que ocupa
+= ~$15      +  un espacio de agenda que pudo venderse
+```
+
+**El premio te quita capacidad justo cuando la campaña la está llenando.** Es la peor combinación posible: la campaña funciona, la agenda se satura, y encima estás regalando espacios.
+
+Y hay un segundo problema: **descontar el servicio erosiona el precio**, que ya está en el cuartil bajo del mercado (ver [`precios-y-paquetes.md`](precios-y-paquetes.md)).
+
+### La alternativa: recompensas físicas de costo bajo
+
+| | Servicio regalado | Recompensa física |
+|---|---|---|
+| Costo en efectivo | Bajo (~$15 material) | Bajo ($10–35) |
+| **Costo en capacidad** | 🔴 **Alto — ocupa agenda** | ✅ **Cero** |
+| Gratificación | Diferida (hay que volver a usarla) | ✅ Inmediata |
+| Efecto en el precio | 🔴 Lo erosiona | ✅ Lo protege |
+| Publicidad | Ninguna | ✅ Si lleva marca, camina |
+
+### La escalera de recompensas
+
+| Momento | Recompensa | Costo estimado | Por qué esa |
+|---------|-----------|----------------|-------------|
+| **Inscripción** | 2 sellos + se registra su bebida favorita | ~$0 | La personalización cuesta cero y se siente muchísimo |
+| **Visita 3** *(la mitad)* | Dulce especial o chocolate + sticker de marca | $10–15 | Gratificación inmediata en el punto donde se decide si sigue |
+| **Visita 5** | **Mini aceite de cutícula con etiqueta Peachy** | $25–35 | Ver abajo — es el mejor artículo del programa |
+| **Tarjeta llena** | Kit "Cuídate la uña" *(aceite + lima + bolsita)* **o** manicura rusa incluida — ella elige | $50–70 | Dejar elegir sube el valor percibido sin subir el costo |
+
+> Costos estimados. **Confirmar con proveedor** antes de comprometer el programa.
+
+### ⭐ El artículo estrella: el aceite de cutícula de marca
+
+De todo el merchandising posible, este es el que más rinde. Cinco razones:
+
+1. **Es el claim hecho producto.** *"Uñas bonitas, uña sana"* deja de ser una frase y se vuelve algo que ella se lleva a su casa.
+2. **Contacto diario con la marca.** Lo usa todos los días. Ningún llavero logra eso.
+3. **Mejora tu propio resultado.** Una clienta que se pone aceite tiene mejor uña → mejor trabajo → mejor reseña.
+4. **Costo bajo, valor percibido alto.** Un frasquito etiquetado se siente como regalo de marca, no como cortesía.
+5. **Puede convertirse en producto de venta.** Ver sección 2.c.
+
+### Amenidades de casa: no son premio, son estándar
+
+El café, el agua y el dulce durante el servicio **se le dan a todas, siempre**. No entran a la tarjeta.
+
+> **Ojo con esto:** si conviertes en "premio" algo que ya das a todas, lo devalúas y además la clienta lo nota. Las amenidades son hospitalidad; las recompensas son cosas que normalmente **no** recibe.
+
+Lo que sí puedes hacer con la amenidad es **personalizarla**: anotar en tu hoja qué toma cada clienta.
+
+> "¿Tu café con leche, verdad?"
+
+Eso cuesta cero y es de las cosas que más se recuerdan.
+
+### Regla de decisión: ¿premio físico o servicio?
+
+Depende de **qué te falta hoy**:
+
+| Situación | Premio correcto |
+|-----------|-----------------|
+| Tienes huecos en la agenda | **Servicio** — te cuesta poco efectivo y te llena un espacio muerto |
+| Estás cerca de saturarte | **Físico** — no toca tu capacidad |
+| No sabes todavía | **Deja que ella elija.** Resuelve el dilema y sube el valor percibido |
+
+**Recomendación de arranque:** premio a elección. Si la mayoría escoge el kit, ya sabes que puedes subir precio; si la mayoría escoge el servicio, tienes capacidad ociosa que llenar.
+
+> Ese dato, gratis, te dice más de tu negocio que cualquier encuesta.
+
+### Costo del programa con recompensas físicas
+
+| Concepto | Costo estimado | Cuándo |
 |----------|----------------|--------|
-| Decoración de cortesía | $15 | Visita 3 |
-| Manicura rusa incluida | $50 | Al llenar |
-| **Total en premios** | **$65** | Por 6 visitas |
+| Dulce + sticker | $12 | Visita 3 |
+| Mini aceite | $30 | Visita 5 |
+| Kit o servicio | $50–70 | Al llenar |
+| **Total** | **~$95–112** | Por 6 visitas |
 
-Sobre 6 visitas de softgel ($900), eso es **7.2% de descuento efectivo** — y el costo real en material es bastante menor, porque lo que se regala es sobre todo tiempo.
+Sobre 6 visitas de softgel ($900), es **10–12%** — más alto en efectivo que la versión de puro servicio (7.2%), **pero no consume ni un minuto de agenda** y no toca el precio de lista.
 
-**La forma correcta de verlo:** no estás dando 7.2% de descuento. Estás pagando $65 para convertir a una clienta ocasional en una de 6 visitas. Si sin tarjeta hubiera venido 3 veces, ganaste 3 servicios ($450) por $65.
+**La forma correcta de verlo:** estás pagando ~$100 para convertir a una clienta ocasional en una de 6 visitas. Si sin tarjeta hubiera venido 3 veces, ganaste 3 servicios ($450) por ~$100. Y de paso tu marca salió del studio en la bolsa de alguien.
+
+---
+
+## 2.c La oportunidad que abre esto: vender producto
+
+Este es un efecto secundario que vale más que la campaña misma.
+
+**El problema estructural de Peachy es el techo de capacidad:** el ingreso topa alrededor de $12,600/mes aunque la agenda se llene, porque hay un número finito de horas.
+
+**Vender producto es la única forma de crecer sin más horas.**
+
+Si el aceite de cutícula funciona como premio, ya validaste tres cosas sin arriesgar nada:
+
+1. Que a tus clientas les interesa
+2. Que tu marca aguanta ir en una etiqueta
+3. Que tienes proveedor y costo
+
+De ahí a venderlo hay un paso muy corto:
+
+| Producto | Costo estimado | Precio sugerido | Margen |
+|----------|----------------|-----------------|--------|
+| Aceite de cutícula | $30 | $90–120 | ~65% |
+| Kit de cuidado en casa | $60 | $180–220 | ~68% |
+| Lima profesional | $15 | $50 | ~70% |
+
+> **Márgenes ilustrativos.** Confirmar con proveedor real.
+
+**El argumento de venta ya lo tienes y es honesto:**
+> "Si te pones esto en las noches, te van a durar más y no se te va a resecar la uña. Lo traigo aquí."
+
+Y encaja perfecto con el arquetipo Amante: no es venta agresiva, es cuidado.
+
+> **Cuándo entrar:** no ahora. Primero corre el programa, valida que el aceite gusta, y en el mes 3–4 lo pones en venta. Es una línea de ingreso que **no consume capacidad** — exactamente lo que el negocio necesita.
 
 ---
 
@@ -245,9 +357,22 @@ Aquí está el retorno más alto de toda la campaña y casi nadie lo hace. Tus c
 |----------|-------|------|
 | Impresión de 100 tarjetas | $300–400 | Previo |
 | Sello o marcador distintivo | $80–150 | Previo |
-| Premios (decoración + manicura rusa) | ~$65 por tarjeta completada | Continuo |
+| **Inventario inicial de recompensas** | **$800–1,200** | Previo |
+| Etiquetas de marca para los aceites | $150–250 | Previo |
 | Pauta en Meta | $1,500–3,000 | Fase 3 |
-| **Total de arranque** | **~$2,000–3,500 MXN** | |
+| **Total de arranque** | **~$2,800–5,000 MXN** | |
+
+**Inventario inicial sugerido** *(alcanza para ~30 clientas inscritas)*:
+
+| Artículo | Cantidad | Costo estimado |
+|----------|----------|----------------|
+| Dulces / chocolates | 30 | $300 |
+| Stickers de marca | 100 | $150 |
+| Mini aceites de cutícula | 15 | $450 |
+| Limas para el kit | 10 | $150 |
+| Bolsitas de tela | 10 | $150 |
+
+> **Compra por etapas.** No compres los 15 aceites de entrada — nadie llega a la visita 5 en el primer mes. Arranca con dulces y stickers ($450), y compra los aceites en la semana 4.
 
 **Escenario de retorno** *(ilustrativo — ajustar con tus números reales)*:
 
@@ -255,12 +380,14 @@ Si 30 clientas se inscriben y **34% completa** la tarjeta *(el benchmark con sel
 
 ```
 10 tarjetas completadas × 6 visitas × $150   =  $9,000
-– premios (10 × $65)                          = –$  650
+– recompensas (10 × ~$100)                    = –$1,000
 ────────────────────────────────────────────────────────
-Ingreso de las tarjetas completadas           =  $8,350
+Ingreso de las tarjetas completadas           =  $8,000
 ```
 
-Y eso sin contar las 20 que no completaron pero **igual vinieron más veces** de las que hubieran venido.
+Y eso **sin contar dos cosas**:
+- Las 20 que no completaron pero igual vinieron más veces de las que hubieran venido
+- Que ninguna de esas 10 tarjetas te quitó un espacio de agenda
 
 > Con el diseño anterior (sin sellos de regalo, 19% de completado) serían ~6 tarjetas en vez de 10. **Los 2 sellos de regalo valen alrededor de 4 clientas recurrentes más**, y no cuestan nada.
 
