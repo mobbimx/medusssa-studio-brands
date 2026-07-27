@@ -32,7 +32,7 @@
 
 ---
 
-## Arquetipo *(propuesto)*
+## Arquetipo ✅ *(confirmado por el cliente, julio 2026)*
 
 **El Mentor** — quien saca de ti algo que no sabías que podías.
 
@@ -148,7 +148,8 @@ Máximo 2 por mensaje.
 
 - [ ] 🔴 **Dirección exacta** — bloquea la ficha de Google Business
 - [ ] **Nombre del método** del cuento-entrenamiento
-- [ ] Confirmar arquetipo y tono propuestos
+- [x] ~~Confirmar arquetipo~~ — **El Mentor**, confirmado julio 2026
+- [ ] Confirmar tono de voz y claims propuestos
 - [ ] Precios: mensualidad, inscripción, clase suelta
 - [ ] Rango de edad y cupo máximo por clase
 - [ ] Identidad visual (ver `visual.md`)

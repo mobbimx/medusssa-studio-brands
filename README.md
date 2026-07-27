@@ -57,7 +57,7 @@ Cada carpeta incluye (según disponibilidad):
 | Peachy Studio | ✅ Completa | ⚠️ Faltan colores y tipografías | ✅ Completa | ✅ |
 | Salones Aurora | ✅ Completa | ⚠️ Faltan colores y tipografías | ✅ Completa | ✅ |
 | Mobbitrips | ✅ Manual verbal creado jul-2026 | ✅ Completa | ✅ Completa | ✅ |
-| Alpha Fitness | ⚠️ Formalizada desde guiones; falta confirmar | ⚠️ Faltan colores y tipografías | ✅ Completa | ✅ |
+| Alpha Fitness | ⚠️ Arquetipo confirmado; falta confirmar tono | ⚠️ Faltan colores y tipografías | ✅ Completa | ✅ |
 | Extravagance | ❌ Pendiente | ❌ Pendiente | ❌ Pendiente | Fuera de alcance |
 
 **Pendientes que bloquean trabajo:**
