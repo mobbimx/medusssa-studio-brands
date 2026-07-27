@@ -42,6 +42,22 @@ Peachy es servicio **1 a 1** con capacidad tope de ~84 servicios al mes. Una cam
 
 **Mismas compras. Casi el doble de completado.** Sentir que ya empezaste es lo que hace que termines.
 
+### Artes en Canva — 2 propuestas editables
+
+Generadas con el brand kit **PeachyStudio** de Canva (julio 2026). Ambas de 2 caras.
+
+| Opción | Concepto | Editar | Ver |
+|--------|----------|--------|-----|
+| **A — Minimal** | Limpia, aire, tonos durazno suaves. Los 7 círculos como protagonista. Se siente cuidada y cara sin serlo | [Editar](https://www.canva.com/d/J9OVE6XKjvArJku) | [Ver](https://www.canva.com/d/t7coqwrG7oZIdME) |
+| **B — Cálida y juguetona** | Fondo durazno, tipografía redondeada, doodles de durazno. Se siente cercana y coleccionable | [Editar](https://www.canva.com/d/oiUfwbhmQHvBJ1Y) | [Ver](https://www.canva.com/d/oKdXBVmZHlwROaW) |
+
+> ⚠️ **Revisar antes de mandar a imprenta.** Son artes generadas con IA y hay dos cosas que suelen salir mal:
+>
+> 1. **Que sean exactamente 7 casillas** y que **las 2 primeras estén marcadas**. Ese detalle es el mecanismo completo de la tarjeta — si sale con 7 vacías, se pierde el efecto de progreso dotado.
+> 2. **El teléfono correcto:** 228-848-5375.
+>
+> También conviene dejar **espacio real para escribir el nombre a mano** — si la línea queda muy corta no se usa, y el nombre escrito es lo que hace que la tarjeta se conserve.
+
 ### Diseño corregido
 
 ```
