@@ -24,16 +24,17 @@ Una sola hoja. Si es más complicada que esto, no se sostiene tres semanas.
 
 ### Formato
 
-| Fecha | Clienta | Servicio | $ Cobrado | Add-on | ¿1ª vez? | ¿Salió con cita? | Avisar el |
-|-------|---------|----------|-----------|--------|----------|------------------|-----------|
-| 2 ago | Ana M. | Softgel | $150 | — | Sí | ✅ 23 ago | 23 ago |
-| 2 ago | Sofi R. | Polygel | $210 | Cromo | No | ❌ | 23 ago |
+| Fecha | Clienta | Servicio | $ Cobrado | Add-on | ¿1ª vez? | ¿Salió con cita? | Avisar el | Sellos |
+|-------|---------|----------|-----------|--------|----------|------------------|-----------|--------|
+| 2 ago | Ana M. | Softgel | $150 | — | Sí | ✅ 23 ago | 23 ago | 3 |
+| 2 ago | Sofi R. | Polygel | $210 | Cromo | No | ❌ | 23 ago | 5 |
 
 ### Las 3 columnas que importan
 
 - **¿Salió con cita?** → es tu tasa de reagenda. La métrica #1 del negocio.
 - **Avisar el** → fecha de la cita + 21 días. De aquí sale el recordatorio.
 - **$ Cobrado** → tu ticket promedio real, con add-ons incluidos.
+- **Sellos** → el registro maestro del programa de lealtad. **Si la clienta pierde su tarjeta, este número es la verdad.**
 
 ### Al final del mes, saca 4 números
 
@@ -114,42 +115,67 @@ Fíjate que el guion **no pide un favor** — ofrece una conveniencia: guardarle
 
 # 4. Tarjeta de lealtad "Cuídate la uña"
 
+> 🔄 **Diseño actualizado (julio 2026).** La versión anterior empezaba en cero. La corregida arranca con **2 sellos de regalo**, lo que casi duplica la tasa de completado sin costar nada. Campaña completa en [`campana-cliente-frecuente.md`](campana-cliente-frecuente.md).
+
 ### Especificación para imprimir
 
 ```
-┌─────────────────────────────────┐
-│                                 │
-│      Cuídate la uña             │
-│                                 │
-│   Nombre: _________________     │  ← escrito a mano
-│                                 │
-│   ○  ○  ○  ○  ○  ★              │
-│                                 │
-│   Al 6º servicio va tu          │
-│   manicura rusa de mi cuenta    │
-│                                 │
-│   Peachy Studio                 │
-│   228-848-5375                  │
-│                                 │
-│   Vigencia: 8 meses             │
-└─────────────────────────────────┘
+┌──────────────────────────────────────┐
+│                                      │
+│         Cuídate la uña               │
+│                                      │
+│   Nombre: __________________         │  ← a mano
+│                                      │
+│   ✓  ✓  ○  ○  ○  ○  ★                │
+│   └─regalo─┘     ↑        ↑          │
+│                mitad    premio       │
+│                                      │
+│   Ya empezaste con 2 de regalo 💗    │
+│                                      │
+│   A la mitad: decoración de cortesía │
+│   Al llenarla: manicura rusa incluida│
+│                                      │
+│   Peachy Studio · 228-848-5375       │
+│   Vigencia: 8 meses                  │
+└──────────────────────────────────────┘
 ```
 
 - **Tamaño:** tarjeta de presentación (9 × 5 cm)
 - **Cantidad inicial:** 100 piezas
-- **Costo aproximado:** $250–350 MXN
-- **Debe llevar el tagline** *"Hazte las uñas. Cuídate la uña."* al reverso
+- **Costo aproximado:** $300–400 MXN
+- **Al reverso:** el tagline *"Hazte las uñas. Cuídate la uña."*
+
+### Por qué los 2 sellos de regalo
+
+**Efecto de progreso dotado** (Nunes & Drèze, 2006):
+
+| Tarjeta | Compras necesarias | Completado |
+|---------|--------------------|------------|
+| 8 casillas desde cero | 8 | **19%** |
+| 10 casillas con 2 selladas | 8 | **34%** |
+
+Mismas compras, casi el doble de completado. **Son las mismas 5 visitas que el diseño anterior** — solo cambia cómo se siente.
 
 ### Por qué la recompensa es manicura rusa y no un set completo
 
 | Recompensa | Costo efectivo | Veredicto |
 |-----------|----------------|-----------|
 | Set softgel gratis ($150) | ~16% de descuento | ❌ Se come el margen |
-| **Manicura rusa ($50)** | **~5.5%** | ✅ Se siente regalo real, no duele |
+| **Manicura rusa ($50) + decoración a la mitad** | **~7.2%** | ✅ Se siente regalo real y sostiene el impulso |
 
-### Al entregarla
+### ⚠️ El registro maestro es tuyo, no la tarjeta
 
-> "Y esta es tu tarjeta 💗 A los 6 servicios va la manicura rusa de mi cuenta. Te pongo tu nombre."
+**80% de las tarjetas de papel se pierden antes de canjearse.** Eso mataría el programa si la tarjeta fuera la prueba — **no lo es**.
+
+Agrega una columna `Sellos` a tu hoja de registro. La tarjeta es el recordatorio en su cartera; el registro real lo llevas tú.
+
+> **Si la pierde:** "No te preocupes 💗 yo tengo tu registro. Vas en 4. Te doy otra tarjeta."
+
+### Al entregarla — séllale los 2 enfrente de ella
+
+El momento importa. Que **vea** caer los sellos.
+
+> "Y esta es tu tarjeta 💗 Mira, te pongo dos de regalo para que ya vayas empezando. A la mitad va una decoración de mi cuenta y al llenarla, tu manicura rusa incluida. Te escribo tu nombre."
 
 **Escribir el nombre a mano importa** — la tarjeta con nombre se conserva; la genérica se tira.
 
