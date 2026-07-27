@@ -1,7 +1,9 @@
 # Alpha Fitness — Plan de 90 días
 
-> Principio rector: **primero se destraba la información, luego se retiene, luego se capta.**
-> Alpha Fitness tiene un producto fuerte y una coach con autoridad real, pero le faltan tres datos básicos (dirección, días, horarios) sin los cuales ninguna campaña convierte. Esa es la tarea de la semana 1.
+> Principio rector: **primero se destraba lo mínimo, luego se retiene, luego se capta.**
+> Alpha Fitness tiene un producto fuerte y una coach con autoridad real. Solo falta un dato bloqueante —la **dirección**— y que WhatsApp conteste rápido.
+>
+> 🔄 **Ajuste (julio 2026):** los **horarios quedan aplazados** por decisión del cliente. El plan está diseñado para correr sin ellos: la conversación por WhatsApp los entrega, apoyada en el CTA que la marca ya usa (*"Comenta INFO"*).
 
 ---
 
@@ -9,13 +11,15 @@
 
 **Foco:** que la marca sea contactable y que ningún niño nuevo se pierda en su primer mes.
 
-### Semana 1 — Desbloquear ⚠️ bloquea todo lo demás
-- [ ] **Definir dirección exacta** (pendiente en los 3 guiones)
-- [ ] **Definir días y horarios de las 3 clases** (pendiente en los 3 guiones)
+### Semana 1 — Desbloquear
+- [ ] **Definir dirección exacta** ← único dato bloqueante (sin esto no hay ficha de Google)
+- [ ] Redactar la **respuesta guardada de WhatsApp** que entrega horarios en la conversación
+- [ ] Definir quién contesta WhatsApp y en qué horario — **meta: responder en menos de 2 h**
 - [ ] **Nombrar el método** del cuento-entrenamiento
 - [ ] Definir precios: mensualidad, inscripción, clase suelta, clase muestra
 - [ ] Definir rango de edad y cupo máximo por clase
 - [ ] Confirmar si hay línea de adultos activa y con qué peso en el ingreso
+- [ ] ~~Días y horarios de las 3 clases~~ — **aplazado por decisión del cliente**
 
 ### Semana 2 — Formalizar identidad
 - [ ] Volcar a `identidad.md` lo que hoy solo vive en los guiones: pilares, frase de identidad, credenciales de Ro, tono
@@ -47,7 +51,7 @@
 - [ ] Empezar a medir **clase muestra → inscripción**
 
 ### Semana 6 — Google Business
-- [ ] Crear la ficha con dirección exacta y **horarios de clase publicados**
+- [ ] Crear la ficha con la dirección exacta y WhatsApp como contacto principal
 - [ ] Subir fotos del gym: colchonetas visibles, luces LED, niños en clase (con permiso)
 - [ ] Pedir reseña a las familias actuales
 - [ ] **Objetivo: llegar a 10 reseñas** — umbral donde desaparece la penalización de conversión
@@ -87,7 +91,7 @@
 - [ ] Mandar el recordatorio con el avance individual de cada niño incluido
 
 ### Semana 12 — Pauta y cierre
-- [ ] **Condición de entrada: datos operativos publicados y clase muestra midiéndose.** Si no, no se pauta.
+- [ ] **Condición de entrada: dirección publicada, clase muestra midiéndose y respuesta de WhatsApp bajo 2 h.** Si no, no se pauta.
 - [ ] Prueba de $1,500 MXN — papás y mamás 28–45 años, radio 8–10 km, objetivo mensajes a WhatsApp
 - [ ] Escalar el video orgánico con mejor desempeño
 - [ ] Medir renovación de temporada y cerrar el trimestre
@@ -100,7 +104,8 @@
 
 | Métrica | Hoy | Meta 90 días | Benchmark |
 |---------|-----|--------------|-----------|
-| Datos operativos publicados | ❌ | ✅ | — |
+| Dirección publicada en ficha de Google | ❌ | ✅ | — |
+| Tiempo de respuesta en WhatsApp | por medir | <2 h hábiles | — |
 | Niños nuevos con 4+ clases el 1er mes | por medir | 80%+ | <4 clases = 80% de cancelar |
 | Renovación de temporada | por medir | 70%+ | 66.4% retención anual fitness |
 | Clase muestra → inscripción | por medir | 50%+ | — |
@@ -114,7 +119,7 @@
 
 ## Reglas de decisión
 
-1. **No se pauta ni se hace campaña sin dirección, días y horarios publicados.** Cada consulta que llega a un vacío de información es una fuga.
+1. **No se pauta sin dirección publicada y sin WhatsApp contestando rápido.** Los horarios pueden vivir en la conversación; la respuesta lenta no tiene sustituto — una consulta sin contestar es una inscripción perdida sin red de seguridad.
 2. **Se le habla al papá, siempre.** El niño es el protagonista visible; el adulto es a quien hay que convencer.
 3. **Nunca se comunica en términos de peso, físico o comparación entre niños.** El motivo real de inscripción es carácter y habilidades para la vida (92% y 90% de los papás). Además, el encuadre corporal en menores es contraproducente y delicado.
 4. **Permiso por escrito antes de publicar cualquier imagen de un menor.** Sin excepción.

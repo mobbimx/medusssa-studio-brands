@@ -14,12 +14,12 @@ Proyecto dedicado a diseñar, validar y ejecutar estrategias de mercadotecnia co
 Cada negocio trabaja **por separado**. No se mezclan ideas, tácticas, tono ni ejemplos entre marcas.
 Cuando se consulte o se trabaje una marca, se usa **solo** su carpeta.
 
-| Negocio | Carpeta de trabajo |
-|---------|--------------------|
-| Alpha Fitness | `alpha-fitness/marketing/` |
-| Mobbitrips | `mobbitrips/marketing/` |
-| Peachy Studio Nails | `peachystudio/marketing/` |
-| Salones Aurora | `salones-aurora/marketing/` |
+| Negocio | Carpeta de trabajo | Alcance |
+|---------|--------------------|---------|
+| Alpha Fitness | `alpha-fitness/marketing/` | Alpha Kids — clases infantiles. Horarios aplazados por decisión del cliente |
+| Mobbitrips | `mobbitrips/marketing/` | **Solo renta de alojamientos.** La administración de propiedades queda fuera |
+| Peachy Studio Nails | `peachystudio/marketing/` | Servicio completo |
+| Salones Aurora | `salones-aurora/marketing/` | Servicio completo |
 
 > **Extravagance queda fuera del alcance** de este proyecto por indicación del cliente.
 

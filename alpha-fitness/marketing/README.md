@@ -45,9 +45,11 @@
 
 ## Datos que faltan para afinar el plan
 
-- [ ] **Ubicación exacta** — aparece como pendiente en los tres guiones
-- [ ] **Días y horarios de cada clase** — pendiente en los tres guiones
+> 🔄 **Ajuste (julio 2026):** por decisión del cliente, **los horarios quedan aplazados**. El plan se rediseñó para correr sin ellos — la conversación por WhatsApp los entrega, apoyada en el CTA que la marca ya usa (*"Comenta INFO"*). La **dirección** sigue siendo el único dato bloqueante, porque sin ella no hay ficha de Google Business.
+
+- [ ] 🔴 **Ubicación exacta** — único bloqueante; pendiente en los tres guiones
 - [ ] **Nombre del método** del cuento-entrenamiento — pendiente
+- [ ] ~~Días y horarios de cada clase~~ — **aplazado**
 - [ ] Precios: mensualidad, clase suelta, inscripción
 - [ ] Rango de edad que se atiende
 - [ ] Cupo máximo por clase

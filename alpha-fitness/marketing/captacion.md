@@ -20,17 +20,38 @@
 
 ---
 
-## 0. Desbloquear los datos operativos ⚠️ antes de cualquier campaña
+## 0. Desbloquear los datos operativos
 
-**Los tres guiones de video ya producidos tienen los mismos huecos:**
+> 🔄 **Ajuste (julio 2026):** por indicación del cliente, **los horarios quedan fuera por ahora**. La estrategia de este documento está diseñada para funcionar **sin días ni horarios publicados**.
 
-- **(DÍAS Y HORARIOS POR DEFINIR CON LA CLIENTA)** — aparece en las tres clases, en los tres guiones
-- **(DIRECCIÓN — LA PROPORCIONA LA CLIENTA)**
-- **(NOMBRE DEL MÉTODO — ELEGIR CON RO)**
+**Lo que sí se necesita:**
 
-**Por qué esto bloquea todo:** un papá interesado necesita saber **dónde**, **qué día** y **a qué hora** antes de escribir. Sin esos tres datos, cualquier campaña genera preguntas en vez de inscripciones, y cada pregunta es una fuga donde se pierde gente.
+| Dato | Estado | ¿Bloquea? |
+|------|--------|-----------|
+| **Dirección** | Pendiente en los 3 guiones | 🔴 Sí — ver abajo |
+| Nombre del método | Pendiente | 🟡 No, pero conviene |
+| Días y horarios | **Aplazado por decisión del cliente** | ⚪ No |
 
-**Es la tarea de mayor retorno de todo este documento y no cuesta nada.** Ningún peso de pauta debe gastarse antes de resolverlo.
+### Cómo se opera sin horarios publicados
+
+La marca **ya tiene el mecanismo correcto**: su CTA es *"Comenta INFO"* y *"Aparta su lugar"*. Eso significa que la conversación por WhatsApp es la que entrega los horarios, no el anuncio.
+
+Esto no es un parche — tiene una ventaja real: obliga al papá a abrir conversación, que es donde se agenda la clase muestra y donde se cierra. Un anuncio con horarios publicados deja que el papá se autodescarte solo ("ese día no puedo") sin que nadie pueda ofrecerle una alternativa.
+
+**Las dos condiciones para que funcione:**
+
+1. **Respuesta rápida.** Si el horario solo vive en WhatsApp, WhatsApp tiene que contestar. Una consulta sin responder en pocas horas es una inscripción perdida, sin red de seguridad.
+2. **Respuesta guardada lista**, para no improvisar cada vez:
+
+> "¡Hola! Con gusto 💪 Tenemos acondicionamiento físico, calistenia y danza aérea para niños. ¿Qué edad tiene y qué te late más? Te digo horarios disponibles y te agendo una clase muestra sin costo."
+
+**Nota:** cuando los horarios se definan, se publican en la ficha de Google y en las piezas — subirá la conversión y bajará la carga de WhatsApp. Mientras tanto, la campaña puede correr.
+
+### La dirección sí sigue siendo necesaria
+
+Es el único dato que no se puede resolver por conversación sin costo: sin dirección no hay ficha de Google Business (punto 4), que es el canal gratuito de mayor intención de todo este documento. Un papá que busca "clases para niños en Xalapa" no va a encontrar el negocio si no existe en el mapa.
+
+**Es la tarea pendiente de mayor retorno y no cuesta nada.**
 
 ---
 
@@ -72,11 +93,11 @@
 | **Durante** | El niño logra **algo concreto** ese día. No importa qué tan chico. Ese logro es la conversación de la cena. |
 | **El papá** | Se le invita a quedarse a ver. **Aquí es donde se venden la seguridad y el método**, no en un folleto. |
 | **Al terminar** | Ro habla con el papá: qué vio en el niño, qué trabajaría con él. Específico, no genérico. |
-| **Cierre** | Se ofrece el lugar en el horario, con los días y horarios claros. |
+| **Cierre** | Se ofrece el lugar en el grupo que mejor le acomode al niño. |
 | **Seguimiento** | Si no cierra ese día: mensaje a las 48 h **con la foto del niño en la clase**. |
 
 **Guion de cierre con el papá:**
-> "[Niño] se aventó el circuito completo a la primera y no se rindió cuando le costó la escalada. Aquí lo que trabajamos primero es que sepa que puede — porque está prohibido decir *no puedo*. Tenemos lugar en el grupo de [día y hora], ¿le apartamos?"
+> "[Niño] se aventó el circuito completo a la primera y no se rindió cuando le costó la escalada. Aquí lo que trabajamos primero es que sepa que puede — porque está prohibido decir *no puedo*. ¿Qué días te acomodan mejor? Le apartamos su lugar."
 
 **Por qué el seguimiento a 48 h con foto:** el papá que no cerró en el momento casi siempre lo pospuso, no lo rechazó. La foto de su hijo esforzándose reabre la conversación mejor que cualquier mensaje de venta.
 
@@ -110,8 +131,8 @@
 **Por qué importa aquí:** "clases para niños en Xalapa", "gimnasio para niños Xalapa", "telas aéreas Xalapa" son búsquedas de papás con intención real y con presupuesto ya decidido.
 
 **Cómo se implementa:**
-1. Ficha con la **dirección exacta** (bloqueada por el punto 0).
-2. **Horarios de clase publicados** en la ficha. Es literalmente la información que el papá busca.
+1. Ficha con la **dirección exacta** (único dato bloqueante del punto 0).
+2. WhatsApp como botón de contacto principal — mientras los horarios no se publiquen, la conversación es la que los entrega.
 3. Fotos del gym: colchonetas visibles, luces LED, niños en clase (con permiso escrito).
 4. Pedir reseña a las familias actuales — **son el activo de confianza más importante**, porque un papá le cree a otro papá.
 5. Responder todas las reseñas.
@@ -173,7 +194,7 @@
 
 ## 7. Meta Ads geolocalizado
 
-**Cuándo entrar:** después de resolver el punto 0 y de tener la clase muestra estructurada. Pautar sin horarios publicados y sin proceso de conversión es tirar el dinero.
+**Cuándo entrar:** después de tener la dirección publicada y la clase muestra estructurada. Los horarios no son requisito —la conversación los entrega—, pero **la rapidez de respuesta sí lo es**: pautar mientras las consultas tardan en contestarse es tirar el dinero.
 
 **Configuración sugerida:**
 - **Segmentación:** **papás y mamás de 28–45 años**, radio de 8–10 km. La segmentación por interés en "padres con hijos de 3–12 años" es la que importa — **no** segmentar por interés en fitness, porque el que decide no es quien entrena.
@@ -192,7 +213,8 @@
 
 | Métrica | Hoy | Meta 90 días |
 |---------|-----|--------------|
-| Datos operativos publicados (dirección, días, horarios) | ❌ | ✅ |
+| Dirección publicada en ficha de Google | ❌ | ✅ |
+| Tiempo de respuesta a consulta por WhatsApp | por medir | <2 h en horario hábil |
 | Clases muestra agendadas/mes | por medir | 8–10 |
 | **Clase muestra → inscripción** | por medir | 50%+ |
 | Inscripciones por referido | por medir | 3–5 |
