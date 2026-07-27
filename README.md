@@ -47,7 +47,23 @@ Cada carpeta incluye (según disponibilidad):
 | `visual.md` | Colores, tipografías, logo, lineamientos gráficos |
 | `servicios.md` | Catálogo de servicios/productos |
 | `estrategia.md` | Estrategia de contenido y redes sociales |
+| `marketing/` | Proyecto de fidelización y captación |
 | `referencias/` | Material visual de referencia |
+
+## Estado de documentación
+
+| Marca | Identidad | Visual | Estrategia | Marketing |
+|-------|-----------|--------|------------|-----------|
+| Peachy Studio | ✅ Completa | ⚠️ Faltan colores y tipografías | ✅ Completa | ✅ |
+| Salones Aurora | ✅ Completa | ⚠️ Faltan colores y tipografías | ✅ Completa | ✅ |
+| Mobbitrips | ✅ Manual verbal creado jul-2026 | ✅ Completa | ✅ Completa | ✅ |
+| Alpha Fitness | ⚠️ Formalizada desde guiones; falta confirmar | ⚠️ Faltan colores y tipografías | ✅ Completa | ✅ |
+| Extravagance | ❌ Pendiente | ❌ Pendiente | ❌ Pendiente | Fuera de alcance |
+
+**Pendientes que bloquean trabajo:**
+- **Alpha Fitness** — dirección exacta (sin ella no hay ficha de Google Business)
+- **Mobbitrips** — confirmar tagline definitivo
+- **Tres marcas** — colores y tipografías sin documentar
 
 ---
 

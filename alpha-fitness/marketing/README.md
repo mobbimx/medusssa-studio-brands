@@ -31,7 +31,7 @@
 | CTA en uso | "Comenta INFO" · "Cupos limitados" · "Aparta su lugar" · WhatsApp |
 | Elemento visual | Luces LED del gym |
 
-> **Recomendación:** formalizar todo esto en `identidad.md` y `visual.md`. Hoy la identidad de Alpha Fitness vive dispersa en guiones de video, lo que hace que cada pieza nueva se tenga que reconstruir desde cero.
+> ✅ **Ya formalizado (julio 2026).** Todo esto se volcó a [`../identidad.md`](../identidad.md), [`../visual.md`](../visual.md) y [`../estrategia.md`](../estrategia.md), con lo documentado separado de lo propuesto. Antes vivía disperso en guiones de video y cada pieza nueva se reconstruía desde cero.
 
 ## Diagnóstico rápido — por qué esta marca es distinta
 

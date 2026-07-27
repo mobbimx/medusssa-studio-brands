@@ -45,7 +45,7 @@ UGC y testimonial superan al contenido de marca: **4× de CTR** y **2.4× de con
 
 Marcas del nicho cuyo modelo está bien documentado. No se copia la estética — se copia **el mecanismo**.
 
-### 3.1 Glossbox / GlossLab — el modelo de membresía
+### 3.1 GlossLab — el modelo de membresía
 Manicura por suscripción mensual con precio fijo y citas incluidas. Convierte un servicio esporádico en ingreso recurrente predecible.
 **Qué robar:** la idea de que la clienta pague por adelantado un paquete de citas. No requiere app ni tecnología — se puede hacer con una tarjeta física y una libreta.
 **Qué NO robar:** el posicionamiento clínico/express. Choca frontalmente con el arquetipo Amante de Peachy (autocuidado, placer, sin prisa).
