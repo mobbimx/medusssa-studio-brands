@@ -5,12 +5,28 @@ Repositorio centralizado de información, identidad y estrategia de contenido pa
 ## Estructura
 
 ```
+marketing/          - Proyecto de fidelización y captación (índice y benchmarks)
 peachystudio/       - Peachy Studio Nails
 mobbitrips/         - Mobbitrips (alojamientos flexibles)
 salones-aurora/     - Salones Aurora (eventos)
 alpha-fitness/      - Alpha Fitness
 extravagance/       - Extravagance
 ```
+
+## Proyecto activo — Mercadotecnia de fidelización y captación
+
+Ver [`marketing/README.md`](marketing/README.md) para el índice, la metodología y los benchmarks transversales.
+
+Cada negocio tiene su propia carpeta `marketing/` y **se trabaja por separado, sin cruzar ideas entre marcas**:
+
+| Negocio | Carpeta |
+|---------|---------|
+| Alpha Fitness | [`alpha-fitness/marketing/`](alpha-fitness/marketing/) |
+| Mobbitrips | [`mobbitrips/marketing/`](mobbitrips/marketing/) |
+| Peachy Studio | [`peachystudio/marketing/`](peachystudio/marketing/) |
+| Salones Aurora | [`salones-aurora/marketing/`](salones-aurora/marketing/) |
+
+> Extravagance queda fuera del alcance de este proyecto.
 
 ## Propósito
 
