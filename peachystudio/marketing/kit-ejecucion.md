@@ -251,9 +251,27 @@ Publica y responde estas cuatro:
 - **No se compran reseñas ni se ofrece descuento a cambio** — Google penaliza y se nota
 - Se responden todas, buenas y malas, con el tono de la marca
 
-**Meta 90 días: 20+ reseñas con 4.7+**
+### Punto de partida (julio 2026)
 
-> **Por qué la calificación importa más que el volumen:** el competidor más grande de Xalapa tiene 398 reseñas pero **4.0 estrellas** — justo en el filo donde empieza la penalización de conversión. Un 4.8 con 30 reseñas compite mejor que un 4.0 con 398. Ver [`competencia-xalapa.md`](competencia-xalapa.md).
+**⭐ 5.0 con 5 reseñas.**
+
+| | Estado | Lectura |
+|---|--------|---------|
+| Calificación | ✅ 5.0 | Excelente. El competidor más grande de Xalapa tiene 4.0 |
+| Volumen | ❌ 5 reseñas | **Bajo el umbral de 10** — hay penalización de conversión |
+
+**Tu 5.0 no está trabajando a tu favor todavía**, porque no hay volumen que lo respalde. Toda la tarea está de este lado.
+
+### Metas
+
+| Plazo | Meta |
+|-------|------|
+| Mes 1 | **10 reseñas** ← sales de la zona de penalización |
+| 90 días | **30 reseñas sosteniendo 4.8+** |
+
+**Cuántas clientas hay que pedirle:** a una conversión realista de 25–30%, llegar de 5 a 10 reseñas requiere pedírselo a unas **20 clientas**. Es un mes de trabajo normal.
+
+> ⚠️ **Prepárate para esto:** al crecer de 5 a 30 reseñas, tu calificación **va a bajar de 5.0**. Es casi inevitable y **no significa que algo salió mal**. Un 4.8 con 30 reseñas vale mucho más que un 5.0 con 5. No dejes de pedir reseñas por miedo a perder el 5.0 — ese miedo es lo que te mantiene bajo el umbral.
 
 ---
 

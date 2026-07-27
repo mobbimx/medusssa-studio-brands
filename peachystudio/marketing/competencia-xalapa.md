@@ -25,15 +25,31 @@ Nail studios y estéticas con servicio de uñas en Xalapa que aparecen en fuente
 
 ## 2. El dato que más importa
 
-**JDC'Nails'Xalapa tiene 398 reseñas con 4.0 estrellas.**
+### Peachy vs. el competidor más grande
 
-Esto dice dos cosas, y la segunda es la oportunidad:
+| | Peachy Studio | JDC'Nails'Xalapa |
+|---|---|---|
+| **Calificación** | ⭐ **5.0** | 4.0 |
+| **Reseñas** | 5 | 398 |
+| Lectura | Calidad probada, **sin volumen** | Volumen alto, **calidad mediocre** |
 
-**a) La vara de volumen es alta.** No es un mercado dormido. Hay competencia establecida con años de operación y presencia digital real.
+**Peachy gana en lo difícil de conseguir y pierde en lo fácil de conseguir.**
 
-**b) 4.0 es una calificación mediocre, y ahí está el hueco.** El benchmark del sector dice que **por debajo de 4.0 hay penalización de conversión** (Local SEO Stats, 2026) — 4.0 está justo en el filo. Un estudio con **4.8+ y 30 reseñas honestas** compite mejor que uno con 4.0 y 398, porque la calificación pesa más que el volumen en la decisión de una clienta nueva.
+La calificación es el resultado del trabajo real y no se puede fabricar. El volumen de reseñas es solo cuestión de **pedirlas de forma sistemática** — que es precisamente lo que hoy no se hace.
 
-> **Implicación directa para Peachy:** la meta no es alcanzar 398 reseñas. Es llegar a **4.8+ rápido y sostenerlo**. Eso es alcanzable en meses, no en años, y es defendible.
+### Por qué 5 reseñas es el problema
+
+Con **menos de 10 reseñas hay penalización de conversión** (Local SEO Stats, 2026). Peachy está por debajo del umbral, así que su 5.0 **no está trabajando a su favor todavía**.
+
+Además, 5 reseñas con 5.0 perfecto puede leerse como "amigas y familia". La credibilidad llega con volumen.
+
+### La meta correcta
+
+**No es alcanzar 398 reseñas. Es llegar a 30 sosteniendo 4.8+.**
+
+Un estudio con 4.8 y 30 reseñas convierte mejor que uno con 4.0 y 398, porque la calificación pesa más que el volumen en la decisión de una clienta nueva. Y 30 reseñas es alcanzable en un trimestre, no en años.
+
+> ⚠️ **Expectativa realista:** al pasar de 5 a 30 reseñas, la calificación **va a bajar de 5.0**. Es estadísticamente casi inevitable y **no es un problema** — es la señal de que el volumen está creciendo. La primera reseña de 4 estrellas no significa que algo salió mal. El objetivo es sostener **4.8+**, no defender el 5.0.
 
 ---
 
@@ -113,10 +129,11 @@ Ese es el diferenciador con más potencial porque:
 | El claim "uña sana" | ⚠️ Existe pero subutilizado |
 | Arquetipo definido (El Amante) | ✅ Existe |
 | Ficha de Google Business | ✅ **Existe** — falta auditarla y llenarla |
-| Reseñas | ⚠️ Por medir (calificación y volumen actuales) |
+| Calificación | ✅ **5.0** — mejor que el competidor más grande |
+| Volumen de reseñas | ❌ Solo 5 — bajo el umbral de 10 |
 | Sistema de reagenda | ❌ No existe |
 
-> Cuatro de seis ya existen. El avance más rápido disponible es **llenar bien la ficha de Google** —que ya está creada— y montar la reagenda. Ninguna de las dos cuesta dinero.
+> Cinco de siete ya existen. Los dos huecos —**volumen de reseñas** y **reagenda**— son gratis y se resuelven pidiendo de forma sistemática algo que hoy no se pide. Ahí está el avance más rápido disponible.
 
 ---
 

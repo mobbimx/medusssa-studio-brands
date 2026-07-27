@@ -101,7 +101,7 @@
 | Reagenda en mostrador | por medir | 55–60% | 40–45% promedio / 69% top |
 | Retención de clientas | por medir | 60%+ | 60–70% buena |
 | Regreso de primera vez | por medir | 50%+ | 60–70% con sistema |
-| Reseñas en Google | por medir | 20+ / 4.7★ | 10 reseñas = umbral mínimo |
+| Reseñas en Google | **5** ⭐5.0 | **30 sosteniendo 4.8★** | 10 reseñas = umbral mínimo |
 | Referidos agendados/mes | por medir | 3–5 | conv. 3–5% mediana |
 | Ticket promedio | por medir | +15% | — |
 | Dormidas reactivadas | 0 | 15–20% | — |

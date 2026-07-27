@@ -183,7 +183,7 @@
 
 | Métrica | Hoy | Meta 90 días |
 |---------|-----|--------------|
-| Reseñas en Google | por medir | 20+ con 4.7★ |
+| Reseñas en Google | **5** ⭐5.0 | **30 sosteniendo 4.8★** |
 | Referidos que agendan/mes | por medir | 3–5 |
 | Clientas nuevas/mes | por medir | +30% |
 | Videos publicados/semana | por medir | 3 |
