@@ -4,12 +4,25 @@
 
 ## Documentos
 
+### Estrategia
+
 | Archivo | Contenido |
 |---------|-----------|
 | `investigacion.md` | Tendencias del nicho nail studio, marcas de referencia, benchmarks con fuente |
+| `competencia-xalapa.md` | Mapa de competidores locales y hueco de posicionamiento |
 | `fidelizacion.md` | Estrategias para que la clienta regrese cada 3 semanas |
 | `captacion.md` | Estrategias para atraer clientas nuevas en Xalapa |
 | `plan-90-dias.md` | Ejecución trimestral con KPIs |
+
+### Ejecución — listo para usar
+
+| Archivo | Contenido |
+|---------|-----------|
+| `kit-ejecucion.md` | ⭐ Guiones, hoja de registro, tarjeta de lealtad y respuestas de WhatsApp del Mes 1 |
+| `calendario-contenido.md` | 13 piezas de contenido con hook, guion, caption y hashtags |
+| `precios-y-paquetes.md` | Análisis de precios, tabulador de add-ons y paquete prepagado |
+
+> **Por dónde empezar:** `kit-ejecucion.md`. No requiere comprar ni contratar nada y la primera táctica se implementa el mismo día.
 
 ## Punto de partida (lo que ya sabemos)
 
