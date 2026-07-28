@@ -115,7 +115,9 @@ Fíjate que el guion **no pide un favor** — ofrece una conveniencia: guardarle
 
 # 4. Tarjeta de lealtad "Cuídate la uña"
 
-> 🔄 **Diseño actualizado (julio 2026).** La versión anterior empezaba en cero. La corregida arranca con **2 sellos de regalo**, lo que casi duplica la tasa de completado sin costar nada. Campaña completa en [`campana-cliente-frecuente.md`](campana-cliente-frecuente.md).
+> 🔄 **Diseño actualizado (julio 2026).** La versión anterior empezaba en cero. La corregida arranca con **2 sellos de regalo**, lo que casi duplica la tasa de completado sin costar nada.
+>
+> **El programa completo —tarjeta, difusión y promoción por niveles— vive en [`programa-cuidate-la-una.md`](programa-cuidate-la-una.md).** Esta sección es solo la referencia rápida de la tarjeta.
 
 ### Especificación para imprimir
 
