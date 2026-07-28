@@ -23,6 +23,7 @@
 | `presentacion-duena.md` | ⭐ Resumen ejecutivo y guion para presentarle el programa a la dueña — **las 4 decisiones pendientes** |
 | `lanzamiento-tarjeta.md` | ⭐ Campaña de 5 semanas para lanzar la tarjeta: parrilla, WhatsApp y cierre de ventana |
 | `guiones-lanzamiento.md` | ⭐ Guiones de producción toma por toma de las 6 piezas de video |
+| `plan-15-dias.md` | ⭐ Plan de acción para tener todo listo y publicar el Día 16 |
 | `calendario-contenido.md` | 13 piezas de contenido con hook, guion, caption y hashtags |
 | `precios-y-paquetes.md` | Análisis de precios, tabulador de add-ons y paquete prepagado |
 
