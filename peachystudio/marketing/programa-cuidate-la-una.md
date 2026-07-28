@@ -67,6 +67,9 @@ Peachy es servicio **1 a 1** con techo de ~84 servicios al mes. Eso descarta el 
 │                                      │
 │   Ya empezaste con 2 de regalo 💗    │
 │                                      │
+│   Máx. 2 sellos por visita           │
+│   Tu premio a partir de tu 4ª visita │
+│                                      │
 │   Peachy Studio · 228-848-5375       │
 │   Vigencia: 8 meses                  │
 └──────────────────────────────────────┘
@@ -75,9 +78,11 @@ Peachy es servicio **1 a 1** con techo de ~84 servicios al mes. Eso descarta el 
 | Momento | Qué pasa |
 |---------|----------|
 | Se inscribe | **2 sellos de regalo**, sellados enfrente de ella |
-| Visitas 1–5 | Un sello por visita |
+| Cada visita | 1 sello, **máximo 2 con bonus** |
 | Visita 3 *(la mitad)* | Detalle de cortesía |
-| Tarjeta llena (7/7) | Elige su premio |
+| Tarjeta llena (7/7) **y 4+ visitas** | Elige su premio |
+
+> Las dos reglas van **impresas en la tarjeta**, no escondidas. Son claras y justas, no letra chica — y eso es coherente con una marca cuyo vocabulario prohibido incluye la letra chiquita y la urgencia falsa. El porqué de cada una está en la Parte 4.
 
 ## Por qué empieza con 2 sellos
 
@@ -264,8 +269,10 @@ Lunes 11 am   →  vacío, ese espacio se perdió para siempre
 |----------------|--------|-------|
 | Reagenda antes de salir | +1 sello | 1 |
 | Deja reseña en Google | +1 sello | 2 |
-| Trae una amiga | +1 sello | 3 |
+| Trae una amiga *(cuando llega)* | +1 sello | 3 |
 | Te etiqueta con sus uñas | +1 sello | 3 |
+
+> ⚠️ **Sujeto al tope de 2 sellos por visita.** Si hace varias cosas el mismo día, los sellos sobrantes se le guardan para sus próximas visitas — no se pierden. Ver Parte 4.
 
 ---
 
@@ -309,7 +316,174 @@ Cada tarjeta completada entra a un sorteo trimestral. Costo fijo sin importar cu
 
 ---
 
-# PARTE 4 · REGLAS Y MEDICIÓN
+# PARTE 4 · ECONOMÍA DEL PROGRAMA
+
+> Esta parte existe porque el cliente detectó una falla real en el diseño original (julio 2026): **nada impedía que una clienta acumulara todos los sellos en una o dos visitas.**
+
+## El problema: acumulación de sellos
+
+Con las mecánicas de la Parte 3 sin restricción, una clienta podía juntar en **una sola visita**:
+
+| Fuente | Sellos |
+|--------|--------|
+| La visita | 1 *(o 2 con doble sello en horario muerto)* |
+| Reagenda antes de salir | +1 |
+| Deja reseña en Google | +1 |
+| Trae una amiga | +1 |
+| Te etiqueta en redes | +1 |
+| **Total** | **5–6** |
+
+Con los 2 de regalo: **7–8 sellos. Tarjeta llena en la primera visita.**
+
+### La matemática del daño
+
+| Escenario | Visitas pagadas | Ingreso | Costo premio | **% efectivo** |
+|-----------|-----------------|---------|--------------|----------------|
+| 🔴 **Sin control — todo en 1 visita** | 1 | $150 | $65 | **43%** |
+| 🔴 Extracción en 2 visitas | 2 | $300 | $65 | **22%** |
+| 🟡 Con 2 bonus | 3 | $450 | $65 | 14.4% |
+| 🟢 Con 1 bonus | 4 | $600 | $65 | 10.8% |
+| 🟢 **Normal, sin bonus** | 5 | $750 | $65 | **8.7%** |
+
+**Un 43% de descuento efectivo no es un programa de lealtad. Es regalar el trabajo.** Y peor: esa clienta no tiene ninguna razón para volver — ya cobró.
+
+---
+
+## El matiz importante antes de las reglas
+
+**No toda acumulación es abuso.** Hay que separar dos cosas:
+
+| Perfil | Qué hizo | Veredicto |
+|--------|----------|-----------|
+| **Tu mejor clienta** | Reagendó, dejó reseña y trajo una amiga | ✅ **Pagarle rápido está bien.** Una reseña te saca del umbral de penalización y una amiga vale $150 × muchas visitas. 14% por eso es barato |
+| **La extractora** | Hizo todo en 1 visita, cobró el premio y desapareció | 🔴 **Este es el problema real** |
+
+> **La conclusión que define las reglas:** el objetivo **no** es limitar los sellos —eso castigaría a tu mejor clienta—. El objetivo es **garantizar un mínimo de relación** antes de entregar el premio.
+
+---
+
+## Las 4 reglas de control
+
+### 🔒 Regla 1 — Máximo 2 sellos por visita
+
+Uno de la visita + **un solo extra**, sin importar cuántas cosas haga ese día.
+
+Si reagenda, deja reseña y trae amiga en la misma visita, se lleva 2 sellos — y los otros dos se le **guardan para sus próximas visitas**.
+
+> "Hiciste tres cosas 💗 Te pongo dos hoy y te guardo los otros dos para tus siguientes visitas, para que no se te acaben las sorpresas."
+
+**Esto es lo que hace la regla justa:** no pierde nada, solo se distribuye. Y de paso le da una razón concreta para volver.
+
+### 🔒 Regla 2 — El premio se entrega a partir de la 4ª visita
+
+Aunque la tarjeta se llene antes.
+
+Va **impreso en la tarjeta**, no es letra chica:
+
+> *"Tu premio a partir de tu 4ª visita."*
+
+Esto solo elimina el escenario de extracción. Piso garantizado: **4 visitas = $600**.
+
+### 🔒 Regla 3 — El sello de referido se pone cuando la amiga llega
+
+No cuando la recomienda. Es la diferencia entre premiar una promesa y premiar un resultado.
+
+> "En cuanto venga te pongo tu sello 💗"
+
+### 🔒 Regla 4 — El doble sello de horario muerto no se acumula con el bonus
+
+En un lunes muerto: o son 2 sellos por el horario, o 1 de visita + 1 de bonus. **Nunca 3.**
+
+Simplifica la regla a una sola frase fácil de recordar:
+
+> ## **Máximo 2 sellos por visita. Siempre.**
+
+---
+
+## Cuántos sellos hacen la tarjeta redituable
+
+Con las 4 reglas activas, este es el piso:
+
+| | Sin reglas | **Con reglas** |
+|---|---|---|
+| Visitas mínimas para el premio | **1** | **4** |
+| Ingreso mínimo generado | $150 | **$600** |
+| Costo del premio | $65 | $65 |
+| **Descuento efectivo máximo** | 🔴 **43%** | 🟢 **10.8%** |
+| Descuento en el caso normal | 8.7% | 8.7% |
+
+> **Respuesta directa a tu pregunta:** con la tarjeta de **7 casillas (2 de regalo + 5 ganados)** y las 4 reglas, el programa es redituable en **cualquier** escenario. El peor caso posible pasa de 43% a 10.8%, y el caso típico se queda en 8.7%.
+
+### ¿Y si quisieras más margen?
+
+| Diseño | Sellos ganados | Visitas normales | % típico | Riesgo |
+|--------|----------------|------------------|----------|--------|
+| 7 casillas (2 regalo) | 5 | 5 | 8.7% | ✅ Completado alto |
+| 9 casillas (2 regalo) | 7 | 7 | 6.2% | 🟡 Baja el completado |
+| 11 casillas (2 regalo) | 9 | 9 | 4.8% | 🔴 Muy pocas la terminan |
+
+**Recomendación: quédate en 7.** El margen extra de una tarjeta más larga no compensa perder completado — y el completado es lo que forma el hábito, que es todo el punto del programa.
+
+### La progresión: la tarjeta 2
+
+Cuando termine su primera tarjeta, se le entrega una **segunda más larga con mejor premio**:
+
+| | Tarjeta 1 | Tarjeta 2 |
+|---|---|---|
+| Casillas | 7 (2 de regalo) | 9 (**1** de regalo) |
+| Sellos a ganar | 5 | 8 |
+| Premio | Kit o manicura rusa | Premio mayor *(set completo de cortesía o kit grande)* |
+| % efectivo | 8.7% | ~6% |
+
+**Por qué funciona:** la primera tarjeta engancha (corta, fácil, alto completado). La segunda retiene a quien ya demostró que vuelve, y **mejora tu margen** porque exige más visitas. Además, entregarle una tarjeta distinta se siente a ascenso, no a repetición.
+
+---
+
+# PARTE 5 · ACTIVACIONES PARA MANTENERLA VIGENTE
+
+> Las cinco mecánicas que originalmente propuse lanzar juntas **sí se pueden usar todas** — pero repartidas en el tiempo, como activaciones que refrescan el programa.
+
+## El problema que resuelven
+
+Un programa de lealtad se vuelve invisible a los pocos meses. La clienta se acostumbra, deja de emocionarle, y la tarjeta se vuelve un trámite.
+
+**La solución no es más mecánicas al mismo tiempo. Es una mecánica nueva cada trimestre.**
+
+## Calendario de activaciones
+
+| Trimestre | Activación | Qué mueve | Costo extra |
+|-----------|-----------|-----------|-------------|
+| **T1** | Base: tarjeta + sello por reagenda | Hábito e inscripción | $0 |
+| **T2** | **Doble sello en horarios muertos** | Ocupación lunes–miércoles | $0 |
+| **T3** | **Sorteo entre tarjetas llenas** | Terminar tarjetas | Costo fijo del premio |
+| **T4** | **Temporada: sello doble de diciembre** | Aprovechar el pico de fin de año | $0 |
+
+### Otras activaciones para rotar
+
+| Activación | Cómo funciona | Cuándo usarla |
+|-----------|---------------|---------------|
+| **Sello sorpresa** | Un día al azar, todas las clientas se llevan sello extra. Se anuncia el mismo día en stories | Cuando el programa se sienta apagado |
+| **Reto de temporada** | "Quien llene su tarjeta antes de [fecha] entra al sorteo" | Antes de temporadas fuertes: mayo, diciembre |
+| **Sello de cumpleaños** | Sello extra en el mes de su cumpleaños | Permanente, cuesta casi nada |
+| **Doble sello por traer diseño nuevo** | Si pide un diseño del catálogo que no se ha hecho | Cuando quieras contenido fresco |
+
+## Las 3 reglas de las activaciones
+
+1. **Una a la vez.** Dos activaciones simultáneas confunden y se anulan.
+2. **Con fecha de fin real.** Si el "doble sello de diciembre" sigue en marzo, entrenaste a tus clientas a no creerte — y eso contamina también tu *"cupos limitados"*.
+3. **Nunca bajan el requisito.** Se agregan sellos, nunca se reduce lo que hay que juntar. Bajar el requisito devalúa a quien ya llenó la suya.
+
+## Cómo se anuncia una activación
+
+Stories el mismo día, sin producción:
+
+> "Hoy es día de sello doble 💗 Quien venga hoy se lleva 2. Me quedan lugares a las 3 y a las 5."
+
+> **Bonus:** las activaciones son la herramienta perfecta para llenar huecos de agenda de último minuto, porque no bajan el precio.
+
+---
+
+# PARTE 6 · REGLAS Y MEDICIÓN
 
 ## La regla de oro de la difusión
 
@@ -331,6 +505,8 @@ El error más común es tratarla como evento: se anuncia una semana y a los dos 
 | **2x1 / "trae a tu amiga y una va gratis"** | Regala un espacio completo de agenda. **La promoción más cara posible** con techo de capacidad |
 | **Descuento de lanzamiento** | Atrae a quien busca precio, que es justo quien no completa tarjetas |
 | Bajar el requisito de sellos | Devalúa a quien ya llenó la suya. Si cambias reglas, cambias hacia arriba |
+| **Dejar acumular sellos sin tope** | Una clienta puede llenar la tarjeta en 1 visita y el descuento efectivo llega a **43%**. Ver Parte 4 |
+| Poner el sello de referido antes de que la amiga llegue | Premias una promesa, no un resultado |
 | Promoción permanente | Deja de ser promoción y se vuelve el precio nuevo |
 | Regalar sellos sin que venga | El sello premia comportamiento. Si se regala porque sí, deja de significar algo |
 | **Lanzar los 4 niveles a la vez** | No se sostiene dos semanas en un negocio de una persona |
@@ -376,7 +552,9 @@ Dos propuestas generadas en Canva con el brand kit **PeachyStudio**, **descartad
 
 > **Pendiente:** definir dirección visual con referencias que sí gusten, o pasar el arte con un diseñador.
 >
-> **Lo no negociable del arte, sea quien lo haga:** que sean **7 casillas con las 2 primeras marcadas**. Ese detalle es el mecanismo completo — si sale con 7 vacías, se pierde el efecto que casi duplica el completado.
+> **Lo no negociable del arte, sea quien lo haga:**
+> 1. **7 casillas con las 2 primeras marcadas.** Ese detalle es el mecanismo completo — si sale con 7 vacías, se pierde el efecto que casi duplica el completado.
+> 2. **Las dos reglas visibles en la tarjeta:** *"Máx. 2 sellos por visita"* y *"Tu premio a partir de tu 4ª visita"*. Son las que protegen la rentabilidad del programa (Parte 4) y deben leerse claro, no en letra chiquita.
 
 ---
 
