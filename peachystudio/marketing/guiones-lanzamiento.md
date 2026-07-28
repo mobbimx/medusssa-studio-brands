@@ -1,6 +1,6 @@
 # Peachy Studio — Guiones de producción · Lanzamiento de la tarjeta
 
-> **Este es el documento que se tiene abierto mientras se graba.** Trae toma por toma, tiempos, texto en pantalla y caption de las 6 piezas.
+> **Documento de rodaje.** Trae toma por toma, tiempos, texto en pantalla y caption de las 6 piezas. **Produce Medusssa Studio.**
 >
 > La estrategia y la parrilla están en `lanzamiento-tarjeta.md`.
 >
@@ -8,64 +8,72 @@
 
 ---
 
-# ANTES DE GRABAR
+# PRODUCCIÓN
 
-## ⚠️ El problema que hay que resolver primero
+**Produce Medusssa Studio.** Peachy no graba, no edita y no publica: pone el estudio, las manos y las clientas.
 
-**Trabaja sola y con las dos manos ocupadas.** No puede sostener el teléfono mientras sella una tarjeta — y el plano de sellar es el que carga toda la campaña.
+## Reparto de responsabilidades
 
-**No es un detalle menor: es lo que decide si esto se graba o no se graba.**
+| | Medusssa Studio | Peachy |
+|---|---|---|
+| Equipo, grabación y edición | ✅ | — |
+| Copies, captions y hashtags | ✅ | — |
+| Calendario y publicación | ✅ | — |
+| Tarjetas impresas y sello | — | ✅ |
+| **Agendar las clientas del día de rodaje** | — | ✅ |
+| Manos y trabajo en cámara | — | ✅ |
+| Aprobación de piezas | Envía | ✅ Aprueba |
 
-| Solución | Costo | Nota |
-|----------|-------|------|
-| **Tripié de mesa con brazo flexible** | ~$150–250 | ✅ La correcta. Permite el plano cenital, que es *el* ángulo de uñas |
-| Funda con soporte + libros apilados | $0 | Funciona para planos de mesa, no para cenital |
-| Que alguien grabe | $0 | Solo si hay quien; no se puede depender de eso |
+> **Lo único que bloquea la producción si falla: las tarjetas impresas y las clientas agendadas.** Todo lo demás lo resuelve la agencia.
 
-> **Si solo se compra una cosa para esta campaña, que sea el tripié.** Sin él, cinco de las seis piezas no se pueden grabar.
+## Dos días de rodaje
 
-## La luz
+### Día 1 — Semana 0 · medio día
 
-| ✅ Sí | ❌ No |
-|-------|-------|
-| Ventana **a un costado** de la mesa | Ventana **detrás** — todo sale en sombra |
-| Entre 10 am y 3 pm | De noche con luz de techo — amarillea y ensucia el color |
-| Lámpara de uñas apagada al grabar | Lámpara encendida — tiñe todo de morado |
-
-## Reglas para todas las piezas
-
-1. **Vertical 9:16.** Revisar antes de grabar, no después.
-2. **Grabar cada toma 3 veces.** Se elige después; regrabar es lo caro.
-3. **Nada de intro.** El video empieza en la acción, sin "hola chicas".
-4. **Sin voz en off.** Todo el mensaje va en texto en pantalla — se ve sin sonido, que es como se ve Instagram.
-5. **Limpiar el encuadre.** Que no salgan botes, cables ni el celular de nadie.
-6. **Máximo 3 emojis** en el caption. Nada de vocabulario prohibido.
-
----
-
-## 📅 Plan de grabación — dos sesiones, no seis
-
-> **Grabar pieza por pieza a lo largo de cinco semanas garantiza que dos o tres nunca se graben.** Cinco de las seis son la tarjeta sobre la mesa: se sacan de una sentada.
-
-### Sesión 1 — Semana 0 · ~40 minutos · con una clienta presente
-
-| Pieza | Qué se graba |
-|-------|--------------|
-| **P1 · Reveal** | Necesita la mano de la clienta |
+| Pieza | Necesita |
+|-------|----------|
+| **P1 · Reveal** | 1 clienta con manicura recién hecha |
 | **P2 · Cómo funciona** | Solo tarjeta |
 | **P4 · Recordatorio** | Solo tarjeta |
 | **P5 · Última llamada** | Solo tarjeta |
 | **P6 · Relevo** | Solo tarjeta |
 
-**Preparar antes:** 3 tarjetas distintas — una con 2 sellos, una con 4, una con 7 — para no tener que sellar y esperar entre tomas.
+**Lo que Peachy prepara para ese día:**
 
-### Sesión 2 — Semana 2 · ~10 minutos
+- 🗓️ **2 citas agendadas** en el horario del rodaje *(la segunda por si la primera cancela)*
+- 🎴 **3 tarjetas prellenadas** — con 2, 4 y 7 sellos — para no perder tiempo sellando entre tomas
+- ✍️ El sello o plumón definitivo, ya definido
 
-| Pieza | Qué se graba |
-|-------|--------------|
-| **P3 · Prueba social** | Una clienta real que ya vaya avanzada |
+### Día 2 — Semana 2 · ~1 hora
 
-> Esta no se puede adelantar: **necesita ser verdad**.
+| Pieza | Necesita |
+|-------|----------|
+| **P3 · Prueba social** | Una clienta que ya vaya avanzada **de verdad** |
+
+> **Esta es la única que no se puede adelantar al Día 1.** Necesita una tarjeta que se llenó sola, con visitas reales. Peachy avisa cuál clienta va más adelantada y se agenda el rodaje en su cita.
+
+> ⚠️ **Ojo con el número:** con sello doble corriendo, una clienta inscrita en semana 0 llega a semana 2 con 6 sellos, no con 4. **El texto en pantalla se ajusta a lo que realmente tenga** — es el punto entero de la pieza.
+
+## Dirección de arte
+
+Estas notas aplican a todas las piezas y bajan de la identidad de Peachy *(arquetipo Amante — estética, autocuidado, calidez)*:
+
+| | |
+|---|---|
+| **Ángulo base** | **Cenital** para todo lo de mesa. Es el ángulo de uñas y el que hace legible la tarjeta |
+| **Luz** | Suave y lateral. **Lámpara de uñas apagada** en cámara — tiñe de morado y ensucia el color de piel |
+| **Superficie** | Mesa de trabajo limpia, sin botes, cables ni celulares en cuadro |
+| **Paleta** | Cálida, sin saturar. Que el durazno de la marca sea lo más saturado del cuadro |
+| **Manos** | Uñas recién hechas siempre. Es el producto |
+
+## Reglas de formato
+
+1. **Vertical 9:16**, entre 10 y 20 segundos.
+2. **Sin intro.** El video empieza en la acción, sin "hola chicas".
+3. **Sin voz en off.** Todo el mensaje va en texto en pantalla — se ve sin sonido, que es como se ve Instagram.
+4. **Cada toma se cubre 3 veces** y con un plano alternativo. Volver a citar a la clienta es lo caro.
+5. **Máximo 3 emojis** en el caption. Nada de vocabulario prohibido.
+6. **Los textos en pantalla se entregan a aprobación antes de publicar**, no después.
 
 ---
 
@@ -272,11 +280,25 @@ Audio en tendencia, tranquilo. Un *tick* o *pop* suave cada vez que aparece un t
 
 ---
 
-## 🎥 Pieza oportunista · La primera tarjeta llena
+## 🎥 Día 3 · La primera tarjeta llena
 
-**~Semana 6 · sin fecha · Tipo: Prueba social**
+**~Semana 6 · fecha por confirmar · Tipo: Prueba social**
 
-> **Es la pieza más valiosa del trimestre y solo pasa una vez.** No se planea: se está pendiente.
+> **Es la pieza más valiosa del trimestre y solo pasa una vez.**
+
+### ⚠️ Esta pieza necesita aviso anticipado
+
+Con producción de agencia no basta con "estar pendiente" — **hay que saber el día antes de que llegue.**
+
+**Y se puede saber, porque el registro maestro lo dice.** Peachy ve quién va en 6 y en 7 sellos, así que sabe con una o dos visitas de anticipación quién va a llenar primero.
+
+| Cuándo | Quién | Qué hace |
+|--------|-------|----------|
+| Al llegar alguien a **7 sellos** | Peachy | Avisa a Medusssa: *"Fulana llena en su próxima cita, es el [día]"* |
+| Al agendar esa cita | Peachy | Confirma día y hora |
+| Ese día | Medusssa | Va a grabar |
+
+> **Si aun así se escapa la primera, no se fuerza.** Se graba la segunda. Una tarjeta llena real vale; una recreada no.
 
 ### Tomas
 

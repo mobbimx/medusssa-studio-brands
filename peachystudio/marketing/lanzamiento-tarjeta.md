@@ -70,13 +70,13 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 
 > ⚠️ **Pedir permiso siempre, aunque solo salga la mano.** Es contenido de una persona real. Además, casi nadie dice que no si se pregunta bien — y quien diga que no, no pasa nada.
 
-## Lo que se junta en esa semana
+## El rodaje de esta semana
 
-- 📸 3–4 fotos de manos distintas sosteniendo tarjetas con 2 sellos
-- 🎥 1 clip de **sellar la tarjeta** en primer plano *(el plano estrella de toda la campaña)*
-- 🎥 1 clip de una tarjeta llenándose sobre la mesa de trabajo
+**Día 1 de producción (Medusssa Studio):** se graban las piezas P1, P2, P4, P5 y P6 en una sola sesión de medio día. Plan de rodaje completo en `guiones-lanzamiento.md`.
 
-> **El plano de sellar es el que carga la campaña.** El movimiento del sello bajando y dejando la marca es satisfactorio de ver y explica el programa sin una sola palabra. Grábalo varias veces, con buena luz, desde arriba.
+**Lo que Peachy prepara:** 2 citas agendadas en el horario del rodaje, 3 tarjetas prellenadas (2, 4 y 7 sellos) y el sello definitivo.
+
+> **El plano de sellar es el que carga la campaña.** El movimiento del sello bajando y dejando la marca es satisfactorio de ver y explica el programa sin una sola palabra.
 
 ---
 
@@ -86,7 +86,7 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 
 `calendario-contenido.md` ya define **3 piezas por semana** (lunes FAQ, miércoles prueba, viernes detrás de cámaras). Esta campaña agrega piezas de tarjeta.
 
-**Si se suman, salen 5 piezas semanales. Eso no lo sostiene una persona sola** — y aunque se pudiera, un feed que solo habla de la tarjeta la convierte en ruido.
+**Si se suman, salen 5 piezas semanales.** El problema no es producirlas —eso lo resuelve la agencia— sino que **un feed donde la mitad de las piezas hablan de la tarjeta la convierte en ruido**. La cadencia documentada para negocio local son 3 por semana, y esa se respeta.
 
 > ## La campaña no agrega piezas. Ocupa las que ya existían.
 >
@@ -113,7 +113,7 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 | | Actividad |
 |---|---|
 | **Mostrador** | Inscribir 8–10 clientas sin anunciar |
-| **Producción** | Grabar el plano de sellar + fotos de manos con tarjeta |
+| **Producción** | **Día 1 de rodaje** — se graban 5 de las 6 piezas |
 | **Montaje** | Imprimir, definir sello, abrir columna en la hoja de registro, fijar fecha de cierre |
 
 > **La semana de mayor rendimiento de toda la campaña, y no publica nada.** Es la que hace que el lunes siguiente haya material real que enseñar.
@@ -183,7 +183,7 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 |--------|-------|------|------|
 | **~Semana 6** | **La primera tarjeta llena** | 👐 Prueba | Alguien completó las 8 y eligió su premio |
 
-> **Es la pieza más valiosa del trimestre y solo pasa una vez.** No se planea: se está pendiente. El día que alguien llene su tarjeta, se graba antes de entregarle el premio.
+> **Es la pieza más valiosa del trimestre y solo pasa una vez.** No se deja al azar: el registro maestro avisa quién va en 7 sellos, así que se sabe con una visita de anticipación y se agenda el rodaje. Ver `guiones-lanzamiento.md`.
 
 ---
 
@@ -302,7 +302,7 @@ Terminada la campaña, la tarjeta baja a mantenimiento:
 | **Cuerpo** | La tarjeta completa + ella eligiendo su premio |
 | **Por qué importa** | Es la prueba de que el premio se entrega de verdad. Vale más que cualquier anuncio |
 
-> **Ten el teléfono listo ese día.** Es la pieza de contenido más valiosa de todo el trimestre y solo pasa una vez.
+> **Se agenda, no se improvisa.** Cuando alguien llegue a 7 sellos, Peachy avisa a Medusssa la fecha de su próxima cita y ahí se graba.
 
 ---
 
