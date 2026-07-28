@@ -67,7 +67,7 @@ Peachy es servicio **1 a 1** con techo de ~84 servicios al mes. Eso descarta el 
 │                                      │
 │   Ya empezaste con 2 de regalo 💗    │
 │                                      │
-│   Máx. 2 sellos por visita           │
+│   Un sello por visita                │
 │   Tu premio te espera en tu          │
 │   siguiente visita                   │
 │                                      │
@@ -79,11 +79,32 @@ Peachy es servicio **1 a 1** con techo de ~84 servicios al mes. Eso descarta el 
 | Momento | Qué pasa |
 |---------|----------|
 | Se inscribe | **2 sellos de regalo**, sellados enfrente de ella |
-| Cada visita | 1 sello, **máximo 2 con bonus** |
+| Cada visita | **1 sello. Siempre.** |
 | Visita 3 *(la mitad)* | Detalle de cortesía |
 | Tarjeta llena (7/7) | **Elige su premio y se le entrega en su siguiente visita** |
 
-> Las dos reglas van **impresas en la tarjeta**, no escondidas. Son claras y justas, no letra chica — y eso es coherente con una marca cuyo vocabulario prohibido incluye la urgencia falsa y el lenguaje de trampa. El porqué de cada una está en la Parte 4.
+## ⭐ La regla permanente: 1 sello = 1 visita
+
+> 🔄 **Simplificación final (julio 2026, propuesta del cliente).** Las versiones anteriores tenían sellos por comportamiento y doble sello por horario, con un tope de 2 por visita. Eso obligaba a decidir algo en cada cobro.
+>
+> **La regla permanente ahora es una sola línea y nunca cambia:**
+>
+> ## **Un sello por visita.**
+
+**Todo lo demás —doble sello, sello por reseña, sello por referido— deja de ser regla y pasa a ser activación temporal**, con fecha de inicio y fin (Parte 5).
+
+**Por qué esto es superior a todo lo anterior:**
+
+| | Con reglas permanentes de bonus | **1 sello = 1 visita** |
+|---|---|---|
+| Decisiones por cobro | Varias: ¿qué hizo? ¿cuántas? ¿llegó al tope? | ✅ **Ninguna** |
+| Riesgo de que se abandone | 🔴 Alto — la duda diaria mata el hábito | ✅ Mínimo |
+| Riesgo de acumulación | 🔴 Existía | ✅ **Imposible por diseño** |
+| Cómo se mantiene vivo | Con más reglas | ✅ Con activaciones que rotan |
+
+> **El efecto secundario más valioso:** al no haber sellos permanentes por comportamiento, **la acumulación abusiva desaparece sola**. No hay que blindar nada — el diseño ya no lo permite.
+
+> Las reglas van **impresas en la tarjeta**, no escondidas. Son claras y justas, no letra chica — coherente con una marca cuyo vocabulario prohibido incluye la urgencia falsa. El porqué está en la Parte 4.
 
 ## Por qué empieza con 2 sellos
 
@@ -161,13 +182,31 @@ Agrega una columna `Sellos` a tu hoja de registro.
 | Explicarla de más | Suena a venta. Con 3 frases basta |
 | No sellar enfrente de ella | Se pierde todo el mecanismo |
 
-### Promoción de este nivel: una sola mecánica
+### Promoción de este nivel: la ventana de lanzamiento ⭐
 
-**Sello por reagenda.**
+> **Propuesta del cliente (julio 2026).** Es la mecánica de arranque del programa.
 
-> "Si me apartas tu próxima cita ahorita, te pongo un sello extra 💗"
+**Qué es:** durante las primeras **4 semanas** —las mismas en que corren los videos promocionales— **cada visita vale 2 sellos**. Después, 1 por visita para siempre.
 
-**Por qué solo esta:** ataca simultáneamente tu métrica #1 (reagenda) y el llenado de la tarjeta. Es la que más rinde y la única que necesitas para arrancar.
+| | Durante el lanzamiento | Después |
+|---|---|---|
+| Sellos por visita | **2** | 1 |
+| Visitas para llenar la tarjeta | ~3 | 5 |
+| Regla que hay que recordar | "Todo cuenta doble" | "Un sello por visita" |
+
+**Por qué funciona tan bien:**
+
+1. **Urgencia real, no falsa.** La marca tiene prohibido el lenguaje de urgencia inventada. Esta es verdadera: hay fecha de fin y se cumple.
+2. **Le da algo concreto que anunciar a los videos.** Un video que dice "tenemos tarjeta nueva" es débil; uno que dice "durante este mes todo cuenta doble" tiene motivo.
+3. **Acelera las primeras tarjetas llenas.** Con frecuencia de 3 semanas, sin el doble sello la primera tarjeta completa tardaría ~4 meses en aparecer. Con él aparece en ~6 semanas — y ahí tienes la pieza de prueba social.
+4. **Cero decisiones.** Durante la ventana todo es doble, sin condiciones. No hay que revisar qué hizo cada clienta.
+
+**Por qué 4 semanas:** con frecuencia de 3 semanas, casi toda tu clientela activa alcanza 1 o 2 visitas dentro de la ventana. Más corto deja gente fuera; más largo deja de sentirse especial y se vuelve el precio nuevo.
+
+**Cómo se comunica:**
+> "Durante este mes, cada visita te cuenta **doble** 💗 Llenas tu tarjeta en la mitad del tiempo. Después del [fecha] vuelve a ser un sello por visita."
+
+> ⚠️ **La fecha de fin se respeta.** Si la extiendes, entrenas a tus clientas a no creerte — y eso contamina también tu *"cupos limitados"*.
 
 ### Cómo saber que ya dominaste el Nivel 1
 
@@ -201,9 +240,11 @@ Es distinto decir *"vuelve"* que *"vas a la mitad, no lo dejes ahí"*.
 
 ### Promoción que se agrega
 
-**Sello por reseña en Google.** Vas de 5 a 10 reseñas, que es el umbral donde desaparece la penalización de conversión.
+**Ninguna nueva.** La mecánica sigue siendo 1 sello por visita.
 
-> "Aquí está tu foto 💗 Si me dejas una reseñita en Google, te pongo un sello extra. Me ayuda un montón a que me encuentren 📲"
+Lo que se agrega aquí es **difusión**, no reglas. Si quieres empujar reseñas, se hace como **activación con fecha** (Parte 5), no como regla permanente:
+
+> *"Estas dos semanas, quien me deje reseña en Google se lleva un sello extra 💗"*
 
 ---
 
@@ -260,22 +301,20 @@ Lunes 11 am   →  vacío, ese espacio se perdió para siempre
 
 **Antes de activarlo:** identifica cuáles son tus horarios realmente muertos — sale de la hoja de registro. Y **no lo apliques en tus horarios pico**: ahí no lo necesitas y regalas margen.
 
-**También se agrega:** sello por referido y sello por etiquetarte en redes.
+### 🪙 La idea que sigue vigente: el sello es tu moneda
 
-### 🪙 La idea que unifica todo esto
-
-> **El sello es tu moneda.**
->
 > Cada vez que quieras premiar un comportamiento, **págalo con un sello, no con dinero**. Un sello cuesta ~$20, la mantiene dentro del programa y la acerca a su meta. Un descuento la saca del sistema, erosiona un precio que ya está en el cuartil bajo, y la entrena a esperar promociones.
 
-| Comportamiento | Premio | Nivel |
-|----------------|--------|-------|
-| Reagenda antes de salir | +1 sello | 1 |
-| Deja reseña en Google | +1 sello | 2 |
-| Trae una amiga *(cuando llega)* | +1 sello | 3 |
-| Te etiqueta con sus uñas | +1 sello | 3 |
+**Lo que cambió:** el sello por comportamiento **no es una regla permanente**. Es una activación que se enciende y se apaga.
 
-> ⚠️ **Sujeto al tope de 2 sellos por visita.** Si hace varias cosas el mismo día, los sellos sobrantes se le guardan para sus próximas visitas — no se pierden. Ver Parte 4.
+| Comportamiento a premiar | Cómo | Cuándo |
+|--------------------------|------|--------|
+| Dejar reseña en Google | Activación de 2 semanas | Cuando necesites llegar a 10 reseñas |
+| Traer una amiga *(cuando llega)* | Activación de 1 mes | Cuando quieras captar |
+| Etiquetarte con sus uñas | Activación corta | Cuando necesites contenido |
+| Reagendar | **No lo premies con sello** | Ver abajo |
+
+> **Por qué la reagenda ya no lleva sello:** con 1 sello por visita, la reagenda **ya está premiada por diseño** — volver es lo que da el sello. Pagarla aparte era premiar dos veces lo mismo. La reagenda se impulsa con el guion de mostrador, no con moneda.
 
 ---
 
@@ -323,59 +362,41 @@ Cada tarjeta completada entra a un sorteo trimestral. Costo fijo sin importar cu
 
 > Esta parte existe porque el cliente detectó una falla real en el diseño original (julio 2026): **nada impedía que una clienta acumulara todos los sellos en una o dos visitas.**
 
-## El problema: acumulación de sellos
+## El problema que existía y ya no
 
-Con las mecánicas de la Parte 3 sin restricción, una clienta podía juntar en **una sola visita**:
+Cuando el programa tenía sellos permanentes por comportamiento, una clienta podía juntar 5 o 6 sellos en **una sola visita** (visita + reagenda + reseña + referido + etiqueta). Con los 2 de regalo llenaba la tarjeta el primer día habiendo pagado un solo servicio: **43% de descuento efectivo**, y sin ninguna razón para volver.
 
-| Fuente | Sellos |
-|--------|--------|
-| La visita | 1 |
-| Reagenda antes de salir | +1 |
-| Deja reseña en Google | +1 |
-| Trae una amiga | +1 |
-| Te etiqueta en redes | +1 |
-| **Total** | **5–6** |
+| Escenario | Visitas pagadas | Ingreso | Premio | % efectivo |
+|-----------|-----------------|---------|--------|------------|
+| 🔴 Diseño viejo — todo en 1 visita | 1 | $150 | $65 | **43%** |
+| 🟢 **Diseño actual — mínimo posible** | 3 | $450 | $65 | **14.4%** |
+| 🟢 **Diseño actual — caso normal** | 6 | $900 | $65 | **7.2%** |
 
-Con los 2 de regalo: **7–8 sellos. Tarjeta llena en la primera visita.**
+> ✅ **Con *1 sello = 1 visita*, el problema desaparece por diseño.** No hay forma de ganar un sello sin venir, así que no hay nada que blindar.
 
-### La matemática del daño
+### De dónde salen esos números
 
-| Escenario | Visitas pagadas | Ingreso | Costo premio | **% efectivo** |
-|-----------|-----------------|---------|--------------|----------------|
-| 🔴 **Sin control — todo en 1 visita** | 1 | $150 | $65 | **43%** |
-| 🔴 Extracción en 2 visitas | 2 | $300 | $65 | **22%** |
-| 🟡 Con 2 bonus | 3 | $450 | $65 | 14.4% |
-| 🟢 Con 1 bonus | 4 | $600 | $65 | 10.8% |
-| 🟢 **Normal, sin bonus** | 5 | $750 | $65 | **8.7%** |
+**Mínimo posible (14.4%)** — solo ocurre si toda su tarjeta cae dentro de la ventana de lanzamiento:
+- 3 visitas a 2 sellos = 6 sellos (+2 de regalo = tarjeta llena)
+- El premio se entrega en la siguiente visita → **4 visitas reales = $600 → 10.8%**
 
-**Un 43% de descuento efectivo no es un programa de lealtad. Es regalar el trabajo.** Y peor: esa clienta no tiene ninguna razón para volver — ya cobró.
+**Caso normal (7.2%)** — fuera de la ventana:
+- 5 visitas a 1 sello = tarjeta llena
+- Premio en la siguiente → **6 visitas = $900**
 
 ---
 
-## El matiz importante antes de las reglas
+## Las reglas de control
 
-**No toda acumulación es abuso.** Hay que separar dos cosas:
+> **La mayoría de las reglas que había aquí ya no hacen falta.** Al pasar a *1 sello = 1 visita*, la acumulación abusiva **es imposible por diseño**: no hay forma de ganar más de un sello sin volver.
+>
+> Quedan solo dos, y las dos son simples.
 
-| Perfil | Qué hizo | Veredicto |
-|--------|----------|-----------|
-| **Tu mejor clienta** | Reagendó, dejó reseña y trajo una amiga | ✅ **Pagarle rápido está bien.** Una reseña te saca del umbral de penalización y una amiga vale $150 × muchas visitas. 14% por eso es barato |
-| **La extractora** | Hizo todo en 1 visita, cobró el premio y desapareció | 🔴 **Este es el problema real** |
+### 🔒 Regla 1 — Un sello por visita
 
-> **La conclusión que define las reglas:** el objetivo **no** es limitar los sellos —eso castigaría a tu mejor clienta—. El objetivo es **garantizar un mínimo de relación** antes de entregar el premio.
+No hay excepciones en el sistema permanente. Los sellos extra solo existen **durante una activación anunciada y con fecha de fin**.
 
----
-
-## Las 4 reglas de control
-
-### 🔒 Regla 1 — Máximo 2 sellos por visita
-
-Uno de la visita + **un solo extra**, sin importar cuántas cosas haga ese día.
-
-Si reagenda, deja reseña y trae amiga en la misma visita, se lleva 2 sellos — y los otros dos se le **guardan para sus próximas visitas**.
-
-> "Hiciste tres cosas 💗 Te pongo dos hoy y te guardo los otros dos para tus siguientes visitas, para que no se te acaben las sorpresas."
-
-**Esto es lo que hace la regla justa:** no pierde nada, solo se distribuye. Y de paso le da una razón concreta para volver.
+**Esto sustituye a las cuatro reglas anteriores** (tope de 2, mínimo de visitas, referido al llegar, no acumular con horario muerto). Ninguna hace falta si la única forma de ganar un sello es venir.
 
 ### 🔒 Regla 2 — El premio se entrega en tu siguiente visita
 
@@ -420,23 +441,13 @@ Se ve caro aislado. Pero mira lo que entregó a cambio:
 
 **El único escenario que sigue perdiendo:** que haga todo, no recoja el premio y no vuelva. En ese caso **no gastaste nada** — el premio no se entregó. La regla se protege sola.
 
-### 🔒 Regla 3 — El sello de referido se pone cuando la amiga llega
+### 🔒 Regla 3 — En las activaciones de referido, el sello se pone cuando la amiga llega
 
 No cuando la recomienda. Es la diferencia entre premiar una promesa y premiar un resultado.
 
 > "En cuanto venga te pongo tu sello 💗"
 
-### 🔒 Regla 4 — El doble sello sale de la mecánica base
-
-> 🔄 **Decisión del cliente (julio 2026):** el doble sello por horario muerto **se retira del sistema permanente**.
-
-**Por qué:** metía una tercera variable a algo que debe caber en una frase. En un lunes muerto había que decidir si eran 2 por horario, o 1 de visita + 1 de bonus, o los tres — y esa duda diaria es lo que hace que un programa se abandone.
-
-**A dónde se va:** sobrevive como **activación temporal** (Parte 5, T2), con fecha de inicio y fin. Ahí sí funciona, porque es excepcional y se anuncia.
-
-**El tope se mantiene, y ahora sí cabe en una frase:**
-
-> ## **Máximo 2 sellos por visita. Siempre.**
+Aplica solo mientras esa activación esté corriendo.
 
 ---
 
@@ -444,18 +455,20 @@ No cuando la recomienda. Es la diferencia entre premiar una promesa y premiar un
 
 Con las 4 reglas activas, este es el piso:
 
-| | Sin reglas | **Con reglas** |
+| | Diseño viejo | **Diseño actual** |
 |---|---|---|
-| Visitas mínimas para el premio | **1** | **2** |
-| Ingreso mínimo generado | $150 | **$300** |
+| Visitas mínimas para el premio | **1** | **4** *(en lanzamiento)* · **6** *(normal)* |
+| Ingreso mínimo generado | $150 | **$600** · $900 |
 | Costo del premio | $65 | $65 |
-| **Descuento efectivo máximo** | 🔴 **43%** | 🟢 **21.7%** |
-| Descuento en el caso normal | 8.7% | 8.7% |
-| Si hace todo y **no vuelve** | 🔴 Ya cobró: 43% | ✅ **$0 — el premio no se entregó** |
+| **Peor caso** | 🔴 **43%** | 🟢 **10.8%** |
+| Caso normal | 8.7% | 🟢 **7.2%** |
+| Si llena y **no vuelve** | 🔴 Ya cobró: 43% | ✅ **$0 — el premio no se entregó** |
 
-> **Respuesta directa a tu pregunta:** con la tarjeta de **7 casillas (2 de regalo + 5 ganados)** y las reglas, el programa es redituable en cualquier escenario.
+> **Respuesta directa a tu pregunta:** con **7 casillas (2 de regalo + 5 ganados)**, *1 sello = 1 visita* y el premio entregado en la visita siguiente, el programa es redituable en **todos** los escenarios.
 >
-> El peor caso real baja de 43% a 21.7%, y ese 21.7% se paga solo con la referida. El caso típico se queda en 8.7%. Y el escenario que antes era catastrófico —hacer todo y desaparecer— ahora **cuesta cero**, porque el premio nunca se entregó.
+> El peor caso posible es 10.8% —y solo ocurre si toda la tarjeta cae dentro de la ventana de lanzamiento—. El caso normal mejora a **7.2%**, mejor que el 8.7% del diseño anterior, porque el premio se entrega en una visita adicional.
+>
+> Y el escenario que antes era catastrófico —llenar y desaparecer— ahora **cuesta cero**: el premio nunca se entregó.
 
 ### ¿Y si quisieras más margen?
 
@@ -496,7 +509,7 @@ Un programa de lealtad se vuelve invisible a los pocos meses. La clienta se acos
 
 | Trimestre | Activación | Qué mueve | Costo extra |
 |-----------|-----------|-----------|-------------|
-| **T1** | Base: tarjeta + sello por reagenda | Hábito e inscripción | $0 |
+| **T1** | **Lanzamiento: 4 semanas de sello doble** | Inscripción y primeras tarjetas llenas | $0 |
 | **T2** | **Doble sello en horarios muertos** | Ocupación lunes–miércoles | $0 |
 | **T3** | **Sorteo entre tarjetas llenas** | Terminar tarjetas | Costo fijo del premio |
 | **T4** | **Temporada: sello doble de diciembre** | Aprovechar el pico de fin de año | $0 |
@@ -561,9 +574,20 @@ El error más común es tratarla como evento: se anuncia una semana y a los dos 
 | **1** | % de clientas con tarjeta | 80% |
 | **1** | Reagenda en mostrador | 40% → 55% |
 | **2** | Reseñas en Google | 5 → 10 |
-| **3** | **Ocupación lunes–miércoles** | +20% |
 | **3** | Tarjetas completadas | 34% |
+| **3** | Ocupación lunes–miércoles *(si corre la activación)* | +20% |
 | **4** | Costo por cita agendada | <$60 |
+
+### Lo que hay que medir de la ventana de lanzamiento
+
+Al terminar las 4 semanas, dos números:
+
+| Pregunta | Cómo se lee |
+|----------|-------------|
+| ¿Cuántas se inscribieron durante la ventana vs. después? | Si la diferencia es grande, el sello doble funciona y conviene repetirlo cada año |
+| ¿Cuántas siguieron viniendo al terminar la ventana? | Si caen mucho, venían por el doble sello y no por ti. Si se sostienen, el hábito se formó |
+
+> El segundo número es el que importa. Una ventana de lanzamiento exitosa no se mide por cuántas tarjetas repartiste, sino por **cuántas clientas siguen viniendo el mes 2**.
 
 > **Si tuvieras que medir solo una cosa en todo el programa:** ocupación de lunes a miércoles. Es el hueco de capacidad más grande que tienes y ninguna otra táctica lo llena.
 
@@ -597,7 +621,7 @@ Dos propuestas generadas en Canva con el brand kit **PeachyStudio**, **descartad
 >
 > **Lo no negociable del arte, sea quien lo haga:**
 > 1. **7 casillas con las 2 primeras marcadas.** Ese detalle es el mecanismo completo — si sale con 7 vacías, se pierde el efecto que casi duplica el completado.
-> 2. **Las dos reglas visibles en la tarjeta:** *"Máx. 2 sellos por visita"* y *"Tu premio a partir de tu 4ª visita"*. Son las que protegen la rentabilidad del programa (Parte 4) y deben leerse claro, no en letra chiquita.
+> 2. **Las dos reglas visibles en la tarjeta:** *"Un sello por visita"* y *"Tu premio te espera en tu siguiente visita"*. Son las que protegen la rentabilidad del programa (Parte 4) y deben leerse claro, no en letra chiquita.
 
 ---
 
