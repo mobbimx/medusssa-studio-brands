@@ -61,7 +61,7 @@ Peachy es servicio **1 a 1** con techo de ~84 servicios al mes. Eso descarta el 
 │                                      │
 │   Nombre: __________________         │  ← a mano
 │                                      │
-│   ✓  ✓  ✦  ○  ✦  ○  ○  ★             │
+│   ✓  ✓  ✦  ○  ✦  ○  ✦  ★             │
 │   └regalo┘                           │
 │                                      │
 │   ✦ = sorpresa                       │
@@ -84,6 +84,7 @@ Peachy es servicio **1 a 1** con techo de ~84 servicios al mes. Eso descarta el 
 | Cada visita | **1 sello. Siempre.** |
 | **Sello 3** *(su 1ª visita)* | Sorpresa chica — amenidad por encima de la cortesía |
 | **Sello 5** *(su 3ª visita)* | Sorpresa mediana — merch Peachy |
+| **Sello 7** *(su 5ª visita)* | Sorpresa — diseño de cortesía en 2 uñas |
 | **Sello 8** *(su 6ª visita)* | **Premio mayor, entregado en su siguiente visita** |
 
 > **Las ✦ van marcadas en la tarjeta desde el día uno.** Que vea dónde están las sorpresas es la mitad del efecto — no es lo mismo caminar hacia un premio lejano que hacia el siguiente, que está a una o dos visitas.
@@ -163,14 +164,20 @@ Agrega una columna `Sellos` a tu hoja de registro.
 
 > 🔄 **Estructura propuesta por el cliente (julio 2026):** tarjeta de 8, con premio en el 3, el 5 y el 8. Su instinto de escalonar es correcto y abajo está el porqué.
 
-| Sello | Visita | Recompensa | Costo est. |
-|-------|--------|-----------|-----------|
-| *Inscripción* | — | 2 sellos + se registra su bebida favorita | ~$0 |
-| **3** | 1 | Amenidad **por encima de la cortesía** *(postre, dulce especial, bebida premium)* | $10–15 |
-| **5** | 3 | **Merch Peachy** — sticker + llavero | $20–30 |
-| **8** | 6 | **Premio mayor** — ver análisis de viabilidad en Parte 4 | $40–70 |
+| Sello | Visita | Recompensa | Valor percibido | Costo real |
+|-------|--------|-----------|-----------------|-----------|
+| *Inscripción* | — | 2 sellos + se registra su bebida favorita | — | ~$0 |
+| **3** | 1 | Amenidad **por encima de la cortesía** *(postre, dulce especial)* | $15 | $12 |
+| **5** | 3 | **Merch Peachy** — sticker + llavero | $40 | $25 |
+| **7** | 5 | **Diseño de cortesía en 2 uñas** | $30 | $6 |
+| **8** | 6 | **Efecto cromo de cortesía** *(set completo)* | $40 | $8 |
+| | | **TOTAL** | **$125** | **$51** |
 
-**Por qué el escalonamiento es la parte buena de esta propuesta:** una tarjeta de 8 son 6 visitas ≈ **4 meses** a frecuencia de 3 semanas. Sin premios intermedios, eso es demasiado lejos y la tarjeta se muere a la mitad. Con premios en el 3 y el 5, **el tramo más largo sin recompensa baja a 3 visitas (~9 semanas)**. La escalera es lo que hace tolerable una tarjeta larga.
+> ## Entregas $125 de valor y te cuesta $51.
+>
+> Multiplicador de **2.5×**, y **ningún premio ocupa un espacio de agenda** — todos son minutos dentro de una cita ya vendida. El desglose y las alternativas están en **Parte 4 · Premios en servicio complementario**.
+
+**Por qué el escalonamiento es la parte buena de esta propuesta:** una tarjeta de 8 son 6 visitas ≈ **4 meses** a frecuencia de 3 semanas. Sin premios intermedios, eso es demasiado lejos y la tarjeta se muere a la mitad. Con premios en el 3, 5 y 7, **nunca pasan más de 2 visitas sin recibir algo**. La escalera es lo que hace tolerable una tarjeta larga.
 
 > **El artículo estrella es el aceite de cutícula:** es tu claim hecho producto, tiene contacto diario, mejora tu propio resultado y puede convertirse en línea de venta (ver Nivel 4).
 
@@ -403,7 +410,7 @@ Cuando el programa tenía sellos permanentes por comportamiento, una clienta pod
 |-----------|-----------------|---------|--------|------------|
 | 🔴 Diseño viejo — todo en 1 visita | 1 | $150 | $65 | **43%** |
 | 🟢 **Diseño actual (8 casillas) — caso normal** | 7 | $1,050 | $65 | **6.2%** |
-| 🟢 Diseño actual — con escalera completa | 7 | $1,050 | $102 | **9.7%** |
+| 🟢 Diseño actual — con escalera completa | 7 | $1,050 | $51 | **4.9%** |
 
 > ✅ **Con *1 sello = 1 visita*, el problema desaparece por diseño.** No hay forma de ganar un sello sin venir, así que no hay nada que blindar.
 
@@ -419,12 +426,12 @@ La ventana de lanzamiento y la escalera de premios **se apilan**. En teoría, al
 
 | | Visitas | Ingreso | Premios | % |
 |---|---|---|---|---|
-| Teórico — tarjeta completa dentro de la ventana | 4 | $600 | $102 | 🟡 **17%** |
-| **Realista** — 2 visitas en la ventana, luego normal | 5 | $750 | $102 | 🟢 **13.6%** |
+| Teórico — tarjeta completa dentro de la ventana | 4 | $600 | $51 | 🟢 **8.5%** |
+| **Realista** — 2 visitas en la ventana, luego normal | 5 | $750 | $51 | 🟢 **6.8%** |
 
-**Por qué el caso realista es el que va a pasar:** para llenar la tarjeta dentro de la ventana necesita **3 visitas en 4 semanas**, o sea una cada 9 días. La frecuencia normal es de 3 semanas. Prácticamente nadie va a lograrlo.
+**Con la escalera de servicio complementario, ni siquiera el caso teórico es un problema:** 8.5% sigue siendo un número sano. Antes, con premios en producto, este escenario llegaba a 17% y había que pensarlo.
 
-> **Recomendación: no agregues una regla para tapar el caso teórico.** Afecta a casi nadie, y ese 17% se gasta en la clienta más frecuente que tienes — que es exactamente en quien quieres gastarlo. Blindarlo costaría más en complejidad de lo que ahorra.
+> ✅ **No hace falta ninguna regla para tapar esto.** El apilamiento de lanzamiento + escalera deja de importar cuando los premios cuestan minutos en vez de inventario.
 
 ---
 
@@ -479,14 +486,14 @@ Aplica solo mientras esa activación esté corriendo.
 |---|---|---|
 | Visitas mínimas para el premio mayor | **1** | **7** *(6 para llenar + 1 para recoger)* |
 | Ingreso generado | $150 | **$1,050** |
-| Costo de la escalera completa | $65 | $102 |
-| **Peor caso realista** | 🔴 **43%** | 🟢 **13.6%** *(cohorte de lanzamiento)* |
-| Caso normal | 8.7% | 🟢 **9.7%** |
+| Costo de la escalera completa | $65 | **$51** |
+| **Peor caso realista** | 🔴 **43%** | 🟢 **6.8%** *(cohorte de lanzamiento)* |
+| Caso normal | 8.7% | 🟢 **4.9%** |
 | Si llena y **no vuelve** | 🔴 Ya cobró: 43% | ✅ **El premio mayor no se entregó** |
 
 > **Respuesta directa a tu pregunta:** con **8 casillas (2 de regalo + 6 ganados)**, *1 sello = 1 visita* y el premio entregado en la visita siguiente, el programa es redituable en **todos** los escenarios.
 >
-> El caso normal queda en **9.7% con la escalera completa de 3 premios** — y si el premio mayor fuera solo el kit, sin escalera, bajaría a 6.2%. La escalera cuesta ~3.5 puntos porcentuales y compra el completado de una tarjeta larga.
+> El caso normal queda en **4.9% con la escalera completa de 4 premios**, entregando $125 de valor percibido. La escalera prácticamente no cuesta margen — cuesta minutos dentro de citas ya vendidas.
 >
 > Y el escenario que antes era catastrófico —llenar y desaparecer— ahora **cuesta cero**: el premio nunca se entregó.
 
@@ -496,11 +503,11 @@ Aplica solo mientras esa activación esté corriendo.
 
 | Diseño | Ganados | Ingreso al llenar | Costo escalera | **% efectivo** |
 |--------|---------|-------------------|----------------|----------------|
-| 7 casillas | 5 | $750 | $102 | 13.6% |
-| **8 casillas** | 6 | **$900** | $102 | ✅ **11.3%** |
-| 9 casillas | 7 | $1,050 | $102 | 9.7% 🟡 |
+| 7 casillas | 5 | $750 | $51 | 6.8% |
+| **8 casillas** | 6 | **$900** | $51 | ✅ **5.7%** |
+| 9 casillas | 7 | $1,050 | $51 | 4.9% 🟡 |
 
-**La escalera cuesta lo mismo sin importar el largo de la tarjeta** — son 3 premios en los dos casos. Así que estirar de 7 a 8 reparte el mismo costo entre más visitas y **mejora el margen sin quitarle nada a la clienta**.
+**Con la escalera de servicio complementario, la diferencia de margen entre 7, 8 y 9 casillas es de menos de 2 puntos.** Eso es bueno: significa que **el largo de la tarjeta se decide por completado, no por dinero** — y ahí 8 gana claro.
 
 **Y el riesgo de completado que antes hacía preferir la tarjeta corta ahora está cubierto por la propia escalera:** con premio en el 3 y en el 5, nunca pasa más de 3 visitas sin recibir algo. Ese era justo el motivo para no alargarla.
 
@@ -514,8 +521,8 @@ Cuando termine su primera tarjeta, se le entrega una **segunda más larga con me
 |---|---|---|
 | Casillas | 8 (2 de regalo) | 10 (**1** de regalo) |
 | Sellos a ganar | 6 | 9 |
-| Premio mayor | Kit / aceite | Premio mayor *(aquí sí cabe el servicio, en horario muerto)* |
-| % efectivo | 9.7% | ~7% |
+| Premio mayor | Efecto cromo o kit/aceite | Aquí sí cabe el **servicio completo**, en horario muerto |
+| % efectivo | 4.9% | ~4% |
 
 **Por qué funciona:** la primera tarjeta engancha (corta, fácil, alto completado). La segunda retiene a quien ya demostró que vuelve, y **mejora tu margen** porque exige más visitas. Además, entregarle una tarjeta distinta se siente a ascenso, no a repetición.
 
@@ -546,16 +553,16 @@ Cuando termine su primera tarjeta, se le entrega una **segunda más larga con me
 
 **Y escala al revés:** entre mejor funcione el programa, más tarjetas se llenan, más servicios regalas, más capacidad pierdes. El premio en servicio **se vuelve más caro justo cuando el programa está funcionando**.
 
-### Las 4 opciones, con números
+### Si el premio mayor fuera un servicio completo
 
-| # | Premio mayor (sello 8) | Sello 3 | Sello 5 | Sello 8 | **Total** | **% de $900** | |
-|---|------------------------|---------|---------|---------|-----------|---------------|---|
-| **1** | **Kit / aceite de cuidado** | $12 | $25 | $65 | **$102** | **11.3%** | ✅ **Recomendada** |
-| **2** | Servicio gratis en **horario muerto** | $12 | $25 | $40 *(solo material)* | **$77** | **8.6%** | ⚠️ Barata en efectivo, cara en tiempo |
-| **3** | Aceite en el 7 **+** servicio en el 8 *(muerto)* | $12 | $25 | $105 | **$142** | **15.8%** | ⚠️ En el límite |
-| **4** | Servicio gratis en **horario pico** | $12 | $25 | $190 *(material + slot desplazado)* | **$227** | **25.2%** | 🔴 **No viable** |
+| Cuándo se agenda | Costo real del premio | Escalera completa | **% de $1,050** | |
+|------------------|----------------------|-------------------|-----------------|---|
+| **Horario muerto** *(lun–mié)* | $40 *(solo material)* | $83 | **7.9%** | ⚠️ Barato en efectivo, caro en tiempo |
+| **Horario pico** *(jue–sáb)* | $190 *(material + slot desplazado)* | $233 | 🔴 **22.2%** | 🔴 **No viable** |
 
-**Cómo leer la opción 4:** un servicio regalado en sábado no cuesta $40 de material — cuesta $40 **más los $150 que esa silla habría facturado**. Ahí el programa deja de ser fidelización y se vuelve un descuento del 25%.
+**La diferencia es solo el día de la semana.** Un servicio regalado en sábado no cuesta $40 de material — cuesta $40 **más los $150 que esa silla habría facturado**.
+
+> 💡 **La salida a este dilema está en la sección siguiente:** un **servicio complementario** (diseño, cromo) entrega la sensación de "me regalaron un servicio" por una fracción del costo y sin ocupar una silla completa.
 
 ### Si la dueña quiere que el premio mayor sea un servicio
 
@@ -567,16 +574,144 @@ Es una decisión legítima —un servicio se percibe como el premio más valioso
 
 > ⚠️ **Sin esa regla, no lo recomiendo.** La diferencia entre la opción 2 y la 4 es solo el día de la semana, y son 8.6% contra 25.2%.
 
-### Recomendación
+---
 
-**Arrancar con la opción 1** (premio mayor = kit/aceite, 11.3%):
+## ⭐ Premios en servicio complementario — el análisis que cambia la escalera
 
-1. **No toca capacidad.** Cero riesgo sobre el techo de ingreso.
-2. **Camina en su bolsa.** El aceite con etiqueta Peachy es publicidad; una manicura regalada no se ve.
-3. **Prueba el producto antes de venderlo.** Si el aceite gusta, ya es la línea de venta del Nivel 4 — el premio se convierte en investigación de mercado gratis.
-4. **Es reversible.** Si más adelante quiere subir a servicio, se sube. Bajar de servicio a producto se siente como quitar algo.
+> **Propuesta del cliente (julio 2026):** que el sello 7 sea **un diseño regalado en 1 o 2 uñas**, y que el sello 8 sea **un servicio complementario o un descuento**, en vez de un servicio completo. Se pidieron los costos de ambas versiones.
+>
+> **Veredicto corto: es la mejor idea que ha tenido la escalera.** Los números están abajo.
 
-> **Lo que hay que llevar a la dueña:** el costo real de material por servicio, y si acepta la regla de lunes a miércoles en caso de querer premiar con servicio. Con esos dos datos esto queda cerrado.
+### Primero: un premio tiene dos costos distintos, y confundirlos lleva a decisiones malas
+
+| | Qué es | Ejemplo: 1 uña decorada |
+|---|---|---|
+| **Costo de lista** | Lo que ella habría pagado | **$15** |
+| **Costo real** | Material + minutos que te cuesta a ti | **~$3** |
+
+**Cuál de los dos aplica depende de una sola pregunta: ¿ella lo habría comprado?**
+
+Y aquí está el dato que decide: **los add-ons hoy ni siquiera están formalizados** — `precios-y-paquetes.md` dice que "probablemente se están regalando". Casi nadie los compra porque casi nadie sabe que existen y cuestan.
+
+> ✅ **Por eso, en decoración, el costo real es el que aplica: ~$3, no $15.** No estás perdiendo una venta que ibas a hacer. Estás regalando algo que hoy no se vende.
+
+### Sello 7 — Diseño en uñas: las dos versiones que pediste
+
+| | **1 uña** | **2 uñas** |
+|---|---|---|
+| Valor de lista *(lo que ella percibe)* | **$15** | **$30** |
+| Material estimado | ~$3 | ~$6 |
+| Tiempo extra | ~5 min | ~10 min |
+| **% del ciclo de $1,050** | **0.3%** | **0.6%** |
+
+> **La diferencia entre 1 y 2 uñas es de $3.** Es tan barata que no vale la pena optimizarla por costo — **decide por efecto, no por precio.**
+
+**Y por efecto, 2 uñas gana:** una sola uña decorada se ve como un accidente o un detalle suelto. **Dos uñas se leen como diseño intencional** — es la configuración que la gente fotografía y sube. Por $3 más, compras la diferencia entre un premio que se agradece y uno que se presume.
+
+### 🔴 El punto que convierte este premio en inversión, no en gasto
+
+**Regalar una uña decorada es la mejor demostración de add-on que existe.** Ella ve el diseño *en su propia mano*, no en una foto. Y los add-ons son —según el análisis de precios— la ganancia más rápida disponible.
+
+**La aritmética:**
+
+| | 1 uña | 2 uñas |
+|---|---|---|
+| Costo de regalarlo a 20 clientas | $60 | $120 |
+| Una venta de decoración *(4 uñas × $15)* | $60 | $60 |
+| **Clientas que deben comprar después para que se pague solo** | **1 de cada 20** | **2 de cada 20** |
+
+> **1 de cada 20 es un umbral bajísimo.** Cualquier resultado por encima de eso hace que el premio del sello 7 sea **rentable**, no un costo. Es el único premio de toda la escalera que puede dar dinero.
+
+### Sello 8 — Las 6 opciones, con números
+
+Sobre el ciclo completo de 7 visitas = **$1,050**. Todas incluyen la escalera previa *(amenidad $12 + merch $25 + 2 uñas $6 = $43)*.
+
+| # | Premio mayor | Valor percibido | Costo real | **Total escalera** | **%** | |
+|---|--------------|-----------------|------------|--------------------|-------|---|
+| **A** | **Efecto cromo de cortesía** *(set completo)* | $40 | **$8** | **$51** | **4.9%** | ✅ **El mejor ratio** |
+| **B** | Kit / aceite de cutícula | $65 | $65 | $108 | 10.3% | ✅ Sólido |
+| **C** | Manicura rusa de cortesía | $50 | $50 | $93 | 8.9% | 🟡 Cuesta tiempo |
+| **D** | **Descuento 50%** en su servicio | $75 | $75 | $118 | 11.2% | 🔴 Ver abajo |
+| **E** | **Descuento 75%** en su servicio | $112 | $112 | $155 | 14.8% | 🔴 Ver abajo |
+| **F** | Softgel gratis *(horario muerto)* | $150 | $150 | $193 | 18.4% | 🔴 Caro |
+
+### 🔴 Por qué no recomiendo el descuento, aunque los números parezcan aceptables
+
+**El 50% sale en 11.2%, que no es catastrófico. El problema no es el número — es lo que contradice.**
+
+`precios-y-paquetes.md` ya resolvió esta discusión y **corrigió una recomendación anterior justamente por esto**: Peachy está en el **cuartil bajo del mercado** con polygel a $170 sobre un rango de $100–$1,000. Ahí se concluyó que *"descontar un precio que ya es bajo agrava el problema"*, y se reemplazó el paquete con descuento por uno de mismo precio y más valor.
+
+**Un premio en descuento reabre exactamente el problema que ese documento cerró:**
+
+| | Descuento 50–75% | Servicio complementario |
+|---|---|---|
+| Efecto en el precio de lista | 🔴 Lo erosiona | ✅ Lo protege |
+| Qué aprende la clienta | *"Si espero, me lo bajan"* | *"Aquí me consienten"* |
+| Cómo se siente | Transacción | ✅ Regalo |
+| Coherencia con arquetipo Amante | 🔴 Choca | ✅ Encaja |
+| Costo real por cada punto de valor percibido | 🔴 1:1 | ✅ **1:5** |
+
+> **La comparación que lo deja claro:** el descuento del 50% te cuesta $75 y ella percibe $75. El efecto cromo te cuesta $8 y ella percibe $40. **Por menos de la novena parte del costo, entregas más de la mitad del valor percibido** — y encima no tocas el precio.
+
+### ✅ La escalera recomendada
+
+| Sello | Visita | Premio | Valor percibido | Costo real |
+|-------|--------|--------|-----------------|-----------|
+| **3** | 1 | Amenidad por encima de la cortesía | $15 | $12 |
+| **5** | 3 | Merch Peachy *(sticker + llavero)* | $40 | $25 |
+| **7** | 5 | **Diseño en 2 uñas** | $30 | $6 |
+| **8** | 6 | **Efecto cromo de cortesía** *(set)* | $40 | $8 |
+| | | **TOTAL** | **$125** | **$51** |
+
+**Sobre el ciclo de $1,050: 4.9% real, contra $125 de valor percibido.**
+
+> ## Entregas $125 y te cuesta $51.
+>
+> Ese multiplicador de **2.5×** es lo que hace que la escalera funcione. Y **ni un solo premio te quita un espacio de agenda** — todos son minutos dentro de una cita que ya estaba vendida.
+
+**Las tres razones por las que esta versión gana:**
+
+1. **No toca capacidad.** Ningún premio ocupa una silla que pudiste vender.
+2. **No toca el precio.** Ningún premio es un descuento.
+3. **Dos de los cuatro premios son demostraciones de add-on** — el negocio con la ganancia más rápida disponible según el análisis de precios.
+
+> ⚠️ **Los costos de material son estimados** ($3/uña, $8 el set de cromo). **Confirmar con la dueña** — es el mismo pendiente marcado en `precios-y-paquetes.md`. Aun si el material costara el triple, la escalera se queda debajo del 8%.
+
+### Cómo presentárselo a la dueña
+
+**Tres decisiones, y ninguna es de vida o muerte:**
+
+| Decisión | Opciones | Mi sugerencia |
+|----------|----------|---------------|
+| Sello 7 | 1 uña o 2 uñas | **2 uñas** — $3 más, mucho más efecto |
+| Sello 8 | Cromo, kit/aceite, o manicura rusa | **Cromo** si quiere máximo margen · **Kit/aceite** si quiere que el premio camine en la bolsa como publicidad |
+| Descuentos | Sí o no | **No** — contradice el posicionamiento que ya se decidió |
+
+> **Si prefiere el kit/aceite en el sello 8** (10.3% en vez de 4.9%), sigue siendo perfectamente viable, y tiene una ventaja que el cromo no tiene: **el producto se va con ella y se ve todos los días**. Es la decisión entre margen y publicidad, y las dos son defendibles.
+
+---
+
+## Los 3 principios que resumen toda la Parte 4
+
+Si hubiera que reducir este análisis a tres frases:
+
+> ### 1. Nunca regales un espacio de agenda.
+> El ingreso tiene techo de horas. Un servicio completo regalado cuesta 2 horas irrecuperables — el activo más escaso del negocio.
+
+> ### 2. Nunca premies con descuento.
+> Peachy ya está en el cuartil bajo. El descuento erosiona el precio y entrena a esperar rebajas. Es lo único que `precios-y-paquetes.md` prohíbe explícitamente.
+
+> ### 3. Premia con lo que te cuesta minutos y ella percibe en pesos.
+> Diseño, cromo, amenidad, merch. Ahí está el multiplicador de 2.5× que hace viable toda la escalera.
+
+**Lo que hay que llevar a la dueña para cerrar esto:**
+
+| Pregunta | Para qué |
+|----------|----------|
+| Costo real de material por servicio y por decoración | Cerrar los números con precisión *(ya estaba pendiente en `precios-y-paquetes.md`)* |
+| ¿1 o 2 uñas en el sello 7? | Sugerencia: **2** — cuesta $3 más y se fotografía |
+| ¿Cromo o kit/aceite en el sello 8? | Margen *(4.9%)* contra publicidad que camina en la bolsa *(10.3%)* |
+| ¿Acepta no usar descuentos como premio? | Es la única recomendación de esta parte que pediría no negociar |
 
 ---
 
