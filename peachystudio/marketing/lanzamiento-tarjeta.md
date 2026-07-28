@@ -80,20 +80,132 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 
 ---
 
-# PARTE 3 · LAS 4 SEMANAS
+# PARTE 3 · LA PARRILLA
 
-## Vista general
+## ⚠️ Primero: no son dos calendarios, es uno
 
-| Semana | Qué hace | Piezas |
-|--------|----------|--------|
-| **1** | Anunciar | P1 reveal · P2 cómo funciona · WhatsApp a base instalada |
-| **2** | Probar que es real | P3 prueba social |
-| **3** | Recordar | P4 recordatorio · Google Post |
-| **4** | Cerrar | P5 última llamada · **cierre honesto** |
+`calendario-contenido.md` ya define **3 piezas por semana** (lunes FAQ, miércoles prueba, viernes detrás de cámaras). Esta campaña agrega piezas de tarjeta.
 
-> **Frecuencia: 2 piezas por semana sobre la tarjeta**, no más. El resto del contenido sigue el calendario normal. Si todo el feed es la tarjeta, deja de ser noticia y se vuelve ruido.
+**Si se suman, salen 5 piezas semanales. Eso no lo sostiene una persona sola** — y aunque se pudiera, un feed que solo habla de la tarjeta la convierte en ruido.
+
+> ## La campaña no agrega piezas. Ocupa las que ya existían.
+>
+> Se mantienen **3 por semana**. Durante el lanzamiento, 1 o 2 de esos tres espacios los toma la tarjeta y el resto sigue su función normal.
+
+## Los tipos de contenido
+
+| Tipo | Para qué sirve | Dura |
+|------|----------------|------|
+| 📣 **Anuncio** | Presentar algo que no existía. Se usa una sola vez | 15–20 s |
+| 📖 **Explicativo** | Enseñar cómo funciona algo. Es el que se guarda y se reenvía | 15 s |
+| 👐 **Prueba social** | Clienta real, resultado real. El más creíble y el que no se puede fabricar | 10–15 s |
+| ⏳ **Recordatorio** | Urgencia con fecha real. Solo funciona si la fecha se respeta | 10–12 s |
+| ❓ **FAQ** | Resolver la objeción **antes** de que llegue al WhatsApp | 20–30 s |
+| ✨ **Resultado** | El trabajo terminado. Alimenta el portafolio y la búsqueda local | 10–20 s |
+| 🎬 **Detrás de cámaras** | Proceso y cercanía. Es lo que hace que la marca se sienta de alguien | 20–40 s |
 
 ---
+
+## La parrilla completa
+
+### Semana 0 — Instalación *(no se publica nada)*
+
+| | Actividad |
+|---|---|
+| **Mostrador** | Inscribir 8–10 clientas sin anunciar |
+| **Producción** | Grabar el plano de sellar + fotos de manos con tarjeta |
+| **Montaje** | Imprimir, definir sello, abrir columna en la hoja de registro, fijar fecha de cierre |
+
+> **La semana de mayor rendimiento de toda la campaña, y no publica nada.** Es la que hace que el lunes siguiente haya material real que enseñar.
+
+---
+
+### Semana 1 — Anunciar
+
+| Día | Pieza | Tipo | Tema |
+|-----|-------|------|------|
+| **Lun** | **P1 · El reveal** | 📣 Anuncio | *"Ya empezaste"* — existe la tarjeta y llega con 2 sellos puestos |
+| **Mié** | **P2 · Cómo funciona** | 📖 Explicativo | La mecánica en 15 segundos: vienes, sumas, sorpresas, premio |
+| **Vie** | Las tarjetas | 🎬 Detrás | Cómo quedaron, el sello, la mesa preparada. Refuerza sin repetir el anuncio |
+
+**Además esta semana:** WhatsApp uno por uno a la base instalada · bio · highlight *"Tu tarjeta"* · Google Post.
+
+---
+
+### Semana 2 — Probar que es real
+
+| Día | Pieza | Tipo | Tema |
+|-----|-------|------|------|
+| **Lun** | FAQ regular | ❓ FAQ | *"¿Cuánto me duran?"* — la objeción que más frena la primera cita |
+| **Mié** | **P3 · Prueba social** | 👐 Prueba | Una clienta real ya va en 4 sellos |
+| **Vie** | Diseño de la semana | ✨ Resultado | Trabajo terminado, con nombre de diseño |
+
+> **Por qué el FAQ va aquí y no antes:** la semana 1 empuja a agendar. En la 2 empiezan a llegar las preguntas — este espacio las contesta de forma masiva en lugar de una por una por WhatsApp.
+
+---
+
+### Semana 3 — Recordar
+
+| Día | Pieza | Tipo | Tema |
+|-----|-------|------|------|
+| **Lun** | **P4 · Mitad de ventana** | ⏳ Recordatorio | *"Quedan dos semanas de sello doble"* — con fecha explícita |
+| **Mié** | Resultado o proceso | ✨ Resultado | El trabajo, sin mencionar la tarjeta |
+| **Vie** | Cercanía | 🎬 Detrás | Un día en el estudio. Baja la intensidad comercial |
+
+> **El miércoles y viernes de esta semana no tocan la tarjeta a propósito.** Después de 3 semanas hablando de ella, el descanso hace que el recordatorio del lunes pese más.
+
+---
+
+### Semana 4 — Cerrar
+
+| Día | Pieza | Tipo | Tema |
+|-----|-------|------|------|
+| **Lun** | **P5 · Última llamada** | ⏳ Recordatorio | Última semana. Corto y sin dramatizar |
+| **Mié** | FAQ oportuno | ❓ FAQ | *"¿Y si pierdo mi tarjeta?"* — resuelve la duda justo cuando ya hay tarjetas circulando |
+| **Vie** | Resultado | ✨ Resultado | Trabajo terminado |
+
+**Además:** WhatsApp de cierre a quienes ya tienen tarjeta, **diciéndole a cada una en cuántos sellos va**.
+
+---
+
+### Semana 5 — El relevo
+
+| Día | Pieza | Tipo | Tema |
+|-----|-------|------|------|
+| **Lun** | **P6 · El relevo** | 📖 Explicativo | Terminó el sello doble, pero la tarjeta trae 3 sorpresas en el camino |
+| **Mié / Vie** | — | | Vuelve al `calendario-contenido.md` normal |
+
+---
+
+### Pieza oportunista — no tiene fecha
+
+| Cuándo | Pieza | Tipo | Tema |
+|--------|-------|------|------|
+| **~Semana 6** | **La primera tarjeta llena** | 👐 Prueba | Alguien completó las 8 y eligió su premio |
+
+> **Es la pieza más valiosa del trimestre y solo pasa una vez.** No se planea: se está pendiente. El día que alguien llene su tarjeta, se graba antes de entregarle el premio.
+
+---
+
+## Resumen de la parrilla
+
+| Semana | Piezas de tarjeta | Piezas regulares | Total |
+|--------|-------------------|------------------|-------|
+| 0 | — | — | **0** |
+| 1 | 2 | 1 | **3** |
+| 2 | 1 | 2 | **3** |
+| 3 | 1 | 2 | **3** |
+| 4 | 1 | 2 | **3** |
+| 5 | 1 | 2 | **3** |
+| | **6** | **9** | **15** |
+
+**Seis piezas de tarjeta en cinco semanas.** El resto del feed sigue funcionando como siempre — que es justo lo que hace que la tarjeta no canse.
+
+---
+
+# PARTE 3B · LOS GUIONES
+
+> De aquí en adelante está el detalle de cada pieza de tarjeta: hook, cuerpo, texto en pantalla y caption. **Las piezas regulares** (FAQ, resultado, detrás de cámaras) **se toman de `calendario-contenido.md`.**
 
 ## SEMANA 1 — Anunciar
 
