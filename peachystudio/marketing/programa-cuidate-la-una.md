@@ -61,9 +61,11 @@ Peachy es servicio **1 a 1** con techo de ~84 servicios al mes. Eso descarta el 
 │                                      │
 │   Nombre: __________________         │  ← a mano
 │                                      │
-│   ✓  ✓  ○  ○  ○  ○  ★                │
-│   └─regalo─┘     ↑        ↑          │
-│                mitad    premio       │
+│   ✓  ✓  ✦  ○  ✦  ○  ○  ★             │
+│   └regalo┘                           │
+│                                      │
+│   ✦ = sorpresa                       │
+│   ★ = premio mayor                   │
 │                                      │
 │   Ya empezaste con 2 de regalo 💗    │
 │                                      │
@@ -80,8 +82,11 @@ Peachy es servicio **1 a 1** con techo de ~84 servicios al mes. Eso descarta el 
 |---------|----------|
 | Se inscribe | **2 sellos de regalo**, sellados enfrente de ella |
 | Cada visita | **1 sello. Siempre.** |
-| Visita 3 *(la mitad)* | Detalle de cortesía |
-| Tarjeta llena (7/7) | **Elige su premio y se le entrega en su siguiente visita** |
+| **Sello 3** *(su 1ª visita)* | Sorpresa chica — amenidad por encima de la cortesía |
+| **Sello 5** *(su 3ª visita)* | Sorpresa mediana — merch Peachy |
+| **Sello 8** *(su 6ª visita)* | **Premio mayor, entregado en su siguiente visita** |
+
+> **Las ✦ van marcadas en la tarjeta desde el día uno.** Que vea dónde están las sorpresas es la mitad del efecto — no es lo mismo caminar hacia un premio lejano que hacia el siguiente, que está a una o dos visitas.
 
 ## ⭐ La regla permanente: 1 sello = 1 visita
 
@@ -115,7 +120,7 @@ Peachy es servicio **1 a 1** con techo de ~84 servicios al mes. Eso descarta el 
 | 8 casillas desde cero | 8 | **19%** |
 | 10 casillas con 2 ya selladas | 8 | **34%** |
 
-**Mismas compras, casi el doble de completado.** Son las mismas 5 visitas — solo cambia cómo se siente.
+**Mismas compras, casi el doble de completado.** Son las mismas 6 visitas — solo cambia cómo se siente.
 
 ## ⚠️ El registro maestro es tuyo, no la tarjeta
 
@@ -136,20 +141,48 @@ Agrega una columna `Sellos` a tu hoja de registro.
 | Gratificación | Diferida | ✅ Inmediata |
 | Publicidad | Ninguna | ✅ Camina en su bolsa |
 
+### ⚠️ Antes de la escalera: sello ≠ visita
+
+> Esto es lo primero que hay que tener claro al colocar premios, y es fácil que se pase por alto.
+
+**Como la tarjeta arranca con 2 sellos de regalo, el número de sello y el número de visita no coinciden.**
+
+| Sello | Visita real | |
+|-------|-------------|---|
+| 1 y 2 | *(regalo, antes de venir)* | |
+| **3** | **Visita 1** | ⚠️ Un premio en el sello 3 se entrega **el primer día** |
+| 4 | Visita 2 | |
+| **5** | **Visita 3** | |
+| 6 | Visita 4 | |
+| 7 | Visita 5 | |
+| **8** | **Visita 6** | Tarjeta llena |
+
+**No es un error, pero hay que decidirlo a propósito.** Un premio en la visita 1 tiene una ventaja real —prueba de inmediato que el programa es de verdad y no letra chica— pero no puede ser algo caro, porque se lo llevas a todas las que se inscriban, incluidas las que nunca vuelvan.
+
 ### Escalera de recompensas
 
-| Momento | Recompensa | Costo est. |
-|---------|-----------|-----------|
-| Inscripción | 2 sellos + se registra su bebida favorita | ~$0 |
-| Visita 3 | Dulce + sticker de marca | $12 |
-| Visita 5 | **Mini aceite de cutícula con etiqueta Peachy** | $30 |
-| Tarjeta llena | Kit de cuidado **o** manicura rusa — *ella elige* | $50–70 |
+> 🔄 **Estructura propuesta por el cliente (julio 2026):** tarjeta de 8, con premio en el 3, el 5 y el 8. Su instinto de escalonar es correcto y abajo está el porqué.
 
-**Total ~$95–112 por 6 visitas** = 10–12% efectivo, sin tocar ni un minuto de agenda ni el precio de lista.
+| Sello | Visita | Recompensa | Costo est. |
+|-------|--------|-----------|-----------|
+| *Inscripción* | — | 2 sellos + se registra su bebida favorita | ~$0 |
+| **3** | 1 | Amenidad **por encima de la cortesía** *(postre, dulce especial, bebida premium)* | $10–15 |
+| **5** | 3 | **Merch Peachy** — sticker + llavero | $20–30 |
+| **8** | 6 | **Premio mayor** — ver análisis de viabilidad en Parte 4 | $40–70 |
+
+**Por qué el escalonamiento es la parte buena de esta propuesta:** una tarjeta de 8 son 6 visitas ≈ **4 meses** a frecuencia de 3 semanas. Sin premios intermedios, eso es demasiado lejos y la tarjeta se muere a la mitad. Con premios en el 3 y el 5, **el tramo más largo sin recompensa baja a 3 visitas (~9 semanas)**. La escalera es lo que hace tolerable una tarjeta larga.
 
 > **El artículo estrella es el aceite de cutícula:** es tu claim hecho producto, tiene contacto diario, mejora tu propio resultado y puede convertirse en línea de venta (ver Nivel 4).
 
-> **Ojo con las amenidades:** el café y el agua que ya das a todas **no entran a la tarjeta**. Si conviertes en premio algo que ya regalas, lo devalúas y la clienta lo nota. Lo que sí suma y cuesta cero es personalizarlas: *"¿tu café con leche, verdad?"*
+### 🔴 La amenidad solo cuenta si está por encima de lo que ya regalas
+
+El café y el agua que ya das a todas **no pueden ser premio**. Si conviertes en recompensa algo que la clienta ya recibía gratis, no lo lee como premio — lo lee como que le estás cobrando algo que antes era de cortesía. **Devalúa el programa y ella lo nota.**
+
+| ❌ No funciona como premio | ✅ Sí funciona |
+|---------------------------|----------------|
+| El café que ya le das | Un postre o dulce que normalmente no hay |
+| El agua de cortesía | *"Hoy tú eliges cualquiera del menú, va la que quieras"* |
+| | Personalizar lo que ya das: *"¿tu café con leche, verdad?"* — cuesta $0 |
 
 ---
 
@@ -369,20 +402,29 @@ Cuando el programa tenía sellos permanentes por comportamiento, una clienta pod
 | Escenario | Visitas pagadas | Ingreso | Premio | % efectivo |
 |-----------|-----------------|---------|--------|------------|
 | 🔴 Diseño viejo — todo en 1 visita | 1 | $150 | $65 | **43%** |
-| 🟢 **Diseño actual — mínimo posible** | 3 | $450 | $65 | **14.4%** |
-| 🟢 **Diseño actual — caso normal** | 6 | $900 | $65 | **7.2%** |
+| 🟢 **Diseño actual (8 casillas) — caso normal** | 7 | $1,050 | $65 | **6.2%** |
+| 🟢 Diseño actual — con escalera completa | 7 | $1,050 | $102 | **9.7%** |
 
 > ✅ **Con *1 sello = 1 visita*, el problema desaparece por diseño.** No hay forma de ganar un sello sin venir, así que no hay nada que blindar.
 
 ### De dónde salen esos números
 
-**Mínimo posible (14.4%)** — solo ocurre si toda su tarjeta cae dentro de la ventana de lanzamiento:
-- 3 visitas a 2 sellos = 6 sellos (+2 de regalo = tarjeta llena)
-- El premio se entrega en la siguiente visita → **4 visitas reales = $600 → 10.8%**
+**Caso normal, tarjeta de 8:**
+- 6 visitas a 1 sello = tarjeta llena *(2 de regalo + 6 ganados)*
+- Premio en la siguiente → **7 visitas = $1,050**
 
-**Caso normal (7.2%)** — fuera de la ventana:
-- 5 visitas a 1 sello = tarjeta llena
-- Premio en la siguiente → **6 visitas = $900**
+### ⚠️ Dónde sí se acumulan: lanzamiento + escalera
+
+La ventana de lanzamiento y la escalera de premios **se apilan**. En teoría, alguien que llenara la tarjeta completa dentro de las 4 semanas se llevaría los 3 premios en 3 visitas:
+
+| | Visitas | Ingreso | Premios | % |
+|---|---|---|---|---|
+| Teórico — tarjeta completa dentro de la ventana | 4 | $600 | $102 | 🟡 **17%** |
+| **Realista** — 2 visitas en la ventana, luego normal | 5 | $750 | $102 | 🟢 **13.6%** |
+
+**Por qué el caso realista es el que va a pasar:** para llenar la tarjeta dentro de la ventana necesita **3 visitas en 4 semanas**, o sea una cada 9 días. La frecuencia normal es de 3 semanas. Prácticamente nadie va a lograrlo.
+
+> **Recomendación: no agregues una regla para tapar el caso teórico.** Afecta a casi nadie, y ese 17% se gasta en la clienta más frecuente que tienes — que es exactamente en quien quieres gastarlo. Blindarlo costaría más en complejidad de lo que ahorra.
 
 ---
 
@@ -419,27 +461,7 @@ Va impreso en la tarjeta:
 
 **El candado es la reagenda, no el conteo.** Como ningún premio se entrega el mismo día, siempre hay una visita más garantizada — y esa visita ya está en la agenda.
 
-### La economía de la clienta que hace todo
-
-| | Cifra |
-|---|---|
-| Visitas aseguradas | 2 |
-| Ingreso | $300 |
-| Costo del premio | $65 |
-| **% de esa tarjeta** | **21.7%** |
-
-Se ve caro aislado. Pero mira lo que entregó a cambio:
-
-| Lo que dio | Lo que vale |
-|-----------|-------------|
-| Una reseña | Te acerca al umbral de 10, donde desaparece la penalización de conversión |
-| **Una referida** | **$750+ si se queda 5 visitas** — y el referido tiene +37% de retención |
-| Contenido etiquetado | UGC, con 2.4× más confianza que tu propio contenido |
-| Una cita reagendada | Tu métrica #1 |
-
-> **Ese 21.7% es una de las mejores inversiones del programa, no un costo.** Y es un caso raro: la mayoría de las clientas no hace las cuatro cosas. El promedio del programa se queda cerca del 8.7%.
-
-**El único escenario que sigue perdiendo:** que haga todo, no recoja el premio y no vuelva. En ese caso **no gastaste nada** — el premio no se entregó. La regla se protege sola.
+**El único escenario que podría perder:** que llene la tarjeta y no vuelva a recogerla. En ese caso **no gastaste el premio mayor** — no se entregó. La regla se protege sola.
 
 ### 🔒 Regla 3 — En las activaciones de referido, el sello se pone cuando la amiga llega
 
@@ -453,32 +475,36 @@ Aplica solo mientras esa activación esté corriendo.
 
 ## Cuántos sellos hacen la tarjeta redituable
 
-Con las 4 reglas activas, este es el piso:
-
-| | Diseño viejo | **Diseño actual** |
+| | Diseño viejo | **Diseño actual (8 casillas)** |
 |---|---|---|
-| Visitas mínimas para el premio | **1** | **4** *(en lanzamiento)* · **6** *(normal)* |
-| Ingreso mínimo generado | $150 | **$600** · $900 |
-| Costo del premio | $65 | $65 |
-| **Peor caso** | 🔴 **43%** | 🟢 **10.8%** |
-| Caso normal | 8.7% | 🟢 **7.2%** |
-| Si llena y **no vuelve** | 🔴 Ya cobró: 43% | ✅ **$0 — el premio no se entregó** |
+| Visitas mínimas para el premio mayor | **1** | **7** *(6 para llenar + 1 para recoger)* |
+| Ingreso generado | $150 | **$1,050** |
+| Costo de la escalera completa | $65 | $102 |
+| **Peor caso realista** | 🔴 **43%** | 🟢 **13.6%** *(cohorte de lanzamiento)* |
+| Caso normal | 8.7% | 🟢 **9.7%** |
+| Si llena y **no vuelve** | 🔴 Ya cobró: 43% | ✅ **El premio mayor no se entregó** |
 
-> **Respuesta directa a tu pregunta:** con **7 casillas (2 de regalo + 5 ganados)**, *1 sello = 1 visita* y el premio entregado en la visita siguiente, el programa es redituable en **todos** los escenarios.
+> **Respuesta directa a tu pregunta:** con **8 casillas (2 de regalo + 6 ganados)**, *1 sello = 1 visita* y el premio entregado en la visita siguiente, el programa es redituable en **todos** los escenarios.
 >
-> El peor caso posible es 10.8% —y solo ocurre si toda la tarjeta cae dentro de la ventana de lanzamiento—. El caso normal mejora a **7.2%**, mejor que el 8.7% del diseño anterior, porque el premio se entrega en una visita adicional.
+> El caso normal queda en **9.7% con la escalera completa de 3 premios** — y si el premio mayor fuera solo el kit, sin escalera, bajaría a 6.2%. La escalera cuesta ~3.5 puntos porcentuales y compra el completado de una tarjeta larga.
 >
 > Y el escenario que antes era catastrófico —llenar y desaparecer— ahora **cuesta cero**: el premio nunca se entregó.
 
-### ¿Y si quisieras más margen?
+### 🔄 Por qué 8 y no 7
 
-| Diseño | Sellos ganados | Visitas normales | % típico | Riesgo |
-|--------|----------------|------------------|----------|--------|
-| 7 casillas (2 regalo) | 5 | 5 | 8.7% | ✅ Completado alto |
-| 9 casillas (2 regalo) | 7 | 7 | 6.2% | 🟡 Baja el completado |
-| 11 casillas (2 regalo) | 9 | 9 | 4.8% | 🔴 Muy pocas la terminan |
+> Una versión anterior recomendaba 7 casillas, con el argumento de que una tarjeta más larga baja el completado. **Con la escalera de premios ese argumento se cae.**
 
-**Recomendación: quédate en 7.** El margen extra de una tarjeta más larga no compensa perder completado — y el completado es lo que forma el hábito, que es todo el punto del programa.
+| Diseño | Ganados | Ingreso al llenar | Costo escalera | **% efectivo** |
+|--------|---------|-------------------|----------------|----------------|
+| 7 casillas | 5 | $750 | $102 | 13.6% |
+| **8 casillas** | 6 | **$900** | $102 | ✅ **11.3%** |
+| 9 casillas | 7 | $1,050 | $102 | 9.7% 🟡 |
+
+**La escalera cuesta lo mismo sin importar el largo de la tarjeta** — son 3 premios en los dos casos. Así que estirar de 7 a 8 reparte el mismo costo entre más visitas y **mejora el margen sin quitarle nada a la clienta**.
+
+**Y el riesgo de completado que antes hacía preferir la tarjeta corta ahora está cubierto por la propia escalera:** con premio en el 3 y en el 5, nunca pasa más de 3 visitas sin recibir algo. Ese era justo el motivo para no alargarla.
+
+> ✅ **8 es el punto correcto.** A 9 el tramo final se vuelve demasiado largo y ahí sí vuelve el riesgo de abandono, sin ganancia suficiente para justificarlo.
 
 ### La progresión: la tarjeta 2
 
@@ -486,12 +512,71 @@ Cuando termine su primera tarjeta, se le entrega una **segunda más larga con me
 
 | | Tarjeta 1 | Tarjeta 2 |
 |---|---|---|
-| Casillas | 7 (2 de regalo) | 9 (**1** de regalo) |
-| Sellos a ganar | 5 | 8 |
-| Premio | Kit o manicura rusa | Premio mayor *(set completo de cortesía o kit grande)* |
-| % efectivo | 8.7% | ~6% |
+| Casillas | 8 (2 de regalo) | 10 (**1** de regalo) |
+| Sellos a ganar | 6 | 9 |
+| Premio mayor | Kit / aceite | Premio mayor *(aquí sí cabe el servicio, en horario muerto)* |
+| % efectivo | 9.7% | ~7% |
 
 **Por qué funciona:** la primera tarjeta engancha (corta, fácil, alto completado). La segunda retiene a quien ya demostró que vuelve, y **mejora tu margen** porque exige más visitas. Además, entregarle una tarjeta distinta se siente a ascenso, no a repetición.
+
+---
+
+## ⭐ Viabilidad de la escalera de premios
+
+> **Esta sección responde directamente a la pregunta:** ¿cuánto cuesta la escalera de 3 premios y sigue siendo redituable?
+
+### Base de cálculo
+
+| Variable | Valor | Fuente |
+|----------|-------|--------|
+| Ticket promedio (softgel) | $150 | Confirmado |
+| Duración del servicio | **~2 horas** | Confirmado |
+| Capacidad máxima | ~84 servicios/mes ≈ $12,600 | `precios-y-paquetes.md` |
+| Tarjeta de 8 → visitas para llenar | 6 | |
+| **Ingreso del ciclo** | **$900** *(6 × $150)* | |
+| Costo de material por servicio | ⚠️ **DESCONOCIDO** | Pendiente de confirmar |
+
+> ⚠️ El costo de material es el dato que falta para cerrar esto con precisión. Abajo se usa **$40** como supuesto. **Hay que confirmarlo con la dueña** — es el mismo pendiente que ya estaba marcado en el análisis de precios.
+
+### 🔴 El hallazgo que decide todo: producto cuesta dinero, servicio cuesta capacidad
+
+**El ingreso de Peachy tiene techo duro.** No es un negocio donde vender más sea cuestión de vender más — hay 42 horas a la semana y cada softgel se come 2. El techo es ~$12,600/mes **aunque la agenda se llene al 100%**.
+
+> **En un negocio con techo de capacidad, regalar horas es lo más caro que existe.** Un premio en producto cuesta efectivo una vez. Un premio en servicio cuesta **2 horas de la única persona que puede trabajarlas** — y esas horas no vuelven.
+
+**Y escala al revés:** entre mejor funcione el programa, más tarjetas se llenan, más servicios regalas, más capacidad pierdes. El premio en servicio **se vuelve más caro justo cuando el programa está funcionando**.
+
+### Las 4 opciones, con números
+
+| # | Premio mayor (sello 8) | Sello 3 | Sello 5 | Sello 8 | **Total** | **% de $900** | |
+|---|------------------------|---------|---------|---------|-----------|---------------|---|
+| **1** | **Kit / aceite de cuidado** | $12 | $25 | $65 | **$102** | **11.3%** | ✅ **Recomendada** |
+| **2** | Servicio gratis en **horario muerto** | $12 | $25 | $40 *(solo material)* | **$77** | **8.6%** | ⚠️ Barata en efectivo, cara en tiempo |
+| **3** | Aceite en el 7 **+** servicio en el 8 *(muerto)* | $12 | $25 | $105 | **$142** | **15.8%** | ⚠️ En el límite |
+| **4** | Servicio gratis en **horario pico** | $12 | $25 | $190 *(material + slot desplazado)* | **$227** | **25.2%** | 🔴 **No viable** |
+
+**Cómo leer la opción 4:** un servicio regalado en sábado no cuesta $40 de material — cuesta $40 **más los $150 que esa silla habría facturado**. Ahí el programa deja de ser fidelización y se vuelve un descuento del 25%.
+
+### Si la dueña quiere que el premio mayor sea un servicio
+
+Es una decisión legítima —un servicio se percibe como el premio más valioso de todos— pero **solo funciona con una regla**:
+
+> ## El servicio de premio se agenda **lunes a miércoles**.
+
+**Y eso resuelve un segundo problema:** son justo las horas que hoy están vacías. El premio deja de ser un costo y se vuelve la herramienta que llena la agenda muerta. La opción 2 pasa de "cara en tiempo" a **gratis de verdad** — si la silla iba a estar vacía, las 2 horas no desplazan nada.
+
+> ⚠️ **Sin esa regla, no lo recomiendo.** La diferencia entre la opción 2 y la 4 es solo el día de la semana, y son 8.6% contra 25.2%.
+
+### Recomendación
+
+**Arrancar con la opción 1** (premio mayor = kit/aceite, 11.3%):
+
+1. **No toca capacidad.** Cero riesgo sobre el techo de ingreso.
+2. **Camina en su bolsa.** El aceite con etiqueta Peachy es publicidad; una manicura regalada no se ve.
+3. **Prueba el producto antes de venderlo.** Si el aceite gusta, ya es la línea de venta del Nivel 4 — el premio se convierte en investigación de mercado gratis.
+4. **Es reversible.** Si más adelante quiere subir a servicio, se sube. Bajar de servicio a producto se siente como quitar algo.
+
+> **Lo que hay que llevar a la dueña:** el costo real de material por servicio, y si acepta la regla de lunes a miércoles en caso de querer premiar con servicio. Con esos dos datos esto queda cerrado.
 
 ---
 
@@ -620,7 +705,7 @@ Dos propuestas generadas en Canva con el brand kit **PeachyStudio**, **descartad
 > **Pendiente:** definir dirección visual con referencias que sí gusten, o pasar el arte con un diseñador.
 >
 > **Lo no negociable del arte, sea quien lo haga:**
-> 1. **7 casillas con las 2 primeras marcadas.** Ese detalle es el mecanismo completo — si sale con 7 vacías, se pierde el efecto que casi duplica el completado.
+> 1. **8 casillas con las 2 primeras marcadas.** Ese detalle es el mecanismo completo — si sale con 8 vacías, se pierde el efecto que casi duplica el completado.
 > 2. **Las dos reglas visibles en la tarjeta:** *"Un sello por visita"* y *"Tu premio te espera en tu siguiente visita"*. Son las que protegen la rentabilidad del programa (Parte 4) y deben leerse claro, no en letra chiquita.
 
 ---
