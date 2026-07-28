@@ -20,6 +20,7 @@
 |---------|-----------|
 | `kit-ejecucion.md` | ⭐ Guiones, hoja de registro, tarjeta de lealtad y respuestas de WhatsApp del Mes 1 |
 | `programa-cuidate-la-una.md` | ⭐ Manual único del programa de lealtad: tarjeta, difusión y promoción en 4 niveles |
+| `presentacion-duena.md` | ⭐ Resumen ejecutivo y guion para presentarle el programa a la dueña — **las 4 decisiones pendientes** |
 | `calendario-contenido.md` | 13 piezas de contenido con hook, guion, caption y hashtags |
 | `precios-y-paquetes.md` | Análisis de precios, tabulador de add-ons y paquete prepagado |
 
