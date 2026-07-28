@@ -335,6 +335,6 @@ Con producción de agencia no basta con "estar pendiente" — **hay que saber el
 | **P4** Recordatorio | 3 | Lun | 12 s | Tarjeta + sello × 2 |
 | **P5** Última llamada | 4 | Lun | 10 s | Tarjeta sola |
 | **P6** Relevo | 5 | Lun | 15 s | Tarjeta completa |
-| **Extra** Tarjeta llena | ~6 | — | 15 s | **Estar pendiente** |
+| **Extra** Tarjeta llena | ~6 | — | 15 s | **Aviso de Peachy al llegar alguien a 7 sellos** |
 
-**Todas se graban en 2 sesiones: una en semana 0 y otra en semana 2.**
+**Se graban en 3 días: Día 1 en semana 0, Día 2 en semana 2 y Día 3 por confirmar.**
