@@ -203,59 +203,9 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 
 ---
 
-# PARTE 3B · LOS GUIONES
+# PARTE 3B · CANALES QUE NO SON VIDEO
 
-> De aquí en adelante está el detalle de cada pieza de tarjeta: hook, cuerpo, texto en pantalla y caption. **Las piezas regulares** (FAQ, resultado, detrás de cámaras) **se toman de `calendario-contenido.md`.**
-
-## SEMANA 1 — Anunciar
-
-### 🎥 Pieza 1 · El reveal
-
-| | |
-|---|---|
-| **Formato** | Vertical 9:16, 15–20 seg |
-| **Hook (primeros 2 seg)** | Primer plano del sello bajando sobre la tarjeta. **Sin hablar.** |
-| **Después** | Se abre el plano: la mano de la clienta sostiene la tarjeta con 2 sellos |
-| **Texto en pantalla** | "Tu tarjeta ya empezó." → "Con dos sellos de regalo." → "Cuídate la uña 💗" |
-| **Audio** | Sonido ambiente del estudio, o audio en tendencia suave. **No voz en off** |
-
-**Caption:**
-> Estrené la tarjeta Cuídate la uña 💗 Cada vez que vienes es un sello, y a los ocho eliges tu premio. Te la doy con dos sellos ya puestos, o sea que **ya empezaste**.
->
-> Y este mes cada visita cuenta doble.
->
-> Agenda tu cita por WhatsApp. Uñas en Xalapa.
-
-**Hashtags:** 8–12, mezclando las tres capas del `calendario-contenido.md`. Prioridad a la capa local.
-
----
-
-### 🎥 Pieza 2 · Cómo funciona en 15 segundos
-
-| | |
-|---|---|
-| **Formato** | Vertical, 15 seg máximo |
-| **Hook** | "Te explico la tarjeta en quince segundos" *(texto en pantalla, no hablado)* |
-| **Cuerpo** | La tarjeta sobre la mesa. Un dedo va señalando cada casilla mientras aparece el texto |
-| **Ritmo** | Un dato por segundo. Sin pausas |
-
-**Los 4 datos, en este orden:**
-
-```
-1.  Vienes → un sello
-2.  Empiezas con 2 de regalo
-3.  En el 3, el 5 y el 7 hay sorpresa
-4.  En el 8, tu premio
-```
-
-**Caption:**
-> La tarjeta explicada rápido 💗 Empiezas con dos sellos, cada visita suma uno, y en el camino van tres sorpresas antes del premio grande.
->
-> Este mes cuenta doble. Mándame WhatsApp y te la doy en tu próxima cita.
-
-> **Por qué esta pieza importa más de lo que parece:** es la que se guarda y se manda. Cuando una clienta le quiera explicar la tarjeta a una amiga, va a mandar este video en lugar de explicarla ella.
-
----
+> **Los guiones de las 6 piezas de video están en `guiones-lanzamiento.md`** — toma por toma, con tiempos y texto en pantalla. Aquí quedan los canales que no se graban.
 
 ### 💬 WhatsApp a la base instalada
 
@@ -291,68 +241,12 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 
 ---
 
-## SEMANA 2 — Probar que es real
-
-### 🎥 Pieza 3 · Prueba social
-
-**El contenido más valioso de la campaña, y el que no puedes fabricar: una clienta real con su tarjeta avanzada.**
-
-| | |
-|---|---|
-| **Hook** | "Ella ya va en cuatro" *(texto sobre la tarjeta de la clienta)* |
-| **Cuerpo** | Sus uñas recién hechas + su tarjeta en la mano, en el mismo cuadro |
-| **Cierre** | El sello bajando. Corte |
-
-**Caption:**
-> [Nombre o "Ella"] ya va en cuatro sellos 💗 Y como este mes cuenta doble, en su próxima visita ya va en seis.
->
-> ¿Vamos a que empieces la tuya? Mándame WhatsApp.
-
-> **Si nadie va avanzada todavía**, esta pieza se recorre a semana 3 y se adelanta la 4. **No la inventes con una tarjeta rellenada a propósito** — se nota, y si se nota una vez, se pone en duda todo lo demás.
-
----
-
-## SEMANA 3 — Recordar
-
-### 🎥 Pieza 4 · Recordatorio de mitad de ventana
-
-| | |
-|---|---|
-| **Hook** | "Quedan dos semanas de sello doble" |
-| **Cuerpo** | Plano de la mesa de trabajo, tarjetas apiladas. Manos sellando dos casillas seguidas |
-| **Énfasis** | **Dos sellos en una sola visita.** Que se vea el doble, no que se diga |
-
-**Caption:**
-> Hasta el [fecha], cada visita te cuenta doble 💗 Son dos sellos por cita en lugar de uno.
->
-> Después vuelve a ser uno por visita — así que si quieres avanzar rápido, esta es la ventana.
->
-> Agenda por WhatsApp.
-
 ### 📍 También esta semana
 
 - **Google Post** de recordatorio con la fecha de cierre
 - **A quien venga en mostrador:** *"Aprovecha que hasta el [fecha] te cuenta doble — si quieres te aparto tu próxima ahorita y te llevas cuatro sellos en dos visitas."*
 
 ---
-
-## SEMANA 4 — Cerrar
-
-### 🎥 Pieza 5 · Última llamada
-
-| | |
-|---|---|
-| **Hook** | "Última semana" *(texto grande, plano de la tarjeta)* |
-| **Cuerpo** | Rápido. 10–12 segundos. Un solo mensaje |
-
-**Caption:**
-> Última semana de sello doble 💗 Hasta el [fecha].
->
-> Después sigue igual de bonito, nada más que un sello por visita. Si querías aprovechar, es ahorita.
->
-> Mándame WhatsApp y te aparto.
-
-> **Fíjate en el tono:** *"después sigue igual de bonito"*. No se dramatiza el cierre ni se presiona. La urgencia es real y no necesita ayuda — inflarla contradice el vocabulario de marca.
 
 ### 💬 WhatsApp de cierre — solo a quienes ya tienen tarjeta
 
@@ -377,19 +271,9 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 
 > ## El cierre de la ventana es el lanzamiento de la escalera.
 
-### 🎥 Pieza 6 · El relevo *(el día después del cierre)*
+**La pieza que lo ejecuta es la P6 · El relevo**, que sale el día siguiente al cierre: señala las tres ✦ una por una y le da a la gente el motivo nuevo. Guion completo en `guiones-lanzamiento.md`.
 
-| | |
-|---|---|
-| **Hook** | "Se acabó el sello doble. Pero mira lo que sigue" |
-| **Cuerpo** | La tarjeta con las tres ✦ señaladas una por una |
-
-**Caption:**
-> Terminó el mes de sello doble 💗 Gracias a todas las que se subieron.
->
-> Ahora es un sello por visita, pero la tarjeta trae tres sorpresas en el camino: en el sello 3, en el 5 y en el 7. Y en el 8 va tu premio.
->
-> Si todavía no tienes la tuya, te la doy con dos sellos puestos. Mándame WhatsApp.
+> **Sin esa pieza, el fin del sello doble se siente a que se acabó la fiesta. Con ella, se siente a que empieza otra cosa.**
 
 ---
 

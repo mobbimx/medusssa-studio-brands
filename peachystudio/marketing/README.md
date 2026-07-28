@@ -21,7 +21,8 @@
 | `kit-ejecucion.md` | ⭐ Guiones, hoja de registro, tarjeta de lealtad y respuestas de WhatsApp del Mes 1 |
 | `programa-cuidate-la-una.md` | ⭐ Manual único del programa de lealtad: tarjeta, difusión y promoción en 4 niveles |
 | `presentacion-duena.md` | ⭐ Resumen ejecutivo y guion para presentarle el programa a la dueña — **las 4 decisiones pendientes** |
-| `lanzamiento-tarjeta.md` | ⭐ Campaña de 4 semanas para lanzar la tarjeta: guiones de video, WhatsApp y cierre de ventana |
+| `lanzamiento-tarjeta.md` | ⭐ Campaña de 5 semanas para lanzar la tarjeta: parrilla, WhatsApp y cierre de ventana |
+| `guiones-lanzamiento.md` | ⭐ Guiones de producción toma por toma de las 6 piezas de video |
 | `calendario-contenido.md` | 13 piezas de contenido con hook, guion, caption y hashtags |
 | `precios-y-paquetes.md` | Análisis de precios, tabulador de add-ons y paquete prepagado |
 
