@@ -22,7 +22,7 @@ El programa está dividido en **4 niveles**. Cada nivel se agrega **solo cuando 
 |-------|--------|-----------|-------------|
 | **1** | Semana 1 | La tarjeta y nada más | 🟢 Mínima |
 | **2** | Cuando el 1 sea hábito (~sem. 3) | Recordatorio y base instalada | 🟢 Baja |
-| **3** | Cuando haya tarjetas circulando (~mes 2) | Redes, Google y doble sello | 🟡 Media |
+| **3** | Cuando haya tarjetas circulando (~mes 2) | Redes, Google y sellos por referido | 🟡 Media |
 | **4** | Cuando haya datos (~mes 3) | Pauta y producto | 🟠 Alta |
 
 ---
@@ -68,7 +68,8 @@ Peachy es servicio **1 a 1** con techo de ~84 servicios al mes. Eso descarta el 
 │   Ya empezaste con 2 de regalo 💗    │
 │                                      │
 │   Máx. 2 sellos por visita           │
-│   Tu premio a partir de tu 4ª visita │
+│   Tu premio te espera en tu          │
+│   siguiente visita                   │
 │                                      │
 │   Peachy Studio · 228-848-5375       │
 │   Vigencia: 8 meses                  │
@@ -80,9 +81,9 @@ Peachy es servicio **1 a 1** con techo de ~84 servicios al mes. Eso descarta el 
 | Se inscribe | **2 sellos de regalo**, sellados enfrente de ella |
 | Cada visita | 1 sello, **máximo 2 con bonus** |
 | Visita 3 *(la mitad)* | Detalle de cortesía |
-| Tarjeta llena (7/7) **y 4+ visitas** | Elige su premio |
+| Tarjeta llena (7/7) | **Elige su premio y se le entrega en su siguiente visita** |
 
-> Las dos reglas van **impresas en la tarjeta**, no escondidas. Son claras y justas, no letra chica — y eso es coherente con una marca cuyo vocabulario prohibido incluye la letra chiquita y la urgencia falsa. El porqué de cada una está en la Parte 4.
+> Las dos reglas van **impresas en la tarjeta**, no escondidas. Son claras y justas, no letra chica — y eso es coherente con una marca cuyo vocabulario prohibido incluye la urgencia falsa y el lenguaje de trampa. El porqué de cada una está en la Parte 4.
 
 ## Por qué empieza con 2 sellos
 
@@ -206,7 +207,7 @@ Es distinto decir *"vuelve"* que *"vas a la mitad, no lo dejes ahí"*.
 
 ---
 
-## 🟡 NIVEL 3 — Redes, Google y el doble sello
+## 🟡 NIVEL 3 — Redes, Google y referidos
 
 **Cuando ya haya tarjetas circulando (~mes 2).**
 
@@ -232,7 +233,9 @@ Crear el **highlight fijo "Cuídate la uña"** para que quien llegue nuevo lo en
 
 ### Promoción que se agrega
 
-### ⭐ Doble sello en horarios muertos — la mejor mecánica del programa
+### El doble sello en horarios muertos — como activación, no como regla fija
+
+> 🔄 **Retirado de la mecánica permanente** por decisión del cliente. Vive como activación temporal (Parte 5, T2). Se documenta aquí el razonamiento porque sigue siendo válido **cuando la activación esté corriendo**.
 
 **Qué es:** en tus horarios de baja demanda, cada visita vale **2 sellos**.
 
@@ -326,7 +329,7 @@ Con las mecánicas de la Parte 3 sin restricción, una clienta podía juntar en 
 
 | Fuente | Sellos |
 |--------|--------|
-| La visita | 1 *(o 2 con doble sello en horario muerto)* |
+| La visita | 1 |
 | Reagenda antes de salir | +1 |
 | Deja reseña en Google | +1 |
 | Trae una amiga | +1 |
@@ -374,15 +377,48 @@ Si reagenda, deja reseña y trae amiga en la misma visita, se lleva 2 sellos —
 
 **Esto es lo que hace la regla justa:** no pierde nada, solo se distribuye. Y de paso le da una razón concreta para volver.
 
-### 🔒 Regla 2 — El premio se entrega a partir de la 4ª visita
+### 🔒 Regla 2 — El premio se entrega en tu siguiente visita
 
-Aunque la tarjeta se llene antes.
+> 🔄 **Corregida por el cliente (julio 2026).** La versión anterior exigía llegar a la 4ª visita. Era un mínimo arbitrario que **castigaba justo a la mejor clienta** —la que reagenda, reseña, refiere y sube contenido— y la trataba igual que a una extractora.
 
-Va **impreso en la tarjeta**, no es letra chica:
+**La regla correcta:** si llena la tarjeta antes de tiempo, **el premio se le entrega en su siguiente visita** — la que ya dejó agendada.
 
-> *"Tu premio a partir de tu 4ª visita."*
+Va impreso en la tarjeta:
 
-Esto solo elimina el escenario de extracción. Piso garantizado: **4 visitas = $600**.
+> *"Tu premio te espera en tu siguiente visita."*
+
+**Por qué funciona mejor:**
+
+| | Mínimo de 4 visitas | **Premio en la siguiente visita** |
+|---|---|---|
+| Trata a la mejor clienta | 🔴 Como sospechosa | ✅ Como lo que es |
+| Asegura que vuelva | Sí, pero a la fuerza | ✅ Sí, y con ganas — **tiene un premio esperándola** |
+| Usa la reagenda como candado | No | ✅ Sí, refuerza la métrica #1 |
+| Se siente | A letra chica | ✅ A anticipación |
+
+**El candado es la reagenda, no el conteo.** Como ningún premio se entrega el mismo día, siempre hay una visita más garantizada — y esa visita ya está en la agenda.
+
+### La economía de la clienta que hace todo
+
+| | Cifra |
+|---|---|
+| Visitas aseguradas | 2 |
+| Ingreso | $300 |
+| Costo del premio | $65 |
+| **% de esa tarjeta** | **21.7%** |
+
+Se ve caro aislado. Pero mira lo que entregó a cambio:
+
+| Lo que dio | Lo que vale |
+|-----------|-------------|
+| Una reseña | Te acerca al umbral de 10, donde desaparece la penalización de conversión |
+| **Una referida** | **$750+ si se queda 5 visitas** — y el referido tiene +37% de retención |
+| Contenido etiquetado | UGC, con 2.4× más confianza que tu propio contenido |
+| Una cita reagendada | Tu métrica #1 |
+
+> **Ese 21.7% es una de las mejores inversiones del programa, no un costo.** Y es un caso raro: la mayoría de las clientas no hace las cuatro cosas. El promedio del programa se queda cerca del 8.7%.
+
+**El único escenario que sigue perdiendo:** que haga todo, no recoja el premio y no vuelva. En ese caso **no gastaste nada** — el premio no se entregó. La regla se protege sola.
 
 ### 🔒 Regla 3 — El sello de referido se pone cuando la amiga llega
 
@@ -390,11 +426,15 @@ No cuando la recomienda. Es la diferencia entre premiar una promesa y premiar un
 
 > "En cuanto venga te pongo tu sello 💗"
 
-### 🔒 Regla 4 — El doble sello de horario muerto no se acumula con el bonus
+### 🔒 Regla 4 — El doble sello sale de la mecánica base
 
-En un lunes muerto: o son 2 sellos por el horario, o 1 de visita + 1 de bonus. **Nunca 3.**
+> 🔄 **Decisión del cliente (julio 2026):** el doble sello por horario muerto **se retira del sistema permanente**.
 
-Simplifica la regla a una sola frase fácil de recordar:
+**Por qué:** metía una tercera variable a algo que debe caber en una frase. En un lunes muerto había que decidir si eran 2 por horario, o 1 de visita + 1 de bonus, o los tres — y esa duda diaria es lo que hace que un programa se abandone.
+
+**A dónde se va:** sobrevive como **activación temporal** (Parte 5, T2), con fecha de inicio y fin. Ahí sí funciona, porque es excepcional y se anuncia.
+
+**El tope se mantiene, y ahora sí cabe en una frase:**
 
 > ## **Máximo 2 sellos por visita. Siempre.**
 
@@ -406,13 +446,16 @@ Con las 4 reglas activas, este es el piso:
 
 | | Sin reglas | **Con reglas** |
 |---|---|---|
-| Visitas mínimas para el premio | **1** | **4** |
-| Ingreso mínimo generado | $150 | **$600** |
+| Visitas mínimas para el premio | **1** | **2** |
+| Ingreso mínimo generado | $150 | **$300** |
 | Costo del premio | $65 | $65 |
-| **Descuento efectivo máximo** | 🔴 **43%** | 🟢 **10.8%** |
+| **Descuento efectivo máximo** | 🔴 **43%** | 🟢 **21.7%** |
 | Descuento en el caso normal | 8.7% | 8.7% |
+| Si hace todo y **no vuelve** | 🔴 Ya cobró: 43% | ✅ **$0 — el premio no se entregó** |
 
-> **Respuesta directa a tu pregunta:** con la tarjeta de **7 casillas (2 de regalo + 5 ganados)** y las 4 reglas, el programa es redituable en **cualquier** escenario. El peor caso posible pasa de 43% a 10.8%, y el caso típico se queda en 8.7%.
+> **Respuesta directa a tu pregunta:** con la tarjeta de **7 casillas (2 de regalo + 5 ganados)** y las reglas, el programa es redituable en cualquier escenario.
+>
+> El peor caso real baja de 43% a 21.7%, y ese 21.7% se paga solo con la referida. El caso típico se queda en 8.7%. Y el escenario que antes era catastrófico —hacer todo y desaparecer— ahora **cuesta cero**, porque el premio nunca se entregó.
 
 ### ¿Y si quisieras más margen?
 
