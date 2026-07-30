@@ -1,49 +1,33 @@
-# Alpha Fitness / Coach Ro — Identidad Visual
+# Alpha Fitness / Alpha Kids — Identidad Visual
 
-Sistema visual de la **marca personal de Coach Ro**. Detalle completo en
-[`marca-personal-ro/manual-identidad-reducido.md`](./marca-personal-ro/manual-identidad-reducido.md).
+## Universo visual actual del gym (detectado en redes y video)
+- **Logo:** círculo negro con "A" en flecha metálica; la versión de IG lleva un
+  acento rojo. *(Falta archivo limpio: pedir vector o PNG grande.)*
+- **Colores del gym:** negro + amarillo (fachada y lonas), acentos rojos.
+- **Espacio real:** tatami azul/rojo, telas aéreas rosas y verdes, luces LED,
+  ventanales — material visual con mucho potencial para contenido.
+- **Portada actual de FB:** foto de stock (adultos con battle ropes) — **reemplazar**
+  por foto real del gym/clases.
 
-## Colores
+## Dirección para la sub-identidad Alpha Kids (por definir en el manual)
+Sobre la base del gym (negro/amarillo, logo "A"), derivar una versión **más luminosa
+y amigable** para Alpha Kids:
+- Conservar el reconocimiento de Alpha Fitness (logo, negro como ancla).
+- Sumar color y calidez que hablen a las familias sin perder lo deportivo.
+- Capitalizar los colores reales del espacio (tatami, telas) para coherencia
+  foto–gráfica.
+- Tipografías legibles y redondeadas para lo infantil; sistema de plantillas para
+  historias (horarios/cupos) y reels.
 
-Rosa dominante, arcoíris pastel de apoyo y carbón cálido para anclar y conectar con la
-estética negra de Alpha Fitness.
+## Pendientes
+- [ ] Logo en archivo (vector/PNG) — solicitado a la clienta
+- [ ] Manual de identidad Alpha Fitness / Alpha Kids (paleta, tipografías, usos)
+- [ ] Portadas de highlights de IG con la nueva identidad
+- [ ] Nueva portada de FB con foto real
+- [ ] Plantillas de historias y overlays bajo identidad Alpha Kids
 
-| Rol | Nombre | HEX |
-|-----|--------|-----|
-| Principal | Rosa Coach Ro | `#FF4F97` |
-| Acento / CTA | Rosa vivo | `#FF2E86` |
-| Apoyo | Rosa pastel | `#FFD9EC` |
-| Fondo suave | Rosa nube | `#FFEBF4` |
-| Arcoíris | Lila | `#C6B2FF` |
-| Arcoíris | Menta | `#9FE7DC` |
-| Arcoíris | Celeste | `#B9E4FF` |
-| Puente Alpha | Amarillo | `#FFDE7A` |
-| Base clara | Crema | `#FFF7FB` |
-| Texto / contraste | Carbón cálido | `#2A2028` |
-
-Regla **70 / 20 / 10**: rosa / arcoíris pastel / carbón. Código por disciplina:
-Acondicionamiento = rosa · Calistenia = lila · Danza aérea = menta.
-
-## Tipografías
-
-| Uso | Fuente |
-|-----|--------|
-| Titulares / logo | **Fredoka** Bold |
-| Números y acentos | **Baloo 2** |
-| Cuerpo / datos | **Poppins** |
-| Alternativa | **Nunito** |
-
-Todas gratuitas (Google Fonts). Archivos en `marca-personal-ro/plantillas-fuente/fonts/`.
-
-## Logo
-Wordmark **"Coach Ro"** (COACH espaciado + Ro en Fredoka + brillo). Versiones color,
-invertida y submark. Ver `marca-personal-ro/entregables/logo-lockup.png`.
-
-## Elementos gráficos
-Brillos ✦ · arcoíris pastel · esquinas muy redondeadas · íconos de línea redondeada ·
-motivos tiernos con moderación (profesional antes que infantil).
-
-## Lineamientos
-- Rosa siempre limpio y con aire; no saturar de elementos.
-- Máximo dos fuentes por pieza; solo colores de la paleta.
-- Texto sobre foto siempre con placa/pastilla para contraste.
+## Legado
+El sistema visual rosa "Coach Ro" (marca personal, descartada) está archivado en
+[`marca-personal-ro/`](./marca-personal-ro/). Su **estructura** de plantillas
+(horario semanal, tarjetas diarias, overlays de contacto) se recicla para Alpha
+Kids; su identidad (rosa/cute personal) no.
