@@ -15,4 +15,15 @@
 5. **Marca** — Valores, equipo, diferenciadores
 
 ## Frecuencia sugerida
-*Pendiente de definir*
+4–5 publicaciones por semana repartidas entre las tres campañas activas (ver `Campanas_Mobbitrips.docx`).
+
+## Campañas
+Ver `Campanas_Mobbitrips.docx` — 3 campañas propuestas:
+
+| Campaña | Nombre | Audiencia | Pilares que cubre |
+|---------|--------|-----------|-------------------|
+| A | "Quédate a tu modo" | Huéspedes | Propiedades, Experiencias |
+| B | "Tu propiedad trabaja por ti" | Propietarios | Propietarios |
+| C | "Xalapa como local" | Huéspedes / local | Educativo, Experiencias |
+
+Incluye guiones de reels ancla, piezas de apoyo, calendario del primer mes y pendientes por confirmar con el cliente.
