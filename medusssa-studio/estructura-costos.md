@@ -17,14 +17,15 @@ La cuota de gestión es tu ganancia por administrar los anuncios (configurar cam
 
 ### Desglose por paquete
 
-| Concepto | 🌱 Semilla Impulso | 🚀 Crecimiento Impulso |
-|---|---|---|
-| Precio al cliente | $4,900 | $9,900 |
-| Servicio base (= paquete orgánico) | $3,500 | $7,500 |
-| Pauta real pagada a Meta | $1,000 | $2,000 |
-| **Cuota de gestión de pauta (tu ganancia extra)** | **$400 (40%)** | **$400 (20%)** |
+| Concepto | 🪟 Vitrina | 🌱 Semilla Impulso | 🚀 Crecimiento Impulso |
+|---|---|---|---|
+| Precio al cliente | $1,700 | $4,900 | $9,900 |
+| Servicio base | $1,200 | $3,500 | $7,500 |
+| Pauta real pagada a Meta | $300 | $1,000 | $2,000 |
+| **Cuota de gestión de pauta (tu ganancia extra)** | **$200 (67%)** | **$400 (40%)** | **$400 (20%)** |
 
-- En Semilla la cuota es proporcionalmente alta (40%) porque configurar y optimizar 2 campañas cuesta casi el mismo tiempo con $1,000 que con $2,000. Es el mínimo viable para que valga tu hora.
+- En Vitrina la cuota parece alta en porcentaje (67%) pero son solo $200 por montar y vigilar 1 campaña al mes — es el mínimo absoluto para que valga tu tiempo, y funciona porque la campaña también se produce en el "día de fábrica" junto con las demás.
+- En Semilla la cuota es proporcionalmente alta (40%) porque configurar y optimizar 2 campañas cuesta casi el mismo tiempo con $1,000 que con $2,000.
 - En Crecimiento baja a 20%, que es el estándar de agencia, porque el volumen ya lo compensa.
 
 ### Bloques extra de pauta
@@ -45,12 +46,14 @@ Supuestos: trabajo hecho por el equipo actual (sin nómina externa), costo de he
 
 | | 🪟 Vitrina | ✨ Presencia | 🌱 Sem. Org. | 🌱 Sem. Imp. | 🚀 Crec. Org. | 🚀 Crec. Imp. |
 |---|---|---|---|---|---|---|
-| Ingreso | $1,200 | $1,900 | $3,500 | $4,900 | $7,500 | $9,900 |
-| Pauta a Meta | — | — | — | $1,000 | — | $2,000 |
+| Ingreso | $1,700 | $1,900 | $3,500 | $4,900 | $7,500 | $9,900 |
+| Pauta a Meta | $300 | — | — | $1,000 | — | $2,000 |
 | Insumos/herramientas | $100 | $200 | $300 | $300 | $500 | $500 |
-| **Margen bruto (tu trabajo + utilidad)** | **$1,100** | **$1,700** | **$3,200** | **$3,600** | **$7,000** | **$7,400** |
-| Horas estimadas/mes | ~5 h | ~10 h | ~18 h | ~22 h | ~40 h | ~45 h |
-| Valor hora resultante | ~$220 | ~$170 | ~$178 | ~$164 | ~$175 | ~$164 |
+| **Margen bruto (tu trabajo + utilidad)** | **$1,300** | **$1,700** | **$3,200** | **$3,600** | **$7,000** | **$7,400** |
+| Horas estimadas/mes | ~6 h | ~10 h | ~18 h | ~22 h | ~40 h | ~45 h |
+| Valor hora resultante | ~$217 | ~$170 | ~$178 | ~$164 | ~$175 | ~$164 |
+
+> ⚠️ **Ojo con el escalón Vitrina→Presencia:** quedaron a solo $200 de distancia ($1,700 vs $1,900), pero Presencia NO incluye pauta ($1,900 + $650 el add-on = $2,550 con anuncios). En la venta, la diferencia se explica así: *Vitrina = plantillas + anuncios; Presencia = contenido hecho a tu medida con reels*. Si un prospecto duda entre ambos, Vitrina es la puerta fácil; que suba a Presencia cuando quiera reels.
 
 ### Por qué Vitrina NO es regalar el trabajo: la fábrica de contenido
 
@@ -94,7 +97,7 @@ Meta mínima para estabilizar el flujo (ajusta el gasto fijo real del estudio):
 
 | Escenario | Mezcla de clientes | Ingreso mensual | Margen bruto aprox. |
 |---|---|---|---|
-| Caja urgente | 6 Vitrina (trimestre anticipado) + 2 Kits de Arranque | $25,200 cobrados ya (≈$7,200/mes + $3,600 únicos) | ~$6,600/mes + $3,000 |
+| Caja urgente | 6 Vitrina (trimestre anticipado) + 2 Kits de Arranque | $34,200 cobrados ya (≈$10,200/mes + $3,600 únicos) | ~$7,800/mes + $3,000 |
 | Oxígeno inmediato | 4 Presencia | $7,600 | $6,800 |
 | Sobrevivencia | 3 Semilla Impulso | $14,700 | $10,800 |
 | Sobrevivencia mixta | 3 Presencia + 2 Semilla Impulso | $15,500 | $12,300 |

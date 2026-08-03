@@ -22,11 +22,12 @@ La pauta **no se cobra aparte**: el cliente paga un solo precio mensual y Meduss
 
 *Para el negocio muy pequeño (puesto, local familiar, emprendimiento que empieza) que hoy no publica nada o publica desde el celular sin diseño. Es el paquete más accesible de Medusssa y **funciona porque está sistematizado, no porque esté regalado**.*
 
-### Incluye — **$1,200 / mes**
+### Incluye — **$1,700 / mes (con publicidad incluida)**
 
 - **4 publicaciones al mes** diseñadas sobre plantillas maestras personalizadas con el logo y colores del negocio
 - **Textos (copys) profesionales** afinados al tono del negocio
 - **4 plantillas de historias al mes** listas para que el cliente las suba cuando quiera (promos, precios, horarios)
+- **$300 de publicidad mensual en Meta ya incluida**: 1 campaña local (promoción del mes o mensajes a WhatsApp), configurada y administrada por nosotros
 - **Todo el mes programado por adelantado**: el cliente aprueba una sola vez y se publica automático
 - **Optimización de perfil el primer mes** (foto, bio, botón de WhatsApp)
 - Resumen trimestral de métricas básicas
@@ -35,10 +36,10 @@ La pauta **no se cobra aparte**: el cliente paga un solo precio mensual y Meduss
 
 - Producción **en lote una vez al mes**: el cliente entrega su información y fotos por WhatsApp en una sola tanda, aprueba el paquete completo y se programa. **1 ronda de cambios sobre el lote**, no pieza por pieza.
 - **No incluye reels, grabación, historias publicadas por nosotros ni community management.** Cualquiera de esas necesidades = paquete Presencia o Semilla.
-- Solo con **pago trimestral anticipado ($3,600)** o semestral. Cobrar mes a mes un paquete de este tamaño cuesta más de lo que deja.
-- Add-on Chispa de pauta disponible (+$650: $500 a Meta administrados).
+- Solo con **pago trimestral anticipado ($5,100)** o semestral. Cobrar mes a mes un paquete de este tamaño cuesta más de lo que deja; la pauta se activa solo con el trimestre pagado.
+- ¿Quiere más anuncios? Bloques extra de pauta: +$650 por cada $500 adicionales a Meta.
 
-**Argumento de venta:** *"Tu negocio se ve profesional en redes todo el mes por $40 al día — menos que un refresco diario."*
+**Argumento de venta:** *"Por menos de $57 al día tu negocio se ve profesional todo el mes Y le llega a la gente de Xalapa con publicidad — diseño, textos y anuncios, todo en un solo pago."*
 
 ---
 
@@ -150,9 +151,9 @@ Todo lo del orgánico **+ pauta incluida**:
 | Historias | 4 plantillas (las sube el cliente) | 2×semana | 3×semana | 3×semana | Diarias | Diarias |
 | Grabación propia | — | — | 1 reel/mes | 1 reel/mes | Sesión 1/mes | Sesión 1/mes |
 | Community mgmt | — | — | — | — | ✔ | ✔ |
-| Pauta incluida | Opcional +$650 | Opcional +$650 | — | $1,000/mes | — | $2,000/mes |
+| Pauta incluida | $300/mes | Opcional +$650 | — | $1,000/mes | — | $2,000/mes |
 | Reportes | Trimestral básico | Mensual simple | Mensual | Mensual | Quincenal | Quincenal |
-| **Precio** | **$1,200** (pago trimestral) | **$1,900** | **$3,500** | **$4,900** | **$7,500** | **$9,900** |
+| **Precio** | **$1,700** (pago trimestral) | **$1,900** | **$3,500** | **$4,900** | **$7,500** | **$9,900** |
 
 ---
 
