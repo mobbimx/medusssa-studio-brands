@@ -22,7 +22,7 @@ La pauta **no se cobra aparte**: el cliente paga un solo precio mensual y Meduss
 
 *Como Nemo: pequeño, pero imposible de no ver. Para el negocio pequeño (local familiar, emprendimiento que empieza) que hoy no publica nada o publica desde el celular sin diseño. Es el paquete más accesible de Medusssa y **funciona porque está sistematizado, no porque esté regalado**.*
 
-### Incluye — **$1,700 / mes (con publicidad incluida)**
+### Incluye — **$2,500 / mes (con publicidad incluida)**
 
 - **2 videos al mes** grabados y editados por nosotros (productos, promociones, precios, horarios o trends del momento)
 - **Equipo profesional de grabación incluido**: dron, estabilizador, equipo de iluminación y micrófonos — calidad que ningún negocio logra con el celular
@@ -36,10 +36,10 @@ La pauta **no se cobra aparte**: el cliente paga un solo precio mensual y Meduss
 - **1 visita de grabación al mes** (máx. 2 horas en sitio): los 2 videos se graban en la misma sesión, agendada en el día de grabación de la zona. Si el cliente cancela con menos de 24 h, la sesión se recorre al mes siguiente.
 - **1 ronda de cambios sobre el lote del mes**, no pieza por pieza.
 - **No incluye publicaciones de feed diseñadas, historias publicadas por nosotros ni community management.** Cualquiera de esas necesidades = paquete Presencia o Semilla.
-- Solo con **pago trimestral anticipado ($5,100)** o semestral. Cobrar mes a mes un paquete de este tamaño cuesta más de lo que deja; la pauta se activa solo con el trimestre pagado.
+- Solo con **pago trimestral anticipado ($7,500)** o semestral. Cobrar mes a mes un paquete de este tamaño cuesta más de lo que deja; la pauta se activa solo con el trimestre pagado.
 - ¿Quiere más anuncios? Bloques extra de pauta: +$650 por cada $500 adicionales a Meta.
 
-**Argumento de venta:** *"Por menos de $57 al día tienes videos con dron, luces y micrófonos profesionales — y publicidad para que los vea la gente de Xalapa. Todo en un solo pago."*
+**Argumento de venta:** *"Por menos de $84 al día tienes videos con dron, luces y micrófonos profesionales — y publicidad para que los vea la gente de Xalapa. Todo en un solo pago."*
 
 ---
 
@@ -153,7 +153,7 @@ Todo lo del orgánico **+ pauta incluida**:
 | Community mgmt | — | — | — | — | ✔ | ✔ |
 | Pauta incluida | $300/mes | Opcional +$650 | — | $1,000/mes | — | $2,000/mes |
 | Reportes | Trimestral básico | Mensual simple | Mensual | Mensual | Quincenal | Quincenal |
-| **Precio** | **$1,700** (pago trimestral) | **$1,900** | **$3,500** | **$4,900** | **$7,500** | **$9,900** |
+| **Precio** | **$2,500** (pago trimestral) | **$1,900** | **$3,500** | **$4,900** | **$7,500** | **$9,900** |
 
 ---
 

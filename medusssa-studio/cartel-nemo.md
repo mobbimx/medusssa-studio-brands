@@ -1,6 +1,6 @@
 # Cartel Paquete Nemo — Prompt de diseño
 
-> Prompt listo para generar el cartel del **Paquete Nemo ($1,700/mes)** en un generador de imágenes con IA (o como brief para diseñarlo en Canva). Antes de usarlo, completa los datos entre `[corchetes]`.
+> Prompt listo para generar el cartel del **Paquete Nemo ($2,500/mes)** en un generador de imágenes con IA (o como brief para diseñarlo en Canva). Antes de usarlo, completa los datos entre `[corchetes]`.
 
 ---
 
@@ -42,7 +42,7 @@ TEXTOS DEL CARTEL (respetar textualmente, con esta jerarquía):
    "PAQUETE NEMO 🐠"
 3. Subtítulo: "Pequeño, pero imposible de no ver"
 4. Precio muy visible dentro de una burbuja de luz turquesa:
-   "$1,700/mes · publicidad incluida"
+   "$2,500/mes · publicidad incluida"
 5. Lista con iconos minimalistas de línea blanca:
    • 2 videos al mes grabados y editados por nosotros
    • Equipo profesional: dron, estabilizador, iluminación y micrófonos
@@ -71,7 +71,7 @@ marketing agency. Deep ocean aesthetic: dark navy gradient background (#0B1D3A t
 orange fish (#FF6F61) standing out — the hero. Cinematic lighting, premium digital
 illustration, minimalist, lots of negative space for text. Not childish, not Pixar
 style. Modern geometric sans-serif typography in white, bold headline "PAQUETE
-NEMO", price bubble "$1,700/mes · publicidad incluida", clean line icons for a
+NEMO", price bubble "$2,500/mes · publicidad incluida", clean line icons for a
 5-item feature list, coral CTA band "Agenda tu grabación → WhatsApp", space top-
 right for logo. Spanish text as provided.
 ```
@@ -93,5 +93,5 @@ Para el volante impreso: subir el contraste del texto y agregar al reverso (opci
 - [ ] Logo real de medusssa.studio colocado (no dejar el espacio vacío)
 - [ ] Número de WhatsApp correcto y con lada
 - [ ] Los textos generados por IA revisados letra por letra (la IA suele deformar palabras — regenerar o corregir en Canva/Photoshop si hay errores)
-- [ ] Precio y vigencia correctos ($1,700/mes)
+- [ ] Precio y vigencia correctos ($2,500/mes)
 - [ ] Versión historia con el CTA en la mitad inferior (donde no estorba el link/sticker)
