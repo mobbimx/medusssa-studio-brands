@@ -48,27 +48,37 @@ Supuestos: trabajo hecho por el equipo actual (sin nómina externa), costo de he
 |---|---|---|---|---|---|---|
 | Ingreso | $1,700 | $1,900 | $3,500 | $4,900 | $7,500 | $9,900 |
 | Pauta a Meta | $300 | — | — | $1,000 | — | $2,000 |
-| Insumos/herramientas | $100 | $200 | $300 | $300 | $500 | $500 |
-| **Margen bruto (tu trabajo + utilidad)** | **$1,300** | **$1,700** | **$3,200** | **$3,600** | **$7,000** | **$7,400** |
-| Horas estimadas/mes | ~6 h | ~10 h | ~18 h | ~22 h | ~40 h | ~45 h |
-| Valor hora resultante | ~$217 | ~$170 | ~$178 | ~$164 | ~$175 | ~$164 |
+| Insumos/transporte | $200 | $200 | $300 | $300 | $500 | $500 |
+| **Margen bruto (tu trabajo + utilidad)** | **$1,200** | **$1,700** | **$3,200** | **$3,600** | **$7,000** | **$7,400** |
+| Horas estimadas/mes | ~8 h | ~10 h | ~18 h | ~22 h | ~40 h | ~45 h |
+| Valor hora resultante | ~$150 | ~$170 | ~$178 | ~$164 | ~$175 | ~$164 |
 
-> ⚠️ **Ojo con el escalón Vitrina→Presencia:** quedaron a solo $200 de distancia ($1,700 vs $1,900), pero Presencia NO incluye pauta ($1,900 + $650 el add-on = $2,550 con anuncios). En la venta, la diferencia se explica así: *Vitrina = plantillas + anuncios; Presencia = contenido hecho a tu medida con reels*. Si un prospecto duda entre ambos, Vitrina es la puerta fácil; que suba a Presencia cuando quiera reels.
+> ⚠️ **Vitrina quedó EXACTAMENTE en el piso de $150/hora.** Las ~8 h se desglosan así: 2 h de grabación en sitio + 1 h de traslado/montaje de equipo + 3.5 h de edición de los 2 videos + 0.5 h de plantillas de historias + 0.5 h de campaña + 0.5 h de programación. Eso significa **cero tolerancia a extras**: si la grabación se alarga, el cliente pide re-ediciones o la visita es lejos, el paquete pierde dinero. Las reglas de abajo (día de grabación por zona, 2 h máximo en sitio, 1 ronda de cambios) no son sugerencias, son la rentabilidad del paquete.
+
+> ⚠️ **Ojo con el escalón Vitrina→Presencia:** Vitrina ($1,700) ahora incluye grabación con equipo profesional y pauta; Presencia ($1,900) es contenido de feed con material del cliente. Son productos distintos, no niveles: **Vitrina = video-first (nosotros grabamos, sin feed); Presencia = feed-first (6 posts + 2 reels con material del cliente, sin grabación)**. Venderlos así evita que Vitrina canibalice a Presencia; el cliente que quiere ambas cosas es candidato directo a Semilla ($3,500).
 
 ### Por qué Vitrina NO es regalar el trabajo: la fábrica de contenido
 
-Vitrina solo es rentable si se opera con **todo el stack de herramientas del estudio**. Es un producto en serie, no un servicio a la medida:
+Vitrina solo es rentable si se opera con **todo el stack de herramientas y equipo del estudio**. Es un producto en serie, no un servicio a la medida:
 
-| Herramienta | Uso en Vitrina | Horas que ahorra |
+| Herramienta / equipo | Uso en Vitrina | Qué aporta |
 |---|---|---|
-| **Canva (plantillas maestras)** | 1 set de plantillas por giro (belleza, comida, salud, fitness…) que se personaliza con logo/colores en minutos. Se diseña una vez, se reutiliza con todos los clientes del giro | ~3 h/cliente/mes |
-| **IA (copys y calendario)** | Textos e ideas de calendario generados con IA y afinados a mano con la voz del negocio | ~1.5 h/cliente/mes |
-| **Meta Business Suite** | Programación automática del mes completo en una sola sesión; nadie publica a mano | ~1 h/cliente/mes |
-| **Formulario de onboarding** | El cliente llena un formulario (giro, colores, servicios, promos del mes) y sube sus fotos a una carpeta; cero juntas de brief | ~2 h en el arranque |
-| **ClickUp** | Pipeline de todos los clientes Vitrina: un solo tablero, un solo día de producción al mes para todo el lote | orden y cero olvidos |
-| **Base de marcas (este repo)** | La mini-identidad de cada cliente queda documentada; cualquier persona del equipo puede producir su lote | consistencia |
+| **Equipo propio de grabación** (dron, estabilizador, iluminación, micrófonos) | Ya está pagado: cada uso es margen, no costo. Es el diferenciador que nadie más ofrece a este precio en Xalapa | valor percibido altísimo |
+| **Día de grabación por zona** | Las visitas de los clientes Vitrina de una misma zona se agendan el mismo día: un solo traslado, el equipo se monta en ruta | ~1–2 h/mes por cliente |
+| **Plantillas de edición** (CapCut/Premiere: intros, subtítulos, transiciones por giro) | Cada video se edita sobre una plantilla probada, no desde cero | ~2 h/cliente/mes |
+| **Guiones probados** (metodología del estudio) | Estructuras de video ya validadas (promo, productos, trend) se adaptan en minutos por giro | ~1 h/cliente/mes |
+| **IA (copys y descripciones)** | Textos de videos e historias generados con IA y afinados a la voz del negocio | ~0.5 h/cliente/mes |
+| **Canva (plantillas de historias)** | Set de historias por giro que se personaliza con logo/colores en minutos | ~1 h/cliente/mes |
+| **Meta Business Suite** | Programación del mes completo en una sola sesión; nadie publica a mano | ~0.5 h/cliente/mes |
+| **Formulario de onboarding** | El cliente llena un formulario (giro, colores, promos del mes) antes de la visita; cero juntas de brief | ~2 h en el arranque |
+| **ClickUp** | Pipeline de todos los clientes Vitrina: un tablero, ruta de grabación mensual y lote de edición | orden y cero olvidos |
+| **Base de marcas (este repo)** | La mini-identidad de cada cliente queda documentada; cualquier persona del equipo puede grabar/editar su lote | consistencia |
 
-**Regla de oro de Vitrina:** un solo **"día de fábrica"** al mes en el que se producen y programan TODOS los clientes Vitrina en lote. Si un cliente Vitrina empieza a pedir atención fuera de ese flujo (cambios sueltos, "súbeme esto hoy", contenido extra), se le cotiza Presencia. El precio bajo compra un producto estandarizado, no acceso al estudio.
+**Reglas de oro de Vitrina:**
+1. **Ruta de grabación mensual**: todas las visitas de la zona el mismo día, 2 h máximo en sitio por cliente, los 2 videos en una sola sesión.
+2. **Un solo lote de edición y programación** al mes para todos los clientes Vitrina.
+3. Si un cliente pide algo fuera del flujo (cambios sueltos, "grábame otra cosita", contenido extra), se le cotiza Semilla. El precio bajo compra un producto estandarizado, no acceso al estudio.
+4. **El dron solo vuela donde es legal y seguro**; si el negocio está en zona restringida, se sustituye por tomas con estabilizador sin cambiar el precio.
 
 ### Kit de Arranque Digital ($1,800, pago único)
 
