@@ -17,8 +17,9 @@ extravagance/       - Extravagance
 
 | Archivo | Descripción |
 |---------|-------------|
-| `medusssa-studio/paquetes.md` | Paquetes comerciales (cara al cliente): Semilla y Crecimiento, modalidad orgánica e Impulso con pauta incluida |
+| `medusssa-studio/paquetes.md` | Paquetes comerciales (cara al cliente): Nemo, Presencia, Semilla y Crecimiento, con modalidades orgánica e Impulso con pauta incluida |
 | `medusssa-studio/estructura-costos.md` | ⚠️ Interno: márgenes, gestión de pauta, punto de equilibrio y reglas comerciales |
+| `medusssa-studio/cartel-nemo.md` | Prompt de diseño para el cartel del Paquete Nemo (IA o brief para Canva) |
 
 ## Propósito
 

@@ -18,9 +18,9 @@ La pauta **no se cobra aparte**: el cliente paga un solo precio mensual y Meduss
 
 ---
 
-## 🪟 PAQUETE VITRINA — El escaparate digital mínimo
+## 🐠 PAQUETE NEMO — Para negocios pequeños
 
-*Para el negocio muy pequeño (puesto, local familiar, emprendimiento que empieza) que hoy no publica nada o publica desde el celular sin diseño. Es el paquete más accesible de Medusssa y **funciona porque está sistematizado, no porque esté regalado**.*
+*Como Nemo: pequeño, pero imposible de no ver. Para el negocio pequeño (local familiar, emprendimiento que empieza) que hoy no publica nada o publica desde el celular sin diseño. Es el paquete más accesible de Medusssa y **funciona porque está sistematizado, no porque esté regalado**.*
 
 ### Incluye — **$1,700 / mes (con publicidad incluida)**
 
@@ -144,7 +144,7 @@ Todo lo del orgánico **+ pauta incluida**:
 
 ## Comparativa rápida (para enviar por WhatsApp)
 
-| | 🪟 Vitrina | ✨ Presencia | 🌱 Semilla Orgánico | 🌱 Semilla Impulso | 🚀 Crecimiento Orgánico | 🚀 Crecimiento Impulso |
+| | 🐠 Nemo | ✨ Presencia | 🌱 Semilla Orgánico | 🌱 Semilla Impulso | 🚀 Crecimiento Orgánico | 🚀 Crecimiento Impulso |
 |---|---|---|---|---|---|---|
 | Publicaciones/mes | — | 6 | 10 | 10 | 16 | 16 |
 | Videos/reels al mes | 2 (grabados por nosotros) | 2 (material del cliente) | 4 | 4 | 8 (con guión) | 8 (con guión) |
@@ -167,7 +167,7 @@ Todo lo del orgánico **+ pauta incluida**:
 ### Ruta de crecimiento del cliente (upsell natural)
 
 ```
-Kit de Arranque → Vitrina → Presencia → Semilla Orgánico → Semilla Impulso → Crecimiento Orgánico → Crecimiento Impulso
+Kit de Arranque → Nemo → Presencia → Semilla Orgánico → Semilla Impulso → Crecimiento Orgánico → Crecimiento Impulso
 ```
 
 Cada 3 meses se presenta el reporte trimestral con la recomendación del siguiente paso. Un cliente que ve resultados con $1,000 de pauta es el candidato natural para subir de paquete, y siempre puede **aumentar solo la pauta** en bloques de +$500 (se cobran +$650 por bloque, ver documento interno).

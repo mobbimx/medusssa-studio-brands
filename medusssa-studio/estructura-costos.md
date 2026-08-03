@@ -17,14 +17,14 @@ La cuota de gestión es tu ganancia por administrar los anuncios (configurar cam
 
 ### Desglose por paquete
 
-| Concepto | 🪟 Vitrina | 🌱 Semilla Impulso | 🚀 Crecimiento Impulso |
+| Concepto | 🐠 Nemo | 🌱 Semilla Impulso | 🚀 Crecimiento Impulso |
 |---|---|---|---|
 | Precio al cliente | $1,700 | $4,900 | $9,900 |
 | Servicio base | $1,200 | $3,500 | $7,500 |
 | Pauta real pagada a Meta | $300 | $1,000 | $2,000 |
 | **Cuota de gestión de pauta (tu ganancia extra)** | **$200 (67%)** | **$400 (40%)** | **$400 (20%)** |
 
-- En Vitrina la cuota parece alta en porcentaje (67%) pero son solo $200 por montar y vigilar 1 campaña al mes — es el mínimo absoluto para que valga tu tiempo, y funciona porque la campaña también se produce en el "día de fábrica" junto con las demás.
+- En Nemo la cuota parece alta en porcentaje (67%) pero son solo $200 por montar y vigilar 1 campaña al mes — es el mínimo absoluto para que valga tu tiempo, y funciona porque la campaña también se produce en el "día de fábrica" junto con las demás.
 - En Semilla la cuota es proporcionalmente alta (40%) porque configurar y optimizar 2 campañas cuesta casi el mismo tiempo con $1,000 que con $2,000.
 - En Crecimiento baja a 20%, que es el estándar de agencia, porque el volumen ya lo compensa.
 
@@ -44,7 +44,7 @@ Regla: la gestión de pauta **nunca baja de 20%** del monto administrado.
 
 Supuestos: trabajo hecho por el equipo actual (sin nómina externa), costo de herramientas/insumos prorrateado ~$300/mes por cliente (apps de edición, transporte a sesiones, papelería), transporte a sesión en sitio ~$200.
 
-| | 🪟 Vitrina | ✨ Presencia | 🌱 Sem. Org. | 🌱 Sem. Imp. | 🚀 Crec. Org. | 🚀 Crec. Imp. |
+| | 🐠 Nemo | ✨ Presencia | 🌱 Sem. Org. | 🌱 Sem. Imp. | 🚀 Crec. Org. | 🚀 Crec. Imp. |
 |---|---|---|---|---|---|---|
 | Ingreso | $1,700 | $1,900 | $3,500 | $4,900 | $7,500 | $9,900 |
 | Pauta a Meta | $300 | — | — | $1,000 | — | $2,000 |
@@ -53,40 +53,40 @@ Supuestos: trabajo hecho por el equipo actual (sin nómina externa), costo de he
 | Horas estimadas/mes | ~8 h | ~10 h | ~18 h | ~22 h | ~40 h | ~45 h |
 | Valor hora resultante | ~$150 | ~$170 | ~$178 | ~$164 | ~$175 | ~$164 |
 
-> ⚠️ **Vitrina quedó EXACTAMENTE en el piso de $150/hora.** Las ~8 h se desglosan así: 2 h de grabación en sitio + 1 h de traslado/montaje de equipo + 3.5 h de edición de los 2 videos + 0.5 h de plantillas de historias + 0.5 h de campaña + 0.5 h de programación. Eso significa **cero tolerancia a extras**: si la grabación se alarga, el cliente pide re-ediciones o la visita es lejos, el paquete pierde dinero. Las reglas de abajo (día de grabación por zona, 2 h máximo en sitio, 1 ronda de cambios) no son sugerencias, son la rentabilidad del paquete.
+> ⚠️ **Nemo quedó EXACTAMENTE en el piso de $150/hora.** Las ~8 h se desglosan así: 2 h de grabación en sitio + 1 h de traslado/montaje de equipo + 3.5 h de edición de los 2 videos + 0.5 h de plantillas de historias + 0.5 h de campaña + 0.5 h de programación. Eso significa **cero tolerancia a extras**: si la grabación se alarga, el cliente pide re-ediciones o la visita es lejos, el paquete pierde dinero. Las reglas de abajo (día de grabación por zona, 2 h máximo en sitio, 1 ronda de cambios) no son sugerencias, son la rentabilidad del paquete.
 
-> ⚠️ **Ojo con el escalón Vitrina→Presencia:** Vitrina ($1,700) ahora incluye grabación con equipo profesional y pauta; Presencia ($1,900) es contenido de feed con material del cliente. Son productos distintos, no niveles: **Vitrina = video-first (nosotros grabamos, sin feed); Presencia = feed-first (6 posts + 2 reels con material del cliente, sin grabación)**. Venderlos así evita que Vitrina canibalice a Presencia; el cliente que quiere ambas cosas es candidato directo a Semilla ($3,500).
+> ⚠️ **Ojo con el escalón Nemo→Presencia:** Nemo ($1,700) ahora incluye grabación con equipo profesional y pauta; Presencia ($1,900) es contenido de feed con material del cliente. Son productos distintos, no niveles: **Nemo = video-first (nosotros grabamos, sin feed); Presencia = feed-first (6 posts + 2 reels con material del cliente, sin grabación)**. Venderlos así evita que Nemo canibalice a Presencia; el cliente que quiere ambas cosas es candidato directo a Semilla ($3,500).
 
-### Por qué Vitrina NO es regalar el trabajo: la fábrica de contenido
+### Por qué Nemo NO es regalar el trabajo: la fábrica de contenido
 
-Vitrina solo es rentable si se opera con **todo el stack de herramientas y equipo del estudio**. Es un producto en serie, no un servicio a la medida:
+Nemo solo es rentable si se opera con **todo el stack de herramientas y equipo del estudio**. Es un producto en serie, no un servicio a la medida:
 
-| Herramienta / equipo | Uso en Vitrina | Qué aporta |
+| Herramienta / equipo | Uso en Nemo | Qué aporta |
 |---|---|---|
 | **Equipo propio de grabación** (dron, estabilizador, iluminación, micrófonos) | Ya está pagado: cada uso es margen, no costo. Es el diferenciador que nadie más ofrece a este precio en Xalapa | valor percibido altísimo |
-| **Día de grabación por zona** | Las visitas de los clientes Vitrina de una misma zona se agendan el mismo día: un solo traslado, el equipo se monta en ruta | ~1–2 h/mes por cliente |
+| **Día de grabación por zona** | Las visitas de los clientes Nemo de una misma zona se agendan el mismo día: un solo traslado, el equipo se monta en ruta | ~1–2 h/mes por cliente |
 | **Plantillas de edición** (CapCut/Premiere: intros, subtítulos, transiciones por giro) | Cada video se edita sobre una plantilla probada, no desde cero | ~2 h/cliente/mes |
 | **Guiones probados** (metodología del estudio) | Estructuras de video ya validadas (promo, productos, trend) se adaptan en minutos por giro | ~1 h/cliente/mes |
 | **IA (copys y descripciones)** | Textos de videos e historias generados con IA y afinados a la voz del negocio | ~0.5 h/cliente/mes |
 | **Canva (plantillas de historias)** | Set de historias por giro que se personaliza con logo/colores en minutos | ~1 h/cliente/mes |
 | **Meta Business Suite** | Programación del mes completo en una sola sesión; nadie publica a mano | ~0.5 h/cliente/mes |
 | **Formulario de onboarding** | El cliente llena un formulario (giro, colores, promos del mes) antes de la visita; cero juntas de brief | ~2 h en el arranque |
-| **ClickUp** | Pipeline de todos los clientes Vitrina: un tablero, ruta de grabación mensual y lote de edición | orden y cero olvidos |
+| **ClickUp** | Pipeline de todos los clientes Nemo: un tablero, ruta de grabación mensual y lote de edición | orden y cero olvidos |
 | **Base de marcas (este repo)** | La mini-identidad de cada cliente queda documentada; cualquier persona del equipo puede grabar/editar su lote | consistencia |
 
-**Reglas de oro de Vitrina:**
+**Reglas de oro de Nemo:**
 1. **Ruta de grabación mensual**: todas las visitas de la zona el mismo día, 2 h máximo en sitio por cliente, los 2 videos en una sola sesión.
-2. **Un solo lote de edición y programación** al mes para todos los clientes Vitrina.
+2. **Un solo lote de edición y programación** al mes para todos los clientes Nemo.
 3. Si un cliente pide algo fuera del flujo (cambios sueltos, "grábame otra cosita", contenido extra), se le cotiza Semilla. El precio bajo compra un producto estandarizado, no acceso al estudio.
 4. **El dron solo vuela donde es legal y seguro**; si el negocio está en zona restringida, se sustituye por tomas con estabilizador sin cambiar el precio.
 
 ### Kit de Arranque Digital ($1,800, pago único)
 
-~6 h de trabajo una sola vez (perfil + 10 plantillas + calendario + guía) = $300/hora, el mejor valor-hora de toda la lista. Sin compromiso recurrente, ideal para caja rápida este mes y como semillero de futuros clientes Vitrina/Presencia.
+~6 h de trabajo una sola vez (perfil + 10 plantillas + calendario + guía) = $300/hora, el mejor valor-hora de toda la lista. Sin compromiso recurrente, ideal para caja rápida este mes y como semillero de futuros clientes Nemo/Presencia.
 
 ### 🚫 Suelo de precios (línea de "regalar el trabajo")
 
-- **Ningún servicio recurrente por debajo de $1,200/mes**, y Vitrina solo se vende con trimestre anticipado. Debajo de eso, lo único que se ofrece son productos de pago único (Kit de Arranque) o bloques de pauta.
+- **Ningún servicio recurrente por debajo de $1,200/mes**, y Nemo solo se vende con trimestre anticipado. Debajo de eso, lo único que se ofrece son productos de pago único (Kit de Arranque) o bloques de pauta.
 - **Ninguna hora de trabajo por debajo de $150.** Si un descuento o "favor" rompe ese piso, la respuesta es quitar alcance (menos piezas), nunca bajar el precio del mismo alcance.
 - Los descuentos siempre se dan **a cambio de algo**: trimestre anticipado (10%), testimonio en video, referido que firme. Nunca "porque sí".
 
@@ -107,7 +107,7 @@ Meta mínima para estabilizar el flujo (ajusta el gasto fijo real del estudio):
 
 | Escenario | Mezcla de clientes | Ingreso mensual | Margen bruto aprox. |
 |---|---|---|---|
-| Caja urgente | 6 Vitrina (trimestre anticipado) + 2 Kits de Arranque | $34,200 cobrados ya (≈$10,200/mes + $3,600 únicos) | ~$7,800/mes + $3,000 |
+| Caja urgente | 6 Nemo (trimestre anticipado) + 2 Kits de Arranque | $34,200 cobrados ya (≈$10,200/mes + $3,600 únicos) | ~$7,800/mes + $3,000 |
 | Oxígeno inmediato | 4 Presencia | $7,600 | $6,800 |
 | Sobrevivencia | 3 Semilla Impulso | $14,700 | $10,800 |
 | Sobrevivencia mixta | 3 Presencia + 2 Semilla Impulso | $15,500 | $12,300 |
