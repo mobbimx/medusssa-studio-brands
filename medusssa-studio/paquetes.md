@@ -18,6 +18,36 @@ La pauta **no se cobra aparte**: el cliente paga un solo precio mensual y Meduss
 
 ---
 
+## 🪟 PAQUETE VITRINA — El escaparate digital mínimo
+
+*Para el negocio muy pequeño (puesto, local familiar, emprendimiento que empieza) que hoy no publica nada o publica desde el celular sin diseño. Es el paquete más accesible de Medusssa y **funciona porque está sistematizado, no porque esté regalado**.*
+
+### Incluye — **$1,200 / mes**
+
+- **4 publicaciones al mes** diseñadas sobre plantillas maestras personalizadas con el logo y colores del negocio
+- **Textos (copys) profesionales** afinados al tono del negocio
+- **4 plantillas de historias al mes** listas para que el cliente las suba cuando quiera (promos, precios, horarios)
+- **Todo el mes programado por adelantado**: el cliente aprueba una sola vez y se publica automático
+- **Optimización de perfil el primer mes** (foto, bio, botón de WhatsApp)
+- Resumen trimestral de métricas básicas
+
+### Condiciones específicas de este paquete
+
+- Producción **en lote una vez al mes**: el cliente entrega su información y fotos por WhatsApp en una sola tanda, aprueba el paquete completo y se programa. **1 ronda de cambios sobre el lote**, no pieza por pieza.
+- **No incluye reels, grabación, historias publicadas por nosotros ni community management.** Cualquiera de esas necesidades = paquete Presencia o Semilla.
+- Solo con **pago trimestral anticipado ($3,600)** o semestral. Cobrar mes a mes un paquete de este tamaño cuesta más de lo que deja.
+- Add-on Chispa de pauta disponible (+$650: $500 a Meta administrados).
+
+**Argumento de venta:** *"Tu negocio se ve profesional en redes todo el mes por $40 al día — menos que un refresco diario."*
+
+---
+
+### 💼 Venta única: Kit de Arranque Digital — **$1,800 (pago único)**
+
+Para el que ni siquiera puede comprometerse a una mensualidad: optimización completa de perfil + **10 plantillas editables en Canva** con su marca + calendario de 30 días con ideas y copys + mini guía de "cómo publicar". El cliente se autogestiona; nosotros cobramos una vez, sin carga recurrente. Es también un generador de prospectos: al mes, muchos regresan pidiendo que lo hagamos por ellos.
+
+---
+
 ## ✨ PAQUETE PRESENCIA — Entrada para pequeñas empresas
 
 *El negocio que apenas empieza con redes o que hoy no puede pagar más: quiere verse profesional y constante sin una gran inversión. **Precio ancla: menos de $2,000.***
@@ -113,16 +143,16 @@ Todo lo del orgánico **+ pauta incluida**:
 
 ## Comparativa rápida (para enviar por WhatsApp)
 
-| | ✨ Presencia | 🌱 Semilla Orgánico | 🌱 Semilla Impulso | 🚀 Crecimiento Orgánico | 🚀 Crecimiento Impulso |
-|---|---|---|---|---|---|
-| Publicaciones/mes | 6 | 10 | 10 | 16 | 16 |
-| Reels/mes | 2 (material del cliente) | 4 | 4 | 8 (con guión) | 8 (con guión) |
-| Historias | 2×semana | 3×semana | 3×semana | Diarias | Diarias |
-| Grabación propia | — | 1 reel/mes | 1 reel/mes | Sesión 1/mes | Sesión 1/mes |
-| Community mgmt | — | — | — | ✔ | ✔ |
-| Pauta incluida | Opcional +$650 | — | $1,000/mes | — | $2,000/mes |
-| Reportes | Mensual simple | Mensual | Mensual | Quincenal | Quincenal |
-| **Precio** | **$1,900** | **$3,500** | **$4,900** | **$7,500** | **$9,900** |
+| | 🪟 Vitrina | ✨ Presencia | 🌱 Semilla Orgánico | 🌱 Semilla Impulso | 🚀 Crecimiento Orgánico | 🚀 Crecimiento Impulso |
+|---|---|---|---|---|---|---|
+| Publicaciones/mes | 4 (plantillas) | 6 | 10 | 10 | 16 | 16 |
+| Reels/mes | — | 2 (material del cliente) | 4 | 4 | 8 (con guión) | 8 (con guión) |
+| Historias | 4 plantillas (las sube el cliente) | 2×semana | 3×semana | 3×semana | Diarias | Diarias |
+| Grabación propia | — | — | 1 reel/mes | 1 reel/mes | Sesión 1/mes | Sesión 1/mes |
+| Community mgmt | — | — | — | — | ✔ | ✔ |
+| Pauta incluida | Opcional +$650 | Opcional +$650 | — | $1,000/mes | — | $2,000/mes |
+| Reportes | Trimestral básico | Mensual simple | Mensual | Mensual | Quincenal | Quincenal |
+| **Precio** | **$1,200** (pago trimestral) | **$1,900** | **$3,500** | **$4,900** | **$7,500** | **$9,900** |
 
 ---
 
@@ -136,7 +166,7 @@ Todo lo del orgánico **+ pauta incluida**:
 ### Ruta de crecimiento del cliente (upsell natural)
 
 ```
-Semilla Orgánico → Semilla Impulso → Crecimiento Orgánico → Crecimiento Impulso
+Kit de Arranque → Vitrina → Presencia → Semilla Orgánico → Semilla Impulso → Crecimiento Orgánico → Crecimiento Impulso
 ```
 
 Cada 3 meses se presenta el reporte trimestral con la recomendación del siguiente paso. Un cliente que ve resultados con $1,000 de pauta es el candidato natural para subir de paquete, y siempre puede **aumentar solo la pauta** en bloques de +$500 (se cobran +$650 por bloque, ver documento interno).

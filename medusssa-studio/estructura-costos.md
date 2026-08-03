@@ -43,14 +43,39 @@ Regla: la gestión de pauta **nunca baja de 20%** del monto administrado.
 
 Supuestos: trabajo hecho por el equipo actual (sin nómina externa), costo de herramientas/insumos prorrateado ~$300/mes por cliente (apps de edición, transporte a sesiones, papelería), transporte a sesión en sitio ~$200.
 
-| | ✨ Presencia | 🌱 Sem. Org. | 🌱 Sem. Imp. | 🚀 Crec. Org. | 🚀 Crec. Imp. |
-|---|---|---|---|---|---|
-| Ingreso | $1,900 | $3,500 | $4,900 | $7,500 | $9,900 |
-| Pauta a Meta | — | — | $1,000 | — | $2,000 |
-| Insumos/herramientas | $200 | $300 | $300 | $500 | $500 |
-| **Margen bruto (tu trabajo + utilidad)** | **$1,700** | **$3,200** | **$3,600** | **$7,000** | **$7,400** |
-| Horas estimadas/mes | ~10 h | ~18 h | ~22 h | ~40 h | ~45 h |
-| Valor hora resultante | ~$170 | ~$178 | ~$164 | ~$175 | ~$164 |
+| | 🪟 Vitrina | ✨ Presencia | 🌱 Sem. Org. | 🌱 Sem. Imp. | 🚀 Crec. Org. | 🚀 Crec. Imp. |
+|---|---|---|---|---|---|---|
+| Ingreso | $1,200 | $1,900 | $3,500 | $4,900 | $7,500 | $9,900 |
+| Pauta a Meta | — | — | — | $1,000 | — | $2,000 |
+| Insumos/herramientas | $100 | $200 | $300 | $300 | $500 | $500 |
+| **Margen bruto (tu trabajo + utilidad)** | **$1,100** | **$1,700** | **$3,200** | **$3,600** | **$7,000** | **$7,400** |
+| Horas estimadas/mes | ~5 h | ~10 h | ~18 h | ~22 h | ~40 h | ~45 h |
+| Valor hora resultante | ~$220 | ~$170 | ~$178 | ~$164 | ~$175 | ~$164 |
+
+### Por qué Vitrina NO es regalar el trabajo: la fábrica de contenido
+
+Vitrina solo es rentable si se opera con **todo el stack de herramientas del estudio**. Es un producto en serie, no un servicio a la medida:
+
+| Herramienta | Uso en Vitrina | Horas que ahorra |
+|---|---|---|
+| **Canva (plantillas maestras)** | 1 set de plantillas por giro (belleza, comida, salud, fitness…) que se personaliza con logo/colores en minutos. Se diseña una vez, se reutiliza con todos los clientes del giro | ~3 h/cliente/mes |
+| **IA (copys y calendario)** | Textos e ideas de calendario generados con IA y afinados a mano con la voz del negocio | ~1.5 h/cliente/mes |
+| **Meta Business Suite** | Programación automática del mes completo en una sola sesión; nadie publica a mano | ~1 h/cliente/mes |
+| **Formulario de onboarding** | El cliente llena un formulario (giro, colores, servicios, promos del mes) y sube sus fotos a una carpeta; cero juntas de brief | ~2 h en el arranque |
+| **ClickUp** | Pipeline de todos los clientes Vitrina: un solo tablero, un solo día de producción al mes para todo el lote | orden y cero olvidos |
+| **Base de marcas (este repo)** | La mini-identidad de cada cliente queda documentada; cualquier persona del equipo puede producir su lote | consistencia |
+
+**Regla de oro de Vitrina:** un solo **"día de fábrica"** al mes en el que se producen y programan TODOS los clientes Vitrina en lote. Si un cliente Vitrina empieza a pedir atención fuera de ese flujo (cambios sueltos, "súbeme esto hoy", contenido extra), se le cotiza Presencia. El precio bajo compra un producto estandarizado, no acceso al estudio.
+
+### Kit de Arranque Digital ($1,800, pago único)
+
+~6 h de trabajo una sola vez (perfil + 10 plantillas + calendario + guía) = $300/hora, el mejor valor-hora de toda la lista. Sin compromiso recurrente, ideal para caja rápida este mes y como semillero de futuros clientes Vitrina/Presencia.
+
+### 🚫 Suelo de precios (línea de "regalar el trabajo")
+
+- **Ningún servicio recurrente por debajo de $1,200/mes**, y Vitrina solo se vende con trimestre anticipado. Debajo de eso, lo único que se ofrece son productos de pago único (Kit de Arranque) o bloques de pauta.
+- **Ninguna hora de trabajo por debajo de $150.** Si un descuento o "favor" rompe ese piso, la respuesta es quitar alcance (menos piezas), nunca bajar el precio del mismo alcance.
+- Los descuentos siempre se dan **a cambio de algo**: trimestre anticipado (10%), testimonio en video, referido que firme. Nunca "porque sí".
 
 ### Reglas para que Presencia sea rentable (y no canibalice a Semilla)
 
@@ -69,6 +94,7 @@ Meta mínima para estabilizar el flujo (ajusta el gasto fijo real del estudio):
 
 | Escenario | Mezcla de clientes | Ingreso mensual | Margen bruto aprox. |
 |---|---|---|---|
+| Caja urgente | 6 Vitrina (trimestre anticipado) + 2 Kits de Arranque | $25,200 cobrados ya (≈$7,200/mes + $3,600 únicos) | ~$6,600/mes + $3,000 |
 | Oxígeno inmediato | 4 Presencia | $7,600 | $6,800 |
 | Sobrevivencia | 3 Semilla Impulso | $14,700 | $10,800 |
 | Sobrevivencia mixta | 3 Presencia + 2 Semilla Impulso | $15,500 | $12,300 |
