@@ -18,6 +18,35 @@ La pauta **no se cobra aparte**: el cliente paga un solo precio mensual y Meduss
 
 ---
 
+## ✨ PAQUETE PRESENCIA — Entrada para pequeñas empresas
+
+*El negocio que apenas empieza con redes o que hoy no puede pagar más: quiere verse profesional y constante sin una gran inversión. **Precio ancla: menos de $2,000.***
+
+### Incluye — **$1,900 / mes**
+
+- **6 publicaciones al mes** (diseños gráficos alineados a los colores y logo del negocio)
+- **2 reels al mes** editados con material que envía el cliente (fotos/videos de su celular)
+- **Historias 2 veces por semana** (reciclaje de publicaciones, promociones, recordatorios)
+- **Calendario de contenido mensual simple** aprobado antes de publicar
+- **Optimización de perfil** el primer mes (foto, bio, destacadas, botón de WhatsApp)
+- **Mini reporte mensual**: alcance, seguidores y mejor publicación
+
+### Condiciones específicas de este paquete
+
+- El **material crudo lo pone el cliente** (nosotros lo hacemos verse profesional); no incluye sesiones ni grabación.
+- 1 ronda de cambios por pieza; entregas y respuestas en horario hábil (hasta 48 h).
+- No incluye community management ni pauta.
+
+### Add-on opcional: Chispa de pauta — **+$650 / mes**
+
+$500 de inversión publicitaria en Meta ya administrada (1 campaña local de promoción o mensajes a WhatsApp). Se ofrece **a partir del segundo mes**, cuando el cliente ya vio su perfil transformado.
+
+**Argumento de venta:** *"Por menos de $65 al día tienes a alguien profesional manejando tu imagen todos los días del mes."*
+
+**Rol estratégico:** este paquete existe para **firmar rápido y subir después**. A los 2–3 meses, con resultados en la mano, la conversación natural es pasar a Semilla ($3,500) o Semilla Impulso ($4,900).
+
+---
+
 ## 🌱 PAQUETE SEMILLA — Para negocios pequeños
 
 *Nails studios, salones, consultorios, cafeterías, tiendas locales que necesitan verse profesionales y mantenerse activos.*
@@ -84,16 +113,16 @@ Todo lo del orgánico **+ pauta incluida**:
 
 ## Comparativa rápida (para enviar por WhatsApp)
 
-| | 🌱 Semilla Orgánico | 🌱 Semilla Impulso | 🚀 Crecimiento Orgánico | 🚀 Crecimiento Impulso |
-|---|---|---|---|---|
-| Publicaciones/mes | 10 | 10 | 16 | 16 |
-| Reels/mes | 4 | 4 | 8 (con guión) | 8 (con guión) |
-| Historias | 3×semana | 3×semana | Diarias | Diarias |
-| Sesión en sitio | — | — | 1/mes | 1/mes |
-| Community mgmt | — | — | ✔ | ✔ |
-| Pauta incluida | — | $1,000/mes | — | $2,000/mes |
-| Reportes | Mensual | Mensual | Quincenal | Quincenal |
-| **Precio** | **$3,500** | **$4,900** | **$7,500** | **$9,900** |
+| | ✨ Presencia | 🌱 Semilla Orgánico | 🌱 Semilla Impulso | 🚀 Crecimiento Orgánico | 🚀 Crecimiento Impulso |
+|---|---|---|---|---|---|
+| Publicaciones/mes | 6 | 10 | 10 | 16 | 16 |
+| Reels/mes | 2 (material del cliente) | 4 | 4 | 8 (con guión) | 8 (con guión) |
+| Historias | 2×semana | 3×semana | 3×semana | Diarias | Diarias |
+| Grabación propia | — | 1 reel/mes | 1 reel/mes | Sesión 1/mes | Sesión 1/mes |
+| Community mgmt | — | — | — | ✔ | ✔ |
+| Pauta incluida | Opcional +$650 | — | $1,000/mes | — | $2,000/mes |
+| Reportes | Mensual simple | Mensual | Mensual | Quincenal | Quincenal |
+| **Precio** | **$1,900** | **$3,500** | **$4,900** | **$7,500** | **$9,900** |
 
 ---
 

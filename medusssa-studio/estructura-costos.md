@@ -43,14 +43,21 @@ Regla: la gestión de pauta **nunca baja de 20%** del monto administrado.
 
 Supuestos: trabajo hecho por el equipo actual (sin nómina externa), costo de herramientas/insumos prorrateado ~$300/mes por cliente (apps de edición, transporte a sesiones, papelería), transporte a sesión en sitio ~$200.
 
-| | 🌱 Sem. Org. | 🌱 Sem. Imp. | 🚀 Crec. Org. | 🚀 Crec. Imp. |
-|---|---|---|---|---|
-| Ingreso | $3,500 | $4,900 | $7,500 | $9,900 |
-| Pauta a Meta | — | $1,000 | — | $2,000 |
-| Insumos/herramientas | $300 | $300 | $500 | $500 |
-| **Margen bruto (tu trabajo + utilidad)** | **$3,200** | **$3,600** | **$7,000** | **$7,400** |
-| Horas estimadas/mes | ~18 h | ~22 h | ~40 h | ~45 h |
-| Valor hora resultante | ~$178 | ~$164 | ~$175 | ~$164 |
+| | ✨ Presencia | 🌱 Sem. Org. | 🌱 Sem. Imp. | 🚀 Crec. Org. | 🚀 Crec. Imp. |
+|---|---|---|---|---|---|
+| Ingreso | $1,900 | $3,500 | $4,900 | $7,500 | $9,900 |
+| Pauta a Meta | — | — | $1,000 | — | $2,000 |
+| Insumos/herramientas | $200 | $300 | $300 | $500 | $500 |
+| **Margen bruto (tu trabajo + utilidad)** | **$1,700** | **$3,200** | **$3,600** | **$7,000** | **$7,400** |
+| Horas estimadas/mes | ~10 h | ~18 h | ~22 h | ~40 h | ~45 h |
+| Valor hora resultante | ~$170 | ~$178 | ~$164 | ~$175 | ~$164 |
+
+### Reglas para que Presencia sea rentable (y no canibalice a Semilla)
+
+- **Tope duro de ~10 horas/mes por cliente.** Presencia funciona en volumen y con procesos: plantillas de diseño reutilizables por giro (belleza, comida, salud…), un solo día de producción semanal para todos los clientes Presencia, y calendario aprobado una vez al mes, no pieza por pieza.
+- **El material crudo siempre lo pone el cliente.** En cuanto pide grabación, sesión o "algo más elaborado", la respuesta es el paquete Semilla — esa es la diferencia entre ambos y no se regala.
+- **Máximo 4–5 clientes Presencia simultáneos** con la capacidad actual; más que eso compite por horas contra los paquetes grandes, que dejan más margen.
+- Con el add-on de pauta (+$650: $500 a Meta, $150 de gestión) el margen sube a $1,850/mes por cliente.
 
 > Si el valor hora cae debajo de $150 con algún cliente (muchos cambios, urgencias), es señal de renegociar o subirlo de paquete.
 
@@ -62,9 +69,13 @@ Meta mínima para estabilizar el flujo (ajusta el gasto fijo real del estudio):
 
 | Escenario | Mezcla de clientes | Ingreso mensual | Margen bruto aprox. |
 |---|---|---|---|
+| Oxígeno inmediato | 4 Presencia | $7,600 | $6,800 |
 | Sobrevivencia | 3 Semilla Impulso | $14,700 | $10,800 |
+| Sobrevivencia mixta | 3 Presencia + 2 Semilla Impulso | $15,500 | $12,300 |
 | Estable | 2 Semilla Impulso + 1 Crecimiento Orgánico | $17,300 | $14,200 |
 | Recuperación | 2 Semilla Impulso + 2 Crecimiento Impulso | $29,600 | $22,000 |
+
+**Por qué Presencia es la punta de lanza del mes crítico:** cerrar un cliente de $1,900 toma días, no semanas — la decisión no pasa por "déjame pensarlo con mi socio". Cuatro Presencia se venden más rápido que un Semilla Impulso y juntos generan casi lo mismo. Y cada Presencia es un candidato a Semilla en 2–3 meses.
 
 **Lectura práctica:** con solo **3 clientes Semilla Impulso** ya se reemplaza aproximadamente el ingreso perdido de un cliente mediano. Los paquetes pequeños son más fáciles de vender rápido y diversifican el riesgo: perder un cliente ya no significa perder 40% del ingreso (la lección de Alpha Fitness y Poxar).
 
