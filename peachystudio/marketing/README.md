@@ -24,6 +24,7 @@
 | `lanzamiento-tarjeta.md` | ⭐ Campaña de 5 semanas para lanzar la tarjeta: parrilla, WhatsApp y cierre de ventana |
 | `guiones-lanzamiento.md` | ⭐ Guiones de producción toma por toma de las 6 piezas de video |
 | `plan-15-dias.md` | ⭐ Plan de acción para tener todo listo y publicar el Día 16 |
+| `banco-contenidos.md` | ⭐ 30 ideas de contenido: 10 video, 10 historias, 10 gráfico |
 | `pendientes-por-definir.md` | ⭐ Lo que falta por definir, en orden de urgencia — **incluye 5 bloqueantes**
 | `Campana-Tarjeta-Cliente-Frecuente.docx` | 📄 Entregable en Word para editar y presentar a la clienta |
 | `calendario-contenido.md` | 13 piezas de contenido con hook, guion, caption y hashtags |
