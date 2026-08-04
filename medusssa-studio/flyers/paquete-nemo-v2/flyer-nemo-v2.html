@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Paquete Nemo — Medusssa Studio</title>
+<style>
+  @font-face {
+    font-family: 'Archivo Black';
+    src: url('fonts/ArchivoBlack.ttf') format('truetype');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('fonts/SpaceGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+
+  :root {
+    --paper: #F6F1E7;
+    --ink: #131A22;
+    --coral: #FF5A3C;
+    --teal: #0E7C7B;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1080px;
+    height: 1350px;
+    background: var(--paper);
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--ink);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .frame {
+    position: absolute;
+    inset: 36px;
+    border: 3px solid var(--ink);
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ---------- top bar ---------- */
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 36px;
+    border-bottom: 3px solid var(--ink);
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .topbar .jelly { display: flex; align-items: center; gap: 14px; }
+
+  /* ---------- headline ---------- */
+  .head {
+    padding: 44px 36px 30px;
+    position: relative;
+  }
+  .kicker {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--paper);
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 8px 18px;
+    margin-bottom: 24px;
+  }
+  h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 158px;
+    line-height: 0.92;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+  }
+  h1 .outline {
+    color: var(--paper);
+    -webkit-text-stroke: 4px var(--ink);
+  }
+  h1 .nemo { color: var(--coral); }
+
+  .fish {
+    position: absolute;
+    right: 42px;
+    top: 26px;
+    transform: rotate(-8deg);
+  }
+
+  .tagline {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.15;
+  }
+  .tagline mark {
+    background: var(--coral);
+    color: var(--paper);
+    font-weight: 700;
+    padding: 2px 12px;
+  }
+
+  /* ---------- price strip ---------- */
+  .price {
+    display: flex;
+    align-items: stretch;
+    border-top: 3px solid var(--ink);
+    border-bottom: 3px solid var(--ink);
+  }
+  .price .amount {
+    background: var(--coral);
+    color: var(--paper);
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 76px;
+    padding: 18px 38px;
+    border-right: 3px solid var(--ink);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    white-space: nowrap;
+  }
+  .price .amount small {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+  }
+  .price .note {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: repeating-linear-gradient(
+      -45deg,
+      transparent 0 14px,
+      rgba(19,26,34,0.05) 14px 28px
+    );
+  }
+
+  /* ---------- feature list ---------- */
+  .list { flex: 1; display: flex; flex-direction: column; }
+  .item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0 36px;
+    border-bottom: 2px solid var(--ink);
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .item:last-child { border-bottom: 3px solid var(--ink); }
+  .item .num {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 44px;
+    color: var(--coral);
+    min-width: 78px;
+  }
+  .item b { font-weight: 700; }
+
+  /* ---------- CTA ---------- */
+  .cta {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 30px 36px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cta .big {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 37px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    white-space: nowrap;
+  }
+  .cta .big .wa { color: var(--coral); }
+  .cta .sub {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    opacity: 0.85;
+  }
+</style>
+</head>
+<body>
+  <div class="frame">
+
+    <div class="topbar">
+      <div class="jelly">
+        <svg width="34" height="40" viewBox="0 0 34 40" fill="none" stroke="#131A22" stroke-width="2.6" stroke-linecap="round">
+          <path d="M4 17c0-8 5.5-13 13-13s13 5 13 13H4z"/>
+          <path d="M8 21v6M14 21v10M20 21v7M26 21v11"/>
+        </svg>
+        Medusssa.Studio
+      </div>
+      <div>Xalapa · Ver.</div>
+    </div>
+
+    <div class="head">
+      <span class="kicker">Nuevo paquete mensual</span>
+      <h1>
+        <span class="outline">Paquete</span><br>
+        <span class="nemo">Nemo</span>
+      </h1>
+
+      <svg class="fish" width="230" height="150" viewBox="0 0 230 150" fill="none">
+        <g stroke="#131A22" stroke-width="5" stroke-linejoin="round">
+          <path d="M30 75c30-38 70-52 110-40 28 9 46 25 55 40-9 15-27 31-55 40-40 12-80-2-110-40z" fill="#FF5A3C"/>
+          <path d="M195 75l30-32c-6 20-6 44 0 64l-30-32z" fill="#FF5A3C"/>
+          <path d="M92 40c10 18 10 52 0 70M138 36c12 22 12 56 0 78" stroke="#F6F1E7" stroke-width="9"/>
+          <path d="M92 40c10 18 10 52 0 70M138 36c12 22 12 56 0 78"/>
+        </g>
+        <circle cx="58" cy="66" r="8" fill="#131A22"/>
+      </svg>
+
+      <div class="tagline">
+        Pequeño, pero <mark>imposible de no ver.</mark>
+      </div>
+    </div>
+
+    <div class="price">
+      <div class="amount">$2,500 <small>/mes</small></div>
+      <div class="note">Publicidad incluida</div>
+    </div>
+
+    <div class="list">
+      <div class="item">
+        <span class="num">01</span>
+        <span><b>2 videos al mes</b> grabados y editados por nosotros</span>
+      </div>
+      <div class="item">
+        <span class="num">02</span>
+        <span><b>Equipo profesional:</b> dron, estabilizador, iluminación y micrófonos</span>
+      </div>
+      <div class="item">
+        <span class="num">03</span>
+        <span><b>3 plantillas de historias</b> para tu negocio</span>
+      </div>
+      <div class="item">
+        <span class="num">04</span>
+        <span><b>$300 de publicidad en Meta</b> ya incluida</span>
+      </div>
+      <div class="item">
+        <span class="num">05</span>
+        <span><b>Todo tu mes programado</b> + resumen de métricas</span>
+      </div>
+    </div>
+
+    <div class="cta">
+      <div class="big">
+        Inscríbete <span>→</span> <span class="wa">WhatsApp 228 345 7114</span>
+      </div>
+      <div class="sub">
+        <span>Agenda tu grabación este mes</span>
+        <span>@medusssa.studio</span>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
