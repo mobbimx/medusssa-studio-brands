@@ -22,7 +22,7 @@
 | `programa-cuidate-la-una.md` | ⭐ Manual único del programa de lealtad: tarjeta, difusión y promoción en 4 niveles |
 | `presentacion-duena.md` | ⭐ Resumen ejecutivo y guion para presentarle el programa a la dueña — **las 4 decisiones pendientes** |
 | `lanzamiento-tarjeta.md` | ⭐ Campaña de 5 semanas para lanzar la tarjeta: parrilla, WhatsApp y cierre de ventana |
-| `guiones-lanzamiento.md` | ⭐ Guiones de producción toma por toma de las 6 piezas de video |
+| `guiones-lanzamiento.md` | ⭐ Guiones de producción toma por toma de las 9 piezas de video |
 | `plan-15-dias.md` | ⭐ Plan de acción para tener todo listo y publicar el Día 16 |
 | `banco-contenidos.md` | ⭐ 30 ideas de contenido: 10 video, 10 historias, 10 gráfico |
 | `pendientes-por-definir.md` | ⭐ Lo que falta por definir, en orden de urgencia — **incluye 5 bloqueantes**

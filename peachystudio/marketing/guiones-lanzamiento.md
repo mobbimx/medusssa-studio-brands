@@ -1,6 +1,6 @@
 # Peachy Studio — Guiones de producción · Lanzamiento de la tarjeta
 
-> **Documento de rodaje.** Trae toma por toma, tiempos, texto en pantalla y caption de las 6 piezas. **Produce Medusssa Studio.**
+> **Documento de rodaje.** Trae toma por toma, tiempos, texto en pantalla y caption de las 9 piezas. **Produce Medusssa Studio.**
 >
 > La estrategia y la parrilla están en `lanzamiento-tarjeta.md`.
 >
@@ -26,12 +26,13 @@
 
 > **Lo único que bloquea la producción si falla: las tarjetas impresas y las clientas agendadas.** Todo lo demás lo resuelve la agencia.
 
-## Dos días de rodaje
+## Tres días de rodaje
 
 ### Día 1 — Semana 0 · medio día
 
 | Pieza | Necesita |
 |-------|----------|
+| **P0 · Teaser** | Tarjeta + los 4 premios *(pueden ser sustitutos: van desenfocados)* |
 | **P1 · Reveal** | 1 clienta con manicura recién hecha |
 | **P2 · Cómo funciona** | Solo tarjeta |
 | **P4 · Recordatorio** | Solo tarjeta |
@@ -44,13 +45,16 @@
 - 🎴 **3 tarjetas prellenadas** — con 2, 4 y 7 sellos — para no perder tiempo sellando entre tomas
 - ✍️ El sello o plumón definitivo, ya definido
 
-### Día 2 — Semana 2 · ~1 hora
+### Día 2 — Semana 2 · media jornada
 
 | Pieza | Necesita |
 |-------|----------|
 | **P3 · Prueba social** | Una clienta que ya vaya avanzada **de verdad** |
+| **P7 · Experiencia completa** | La misma clienta, **con servicio completo de principio a fin** |
 
-> **Esta es la única que no se puede adelantar al Día 1.** Necesita una tarjeta que se llenó sola, con visitas reales. Peachy avisa cuál clienta va más adelantada y se agenda el rodaje en su cita.
+> ⚠️ **Este día creció.** La P7 sigue un servicio entero, así que ya no es una hora: es la duración del servicio *(~2 h de softgel)* más el armado de la placa final. **Se agenda como jornada, no como visita rápida.**
+
+> **La P3 es la que no se puede adelantar al Día 1.** Necesita una tarjeta que se llenó sola, con visitas reales. Peachy avisa cuál clienta va más adelantada y se agenda el rodaje en su cita.
 
 > ⚠️ **Ojo con el número:** con sello doble corriendo, una clienta inscrita en semana 0 llega a semana 2 con 6 sellos, no con 4. **El texto en pantalla se ajusta a lo que realmente tenga** — es el punto entero de la pieza.
 
@@ -68,7 +72,7 @@ Estas notas aplican a todas las piezas y bajan de la identidad de Peachy *(arque
 
 ## Reglas de formato
 
-1. **Vertical 9:16**, entre 10 y 20 segundos.
+1. **Vertical 9:16.** Entre 10 y 20 segundos, salvo la P7 que llega a 40.
 2. **Sin intro.** El video empieza en la acción, sin "hola chicas".
 3. **Sin voz en off.** Todo el mensaje va en texto en pantalla — se ve sin sonido, que es como se ve Instagram.
 4. **Cada toma se cubre 3 veces** y con un plano alternativo. Volver a citar a la clienta es lo caro.
@@ -78,6 +82,55 @@ Estas notas aplican a todas las piezas y bajan de la identidad de Peachy *(arque
 ---
 
 # LOS GUIONES
+
+---
+
+## 🎥 P0 · Teaser "Próximamente"
+
+**Semana 0 · 18 segundos · Tipo: Teaser cinematográfico**
+
+**Objetivo:** que se vea que algo viene, sin decir qué es. Genera la pregunta que la P1 contesta.
+
+> 🔄 **Pieza nueva (propuesta del cliente).** Cambia una regla de la campaña: **la semana 0 sí publica, pero solo esto.**
+>
+> No la contradice — la regla era *"nunca anuncies un programa vacío"*, y un teaser **no anuncia**: enseña un objeto y se calla. La diferencia importa: anunciar sin contenido decepciona; insinuar sin explicar construye. Y hace que el reveal del lunes caiga sobre una audiencia que ya se está preguntando qué es.
+
+### ⚠️ El riesgo de esta pieza, y cómo se evita
+
+Un tráiler dramático para una tarjeta de sellos **puede verse ridículo** — sobreproducido para lo que es.
+
+> **La referencia no es un tráiler de cine. Es un comercial de perfume o de joyería.**
+>
+> Elegancia y detalle, no épica ni tensión. Movimiento lento, poca profundidad de campo, silencio con música por debajo. Si se siente a superproducción, se pasó.
+
+### Tomas
+
+| # | Tiempo | Plano | Qué pasa |
+|---|--------|-------|----------|
+| **1** | 0.0 – 3.0 | **Detalle extremo**, foco corto | Textura del papel de la tarjeta. Se adivina que hay algo impreso, no se lee |
+| **2** | 3.0 – 7.0 | Travelling lento sobre la mesa | Pasa por objetos **desenfocados** alrededor: el frasco, algo brillante, un dulce |
+| **3** | 7.0 – 11.0 | Cenital, la tarjeta al centro | Los premios rodeándola, **todos fuera de foco**. Solo la tarjeta enfoca |
+| **4** | 11.0 – 15.0 | Detalle | El sello entra a cuadro y se detiene **sin llegar a sellar** |
+| **5** | 15.0 – 18.0 | Negro | Corte a negro |
+
+> 💡 **Los premios van desenfocados a propósito, y eso resuelve un problema de producción:** el merch del sello 5 tiene el tiempo de entrega más largo y probablemente no exista todavía. **Si no se distingue, no importa que sea un sustituto.** Un teaser que revela todo deja de ser teaser.
+
+### Texto en pantalla
+
+| Aparece | Texto |
+|---------|-------|
+| 12.0 s | Algo nuevo para las que siempre vuelven |
+| 15.5 s | **Próximamente 💗** |
+
+### Audio
+**Música cinematográfica suave que crece**, con el sonido del papel y del sello por encima. Sin voz.
+
+### Caption
+> 👀
+>
+> Muy pronto.
+
+> **El caption más corto de toda la campaña, a propósito.** Explicar aquí mataría la pieza. Si preguntan en comentarios, se contesta con otro emoji.
 
 ---
 
@@ -121,31 +174,105 @@ Sonido real del sello en la toma 1 *(sube el volumen en la edición)* + audio su
 
 ## 🎥 P2 · Cómo funciona
 
-**Semana 1 · Miércoles · 15 segundos · Tipo: Explicativo**
+**Semana 1 · Miércoles · 18 segundos · Tipo: Explicativo**
 
-**Objetivo:** que quede una pieza **reenviable**. Cuando una clienta le explique la tarjeta a una amiga, va a mandar este video en vez de explicarla.
+**Objetivo:** que quede una pieza **reenviable y permanente**. Cuando una clienta le explique la tarjeta a una amiga, va a mandar este video en vez de explicarla. Vive en el highlight para siempre.
+
+> 🔄 **Ajustada (propuesta del cliente): rápida, clara y sin distracciones.**
+>
+> Eso se traduce en decisiones concretas: **una sola toma fija, cero transiciones, cero música con letra, cero adornos gráficos.** El único movimiento en cuadro es el dedo señalando. Todo lo demás compite con el mensaje.
 
 ### Tomas
 
-**Una sola toma continua, cenital fija.** La tarjeta al centro, un dedo entra a cuadro para señalar.
+**Una sola toma continua, cenital fija, sin cortes.** La tarjeta al centro; un dedo entra a cuadro para señalar.
 
 | Tiempo | Qué señala el dedo | Texto en pantalla |
 |--------|--------------------|-------------------|
-| 0.0 – 1.0 | *(nada, la tarjeta sola)* | **La tarjeta en 15 segundos** |
-| 1.0 – 4.5 | Una casilla vacía | **Vienes → un sello** |
-| 4.5 – 8.0 | Las dos primeras casillas | **Empiezas con 2 de regalo** |
-| 8.0 – 11.5 | Las tres ✦, una por una | **En el 3, 5 y 7: sorpresa** |
-| 11.5 – 15.0 | La ★ del final | **En el 8: tu premio** |
+| 0.0 – 1.5 | *(nada, la tarjeta sola)* | **Así funciona tu tarjeta** |
+| 1.5 – 5.0 | Las dos primeras casillas | **1 · Empiezas con 2 sellos de regalo** |
+| 5.0 – 8.5 | Una casilla vacía | **2 · Cada visita suma uno** |
+| 8.5 – 12.5 | Las tres ✦, una por una | **3 · En el 3, 5 y 7 hay sorpresa** |
+| 12.5 – 16.0 | La ★ del final | **4 · En el 8, eliges tu premio** |
+| 16.0 – 18.0 | *(la mano sale de cuadro)* | **Ya empezaste 💗** |
+
+> **Los pasos van numerados y en este orden a propósito.** Abre con el regalo —lo que recibe sin hacer nada— y cierra con el premio. Si abriera con "cada visita suma uno", lo primero que escucha es trabajo en vez de beneficio.
 
 ### Audio
-Audio en tendencia, tranquilo. Un *tick* o *pop* suave cada vez que aparece un texto ayuda a marcar el ritmo.
+**Nada de audio en tendencia.** Música instrumental muy baja o silencio, con el sonido real de la mano sobre el papel. Un *tick* suave por cada texto que entra, solo para marcar el ritmo.
+
+> Un audio de moda le pone fecha de caducidad a una pieza que debe durar meses en el highlight.
 
 ### Caption
-> La tarjeta explicada rápido 💗 Empiezas con dos sellos, cada visita suma uno, y en el camino van tres sorpresas antes del premio grande.
+> Así funciona tu tarjeta Cuídate la uña 💗 Empiezas con dos sellos de regalo, cada visita suma uno, y en el camino van tres sorpresas antes del premio grande.
 >
-> Este mes cuenta doble. Mándame WhatsApp y te la doy en tu próxima cita.
+> Guarda este video o mándaselo a quien quieras traer. Agenda por WhatsApp.
 
 > ⚠️ **Un dato por pantalla.** La tentación es meter también la vigencia, el horario y el premio exacto. Cuatro datos se recuerdan; siete no se recuerda ninguno.
+
+---
+
+## 🎥 P7 · La experiencia completa
+
+**Semana 2 · Viernes · 40 segundos · Tipo: Captación**
+
+**Objetivo:** la pieza comercial de la campaña. Cuenta una visita completa —servicio, sello, recompensa— y cierra con **qué se ofrece y cuánto cuesta**, para que quien la vea pueda agendar sin preguntar nada.
+
+> 🔄 **Pieza nueva (propuesta del cliente).** Es la más larga y la única que habla de precio.
+
+### 🔴 Un cuidado antes del guion
+
+`precios-y-paquetes.md` concluyó que **Peachy está en el cuartil bajo del mercado** y que competir por precio es la dirección equivocada. Un video que pone *"$150"* en pantalla ancla ese número públicamente y hace más difícil subirlo después.
+
+**No hay que quitar el precio — hay que cambiar cómo se muestra:**
+
+| ❌ Debilita | ✅ Funciona |
+|------------|------------|
+| "Softgel $150" | **"Softgel desde $150 · retiro incluido"** |
+| Una lista de precios sola | El precio **junto a lo que incluye** |
+| Abrir con los números | Abrir con el resultado, cerrar con los números |
+
+> **Y hay un precio que sí conviene mostrar sin reservas: el de los add-ons.** *"Decoración por uña $15"* no ancla nada hacia abajo — al contrario, formaliza un servicio que hoy prácticamente se está regalando, que es la ganancia más rápida disponible según el análisis de precios.
+
+### Tomas
+
+| # | Tiempo | Plano | Qué pasa |
+|---|--------|-------|----------|
+| **1** | 0.0 – 3.0 | Diagonal | Ella llega y se sienta. Manos sobre la mesa, **uñas todavía sin hacer** |
+| **2** | 3.0 – 12.0 | Cenital, cortes rápidos | **El proceso.** Limado, aplicación, color. 3 o 4 cortes de 2 seg |
+| **3** | 12.0 – 17.0 | Detalle | Las uñas terminadas. Movimiento lento de la mano |
+| **4** | 17.0 – 22.0 | Diagonal | Le entregan la tarjeta. **El sello baja** |
+| **5** | 22.0 – 28.0 | Cenital | La tarjeta cae en el sello 5 → **le entregan el merch** |
+| **6** | 28.0 – 34.0 | Diagonal | Su reacción. **Que se vea genuina, no actuada** |
+| **7** | 34.0 – 40.0 | Cenital limpio | Placa final con servicios y CTA |
+
+### Texto en pantalla
+
+| Aparece | Texto |
+|---------|-------|
+| 0.5 s | **Una visita a Peachy** |
+| 13.0 s | *(nada — que se vean las uñas)* |
+| 18.0 s | Y cada visita suma un sello |
+| 23.0 s | **En el 5 va sorpresa 🎁** |
+| 34.0 s | **Softgel** desde $150 · retiro incluido |
+| 36.0 s | **Polygel** desde $170 · retiro incluido |
+| 37.5 s | **Decoración** por uña $15 |
+| 38.5 s | **Agenda por WhatsApp 💗** |
+
+> **La placa final va limpia y legible**, sobre fondo liso, no encima del video. Es la información que alguien va a pausar para leer.
+
+### Audio
+Música con ritmo durante el proceso *(tomas 1–3)*, que **baja en la toma 4** para que se escuche el sello. Sin voz en off.
+
+### Caption
+> Así se siente una visita 💗 Te haces las uñas, sellas tu tarjeta, y en el camino van sorpresas.
+>
+> Softgel desde $150 y polygel desde $170, con el retiro incluido. Decoración por uña $15.
+>
+> Agenda tu cita por WhatsApp. Uñas en Xalapa.
+
+> ⚠️ **Los precios van en la caption también.** Quien pregunte "¿cuánto?" en comentarios ya no obliga a contestar uno por uno — y quien no pregunte, no llega a la cita con una expectativa equivocada.
+
+> **Se graba el mismo día que la P3**, aprovechando que ya hay una clienta con servicio completo y tarjeta avanzada.
 
 ---
 
@@ -329,12 +456,14 @@ Con producción de agencia no basta con "estar pendiente" — **hay que saber el
 
 | Pieza | Semana | Día | Duración | Qué se necesita |
 |-------|--------|-----|----------|-----------------|
+| **P0** Teaser | **0** | — | 18 s | Tarjeta + premios *(desenfocados)* |
 | **P1** Reveal | 1 | Lun | 16 s | Tarjeta 2 sellos + mano de clienta |
-| **P2** Cómo funciona | 1 | Mié | 15 s | Tarjeta sola |
+| **P2** Cómo funciona | 1 | Mié | 18 s | Tarjeta sola |
 | **P3** Prueba social | 2 | Mié | 12 s | **Clienta real avanzada** |
+| **P7** Experiencia completa | 2 | Vie | 40 s | **Clienta + servicio completo** |
 | **P4** Recordatorio | 3 | Lun | 12 s | Tarjeta + sello × 2 |
 | **P5** Última llamada | 4 | Lun | 10 s | Tarjeta sola |
 | **P6** Relevo | 5 | Lun | 15 s | Tarjeta completa |
 | **Extra** Tarjeta llena | ~6 | — | 15 s | **Aviso de Peachy al llegar alguien a 7 sellos** |
 
-**Se graban en 3 días: Día 1 en semana 0, Día 2 en semana 2 y Día 3 por confirmar.**
+**Se graban en 3 días: Día 1 en semana 0 (P0, P1, P2, P4, P5, P6), Día 2 en semana 2 (P3 y P7) y Día 3 por confirmar.**

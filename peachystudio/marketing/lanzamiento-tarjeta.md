@@ -46,7 +46,7 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 
 # PARTE 2 · SEMANA 0 — ANTES DE ANUNCIAR NADA
 
-**Duración: 3 a 5 días. No se publica nada todavía.**
+**Duración: 3 a 5 días. Lo único que se publica es el teaser.**
 
 ## Lo que tiene que existir antes del primer video
 
@@ -72,7 +72,7 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 
 ## El rodaje de esta semana
 
-**Día 1 de producción (Medusssa Studio):** se graban las piezas P1, P2, P4, P5 y P6 en una sola sesión de medio día. Plan de rodaje completo en `guiones-lanzamiento.md`.
+**Día 1 de producción (Medusssa Studio):** se graban las piezas P0, P1, P2, P4, P5 y P6 en una sola sesión de medio día. Plan de rodaje completo en `guiones-lanzamiento.md`.
 
 **Lo que Peachy prepara:** 2 citas agendadas en el horario del rodaje, 3 tarjetas prellenadas (2, 4 y 7 sellos) y el sello definitivo.
 
@@ -97,7 +97,9 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 | Tipo | Para qué sirve | Dura |
 |------|----------------|------|
 | 📣 **Anuncio** | Presentar algo que no existía. Se usa una sola vez | 15–20 s |
-| 📖 **Explicativo** | Enseñar cómo funciona algo. Es el que se guarda y se reenvía | 15 s |
+| 📖 **Explicativo** | Enseñar cómo funciona algo. Es el que se guarda y se reenvía | 15–20 s |
+| 🎞️ **Teaser** | Insinuar sin explicar. Solo funciona si después llega el reveal | 15–20 s |
+| 💰 **Captación** | Servicio, precio y llamada a agendar. La pieza que trae citas | 30–45 s |
 | 👐 **Prueba social** | Clienta real, resultado real. El más creíble y el que no se puede fabricar | 10–15 s |
 | ⏳ **Recordatorio** | Urgencia con fecha real. Solo funciona si la fecha se respeta | 10–12 s |
 | ❓ **FAQ** | Resolver la objeción **antes** de que llegue al WhatsApp | 20–30 s |
@@ -108,15 +110,18 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 
 ## La parrilla completa
 
-### Semana 0 — Instalación *(no se publica nada)*
+### Semana 0 — Instalación *(solo publica el teaser)*
 
 | | Actividad |
 |---|---|
 | **Mostrador** | Inscribir 8–10 clientas sin anunciar |
-| **Producción** | **Día 1 de rodaje** — se graban 5 de las 6 piezas |
+| **Producción** | **Día 1 de rodaje** — se graban 6 piezas |
 | **Montaje** | Imprimir, definir sello, abrir columna en la hoja de registro, fijar fecha de cierre |
+| **Se publica** | **Solo la P0 · Teaser**, 2 o 3 días antes del reveal |
 
-> **La semana de mayor rendimiento de toda la campaña, y no publica nada.** Es la que hace que el lunes siguiente haya material real que enseñar.
+> 🔄 **Cambio (propuesta del cliente): la semana 0 ahora sí publica una pieza.**
+>
+> La regla era *"nunca anuncies un programa vacío"*, y el teaser **no anuncia** — enseña un objeto y se calla. Anunciar sin contenido decepciona; insinuar sin explicar construye. **El reveal del lunes cae sobre gente que ya se está preguntando qué es.**
 
 ---
 
@@ -125,7 +130,7 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 | Día | Pieza | Tipo | Tema |
 |-----|-------|------|------|
 | **Lun** | **P1 · El reveal** | 📣 Anuncio | *"Ya empezaste"* — existe la tarjeta y llega con 2 sellos puestos |
-| **Mié** | **P2 · Cómo funciona** | 📖 Explicativo | La mecánica en 15 segundos: vienes, sumas, sorpresas, premio |
+| **Mié** | **P2 · Cómo funciona** | 📖 Explicativo | La mecánica en 4 pasos numerados. Pieza permanente del highlight |
 | **Vie** | Las tarjetas | 🎬 Detrás | Cómo quedaron, el sello, la mesa preparada. Refuerza sin repetir el anuncio |
 
 **Además esta semana:** WhatsApp uno por uno a la base instalada · bio · highlight *"Tu tarjeta"* · Google Post.
@@ -137,8 +142,10 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 | Día | Pieza | Tipo | Tema |
 |-----|-------|------|------|
 | **Lun** | FAQ regular | ❓ FAQ | *"¿Cuánto me duran?"* — la objeción que más frena la primera cita |
-| **Mié** | **P3 · Prueba social** | 👐 Prueba | Una clienta real ya va en 4 sellos |
-| **Vie** | Diseño de la semana | ✨ Resultado | Trabajo terminado, con nombre de diseño |
+| **Mié** | **P3 · Prueba social** | 👐 Prueba | Una clienta real, con los sellos que de verdad lleve |
+| **Vie** | **P7 · Experiencia completa** | 💰 Captación | Una visita entera: servicio, sello, recompensa, precios y CTA |
+
+> **La P7 es la pieza comercial de la campaña** y la única que muestra precios. Sustituye al espacio de resultado porque hace ese trabajo y además cierra con llamada a agendar.
 
 > **Por qué el FAQ va aquí y no antes:** la semana 1 empuja a agendar. En la 2 empiezan a llegar las preguntas — este espacio las contesta de forma masiva en lugar de una por una por WhatsApp.
 
@@ -191,15 +198,15 @@ Si el primer video muestra una tarjeta en blanco sobre una mesa, se ve a folleto
 
 | Semana | Piezas de tarjeta | Piezas regulares | Total |
 |--------|-------------------|------------------|-------|
-| 0 | — | — | **0** |
+| **0** | **1** *(teaser)* | — | **1** |
 | 1 | 2 | 1 | **3** |
-| 2 | 1 | 2 | **3** |
+| 2 | **2** | 1 | **3** |
 | 3 | 1 | 2 | **3** |
 | 4 | 1 | 2 | **3** |
 | 5 | 1 | 2 | **3** |
-| | **6** | **9** | **15** |
+| | **8** | **8** | **16** |
 
-**Seis piezas de tarjeta en cinco semanas.** El resto del feed sigue funcionando como siempre — que es justo lo que hace que la tarjeta no canse.
+**Ocho piezas de tarjeta en seis semanas**, y ninguna semana pasa de tres publicaciones. El resto del feed sigue funcionando como siempre — que es justo lo que hace que la tarjeta no canse.
 
 ---
 
