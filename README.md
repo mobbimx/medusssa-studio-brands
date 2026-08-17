@@ -9,7 +9,7 @@ peachystudio/       - Peachy Studio Nails
 mobbitrips/         - Mobbitrips (alojamientos flexibles)
 salones-aurora/     - Salones Aurora (eventos)
 alpha-fitness/      - Alpha Fitness
-extravagance/       - Extravagance
+extravagance/       - Extravagance (Club For Men · Boca del Río)
 ```
 
 ## Propósito
@@ -31,7 +31,8 @@ Cada carpeta incluye (según disponibilidad):
 | `visual.md` | Colores, tipografías, logo, lineamientos gráficos |
 | `servicios.md` | Catálogo de servicios/productos |
 | `estrategia.md` | Estrategia de contenido y redes sociales |
-| `referencias/` | Material visual de referencia |
+| `plantillas-historias.md` | Sets de plantillas de historias para uso diario (si aplica) |
+| `referencias/` | Material visual de referencia (logos, fotos) |
 
 ---
 
