@@ -15,4 +15,22 @@
 5. **Tips** — Ideas para organizar eventos, tendencias en decoración
 
 ## Frecuencia sugerida
-*Pendiente de definir*
+| Canal | Frecuencia | Contenido |
+|-------|------------|-----------|
+| Facebook (feed) | **3 posts/semana** (12 al mes) | 1 tip · 1 promocional · 1 evento real o testimonio |
+| Facebook (historias) | 3–4 por semana | Detrás del montaje, fechas libres, avances del evento |
+| Instagram | Espejo del feed de Facebook | Fotos de eventos e instalaciones |
+| WhatsApp | Respuesta el mismo día | Cotización clara y agendado de visitas |
+
+**Mejores horarios (Xalapa):** 8:00–10:00 pm entre semana · 11:00 am–1:00 pm sábado y domingo.
+
+**Regla de equilibrio:** por cada post de venta debe haber uno útil y uno de prueba
+social. El perfil no se debe leer como puro anuncio.
+
+## Entregables
+- [x] Banco de 24 posts de Facebook con calendario de rotación → `posts-facebook.md`
+- [ ] Confirmar con el cliente los datos pendientes listados al final de `posts-facebook.md`
+      (capacidad, paquete, precios, fechas libres)
+- [ ] Documentar identidad visual: logo, colores y tipografías → `visual.md`
+- [ ] Plantillas gráficas del set de posts (Canva)
+- [ ] Catálogo de paquetes → `servicios.md`

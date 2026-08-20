@@ -32,6 +32,7 @@ Cada carpeta incluye (según disponibilidad):
 | `servicios.md` | Catálogo de servicios/productos |
 | `estrategia.md` | Estrategia de contenido y redes sociales |
 | `plantillas-historias.md` | Sets de plantillas de historias para uso diario (si aplica) |
+| `posts-facebook.md` | Banco de posts de Facebook listos para publicar + calendario de rotación |
 | `referencias/` | Material visual de referencia (logos, fotos) |
 
 ---
