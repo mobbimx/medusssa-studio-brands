@@ -13,7 +13,19 @@ Lo que llega editable a Canva:
 - El logo, las fotos y la trama de curvas de nivel, como imágenes independientes.
 - Chips de fecha, marco polaroid, botón pill, estrellas y barra de cierre, como formas.
 
-## Cómo importarlo
+## Diseño ya importado en Canva
+
+Ya está creado en la cuenta de Medusssa Studio:
+
+- **Editar:** https://www.canva.com/d/xBp8XnHkc6MQ2hR
+- **Ver:** https://www.canva.com/d/LurC1vl0f8YBJVi
+- **ID del diseño:** `DAHS24dlMnA`
+
+Si el enlace caduca, se abre desde el panel de Canva buscando
+*"Aurora Salones — 8 plantillas de posts Facebook"*, o se vuelve a importar con los
+pasos de abajo.
+
+## Cómo importarlo (o volver a importarlo)
 
 **Opción A — desde Canva:** *Crear diseño → Importar archivo* y sube el `.pptx`.
 
