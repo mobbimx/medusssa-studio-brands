@@ -8,6 +8,14 @@
 | `aurora-serie2-posts.html` | Serie 2 · 8 posts | 1080 × 1350 |
 | `aurora-historias.html` | 8 historias reutilizables | 1080 × 1920 |
 
+**Ya importados en Canva:**
+
+| Diseño | Editar | ID |
+|--------|--------|----|
+| Serie 1 · 8 posts | https://www.canva.com/d/xBp8XnHkc6MQ2hR | `DAHS24dlMnA` |
+| Serie 2 · 8 posts | https://www.canva.com/d/r5SBwpgzAWkvpBR | `DAHS3SpPNFU` |
+| 8 historias | https://www.canva.com/d/JPnutNzdDxFiodY | `DAHS3QaTtJo` |
+
 Los dos `.html` son **multipágina**: cada plantilla va marcada como página, así que Canva
 los importa como un diseño de 8 páginas con los textos editables. Se importan igual que
 el PPTX (subiéndolos o por URL del repo).
