@@ -29,8 +29,11 @@ social. El perfil no se debe leer como puro anuncio.
 
 ## Entregables
 - [x] Banco de 24 posts de Facebook con calendario de rotación → `posts-facebook.md`
+- [x] Identidad visual: paleta, tipografías, logo y retícula → `visual.md`
+- [x] 8 plantillas gráficas de feed (1080×1350, PNG + HTML editable) → `plantillas/`
+- [x] Datos para el brand kit de Canva → `brand-kit-canva.md`
 - [ ] Confirmar con el cliente los datos pendientes listados al final de `posts-facebook.md`
       (capacidad, paquete, precios, fechas libres)
-- [ ] Documentar identidad visual: logo, colores y tipografías → `visual.md`
-- [ ] Plantillas gráficas del set de posts (Canva)
+- [ ] Sesión de fotos del salón (montaje, pista, fachada, entrada) → `referencias/fotos/`
+- [ ] Reconstruir las plantillas como plantillas editables dentro de Canva
 - [ ] Catálogo de paquetes → `servicios.md`

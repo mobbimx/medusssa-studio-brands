@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 72" width="400" height="288" fill="none">
+  <title>Salones Aurora — isotipo (propuesta): amanecer sobre el horizonte</title>
+  <g stroke="#C08A3E" stroke-width="3.4" stroke-linecap="round">
+    <line x1="50" y1="5"  x2="50" y2="15"/>
+    <line x1="28" y1="12" x2="34" y2="21"/>
+    <line x1="72" y1="12" x2="66" y2="21"/>
+    <line x1="11" y1="29" x2="21" y2="33"/>
+    <line x1="89" y1="29" x2="79" y2="33"/>
+  </g>
+  <path d="M23 55 A27 27 0 0 1 77 55" fill="none" stroke="#C08A3E" stroke-width="4.2" stroke-linecap="round"/>
+  <line x1="8" y1="64" x2="92" y2="64" stroke="#C08A3E" stroke-width="4.2" stroke-linecap="round"/>
+</svg>

@@ -33,6 +33,8 @@ Cada carpeta incluye (según disponibilidad):
 | `estrategia.md` | Estrategia de contenido y redes sociales |
 | `plantillas-historias.md` | Sets de plantillas de historias para uso diario (si aplica) |
 | `posts-facebook.md` | Banco de posts de Facebook listos para publicar + calendario de rotación |
+| `brand-kit-canva.md` | Datos listos para crear el brand kit en Canva |
+| `plantillas/` | Plantillas gráficas listas (PNG) + su fuente HTML editable |
 | `referencias/` | Material visual de referencia (logos, fotos) |
 
 ---

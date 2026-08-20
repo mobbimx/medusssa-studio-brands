@@ -6,6 +6,10 @@ Banco de **24 posts listos para publicar**, organizados por los 5 pilares de
 Cada post trae: objetivo, formato, foto sugerida, **copy completo listo para copiar y
 pegar**, campos editables `[entre corchetes]` y hashtags.
 
+> **Diseño:** las 8 plantillas gráficas que cubren estos posts están en `plantillas/`
+> (1080 × 1350 px, PNG + HTML editable). La tabla de `plantillas/README.md` dice qué
+> plantilla le toca a cada post.
+
 ---
 
 ## Reglas de copy (aplican a todos)
@@ -557,4 +561,5 @@ dejar los 24 posts 100% publicables:
 - [ ] **Horarios de visita** al salón (post 16).
 - [ ] **Fechas libres del mes en curso** (post 15).
 - [ ] **Fotos de eventos reales con autorización** de las familias (pilares 1 y 3).
-- [ ] **Logo y colores de marca** para las plantillas gráficas (`visual.md` sigue pendiente).
+- [ ] **Logo oficial del cliente**, si lo tiene. Mientras tanto, las plantillas usan la
+      propuesta de identidad documentada en `visual.md`.
