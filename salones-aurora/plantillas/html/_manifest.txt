@@ -1,8 +1,8 @@
-01-evento-real
-02-instalaciones
-03-todo-incluido
-04-fechas-disponibles
-05-agenda-visita
-06-testimonio
-07-tip-checklist
-08-temporada
+01-fechas-disponibles
+02-todo-incluido
+03-tip-5-preguntas
+04-capacidad
+05-instalaciones
+06-temporada-diciembre
+07-agenda-visita
+08-testimonio

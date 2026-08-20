@@ -3,8 +3,16 @@
 ## Datos generales
 - **Giro:** Salón de eventos
 - **Ubicación:** Carlos A. Carrillo no. 23, Col. Aguacatal, Xalapa
-- **WhatsApp:** 228 113 3683
+- **WhatsApp:** 228 298 4871
+  > ⚠ El repo tenía documentado el 228 113 3683. **Todas las piezas publicadas por el
+  > cliente (carruseles P02, P08, P14, P19) usan el 228 298 4871**, así que ese quedó como
+  > el número bueno en contenidos y plantillas. Confirmar con el cliente si el otro sigue vivo.
 - **Plataformas:** Facebook (principal), WhatsApp, Instagram
+
+## Nombre de marca
+En el logo la jerarquía es **AURORA** (grande) sobre **SALONES** (chico), y los contenidos
+se firman **Aurora Salones**. En este repo la carpeta se llama `salones-aurora` por orden
+histórico; para textos y diseños usar **Aurora Salones**.
 
 ## Arquetipo
 **El Cuidador** — El salón que se ocupa de todo para que la familia solo disfrute.

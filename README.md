@@ -35,6 +35,7 @@ Cada carpeta incluye (según disponibilidad):
 | `posts-facebook.md` | Banco de posts de Facebook listos para publicar + calendario de rotación |
 | `brand-kit-canva.md` | Datos listos para crear el brand kit en Canva |
 | `plantillas/` | Plantillas gráficas listas (PNG) + su fuente HTML editable |
+| `linea-grafica-existente.md` | Análisis del material ya publicado por la marca |
 | `referencias/` | Material visual de referencia (logos, fotos) |
 
 ---

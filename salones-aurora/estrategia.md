@@ -29,11 +29,15 @@ social. El perfil no se debe leer como puro anuncio.
 
 ## Entregables
 - [x] Banco de 24 posts de Facebook con calendario de rotación → `posts-facebook.md`
-- [x] Identidad visual: paleta, tipografías, logo y retícula → `visual.md`
-- [x] 8 plantillas gráficas de feed (1080×1350, PNG + HTML editable) → `plantillas/`
+- [x] Análisis de la línea gráfica ya publicada → `linea-grafica-existente.md`
+- [x] Identidad visual real documentada: paleta, tipografías, recursos y retícula → `visual.md`
+- [x] Logo recuperado con fondo transparente → `referencias/logo-aurora.png`
+- [x] 8 plantillas de feed en la línea de la marca (PNG + HTML editable) → `plantillas/`
 - [x] Datos para el brand kit de Canva → `brand-kit-canva.md`
 - [ ] Confirmar con el cliente los datos pendientes listados al final de `posts-facebook.md`
       (capacidad, paquete, precios, fechas libres)
-- [ ] Sesión de fotos del salón (montaje, pista, fachada, entrada) → `referencias/fotos/`
+- [ ] Pedir al cliente el **logo vectorial** y confirmar el WhatsApp bueno
+- [ ] Sesión de fotos propia del salón, vacío y montado, sin decoración de temporada
+- [ ] Set de historias 9:16 (no existe ningún formato vertical todavía)
 - [ ] Reconstruir las plantillas como plantillas editables dentro de Canva
 - [ ] Catálogo de paquetes → `servicios.md`

@@ -1,51 +1,56 @@
-# Salones Aurora — Brand Kit para Canva
+# Aurora Salones — Brand Kit para Canva
 
-Datos listos para crear el Brand Kit en Canva (se crea a mano en un par de minutos)
-y dejar las plantillas editables por el cliente sin tocar código.
+Datos de la identidad **real** de la marca (extraídos del material publicado), listos
+para crear el brand kit y dejar las plantillas editables por el cliente.
 
 ## 1. Colores
 | Rol | HEX | Nombre en Canva |
 |-----|-----|-----------------|
-| Primario | `#C08A3E` | Dorado Aurora |
-| Primario claro | `#DFB870` | Dorado Amanecer |
-| Base oscura | `#2A2118` | Café Nocturno |
-| Fondo claro | `#F6F0E6` | Marfil |
-| Acento | `#D98E6A` | Durazno |
-| Texto | `#3B3027` | Tinta Cálida |
+| Primario | `#501B1F` | Vino Aurora |
+| Títulos | `#36261F` | Café Oscuro |
+| Acento | `#CD7638` | Terracota |
+| Acento vivo | `#FC561D` | Naranja Aurora |
+| Fondo | `#F4EEE5` | Crema |
+| Barra | `#4A3428` | Café Barra |
+| Cuerpo | `#7A665A` | Gris Cálido |
+| Textura | `#E1D7C9` | Línea Topográfica |
 
 ## 2. Tipografías
-- **Títulos:** *Playfair Display* (Bold 700 / Medium 500).
-- **Cuerpo y botones:** *Lato* (Light 300 / Regular 400 / Bold 700).
-- Las dos están disponibles gratis en Canva y son exactamente las que se usaron en
-  las plantillas HTML, así que el resultado es idéntico.
+- **Títulos:** *Playfair Display* — Bold 700, Regular 400 para mayúsculas espaciadas,
+  Bold Italic para citas.
+- **Cuerpo y botones:** *Poppins* — Light 300, Regular 400, SemiBold 600, Bold 700.
+- Las dos son gratuitas en Canva. Son las mismas que usan las piezas ya publicadas.
 
-## 3. Logos (subir al Brand Kit)
-Mientras no haya logo oficial del cliente, se sube la propuesta:
-- Lockup para fondos claros: `referencias/logo-propuesta-oscuro.png`
-- Lockup para fondos oscuros: `referencias/logo-propuesta-claro.png`
-- Isotipo vectorial: `referencias/isotipo-propuesta.svg`
+## 3. Logo
+- `referencias/logo-aurora.png` — fondo transparente, 209 × 109 px.
+- ⚠ Es una extracción de una pieza publicada. **Pedir el vector original al cliente**
+  antes de usarlo en tamaños grandes o en impresión.
 
-## 4. Cómo crearlo en Canva (paso a paso)
-1. Entra a Canva → esquina inferior izquierda: **Brand** (o canva.com/brand/settings).
-2. **+ Add new** → nombra el kit **"Salones Aurora"**.
-3. **Brand Colors** → agrega los 6 HEX de arriba.
-4. **Brand Fonts** → Playfair Display para títulos, Lato para cuerpo.
-5. **Logos** → sube los tres archivos.
-6. Guarda. Al generar diseños, elige el brand kit **Salones Aurora**.
+## 4. Cómo crearlo en Canva
+1. Canva → esquina inferior izquierda: **Brand** (o canva.com/brand/settings).
+2. **+ Add new** → nombra el kit **"Aurora Salones"**.
+3. **Brand Colors** → agrega los 8 HEX.
+4. **Brand Fonts** → Playfair Display para títulos, Poppins para cuerpo.
+5. **Logos** → sube `logo-aurora.png`.
+6. Guarda y elige ese kit al generar diseños.
 
-## 5. Carpeta en Canva (estructura sugerida, igual que las demás marcas)
+## 5. Carpeta en Canva (sugerida)
 ```
-SALONES AURORA/
+AURORA SALONES/
   ├─ Posts Facebook
+  ├─ Carruseles
   ├─ Stories
-  ├─ Anuncios - Pauta
-  └─ Fotos de eventos
+  └─ Anuncios - Pauta
 ```
 
 ## 6. Cómo pasar las plantillas a Canva
-Las 8 plantillas viven en `plantillas/` como PNG y HTML. Para dejarlas editables:
-1. Crea un diseño de **1080 × 1350 px**.
-2. Reconstruye cada plantilla con la retícula de `visual.md` (margen 90 px, firma
-   arriba a la izquierda, filete dorado, barra de contacto abajo).
-3. Guarda cada una como **plantilla de marca**, para que solo se cambien los campos
-   `[entre corchetes]` y la foto de fondo.
+1. Diseño de **1080 × 1350 px**.
+2. Retícula de `visual.md`: margen 96 px, logo centrado arriba a 52 px, barra de
+   contacto abajo.
+3. Recursos que hay que rehacer una sola vez y reutilizar:
+   - **Trama de curvas de nivel** (fondo crema) — se puede subir como imagen de fondo
+     exportando el SVG de cualquiera de los HTML de `plantillas/html/`.
+   - **Marco polaroid**: rectángulo blanco, padding 16/16/46 px, rotación 2°, sombra suave.
+   - **Barra de cierre** en sus dos variantes.
+4. Guarda cada pieza como **plantilla de marca** para que solo se cambien los campos
+   `[entre corchetes]` y la foto.

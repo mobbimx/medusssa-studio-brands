@@ -1,58 +1,68 @@
-# Salones Aurora — Plantillas de posts de Facebook (PNG + HTML)
+# Aurora Salones — Plantillas de posts de Facebook (PNG + HTML)
 
-Set de **8 plantillas** de feed (**1080 × 1350 px, formato 4:5**) construidas con la
-identidad visual de `../visual.md` y los copies de `../posts-facebook.md`.
+**8 plantillas nuevas** de feed (**1080 × 1350 px, 4:5**) construidas sobre la línea
+gráfica real de la marca (ver `../linea-grafica-existente.md` y `../visual.md`).
 
-El 4:5 es el formato que más espacio vertical ocupa en el feed de Facebook e Instagram
-sin que la plataforma lo recorte.
+Cubren los formatos que **no existían** en el material ya publicado: disponibilidad,
+paquete, capacidad y agenda de visita; más versiones nuevas de los formatos que sí
+funcionan (portada de instalaciones, temporada, tip y testimonio).
 
 ## Archivos
 
-| # | Archivo | Modo | Alimenta los posts |
-|---|---------|------|--------------------|
-| 1 | `01-evento-real.png` | Foto | 01 XV años · 02 Boda · 03 Bautizo · 12 Agradecimiento |
-| 2 | `02-instalaciones.png` | Foto | 05 Tour · 06 Pista · 07 Ubicación · 08 Capacidad |
-| 3 | `03-todo-incluido.png` | Marfil | 13 Todo incluido · 18 Entre semana |
-| 4 | `04-fechas-disponibles.png` | Marfil | 15 Fechas libres |
-| 5 | `05-agenda-visita.png` | Foto | 16 Agenda una visita · 07 Ubicación |
-| 6 | `06-testimonio.png` | Marfil | 10 Testimonio · 11 Testimonio en video (portada) |
-| 7 | `07-tip-checklist.png` | Marfil | 19 Qué preguntar · 20 Cuándo apartar · 22 Invitados · 23 Orden del día |
-| 8 | `08-temporada.png` | Foto | 17 Temporada alta · 14 Cotización clara |
+| # | Archivo | Modo | Formato | Alimenta los posts de `../posts-facebook.md` |
+|---|---------|------|---------|------------------------------------------|
+| 1 | `01-fechas-disponibles.png` | Crema | Chips de fecha | 15 Fechas libres |
+| 2 | `02-todo-incluido.png` | Crema | Lista con flor | 13 Todo incluido · 18 Entre semana |
+| 3 | `03-tip-5-preguntas.png` | Crema | Lista numerada | 19 Qué preguntar · 20 Cuándo apartar · 22 Invitados |
+| 4 | `04-capacidad.png` | Crema | Número grande + polaroid | 08 Capacidad |
+| 5 | `05-instalaciones.png` | Foto | Portada con pill | 05 Tour · 06 Pista · 07 Ubicación |
+| 6 | `06-temporada-diciembre.png` | Foto | Titular + apoyo | 17 Temporada alta |
+| 7 | `07-agenda-visita.png` | Foto + barra sólida | Conversión | 16 Agenda una visita |
+| 8 | `08-testimonio.png` | Crema + barra sólida | Cita + estrellas | 10 Testimonio · 12 Agradecimiento |
 
-Con estas 8 se cubren las 12 publicaciones del mes del calendario de rotación
-(ver `../posts-facebook.md`).
+Con estas 8 se cubren las 12 publicaciones del mes del calendario de rotación.
 
-## Cómo editarlas (replicable)
+## Antes de publicar (importante)
 
-Cada plantilla vive también como **HTML autocontenido** en `html/` (las tipografías van
-incrustadas en base64, así que abren igual sin internet).
+Cada plantilla trae **una guía de edición que hay que borrar**: la línea
+*"Campos editables: …"* del pie. En el HTML es el `<div class="guia">`.
 
-1. Abre el `.html` correspondiente en `html/`.
-2. Cambia los textos de `eyebrow`, `title`, `sub`, la lista o la cita.
-3. En las plantillas de **modo foto**, sustituye el `<div class="bg-ph"></div>` por la
-   foto real:
-   ```html
-   <img class="bg" src="../../referencias/fotos/mi-foto.jpg">
-   ```
-   El `bg-ph` es solo un fondo cálido de relleno mientras no hay fotografía del salón.
-4. Borra el `<div class="ph-tag">` (la etiqueta punteada de "sustituir por foto") y el
-   `<div class="hint">` (la línea de "Campos editables"). **Las dos son guías de edición
-   y no deben salir publicadas.**
-5. Re-renderiza a PNG:
+Las fotos que traen son **ejemplos tomados del propio material del cliente**
+(evento de diciembre). Hay que cambiarlas por la foto que toque en cada publicación
+—y sobre todo por material sin temporada marcada cuando el post no sea navideño.
+
+## Cómo editarlas
+
+Cada plantilla vive como **HTML autocontenido** en `html/`: tipografías, logo y fotos
+van incrustados en base64, así que el archivo abre igual sin internet y sin fuentes
+instaladas.
+
+1. Abre el `.html` en `html/`.
+2. Cambia los textos entre `[corchetes]` y el resto del copy.
+3. Para cambiar la foto, sustituye el `src` del `<img class="foto">` (fondo) o del
+   `<img>` dentro del `.polaroid`.
+4. Borra el `<div class="guia">`.
+5. Re-renderiza:
    ```bash
-   node shot.js     # Playwright, viewport exacto de 1080×1350
+   NODE_PATH=/opt/node22/lib/node_modules node shot.js
    ```
    o con Chrome headless:
    ```bash
-   chromium --headless --window-size=1080,1350 \
-     --screenshot=salida.png 01-evento-real.html
+   chromium --headless --window-size=1080,1350 --screenshot=salida.png html/01-fechas-disponibles.html
    ```
 
+## Piezas de la línea que se respetaron
+
+- Logo centrado arriba (con badge blanco cuando hay foto detrás).
+- Trama de curvas de nivel en todos los fondos crema.
+- Polaroid girado 2° con marco blanco para las fotos.
+- Barra de contacto en las dos variantes: hairline y bloque sólido café.
+- Playfair Display para titulares, Poppins para cuerpo.
+- Paleta vino / terracota / crema, sin colores nuevos.
+
 ## Pendientes
-- **Fotos reales del salón.** Los 4 diseños de modo foto usan un fondo de relleno
-  cálido. Con material propio (montaje, pista, fachada, entrada, evento en curso)
-  suben mucho de nivel. Es el entregable que más falta hace.
-- **Logo oficial.** Se usa la propuesta de `../referencias/`. Si el cliente tiene el
-  suyo, se sustituye el lockup en el bloque `.firma` de cada HTML.
-- **Versión editable en Canva**, para que el cliente pueda cambiar textos sin código
-  (ver `../brand-kit-canva.md`).
+- **Logo vectorial** del cliente: hoy se usa un PNG de 209 px extraído de una pieza
+  publicada. Sirve al tamaño del feed, no para más.
+- **Sesión de fotos propia** del salón, vacío y montado, sin decoración de temporada.
+- **Versión editable en Canva** (ver `../brand-kit-canva.md`).
+- **Set de historias 9:16**: no existe todavía ningún formato vertical de historia.
