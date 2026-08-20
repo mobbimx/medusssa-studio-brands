@@ -3,11 +3,20 @@
 ## Datos generales
 - **Giro:** Salón de eventos
 - **Ubicación:** Carlos A. Carrillo no. 23, Col. Aguacatal, Xalapa
-- **WhatsApp:** 228 298 4871
-  > ⚠ El repo tenía documentado el 228 113 3683. **Todas las piezas publicadas por el
-  > cliente (carruseles P02, P08, P14, P19) usan el 228 298 4871**, así que ese quedó como
-  > el número bueno en contenidos y plantillas. Confirmar con el cliente si el otro sigue vivo.
-- **Plataformas:** Facebook (principal), WhatsApp, Instagram
+- **WhatsApp:** +52 228 113 3683
+- **Correo:** salon.eventos.aurora@gmail.com
+- **Dirección completa:** Carlos A. Carrillo no. 23, Col. Aguacatal, Xalapa, Veracruz
+- **Capacidad:** 213 personas sentadas
+- **Formas de pago:** tarjeta de crédito y débito, Apple Pay, Samsung Pay, Visa,
+  Mastercard, American Express
+  > Es un diferenciador fuerte y poco explotado: la mayoría de los salones de Xalapa
+  > solo aceptan efectivo o transferencia.
+
+  > ⚠ **Sobre el WhatsApp:** existen dos números en circulación. Los carruseles
+  > publicados en 2025 (P02, P08, P14, P19) traen el **228 298 4871**; las piezas más
+  > recientes —la de agenda 2026 y las de contacto— traen el **228 113 3683**, que es
+  > también el que estaba documentado originalmente. Se adoptó el **228 113 3683** por
+  > ser el de las piezas más nuevas. Confirmar con el cliente si el otro sigue activo.
 
 ## Nombre de marca
 En el logo la jerarquía es **AURORA** (grande) sobre **SALONES** (chico), y los contenidos

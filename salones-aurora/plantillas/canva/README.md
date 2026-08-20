@@ -1,5 +1,19 @@
 # Aurora Salones — Editables para Canva
 
+## Archivos
+
+| Archivo | Qué trae | Formato |
+|---------|----------|---------|
+| `aurora-salones-8-plantillas.pptx` | Serie 1 · 8 posts | 1080 × 1350 |
+| `aurora-serie2-posts.html` | Serie 2 · 8 posts | 1080 × 1350 |
+| `aurora-historias.html` | 8 historias reutilizables | 1080 × 1920 |
+
+Los dos `.html` son **multipágina**: cada plantilla va marcada como página, así que Canva
+los importa como un diseño de 8 páginas con los textos editables. Se importan igual que
+el PPTX (subiéndolos o por URL del repo).
+
+---
+
 `aurora-salones-8-plantillas.pptx` — las 8 plantillas de feed como **PPTX de 8 páginas**
 (1080 × 1350 px), pensado para importarse a Canva.
 

@@ -21,7 +21,7 @@ pegar**, campos editables `[entre corchetes]` y hashtags.
 | **Primera línea** | Es el gancho: debe entenderse sin dar "ver más" (máx. ~70 caracteres). |
 | **Extensión** | 3 a 6 líneas cortas. Párrafos de 1–2 renglones, con espacio entre ellos. |
 | **Emojis** | **Máximo 2 por post.** Solo del set: 🎉 💐 🎂 👰 ✨ 📍 📲 🙌 |
-| **CTA fijo** | Siempre cierra con WhatsApp: `📲 228 298 4871` |
+| **CTA fijo** | Siempre cierra con WhatsApp: `📲 228 113 3683` |
 | **Dirección** | En posts de visita/ubicación: `📍 Carlos A. Carrillo #23, Col. Aguacatal, Xalapa` |
 | **Hashtags** | 4 a 6, al final, en bloque separado. |
 | **Prohibido** | "soluciones integrales", "experiencia 360", "líderes en el ramo", "imperdible", "última oportunidad", "premium/exclusivo/VIP", "reina/princesa", albures. |
@@ -49,7 +49,7 @@ Gracias por dejarnos ser parte de su día 🎉
 
 ¿Ya tienes fecha para los XV de tu hija?
 Escríbenos y te pasamos la cotización.
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** nombre (con permiso de la familia) · fecha.
 - **Hashtags:** `#SalonesAurora #XVAñosXalapa #Xalapa #SalonDeEventos #EventosXalapa`
@@ -69,7 +69,7 @@ mesas montadas, sonido probado y todo en su lugar.
 Ellos solo tuvieron que llegar a casarse 💐
 
 Si estás organizando la tuya, agéndanos una visita.
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** nombres · mes de la boda.
 - **Hashtags:** `#SalonesAurora #BodasXalapa #Xalapa #RecepcionDeBoda #EventosXalapa`
@@ -86,7 +86,7 @@ El bautizo de [nombre] se celebró aquí: comida, música y la familia completa
 en un solo lugar, sin prisas y sin complicaciones.
 
 Bautizos, primeras comuniones y comidas familiares: te recibimos.
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** nombre del festejado · tipo de evento.
 - **Hashtags:** `#SalonesAurora #BautizosXalapa #PrimeraComunion #Xalapa #EventosFamiliares`
@@ -104,7 +104,7 @@ iluminación y los últimos detalles ✨
 
 Tú solo disfruta tu evento.
 
-Agenda tu visita 📲 228 298 4871
+Agenda tu visita 📲 228 113 3683
 ```
 - **Campos editables:** horarios reales del montaje.
 - **Hashtags:** `#SalonesAurora #Xalapa #SalonDeEventosXalapa #MontajeDeEventos`
@@ -127,7 +127,7 @@ Todo en una sola planta y a unos minutos del centro.
 Céntrico. Completo. Tuyo 📍
 
 ¿Quieres verlo en persona? Agéndanos una visita.
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** áreas mencionadas según el recorrido real.
 - **Hashtags:** `#SalonesAurora #Xalapa #SalonDeEventosXalapa #Aguacatal #EventosXalapa`
@@ -142,7 +142,7 @@ Aquí es donde la fiesta se pone buena.
 
 Pista amplia, buena iluminación y espacio para que nadie se quede sentado 🙌
 
-Reserva tu fecha 📲 228 298 4871
+Reserva tu fecha 📲 228 113 3683
 ```
 - **Campos editables:** metros o capacidad de la pista, si se quiere precisar.
 - **Hashtags:** `#SalonesAurora #Xalapa #FiestasXalapa #SalonDeEventos`
@@ -160,7 +160,7 @@ con acceso fácil y lugar para estacionarse 📍
 
 Carlos A. Carrillo #23, Col. Aguacatal, Xalapa.
 
-¿Te agendamos una visita? 📲 228 298 4871
+¿Te agendamos una visita? 📲 228 113 3683
 ```
 - **Campos editables:** número de cajones de estacionamiento (cuando se confirme).
 - **Hashtags:** `#SalonesAurora #Xalapa #Aguacatal #SalonDeEventosXalapa`
@@ -178,7 +178,7 @@ y área de pastel sin que nadie quede apretado.
 
 Si tu lista anda entre [X] y [X] personas, aquí cabe tu evento.
 
-Pídenos la cotización 📲 228 298 4871
+Pídenos la cotización 📲 228 113 3683
 ```
 - **Campos editables:** capacidad real (dato pendiente de confirmar con el cliente).
 - **Hashtags:** `#SalonesAurora #Xalapa #EventosXalapa #SalonDeEventosXalapa`
@@ -196,7 +196,7 @@ y caliente, sin improvisar.
 
 Es parte de la tranquilidad que te queremos dar ✨
 
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** ajustar si el servicio de banquete es propio o externo.
 - **Hashtags:** `#SalonesAurora #Xalapa #Banquetes #EventosXalapa`
@@ -218,7 +218,7 @@ Ese es exactamente el trabajo: que tú solo llegues a disfrutar.
 
 Gracias, familia [apellido] 🙌
 
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** cita textual · nombre · evento.
 - **Hashtags:** `#SalonesAurora #Xalapa #EventosXalapa #Testimonio`
@@ -236,7 +236,7 @@ Esto nos contestó:
 Gracias por confiarnos el día de tu familia.
 
 ¿Quieres el mismo servicio para tu fecha?
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** nombre · tipo de evento.
 - **Preguntas para grabar:** ¿Cómo te sentiste el día del evento? · ¿Qué fue lo que más te gustó del salón? · ¿Se lo recomendarías a otra familia?
@@ -253,7 +253,7 @@ Gracias, familia [apellido] 💐
 Fue un gusto recibirlos y ver la casa llena de gente contenta.
 Aquí seguimos para el próximo evento.
 
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** apellido · evento.
 - **Hashtags:** `#SalonesAurora #Xalapa #EventosFamiliares #FiestasXalapa`
@@ -279,7 +279,7 @@ Todo incluido quiere decir todo incluido.
 
 Sin sorpresas y sin cargos escondidos ✨
 
-Pide tu cotización 📲 228 298 4871
+Pide tu cotización 📲 228 113 3683
 ```
 - **Campos editables:** horas · lista real del paquete (dato pendiente).
 - **Hashtags:** `#SalonesAurora #TodoIncluido #Xalapa #SalonDeEventosXalapa #EventosXalapa`
@@ -299,7 +299,7 @@ y te pasamos la cotización clara.
 
 Así de simple ✨
 
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** ninguno; es copy fijo reutilizable.
 - **Hashtags:** `#SalonesAurora #Xalapa #EventosXalapa #CotizacionClara`
@@ -318,7 +318,7 @@ Fechas disponibles de [mes]:
 
 Si traes fecha en mente, escríbenos hoy y la revisamos juntos.
 
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** mes · fechas libres. **Actualizar cada 15 días.**
 - **Hashtags:** `#SalonesAurora #Xalapa #EventosXalapa #DisponibilidadXalapa`
@@ -337,7 +337,7 @@ y resolvemos todas tus dudas en el mismo lugar.
 Sin compromiso.
 
 📍 Carlos A. Carrillo #23, Col. Aguacatal
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** horarios de visita.
 - **Hashtags:** `#SalonesAurora #Xalapa #Aguacatal #SalonDeEventosXalapa`
@@ -355,7 +355,7 @@ las fechas buenas se van primero y luego ya no hay dónde.
 
 Si ya sabes tu fecha, apártala con tiempo 🎉
 
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** temporada (diciembre / graduaciones / mayo).
 - **Hashtags:** `#SalonesAurora #Xalapa #PosadasXalapa #EventosDeEmpresa #EventosXalapa`
@@ -373,7 +373,7 @@ juntas de trabajo y celebraciones pequeñas.
 
 Mismo salón, mismo servicio, precio distinto.
 
-Pregúntanos 📲 228 298 4871
+Pregúntanos 📲 228 113 3683
 ```
 - **Campos editables:** condiciones del paquete entre semana.
 - **Hashtags:** `#SalonesAurora #Xalapa #EventosXalapa #ComidasFamiliares`
@@ -398,7 +398,7 @@ Antes de apartar cualquier salón, pregunta esto:
 
 Guárdalo para tu próxima visita.
 
-Aquí te contestamos las cinco sin rodeos 📲 228 298 4871
+Aquí te contestamos las cinco sin rodeos 📲 228 113 3683
 ```
 - **Campos editables:** ninguno.
 - **Hashtags:** `#SalonesAurora #Xalapa #TipsDeEventos #OrganizaTuEvento #EventosXalapa`
@@ -416,7 +416,7 @@ Diciembre: desde agosto o septiembre.
 
 Si tu fecha cae en fin de semana, adelántate 🎂
 
-Revisamos tu fecha hoy mismo 📲 228 298 4871
+Revisamos tu fecha hoy mismo 📲 228 113 3683
 ```
 - **Campos editables:** ajustar plazos según la ocupación real del salón.
 - **Hashtags:** `#SalonesAurora #Xalapa #TipsDeEventos #XVAñosXalapa #BodasXalapa`
@@ -434,7 +434,7 @@ Un solo color fuerte y dos neutros. Menos es más ✨
 
 El lugar donde empieza la foto.
 
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** ideas según la temporada o el evento.
 - **Hashtags:** `#SalonesAurora #DecoracionDeEventos #Xalapa #XVAñosXalapa #BodasXalapa`
@@ -452,7 +452,7 @@ Y deja siempre una mesa extra. Siempre llega alguien de más 🙌
 
 Con tu número aproximado ya te podemos cotizar.
 
-📲 228 298 4871
+📲 228 113 3683
 ```
 - **Campos editables:** ninguno.
 - **Hashtags:** `#SalonesAurora #TipsDeEventos #Xalapa #OrganizaTuEvento`
@@ -473,7 +473,7 @@ Así se acomoda una fiesta de XV años para que no se haga larga:
 
 Guárdalo, te va a servir cuando armes tu programa 🎂
 
-Y si necesitas el salón, aquí estamos 📲 228 298 4871
+Y si necesitas el salón, aquí estamos 📲 228 113 3683
 ```
 - **Campos editables:** horarios según el paquete contratado.
 - **Hashtags:** `#SalonesAurora #XVAñosXalapa #TipsDeEventos #Xalapa #EventosXalapa`
@@ -534,11 +534,11 @@ Se pueden intercambiar en cualquier post del mismo pilar:
 - "Los eventos de día también son nuestros."
 
 ## Banco de cierres (CTA)
-- `Pídenos la cotización 📲 228 298 4871`
-- `Agéndanos una visita 📲 228 298 4871`
-- `Revisamos tu fecha hoy mismo 📲 228 298 4871`
-- `Escríbenos y te pasamos la cotización. 📲 228 298 4871`
-- `Tú solo disfruta tu evento. 📲 228 298 4871`
+- `Pídenos la cotización 📲 228 113 3683`
+- `Agéndanos una visita 📲 228 113 3683`
+- `Revisamos tu fecha hoy mismo 📲 228 113 3683`
+- `Escríbenos y te pasamos la cotización. 📲 228 113 3683`
+- `Tú solo disfruta tu evento. 📲 228 113 3683`
 
 ## Banco de hashtags (rotar 4–6 por post)
 ```
@@ -563,5 +563,5 @@ dejar los 24 posts 100% publicables:
 - [ ] **Fechas libres del mes en curso** (post 15).
 - [ ] **Fotos de eventos reales con autorización** de las familias (pilares 1 y 3).
 - [ ] **Logo vectorial** (AI/SVG/PDF). Hoy se usa un PNG extraído de una pieza publicada.
-- [ ] **Confirmar el WhatsApp**: se adoptó el 228 298 4871 de las piezas publicadas; el
+- [ ] **Confirmar el WhatsApp**: se adoptó el 228 113 3683 de las piezas publicadas; el
       repo tenía documentado el 228 113 3683.
