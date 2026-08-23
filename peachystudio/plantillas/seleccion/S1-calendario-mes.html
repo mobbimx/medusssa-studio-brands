@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<title>Peachy Studio · Calendario del mes</title>
+<link rel="stylesheet" href="../html/_base.css">
+<style>
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:9px;width:100%}
+.dh{font-family:'Pixelify Sans';font-weight:700;font-size:34px;color:#5e17eb;text-align:center;padding-bottom:4px}
+.cd{height:112px;border-radius:26px;display:flex;align-items:center;justify-content:center;
+  font-weight:700;font-size:42px;font-variant-numeric:tabular-nums}
+.cd-libre{background:#fff;border:6px solid #ffb7f0;color:#5e17eb}
+.cd-lleno{background:#fe42a2;border:6px solid #fff;color:#fff}
+.cd-cerrado{background:rgba(247,218,255,.55);border:6px dashed #ffb7f0;color:#b98fc4}
+.cd-off{background:transparent}
+.leg{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.lg{display:flex;align-items:center;gap:12px;font-weight:600;font-size:36px;color:#7a1050}
+.dot{width:34px;height:34px;border-radius:11px;flex:none}
+</style></head>
+<body><svg width="0" height="0" aria-hidden="true" style="position:absolute"><defs>
+<filter id="ondita" x="-20%" y="-20%" width="140%" height="140%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.0045 0.0085" numOctaves="2" seed="9" result="n"/>
+  <feDisplacementMap in="SourceGraphic" in2="n" scale="78" xChannelSelector="R" yChannelSelector="G"/>
+</filter></defs></svg>
+<div class="story">
+  <div class="bg bg-checker"></div>
+
+  <div class="deco" style="top:246px;right:52px"><svg width="100" height="100" viewBox="0 0 100 100"><path d="M50 0c4 33 13 42 46 50-33 8-42 17-46 50-4-33-13-42-46-50 33-8 42-17 46-50z" fill="#fec900"/></svg></div>
+  <div class="layer between">
+    <div class="col center-x gap12">
+      <div class="pill sm morado">DISPONIBILIDAD DEL MES</div>
+      <div class="hero" style="font-size:122px">SEPTIEMBRE</div>
+      <div class="eyebrow" style="font-size:36px;letter-spacing:.28em;margin-top:-6px">2026</div>
+    </div>
+    <div class="col gap12" style="width:100%">
+      <div class="cal"><div class="dh">L</div><div class="dh">M</div><div class="dh">M</div><div class="dh">J</div><div class="dh">V</div><div class="dh">S</div><div class="dh">D</div></div>
+      <div class="cal"><div class="cd cd-off"></div><div class="cd cd-libre">1</div><div class="cd cd-libre">2</div><div class="cd cd-lleno">3</div><div class="cd cd-lleno">4</div><div class="cd cd-lleno">5</div><div class="cd cd-cerrado">6</div><div class="cd cd-libre">7</div><div class="cd cd-libre">8</div><div class="cd cd-libre">9</div><div class="cd cd-lleno">10</div><div class="cd cd-lleno">11</div><div class="cd cd-lleno">12</div><div class="cd cd-cerrado">13</div><div class="cd cd-libre">14</div><div class="cd cd-libre">15</div><div class="cd cd-libre">16</div><div class="cd cd-libre">17</div><div class="cd cd-lleno">18</div><div class="cd cd-lleno">19</div><div class="cd cd-cerrado">20</div><div class="cd cd-libre">21</div><div class="cd cd-libre">22</div><div class="cd cd-libre">23</div><div class="cd cd-libre">24</div><div class="cd cd-lleno">25</div><div class="cd cd-lleno">26</div><div class="cd cd-cerrado">27</div><div class="cd cd-libre">28</div><div class="cd cd-libre">29</div><div class="cd cd-libre">30</div><div class="cd cd-off"></div><div class="cd cd-off"></div><div class="cd cd-off"></div><div class="cd cd-off"></div></div>
+    </div>
+    <div class="col center-x gap28">
+      <div class="leg">
+        <div class="lg"><span class="dot" style="background:#fff;border:5px solid #ffb7f0"></span>Libre</div>
+        <div class="lg"><span class="dot" style="background:#fe42a2;border:5px solid #fff"></span>Lleno</div>
+        <div class="lg"><span class="dot" style="background:rgba(247,218,255,.6);border:5px dashed #ffb7f0"></span>Cerrado</div>
+      </div>
+      <div class="foot"><div class="wm wm-sm"><i class="p">Peachy</i><i class="s">Studio</i><i class="n">nails</i></div><div class="wa"><svg width="44" height="44" viewBox="0 0 24 24" fill="#fe42a2"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20zm4.4-5.8c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.6.1a6.5 6.5 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2a.5.5 0 0 0 0-.5c0-.1-.6-1.4-.8-1.9s-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3A2.8 2.8 0 0 0 6.7 12a5 5 0 0 0 1 2.3 11.2 11.2 0 0 0 4.3 3.8c1.6.6 2.2.7 3 .6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3z"/></svg> 228-848-5375</div></div>
+    </div>
+  </div>
+</div></body></html>

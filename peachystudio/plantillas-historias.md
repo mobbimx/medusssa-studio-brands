@@ -271,6 +271,24 @@ Con esas cuatro se cubre una semana completa sin repetir y sin diseñar nada nue
 | Sábado | Interacción | Esto o esto / caja de preguntas |
 | Domingo | Aviso | Recordatorio de retoque |
 
+## 4-bis. Ampliación: las plantillas de servicio
+
+Al catálogo se le sumaron siete usos **de servicio** — los que resuelven *cuándo,
+cuánto, dónde y cómo* — y con ellos el catálogo pasó de 15 a 22 usos:
+
+| # | Uso | Qué resuelve |
+|---|-----|--------------|
+| 16 | Calendario del mes | Disponibilidad del mes completo |
+| 17 | Citas disponibles del día | Horarios concretos libres y apartados |
+| 18 | Horarios de atención | Días y horas de apertura |
+| 19 | Ubicación y cómo llegar | Dirección, referencia y zona |
+| 20 | Formas de pago y anticipo | Efectivo, transferencia, tarjeta, anticipo |
+| 21 | Aviso importante | Cierre, vacaciones, cambio de horario |
+| 22 | Recordatorio de cita | Confirmar a quien ya está agendada |
+
+La selección final de **seis plantillas** que cubre los 22 usos está en
+[`plantillas-seleccion-6.md`](plantillas-seleccion-6.md).
+
 ## 5. Banca de suplentes
 
 Tres ideas que no entraron a las quince pero que valen para temporada:
