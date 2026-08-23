@@ -36,13 +36,12 @@ componentes: píldoras, tarjetas, marcos de foto, zonas de sticker).
 Para regenerar los PNG:
 
 ```bash
-cd html
-for f in *.html; do
-  chrome --headless --no-sandbox --hide-scrollbars \
-    --window-size=1080,1920 --virtual-time-budget=4000 \
-    --screenshot="../png/${f%.html}.png" "$f"
-done
+python3 ../render.py     # o ../../render.py desde seleccion/
 ```
+
+> No basta con `chrome --screenshot --window-size=1080,1920`: Chrome recorta todo lo que
+> cae bajo el viewport cuando `html`/`body` llevan `overflow:hidden`, y deja una franja
+> del color de fondo al pie. `render.py` renderiza con ventana alta y recorta a 1080×1920.
 
 ## Notas
 

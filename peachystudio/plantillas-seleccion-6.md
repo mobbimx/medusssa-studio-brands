@@ -6,6 +6,11 @@ Estas seis plantillas los cubren todos.
 
 Maquetas: [`plantillas/seleccion/png/`](plantillas/seleccion/png/) · fuentes: [`plantillas/seleccion/`](plantillas/seleccion/)
 
+> **Ya están en Canva** como un diseño de 6 páginas listo para editar:
+> [Peachy Studio · Plantillas de historia](https://www.canva.com/d/QeVZFGdnbw4dmRS)
+> · carpeta [PEACHY STUDIO — Plantillas maestras](https://www.canva.com/folder/FAHTJE4UmQU)
+> · detalle en [`canva/README.md`](canva/README.md)
+
 ---
 
 ## Lo que se agregó al catálogo
