@@ -494,6 +494,58 @@ Te recibimos siempre.
 - **Hashtags:** `#SalonesAurora #Xalapa #Familia`
 - **Nota:** en estos posts **no lleva CTA de venta**. Es marca, no promoción.
 
+## Post 25 · Video de marca — organización y decoración
+- **Objetivo:** presentar el servicio completo (no solo el salón) y llevar a WhatsApp.
+- **Formato:** video de 20–40 s. Pieza *"Creamos magia en cada evento"*.
+- **Nota de copy:** la pieza ya trae el párrafo descriptivo en pantalla. **El copy no lo
+  repite**: engancha, aterriza el beneficio y empuja al WhatsApp.
+
+**Versión A — la que recomiendo (foco en el trabajo que no se ve)**
+```
+Tú traes la idea. Nosotros la montamos.
+
+Nos dices cómo te imaginas tu evento y del resto nos encargamos:
+montaje, decoración, mesas y el salón listo desde temprano.
+
+Tú solo disfruta tu día ✨
+
+Cuéntanos qué estás planeando y te pasamos la cotización.
+📲 +52 228 113 3683
+```
+
+**Versión B — foco en tranquilidad (para quien apenas empieza)**
+```
+¿Ya tienes la fecha y no sabes por dónde empezar?
+
+Empieza por aquí. Nosotros vemos el salón, el montaje y la decoración;
+tú te dedicas a tus invitados.
+
+Te recibimos con calma y sin compromiso.
+
+📲 +52 228 113 3683
+📍 Carlos A. Carrillo no. 23, Col. Aguacatal
+```
+
+**Versión C — corta, para reel o historia**
+```
+Cada evento se ve distinto aquí.
+
+Bodas, XV, bautizos y cumpleaños. Tú pones el estilo,
+nosotros ponemos el lugar y el montaje.
+
+El lugar donde empieza la foto 💐
+
+Pídenos tu cotización 📲 +52 228 113 3683
+```
+
+- **Campos editables:** ninguno; los tres son copy fijo reutilizable.
+- **Hashtags:** `#SalonesAurora #Xalapa #EventosXalapa #DecoracionDeEventos #SalonDeEventosXalapa`
+- **Primeras líneas alternas para probar:**
+  - "Tú traes la idea. Nosotros la montamos."
+  - "Aquí no nada más te rentamos el salón."
+  - "Lo difícil de una fiesta no es el día. Son las semanas de antes."
+  - "¿Ya tienes la fecha y no sabes por dónde empezar?"
+
 ---
 
 ## Calendario de rotación (3 posts por semana · 12 al mes)
