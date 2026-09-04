@@ -1,0 +1,16 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html",   "title": "Portada — 10 propuestas",                      "x": 2110, "y": -1720, "w": 1500, "h": 1500 },
+    { "file": "Prop01.dc.html", "title": "01 · ¿Para qué viajas? — Carrusel 4:5",         "x": 0,    "y": 0,    "w": 1080, "h": 1350 },
+    { "file": "Prop02.dc.html", "title": "02 · Home office con vista — Post 4:5",          "x": 1160, "y": 0,    "w": 1080, "h": 1350 },
+    { "file": "Prop03.dc.html", "title": "03 · Lo primero que ves al llegar — Historia 9:16", "x": 2320, "y": 0, "w": 1080, "h": 1920 },
+    { "file": "Prop04.dc.html", "title": "04 · Un día en tu estancia — Carrusel 4:5",      "x": 3480, "y": 0,    "w": 1080, "h": 1350 },
+    { "file": "Prop05.dc.html", "title": "05 · Qué hacer cerca · Xalapa — Carrusel 4:5",   "x": 4640, "y": 0,    "w": 1080, "h": 1350 },
+    { "file": "Prop06.dc.html", "title": "06 · Modo desconexión — Post 4:5",               "x": 0,    "y": 2120, "w": 1080, "h": 1350 },
+    { "file": "Prop07.dc.html", "title": "07 · Check-in inteligente — Carrusel 4:5",       "x": 1160, "y": 2120, "w": 1080, "h": 1350 },
+    { "file": "Prop08.dc.html", "title": "08 · Reseña de huésped — Post 4:5",              "x": 2320, "y": 2120, "w": 1080, "h": 1350 },
+    { "file": "Prop09.dc.html", "title": "09 · ¿Cuánto genera tu propiedad? — Post 4:5",   "x": 3480, "y": 2120, "w": 1080, "h": 1350 },
+    { "file": "Prop10.dc.html", "title": "10 · Detrás de una estancia perfecta — Carrusel 4:5", "x": 4640, "y": 2120, "w": 1080, "h": 1350 }
+  ],
+  "launch": { "view": "canvas" }
+}
