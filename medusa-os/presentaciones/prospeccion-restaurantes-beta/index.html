@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Medusa OS · Panel Promocional — Pitch beta restaurantes</title>
+<meta name="description" content="Presentación de ventas para captar restaurantes a la prueba beta gratuita del Panel Promocional de Medusa OS." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  /* ============ TOKENS ============ */
+  :root{
+    --ink:#0c0e29;          /* fondo oscuro (navy-violeta) */
+    --ink-2:#141738;
+    --ink-3:#1d2150;
+    --violet:#6d5cef;       /* acento primario Medusa */
+    --violet-2:#8f80ff;
+    --cyan:#28d7ee;         /* acento bioluminiscente */
+    --teal:#12b39b;         /* positivo */
+    --magenta:#f2568a;      /* glow cálido */
+    --gold:#ffce5a;         /* highlight beta/gratis */
+    --paper:#ffffff;
+    --paper-2:#f4f5fc;
+    --line:#e6e7f5;
+    --line-d:#2b2f63;
+    --tx:#14152e;           /* tinta principal (claro) */
+    --tx-2:#565986;         /* secundaria */
+    --tx-3:#8b8eb4;         /* muted */
+    --tx-d:#eef0ff;         /* tinta sobre oscuro */
+    --tx-d2:#a7abe0;        /* secundaria sobre oscuro */
+    --coral:#ed6864;        /* Mobbitrips (ancla beta) */
+    --stage-void:#05060f;
+    --font-h:"Space Grotesk", system-ui, -apple-system, sans-serif;
+    --font-b:"Inter", system-ui, -apple-system, sans-serif;
+  }
+
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ height:100%; }
+  body{
+    font-family:var(--font-b);
+    color:var(--tx);
+    background:var(--stage-void);
+    overflow:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* ============ ESCENARIO / SCALING ============ */
+  .deck{ position:fixed; inset:0; overflow:hidden; }
+  .slide{
+    position:absolute; top:50%; left:50%;
+    width:1280px; height:720px;
+    transform:translate(-50%,-50%) scale(var(--s,1));
+    transform-origin:center center;
+    display:none; flex-direction:column;
+    background:var(--paper);
+    overflow:hidden;
+  }
+  .slide.is-active{ display:flex; }
+
+  /* ============ CHROME (nav) ============ */
+  .hud{ position:fixed; z-index:50; font-family:var(--font-b); }
+  .progress{ top:0; left:0; height:3px; width:0%;
+    background:linear-gradient(90deg,var(--violet),var(--cyan));
+    transition:width .35s ease; }
+  .counter{ bottom:14px; left:18px; color:#8b8fc9; font-size:12px; letter-spacing:.08em; }
+  .nav{ bottom:12px; right:16px; display:flex; gap:8px; }
+  .nav button{
+    width:34px; height:34px; border-radius:9px; border:1px solid #2a2e5e;
+    background:#12132e; color:#c9ccf5; font-size:16px; cursor:pointer;
+    display:grid; place-items:center; transition:.15s;
+  }
+  .nav button:hover{ background:#1c1e42; border-color:var(--violet); color:#fff; }
+  .hint{ bottom:16px; left:50%; transform:translateX(-50%); color:#5b5f92; font-size:11px; letter-spacing:.06em; }
+
+  /* ============ LAYOUT PRIMITIVES ============ */
+  .pad{ padding:66px 76px; flex:1; display:flex; flex-direction:column; min-height:0; }
+  .eyebrow{
+    font-family:var(--font-h); font-weight:600; font-size:14px; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--violet); display:flex; align-items:center; gap:12px;
+  }
+  .eyebrow::before{ content:""; width:26px; height:2px; background:var(--violet); border-radius:2px; }
+  .eyebrow.on-dark{ color:var(--cyan); }
+  .eyebrow.on-dark::before{ background:var(--cyan); }
+  h1.title{ font-family:var(--font-h); font-weight:700; font-size:52px; line-height:1.08; color:var(--tx); letter-spacing:-.015em; }
+  h2.title{ font-family:var(--font-h); font-weight:700; font-size:44px; line-height:1.1; color:var(--tx); letter-spacing:-.01em; }
+  .lead{ font-size:21px; line-height:1.5; color:var(--tx-2); }
+  .foot{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 76px; border-top:1px solid var(--line);
+    font-size:12.5px; color:var(--tx-3); letter-spacing:.04em;
+  }
+  .foot .brandmark{ display:flex; align-items:center; gap:9px; font-family:var(--font-h); font-weight:600; color:var(--tx-2); letter-spacing:.02em; }
+  .dark .foot{ border-top-color:var(--line-d); color:#7a7eb8; }
+  .dark .foot .brandmark{ color:var(--tx-d2); }
+
+  /* dark slide variant */
+  .slide.dark{ background:var(--ink); color:var(--tx-d); }
+  .slide.dark h1.title,.slide.dark h2.title{ color:var(--tx-d); }
+  .slide.dark .lead{ color:var(--tx-d2); }
+
+  /* logo lockup */
+  .logo{ display:flex; align-items:center; gap:12px; }
+  .logo .mark{ width:38px; height:38px; flex:none; }
+  .logo .wordmark{ font-family:var(--font-h); font-weight:700; font-size:20px; letter-spacing:.01em; color:var(--tx); }
+  .logo .wordmark b{ color:var(--violet); font-weight:700; }
+  .dark .logo .wordmark{ color:var(--tx-d); }
+  .dark .logo .wordmark b{ color:var(--violet-2); }
+  .logo .os{ font-family:var(--font-h); font-weight:500; font-size:11px; letter-spacing:.28em; color:var(--tx-3); text-transform:uppercase; }
+
+  /* chips / badges */
+  .badge{ display:inline-flex; align-items:center; gap:8px; font-family:var(--font-h); font-weight:600;
+    font-size:12.5px; letter-spacing:.08em; text-transform:uppercase; padding:7px 13px; border-radius:999px; }
+  .badge.beta{ background:linear-gradient(90deg,var(--gold),#ffb347); color:#3a2600; }
+  .badge.free{ background:var(--teal); color:#022b25; }
+  .badge.mock{ background:#fff3cd; color:#8a5a00; border:1px dashed #e0a83c; letter-spacing:.06em; }
+  .badge.ghost{ border:1px solid var(--line-d); color:var(--tx-d2); }
+
+  /* generic cards */
+  .grid{ display:grid; gap:18px; }
+  .card{ background:var(--paper-2); border:1px solid var(--line); border-radius:16px; padding:24px; }
+  .dark .card{ background:var(--ink-2); border-color:var(--line-d); }
+  .card .k{ font-family:var(--font-h); font-weight:700; font-size:19px; color:var(--tx); margin:12px 0 6px; }
+  .dark .card .k{ color:var(--tx-d); }
+  .card .d{ font-size:15.5px; line-height:1.5; color:var(--tx-2); }
+  .dark .card .d{ color:var(--tx-d2); }
+  .ic{ width:40px; height:40px; border-radius:11px; display:grid; place-items:center;
+    background:rgba(109,92,239,.12); color:var(--violet); }
+  .dark .ic{ background:rgba(143,128,255,.16); color:var(--violet-2); }
+
+  .num{ font-family:var(--font-h); font-weight:700; color:var(--violet); }
+
+  /* problem/pain list */
+  .pain{ display:flex; gap:16px; align-items:flex-start; padding:16px 0; border-bottom:1px solid var(--line); }
+  .pain:last-child{ border-bottom:0; }
+  .pain .x{ width:30px; height:30px; border-radius:8px; flex:none; display:grid; place-items:center;
+    background:rgba(242,86,138,.12); color:var(--magenta); font-weight:700; }
+  .pain .t{ font-family:var(--font-h); font-weight:600; font-size:18px; color:var(--tx); }
+  .pain .s{ font-size:15px; color:var(--tx-2); margin-top:3px; line-height:1.45; }
+
+  /* mock frame (para captura real) */
+  .mockframe{ position:relative; border:2px dashed #c9ccf0; border-radius:20px; background:
+    repeating-linear-gradient(135deg,#fafbff,#fafbff 12px,#f3f4fd 12px,#f3f4fd 24px); overflow:hidden; }
+  .mockframe .mocktag{ position:absolute; top:12px; left:12px; z-index:3; }
+
+  .two{ display:grid; grid-template-columns:1fr 1fr; gap:44px; flex:1; align-items:center; }
+  .cta-big{ font-family:var(--font-h); font-weight:700; font-size:19px; padding:16px 26px; border-radius:14px;
+    background:linear-gradient(90deg,var(--violet),#5b49e0); color:#fff; display:inline-flex; align-items:center; gap:10px; }
+
+  /* stat tiles */
+  .kpi{ background:var(--ink-2); border:1px solid var(--line-d); border-radius:14px; padding:16px 18px; }
+  .kpi .v{ font-family:var(--font-h); font-weight:700; font-size:30px; color:var(--tx-d); line-height:1; }
+  .kpi .v small{ font-size:15px; color:var(--cyan); font-weight:600; }
+  .kpi .l{ font-size:12.5px; color:var(--tx-d2); margin-top:7px; letter-spacing:.02em; }
+
+  /* steps */
+  .step{ display:flex; gap:18px; align-items:flex-start; }
+  .step .n{ width:44px; height:44px; flex:none; border-radius:12px; display:grid; place-items:center;
+    font-family:var(--font-h); font-weight:700; font-size:20px; color:#fff;
+    background:linear-gradient(135deg,var(--violet),var(--cyan)); }
+  .step .t{ font-family:var(--font-h); font-weight:600; font-size:19px; color:var(--tx); }
+  .dark .step .t{ color:var(--tx-d); }
+  .step .s{ font-size:15px; color:var(--tx-2); margin-top:4px; line-height:1.45; }
+  .dark .step .s{ color:var(--tx-d2); }
+
+  /* faq */
+  .qa .q{ font-family:var(--font-h); font-weight:600; font-size:17px; color:var(--tx); }
+  .qa .a{ font-size:15px; color:var(--tx-2); margin-top:5px; line-height:1.5; }
+  .dark .qa .q{ color:var(--tx-d); } .dark .qa .a{ color:var(--tx-d2); }
+
+  /* pills for action redirection */
+  .apill{ display:inline-flex; align-items:center; gap:8px; padding:9px 15px; border-radius:11px;
+    font-family:var(--font-h); font-weight:600; font-size:15px; border:1px solid var(--line); background:#fff; color:var(--tx); }
+
+  .glow{ position:absolute; border-radius:50%; filter:blur(70px); opacity:.55; pointer-events:none; }
+
+  /* ============ PRINT / PDF ============ */
+  @page{ size:1280px 720px; margin:0; }
+  @media print{
+    body{ overflow:visible; background:#fff; }
+    .deck{ position:static; }
+    .slide{ position:relative; top:auto; left:auto; transform:none !important;
+      display:flex !important; page-break-after:always; break-after:page; box-shadow:none; }
+    .slide:last-child{ page-break-after:auto; }
+    .hud{ display:none !important; }
+  }
+</style>
+</head>
+<body data-palette="#6d5cef,#28d7ee,#12b39b,#f2568a,#ffce5a">
+<div class="deck" id="deck">
+
+  <!-- ===================== 1 · PORTADA ===================== -->
+  <section class="slide dark is-active">
+    <div class="glow" style="width:520px;height:520px;background:var(--violet);top:-160px;right:-120px;"></div>
+    <div class="glow" style="width:420px;height:420px;background:var(--cyan);bottom:-180px;left:-120px;opacity:.35;"></div>
+    <div class="pad" style="justify-content:space-between; position:relative; z-index:2;">
+      <div class="logo">
+        <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <defs><linearGradient id="mg1" x1="0" y1="0" x2="40" y2="40">
+            <stop offset="0" stop-color="#8f80ff"/><stop offset="1" stop-color="#28d7ee"/></linearGradient></defs>
+          <path d="M20 3c-8.3 0-15 6.3-15 14.2 0 3.2 1.2 5.4 3.2 5.4 1.9 0 2.7-1.5 2.7-3.6 0-4.4 3.5-8 9.1-8s9.1 3.6 9.1 8c0 2.1.8 3.6 2.7 3.6 2 0 3.2-2.2 3.2-5.4C35 9.3 28.3 3 20 3Z" fill="url(#mg1)"/>
+          <path d="M9.5 25c0 4 1.8 6 3.6 6 1.5 0 2.3-1.1 2.3-2.8M16.6 27.5c0 4.6 1.5 7.5 3.4 7.5s3.4-2.9 3.4-7.5M24.6 28.2c0 1.7.8 2.8 2.3 2.8 1.8 0 3.6-2 3.6-6" stroke="#28d7ee" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <div>
+          <div class="wordmark">Medusa<b>OS</b></div>
+          <div class="os">Panel promocional</div>
+        </div>
+      </div>
+
+      <div style="max-width:960px;">
+        <div class="badge beta" style="margin-bottom:22px;">Prueba beta · Gratis</div>
+        <h1 class="title" style="font-size:60px;">Llena tu restaurante con los clientes<br/>que ya están a la vuelta.</h1>
+        <p class="lead" style="margin-top:22px; max-width:760px;">
+          Publicidad local <b style="color:var(--tx-d)">medible</b> para restaurantes de la zona: te ponemos frente
+          a la gente que anda cerca, la <b style="color:var(--tx-d)">redirigimos a tu negocio</b> y te mostramos
+          <b style="color:var(--tx-d)">exactamente qué funciona</b>.
+        </p>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:14px; color:var(--tx-d2); font-size:14px;">
+        <span class="badge ghost">Anclado a la sede de Mobbitrips · Xalapa</span>
+        <span style="opacity:.5">—</span>
+        <span>Presenta: <b style="color:var(--tx-d)">Medusssa Studio</b></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 2 · EL PROBLEMA ===================== -->
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">El problema</div>
+      <h2 class="title" style="margin-top:18px; max-width:980px;">
+        Cada día pasan cientos de personas cerca de ti.<br/>Casi ninguna sabe que existes.
+      </h2>
+      <div class="two" style="margin-top:26px; align-items:center;">
+        <div>
+          <div class="pain">
+            <div class="x">!</div>
+            <div><div class="t">Publicidad que no puedes medir</div>
+              <div class="s">Volantes, lonas y posts que pagas “a ciegas”: nunca sabes si de ahí llegó alguien.</div></div>
+          </div>
+          <div class="pain">
+            <div class="x">%</div>
+            <div><div class="t">Las apps de delivery te comen el margen</div>
+              <div class="s">Comisiones del 20–30% por orden. Y el cliente termina siendo de la app, no tuyo.</div></div>
+          </div>
+          <div class="pain">
+            <div class="x">↧</div>
+            <div><div class="t">Te gana quien sale primero en el mapa</div>
+              <div class="s">Aunque tu comida sea mejor, la decisión se la lleva quien aparece arriba en Google.</div></div>
+          </div>
+        </div>
+        <div class="card" style="background:linear-gradient(135deg,#fbf1f4,#f6f1ff); border-color:#f0d9e6;">
+          <div style="font-family:var(--font-h); font-weight:600; font-size:15px; letter-spacing:.14em; text-transform:uppercase; color:var(--magenta);">En una frase</div>
+          <div style="font-family:var(--font-h); font-weight:700; font-size:30px; line-height:1.2; color:var(--tx); margin-top:12px;">
+            Gastas en publicidad sin saber si sirve — y compites por atención que ya estaba cerca de tu puerta.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>El problema</span></div>
+  </section>
+
+  <!-- ===================== 3 · LA OPORTUNIDAD ===================== -->
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">La oportunidad</div>
+      <div class="two" style="margin-top:20px;">
+        <div>
+          <h2 class="title">Tus mejores clientes ya están a menos de 1&nbsp;km.</h2>
+          <p class="lead" style="margin-top:20px;">
+            Huéspedes de <b style="color:var(--coral)">Mobbitrips</b>, vecinos, oficinas y gente de paso se preguntan
+            todos los días lo mismo: <b style="color:var(--tx)">“¿dónde como algo rico aquí cerca?”</b>
+          </p>
+          <p class="lead" style="margin-top:14px;">
+            Hoy esa decisión se la lleva la suerte. Nosotros la ponemos frente a ellos —
+            <b style="color:var(--tx)">a tu favor</b>.
+          </p>
+          <div style="display:flex; gap:26px; margin-top:30px;">
+            <div><div class="num" style="font-size:34px;">1 km</div><div style="font-size:13.5px;color:var(--tx-2);margin-top:2px;">radio de la beta</div></div>
+            <div><div class="num" style="font-size:34px;">100%</div><div style="font-size:13.5px;color:var(--tx-2);margin-top:2px;">público local y real</div></div>
+            <div><div class="num" style="font-size:34px;">0</div><div style="font-size:13.5px;color:var(--tx-2);margin-top:2px;">comisión por venta</div></div>
+          </div>
+        </div>
+        <div style="display:grid; place-items:center;">
+          <!-- MAPA RADIO 1KM (ilustrativo) -->
+          <svg viewBox="0 0 460 400" width="100%" style="max-width:460px;">
+            <defs>
+              <radialGradient id="ring" cx="50%" cy="50%" r="50%">
+                <stop offset="0" stop-color="#6d5cef" stop-opacity=".18"/>
+                <stop offset="1" stop-color="#6d5cef" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <circle cx="230" cy="200" r="185" fill="url(#ring)"/>
+            <circle cx="230" cy="200" r="185" fill="none" stroke="#c9ccf0" stroke-width="1.5" stroke-dasharray="4 6"/>
+            <circle cx="230" cy="200" r="120" fill="none" stroke="#dcdef4" stroke-width="1.5" stroke-dasharray="4 6"/>
+            <!-- pins restaurantes -->
+            <g fill="#f2568a">
+              <circle cx="150" cy="140" r="7"/><circle cx="320" cy="130" r="7"/><circle cx="345" cy="250" r="7"/>
+              <circle cx="140" cy="270" r="7"/><circle cx="255" cy="95" r="7"/><circle cx="115" cy="205" r="7"/>
+              <circle cx="300" cy="310" r="7"/><circle cx="200" cy="315" r="7"/>
+            </g>
+            <!-- centro: Mobbitrips -->
+            <circle cx="230" cy="200" r="26" fill="#ed6864" opacity=".16"/>
+            <circle cx="230" cy="200" r="13" fill="#ed6864"/>
+            <path d="M230 214v18" stroke="#ed6864" stroke-width="3" stroke-linecap="round"/>
+            <text x="230" y="256" text-anchor="middle" font-family="Space Grotesk" font-weight="700" font-size="15" fill="#14152e">Sede Mobbitrips</text>
+            <text x="378" y="200" font-family="Space Grotesk" font-weight="600" font-size="13" fill="#8b8eb4">1 km</text>
+            <text x="150" y="128" text-anchor="middle" font-family="Inter" font-size="11" fill="#8b8eb4">restaurantes</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>La oportunidad</span></div>
+  </section>
+
+  <!-- ===================== 4 · QUÉ ES ===================== -->
+  <section class="slide dark">
+    <div class="glow" style="width:360px;height:360px;background:var(--violet);top:-120px;left:40%;opacity:.4;"></div>
+    <div class="pad" style="position:relative; z-index:2;">
+      <div class="eyebrow on-dark">Qué es</div>
+      <h2 class="title" style="margin-top:18px; max-width:1040px;">
+        Un panel promocional digital que recomienda tu restaurante a la gente de la zona —
+        y <span style="color:var(--cyan)">mide cada resultado</span>.
+      </h2>
+      <div class="grid" style="grid-template-columns:repeat(3,1fr); margin-top:38px;">
+        <div class="card">
+          <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+          <div class="k">Vitrina digital</div>
+          <div class="d">Tu restaurante, tu promo y tus fotos, frente a clientes que están cerca en este momento.</div>
+        </div>
+        <div class="card">
+          <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+          <div class="k">Redirección directa</div>
+          <div class="d">Un toque y el cliente llega a tu WhatsApp, tu menú, tu ubicación o tu reserva. Sin intermediarios.</div>
+        </div>
+        <div class="card">
+          <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+          <div class="k">Métricas reales</div>
+          <div class="d">Ves cuántos te vieron, cuántos tocaron y cuántos llegaron. Publicidad que por fin se puede medir.</div>
+        </div>
+      </div>
+      <p class="lead" style="margin-top:34px; max-width:900px;">
+        Piensa en el panel como <b style="color:var(--tx-d)">la recomendación de “dónde comer cerca”</b> que ya buscan
+        los huéspedes y vecinos — solo que ahora tú estás en ella, y todo queda registrado.
+      </p>
+    </div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>Qué es</span></div>
+  </section>
+
+  <!-- ===================== 5 · ASÍ SE VE EL PANEL (captura real) ===================== -->
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">El panel por dentro</div>
+      <div class="two" style="margin-top:16px;">
+        <div>
+          <h2 class="title">Así te ve un cliente.</h2>
+          <p class="lead" style="margin-top:18px;">
+            Cuando alguien abre el panel, ve las mejores opciones cerca de él. Tu restaurante aparece con foto,
+            promo del día y un botón para actuar al instante.
+          </p>
+          <div style="margin-top:26px; display:flex; flex-direction:column; gap:14px;">
+            <div style="display:flex; gap:12px; align-items:center;"><span style="width:10px;height:10px;border-radius:50%;background:var(--violet);flex:none;"></span><span style="font-size:15.5px;color:var(--tx-2);"><b style="color:var(--tx);">Promo destacada</b> — lo primero que ve, tu gancho del día.</span></div>
+            <div style="display:flex; gap:12px; align-items:center;"><span style="width:10px;height:10px;border-radius:50%;background:var(--cyan);flex:none;"></span><span style="font-size:15.5px;color:var(--tx-2);"><b style="color:var(--tx);">Fotos reales</b> — antojo que entra por los ojos.</span></div>
+            <div style="display:flex; gap:12px; align-items:center;"><span style="width:10px;height:10px;border-radius:50%;background:var(--teal);flex:none;"></span><span style="font-size:15.5px;color:var(--tx-2);"><b style="color:var(--tx);">Botón de acción</b> — “Cómo llegar”, “Ver menú” o “Pedir por WhatsApp”.</span></div>
+          </div>
+        </div>
+
+        <!-- MOCK PANEL (reemplazar por captura real) -->
+        <div class="mockframe" style="height:520px; display:grid; place-items:center;">
+          <div class="mocktag"><span class="badge mock">◆ Mockup · reemplazar con captura real</span></div>
+          <!-- teléfono -->
+          <svg viewBox="0 0 300 540" width="248" aria-label="Vista previa del panel">
+            <rect x="6" y="6" width="288" height="528" rx="34" fill="#0c0e29"/>
+            <rect x="16" y="16" width="268" height="508" rx="26" fill="#f6f7fd"/>
+            <rect x="112" y="26" width="76" height="8" rx="4" fill="#0c0e29"/>
+            <!-- header -->
+            <text x="34" y="70" font-family="Space Grotesk" font-weight="700" font-size="16" fill="#14152e">Cerca de ti</text>
+            <text x="34" y="88" font-family="Inter" font-size="10.5" fill="#8b8eb4">A menos de 1 km · Xalapa</text>
+            <rect x="204" y="56" width="62" height="22" rx="11" fill="#efeafd"/>
+            <text x="235" y="71" text-anchor="middle" font-family="Inter" font-weight="600" font-size="10" fill="#6d5cef">Abiertos</text>
+            <!-- featured card -->
+            <rect x="30" y="104" width="240" height="150" rx="16" fill="#ffffff" stroke="#e6e7f5"/>
+            <rect x="30" y="104" width="240" height="86" rx="16" fill="#dfe1f4"/>
+            <rect x="30" y="104" width="240" height="86" rx="16" fill="url(#food1)"/>
+            <defs><linearGradient id="food1" x1="30" y1="104" x2="270" y2="190"><stop offset="0" stop-color="#f2568a" stop-opacity=".25"/><stop offset="1" stop-color="#6d5cef" stop-opacity=".22"/></linearGradient></defs>
+            <rect x="42" y="116" width="94" height="20" rx="10" fill="#ffce5a"/>
+            <text x="89" y="130" text-anchor="middle" font-family="Space Grotesk" font-weight="700" font-size="9.5" fill="#4a3200">2x1 HOY</text>
+            <text x="44" y="212" font-family="Space Grotesk" font-weight="700" font-size="14" fill="#14152e">Tu Restaurante</text>
+            <text x="44" y="230" font-family="Inter" font-size="10" fill="#8b8eb4">Tacos · $$ · ★ 4.8 · 6 min</text>
+            <rect x="176" y="200" width="82" height="30" rx="9" fill="#6d5cef"/>
+            <text x="217" y="219" text-anchor="middle" font-family="Space Grotesk" font-weight="600" font-size="10.5" fill="#fff">Cómo llegar</text>
+            <!-- list items -->
+            <g>
+              <rect x="30" y="270" width="240" height="52" rx="12" fill="#fff" stroke="#e6e7f5"/>
+              <rect x="42" y="282" width="28" height="28" rx="8" fill="#eef0ff"/>
+              <rect x="82" y="286" width="96" height="9" rx="4" fill="#d7d9ee"/>
+              <rect x="82" y="302" width="60" height="7" rx="3" fill="#e6e7f5"/>
+              <rect x="214" y="284" width="44" height="24" rx="8" fill="#eafbf7"/><text x="236" y="300" text-anchor="middle" font-family="Inter" font-weight="600" font-size="9" fill="#12b39b">Menú</text>
+            </g>
+            <g>
+              <rect x="30" y="330" width="240" height="52" rx="12" fill="#fff" stroke="#e6e7f5"/>
+              <rect x="42" y="342" width="28" height="28" rx="8" fill="#eef0ff"/>
+              <rect x="82" y="346" width="86" height="9" rx="4" fill="#d7d9ee"/>
+              <rect x="82" y="362" width="52" height="7" rx="3" fill="#e6e7f5"/>
+              <rect x="214" y="344" width="44" height="24" rx="8" fill="#eafbf7"/><text x="236" y="360" text-anchor="middle" font-family="Inter" font-weight="600" font-size="9" fill="#12b39b">WhatsApp</text>
+            </g>
+            <g>
+              <rect x="30" y="390" width="240" height="52" rx="12" fill="#fff" stroke="#e6e7f5"/>
+              <rect x="42" y="402" width="28" height="28" rx="8" fill="#eef0ff"/>
+              <rect x="82" y="406" width="72" height="9" rx="4" fill="#d7d9ee"/>
+              <rect x="82" y="422" width="44" height="7" rx="3" fill="#e6e7f5"/>
+              <rect x="214" y="404" width="44" height="24" rx="8" fill="#eafbf7"/><text x="236" y="420" text-anchor="middle" font-family="Inter" font-weight="600" font-size="9" fill="#12b39b">Menú</text>
+            </g>
+            <!-- tabbar -->
+            <rect x="16" y="470" width="268" height="54" rx="0" fill="#fff"/>
+            <circle cx="70" cy="497" r="4" fill="#6d5cef"/><circle cx="150" cy="497" r="4" fill="#cfd2ec"/><circle cx="230" cy="497" r="4" fill="#cfd2ec"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>El panel por dentro</span></div>
+  </section>
+
+  <!-- ===================== 6 · REDIRECCIÓN ===================== -->
+  <section class="slide dark">
+    <div class="pad">
+      <div class="eyebrow on-dark">La redirección de clientes</div>
+      <h2 class="title" style="margin-top:16px;">De <span style="color:var(--cyan)">“lo vi”</span> a <span style="color:var(--cyan)">“ya voy”</span> en un toque.</h2>
+      <p class="lead" style="margin-top:14px; max-width:860px;">El panel no solo muestra: <b style="color:var(--tx-d)">manda gente a tu negocio</b>. Tú eliges a dónde llegan.</p>
+
+      <!-- flow -->
+      <div style="display:flex; align-items:stretch; gap:14px; margin-top:34px;">
+        <div class="card" style="flex:1; text-align:center;">
+          <div style="font-family:var(--font-h);font-weight:700;font-size:13px;letter-spacing:.14em;color:var(--cyan);">PASO 1</div>
+          <div class="k" style="margin-top:10px;">Te ve</div>
+          <div class="d">Aparece tu promo entre las opciones de la zona.</div>
+        </div>
+        <div style="display:grid;place-items:center;color:var(--violet-2);font-size:26px;">→</div>
+        <div class="card" style="flex:1; text-align:center;">
+          <div style="font-family:var(--font-h);font-weight:700;font-size:13px;letter-spacing:.14em;color:var(--cyan);">PASO 2</div>
+          <div class="k" style="margin-top:10px;">Toca</div>
+          <div class="d">Un tap sobre tu ficha para actuar.</div>
+        </div>
+        <div style="display:grid;place-items:center;color:var(--violet-2);font-size:26px;">→</div>
+        <div class="card" style="flex:1; text-align:center;">
+          <div style="font-family:var(--font-h);font-weight:700;font-size:13px;letter-spacing:.14em;color:var(--cyan);">PASO 3</div>
+          <div class="k" style="margin-top:10px;">Elige acción</div>
+          <div style="display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin-top:8px;">
+            <span class="apill">WhatsApp</span><span class="apill">Menú</span><span class="apill">Cómo llegar</span><span class="apill">Reservar</span>
+          </div>
+        </div>
+        <div style="display:grid;place-items:center;color:var(--violet-2);font-size:26px;">→</div>
+        <div class="card" style="flex:1; text-align:center; background:linear-gradient(135deg,#173a34,#12b39b22); border-color:#1f6b5e;">
+          <div style="font-family:var(--font-h);font-weight:700;font-size:13px;letter-spacing:.14em;color:var(--teal);">RESULTADO</div>
+          <div class="k" style="margin-top:10px;">Llega a ti</div>
+          <div class="d">Cliente en tu mesa o en tu chat.</div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:26px; background:var(--ink-2); display:flex; align-items:center; gap:16px;">
+        <div class="badge free">Sin comisión</div>
+        <div style="font-size:16px; color:var(--tx-d2);">
+          No cobramos por venta ni nos metemos entre tú y el cliente. <b style="color:var(--tx-d)">El contacto es tuyo</b> — para siempre.
+        </div>
+      </div>
+    </div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>La redirección</span></div>
+  </section>
+
+  <!-- ===================== 7 · MÉTRICAS (dashboard, captura real) ===================== -->
+  <section class="slide">
+    <div class="pad" style="padding:42px 76px;">
+      <div class="eyebrow">Las métricas</div>
+      <div style="display:flex; align-items:baseline; justify-content:space-between; gap:20px;">
+        <h2 class="title" style="margin-top:10px; font-size:38px; max-width:700px;">Por fin vas a saber <span style="color:var(--violet)">qué está funcionando</span>.</h2>
+        <span class="badge mock" style="flex:none;">◆ Mockup · reemplazar con captura real del dashboard</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1.05fr 1fr; gap:18px; margin-top:16px; flex:1; min-height:0;">
+        <!-- Panel embudo -->
+        <div class="card" style="background:var(--ink); border-color:var(--line-d); display:flex; flex-direction:column; overflow:hidden; padding:20px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <div style="font-family:var(--font-h);font-weight:600;color:var(--tx-d);font-size:16px;">Tu semana en el panel</div>
+            <div style="font-size:11.5px;color:var(--tx-d2);">1–7 sep</div>
+          </div>
+          <!-- KPIs -->
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px;">
+            <div class="kpi"><div class="v">2,480</div><div class="l">Impresiones</div></div>
+            <div class="kpi"><div class="v">386 <small>15.6%</small></div><div class="l">Clics</div></div>
+            <div class="kpi"><div class="v">142 <small>↑ llegadas</small></div><div class="l">Redirecciones</div></div>
+          </div>
+          <!-- funnel (sequential, single hue, direct-labeled) -->
+          <div style="margin-top:14px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:11px;">
+            <div>
+              <div style="display:flex;justify-content:space-between;font-size:12.5px;color:var(--tx-d2);margin-bottom:5px;"><span>Vieron tu promo</span><span style="color:var(--tx-d);font-weight:600;">2,480</span></div>
+              <div style="height:18px;border-radius:6px;background:#2a2e63;overflow:hidden;"><div style="width:100%;height:100%;background:#8f80ff;border-radius:6px;"></div></div>
+            </div>
+            <div>
+              <div style="display:flex;justify-content:space-between;font-size:12.5px;color:var(--tx-d2);margin-bottom:5px;"><span>Tocaron tu ficha</span><span style="color:var(--tx-d);font-weight:600;">386</span></div>
+              <div style="height:18px;border-radius:6px;background:#2a2e63;overflow:hidden;"><div style="width:52%;height:100%;background:#6d5cef;border-radius:6px;"></div></div>
+            </div>
+            <div>
+              <div style="display:flex;justify-content:space-between;font-size:12.5px;color:var(--tx-d2);margin-bottom:5px;"><span>Fueron a WhatsApp / mapa</span><span style="color:var(--tx-d);font-weight:600;">142</span></div>
+              <div style="height:18px;border-radius:6px;background:#2a2e63;overflow:hidden;"><div style="width:34%;height:100%;background:#28d7ee;border-radius:6px;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel derecho -->
+        <div style="display:flex;flex-direction:column;gap:16px;min-height:0;">
+          <!-- horarios pico -->
+          <div class="card" style="flex:1;">
+            <div style="font-family:var(--font-h);font-weight:600;font-size:15px;color:var(--tx);">¿A qué hora te buscan?</div>
+            <div style="font-size:12.5px;color:var(--tx-2);margin-bottom:12px;">Clics por franja — publica tu promo antes del pico.</div>
+            <svg viewBox="0 0 380 130" width="100%" aria-label="Clics por hora">
+              <g font-family="Inter" font-size="10" fill="#8b8eb4">
+                <text x="18" y="126">9h</text><text x="78" y="126">12h</text><text x="150" y="126">15h</text><text x="222" y="126">18h</text><text x="300" y="126">21h</text>
+              </g>
+              <g>
+                <rect x="14" y="86" width="26" height="26" rx="4" fill="#cbc4f6"/>
+                <rect x="50" y="60" width="26" height="52" rx="4" fill="#a99cf1"/>
+                <rect x="86" y="30" width="26" height="82" rx="4" fill="#6d5cef"/>
+                <rect x="122" y="52" width="26" height="60" rx="4" fill="#a99cf1"/>
+                <rect x="158" y="74" width="26" height="38" rx="4" fill="#cbc4f6"/>
+                <rect x="194" y="66" width="26" height="46" rx="4" fill="#bdb4f4"/>
+                <rect x="230" y="24" width="26" height="88" rx="4" fill="#6d5cef"/>
+                <rect x="266" y="40" width="26" height="72" rx="4" fill="#8f80ff"/>
+                <rect x="302" y="70" width="26" height="42" rx="4" fill="#cbc4f6"/>
+                <rect x="338" y="88" width="26" height="24" rx="4" fill="#cbc4f6"/>
+              </g>
+              <text x="99" y="24" text-anchor="middle" font-family="Space Grotesk" font-weight="700" font-size="10" fill="#6d5cef">comida</text>
+              <text x="243" y="18" text-anchor="middle" font-family="Space Grotesk" font-weight="700" font-size="10" fill="#6d5cef">cena</text>
+            </svg>
+          </div>
+          <!-- top promo -->
+          <div class="card" style="flex:none;">
+            <div style="font-family:var(--font-h);font-weight:600;font-size:15px;color:var(--tx);margin-bottom:10px;">Qué promo jaló más</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--line);"><span style="font-size:14px;color:var(--tx);">🥇 2x1 en tacos (mar–jue)</span><span style="font-family:var(--font-h);font-weight:700;color:var(--teal);">198 clics</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;"><span style="font-size:14px;color:var(--tx-2);">Combo comida $99</span><span style="font-family:var(--font-h);font-weight:700;color:var(--tx-2);">121 clics</span></div>
+          </div>
+        </div>
+      </div>
+      <p style="margin-top:12px;font-size:13.5px;color:var(--tx-2);flex:none;">
+        Cada semana te llega un <b style="color:var(--tx);">reporte simple</b>: cuánta gente te vio, qué promo funcionó y a qué hora conviene publicar.
+      </p>
+    </div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>Las métricas</span></div>
+  </section>
+
+  <!-- ===================== 8 · BETA GRATIS ===================== -->
+  <section class="slide dark">
+    <div class="glow" style="width:420px;height:420px;background:var(--gold);top:-160px;right:-120px;opacity:.22;"></div>
+    <div class="pad" style="position:relative;z-index:2;">
+      <div style="display:flex;gap:12px;align-items:center;">
+        <span class="badge beta">Prueba beta</span><span class="badge free">100% gratis</span>
+      </div>
+      <h2 class="title" style="margin-top:18px;">Sé de los primeros. Sin costo, sin tarjeta, sin compromiso.</h2>
+      <div class="two" style="margin-top:26px; align-items:start;">
+        <div style="display:flex;flex-direction:column;gap:14px;">
+          <div class="step"><div class="n" style="background:linear-gradient(135deg,var(--gold),#ffb347);color:#3a2600;">✓</div><div><div class="t">Tu restaurante en el panel — gratis</div><div class="s">Ficha con fotos y promo durante todo el periodo beta.</div></div></div>
+          <div class="step"><div class="n" style="background:linear-gradient(135deg,var(--gold),#ffb347);color:#3a2600;">✓</div><div><div class="t">Redirección a WhatsApp, menú y mapa</div><div class="s">Los clientes llegan directo a ti, sin comisión por venta.</div></div></div>
+          <div class="step"><div class="n" style="background:linear-gradient(135deg,var(--gold),#ffb347);color:#3a2600;">✓</div><div><div class="t">Reporte de métricas cada semana</div><div class="s">Datos reales de cuánta gente te vio y te buscó.</div></div></div>
+          <div class="step"><div class="n" style="background:linear-gradient(135deg,var(--gold),#ffb347);color:#3a2600;">✓</div><div><div class="t">Nosotros armamos tu ficha</div><div class="s">Tú solo mandas fotos y promo; del resto nos encargamos.</div></div></div>
+        </div>
+        <div class="card" style="background:linear-gradient(160deg,var(--ink-2),#241a3e); border-color:#4a3a2a;">
+          <div style="font-family:var(--font-h);font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);">Cupo limitado por zona</div>
+          <div style="font-family:var(--font-h);font-weight:700;font-size:26px;color:var(--tx-d);line-height:1.25;margin-top:14px;">
+            Aceptamos pocos restaurantes por categoría dentro del radio de 1 km.
+          </div>
+          <div style="font-size:15px;color:var(--tx-d2);margin-top:14px;line-height:1.55;">
+            No saturamos el panel: cuidamos que tu promo destaque. El que entra en la beta
+            <b style="color:var(--gold)">se queda con el lugar</b> de su categoría en la zona.
+          </div>
+          <div style="margin-top:20px;display:flex;gap:10px;align-items:center;">
+            <span class="badge ghost">Radio</span><span style="color:var(--tx-d);font-weight:600;">1 km · sede Mobbitrips</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>Prueba beta gratuita</span></div>
+  </section>
+
+  <!-- ===================== 9 · POR QUÉ AHORA ===================== -->
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Por qué entrar ahora</div>
+      <h2 class="title" style="margin-top:16px; max-width:1000px;">Los que entran en la beta se quedan con la mejor posición.</h2>
+      <div class="grid" style="grid-template-columns:repeat(3,1fr); margin-top:38px;">
+        <div class="card">
+          <div class="ic" style="background:rgba(18,179,155,.14);color:var(--teal);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          <div class="k">Sin riesgo</div>
+          <div class="d">Es gratis y lo pruebas con <b style="color:var(--tx);">datos reales</b>. Si no te sirve, no pierdes nada.</div>
+        </div>
+        <div class="card">
+          <div class="ic" style="background:rgba(242,86,138,.12);color:var(--magenta);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6L5.7 21 8 14 2 9.4h7.6z"/></svg></div>
+          <div class="k">Exclusividad de zona</div>
+          <div class="d">Pocos lugares por categoría. <b style="color:var(--tx);">El que llega primero, se queda</b> con el espacio.</div>
+        </div>
+        <div class="card">
+          <div class="ic" style="background:rgba(109,92,239,.12);color:var(--violet);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 19V5M4 19h16M8 15l4-5 3 3 5-6"/></svg></div>
+          <div class="k">Ventaja de datos</div>
+          <div class="d">Empiezas a acumular métricas de tu zona <b style="color:var(--tx);">antes que tu competencia</b>.</div>
+        </div>
+      </div>
+      <div class="card" style="margin-top:30px; background:linear-gradient(135deg,#f0f2ff,#eafaf7); border-color:#dfe6ff; display:flex; align-items:center; gap:18px;">
+        <div style="font-family:var(--font-h);font-weight:700;font-size:22px;color:var(--tx);">La beta es la única vez que esto es gratis.</div>
+        <div style="font-size:15.5px;color:var(--tx-2);">Después habrá planes — pero los pioneros arrancan con historial, posición y confianza ya ganados.</div>
+      </div>
+    </div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>Por qué ahora</span></div>
+  </section>
+
+  <!-- ===================== 10 · CÓMO TE SUMAS ===================== -->
+  <section class="slide dark">
+    <div class="pad">
+      <div class="eyebrow on-dark">Cómo empiezas</div>
+      <h2 class="title" style="margin-top:16px;">En 15 minutos estás dentro.</h2>
+      <div class="grid" style="grid-template-columns:repeat(3,1fr); margin-top:40px;">
+        <div class="card">
+          <div class="step"><div class="n">1</div><div><div class="t">Nos das lo básico</div></div></div>
+          <div class="d" style="margin-top:14px;">Nombre, 3–5 fotos, tu promo de arranque y a dónde mandamos a los clientes (WhatsApp, menú o ubicación).</div>
+        </div>
+        <div class="card">
+          <div class="step"><div class="n">2</div><div><div class="t">Armamos tu ficha</div></div></div>
+          <div class="d" style="margin-top:14px;">Nosotros la diseñamos y la dejamos lista en el panel. Tú la apruebas. Cero trabajo técnico de tu lado.</div>
+        </div>
+        <div class="card">
+          <div class="step"><div class="n">3</div><div><div class="t">Publicamos y mides</div></div></div>
+          <div class="d" style="margin-top:14px;">Tu restaurante entra al panel de la zona y empiezas a recibir clientes — y tu primer reporte.</div>
+        </div>
+      </div>
+      <div style="margin-top:36px; display:flex; align-items:center; gap:16px;">
+        <span class="cta-big">Aparta tu lugar en la beta →</span>
+        <span style="color:var(--tx-d2);font-size:15px;">Solo para restaurantes a 1 km de la sede de Mobbitrips.</span>
+      </div>
+    </div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>Cómo empiezas</span></div>
+  </section>
+
+  <!-- ===================== 11 · FAQ ===================== -->
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Lo que todos preguntan</div>
+      <h2 class="title" style="margin-top:16px;">Rápido y claro.</h2>
+      <div class="grid" style="grid-template-columns:1fr 1fr; margin-top:30px; gap:26px 44px;">
+        <div class="qa"><div class="q">¿Cuánto cuesta después de la beta?</div><div class="a">Nada durante la beta. Antes de que termine te presentamos planes claros — y decides con tus propios números en la mano.</div></div>
+        <div class="qa"><div class="q">¿Me compromete a algo?</div><div class="a">No. Entras y sales cuando quieras. Sin contratos ni permanencia.</div></div>
+        <div class="qa"><div class="q">¿Cobran comisión por venta?</div><div class="a">No. No tocamos tus ventas ni nos metemos en tu operación. El cliente es 100% tuyo.</div></div>
+        <div class="qa"><div class="q">¿Qué necesito para empezar?</div><div class="a">Fotos, una promo y a dónde mandar a los clientes. Nosotros armamos todo lo demás.</div></div>
+        <div class="qa"><div class="q">¿Y si ya tengo redes o delivery?</div><div class="a">Perfecto — el panel las alimenta. Redirige gente a tu WhatsApp o menú sin quitarte lo que ya usas.</div></div>
+        <div class="qa"><div class="q">¿Cuándo veo resultados?</div><div class="a">Desde la primera semana ves impresiones y clics reales en tu reporte.</div></div>
+      </div>
+    </div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>Preguntas frecuentes</span></div>
+  </section>
+
+  <!-- ===================== 12 · CIERRE / CTA ===================== -->
+  <section class="slide dark">
+    <div class="glow" style="width:540px;height:540px;background:var(--violet);bottom:-200px;left:-120px;opacity:.45;"></div>
+    <div class="glow" style="width:380px;height:380px;background:var(--cyan);top:-140px;right:-80px;opacity:.3;"></div>
+    <div class="pad" style="justify-content:center; position:relative; z-index:2;">
+      <div class="eyebrow on-dark">El siguiente paso</div>
+      <h1 class="title" style="margin-top:20px; font-size:58px;">¿Apartamos tu lugar<br/>en la zona esta semana?</h1>
+      <p class="lead" style="margin-top:22px; max-width:720px;">
+        Solo necesito tus <b style="color:var(--tx-d)">fotos</b> y tu <b style="color:var(--tx-d)">promo</b> para dejarte listo.
+        Entra gratis a la beta y empieza a recibir clientes de tu propia zona.
+      </p>
+      <div style="margin-top:34px; display:flex; align-items:center; gap:18px; flex-wrap:wrap;">
+        <span class="cta-big" style="font-size:21px;">Regístrate gratis en la beta →</span>
+      </div>
+      <div style="margin-top:44px; display:flex; align-items:center; gap:16px; color:var(--tx-d2); font-size:15px;">
+        <div class="logo">
+          <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <defs><linearGradient id="mg2" x1="0" y1="0" x2="40" y2="40">
+              <stop offset="0" stop-color="#8f80ff"/><stop offset="1" stop-color="#28d7ee"/></linearGradient></defs>
+            <path d="M20 3c-8.3 0-15 6.3-15 14.2 0 3.2 1.2 5.4 3.2 5.4 1.9 0 2.7-1.5 2.7-3.6 0-4.4 3.5-8 9.1-8s9.1 3.6 9.1 8c0 2.1.8 3.6 2.7 3.6 2 0 3.2-2.2 3.2-5.4C35 9.3 28.3 3 20 3Z" fill="url(#mg2)"/>
+            <path d="M9.5 25c0 4 1.8 6 3.6 6 1.5 0 2.3-1.1 2.3-2.8M16.6 27.5c0 4.6 1.5 7.5 3.4 7.5s3.4-2.9 3.4-7.5M24.6 28.2c0 1.7.8 2.8 2.3 2.8 1.8 0 3.6-2 3.6-6" stroke="#28d7ee" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <div class="wordmark">Medusa<b>OS</b></div>
+        </div>
+        <span style="opacity:.4;">|</span>
+        <span>Medusssa Studio · Xalapa, Ver. · <b style="color:var(--tx-d)">medusssa.studio@gmail.com</b></span>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- HUD -->
+<div class="hud progress" id="progress"></div>
+<div class="hud counter" id="counter">1 / 12</div>
+<div class="hud hint">← → para navegar · F pantalla completa · P imprimir/PDF</div>
+<div class="hud nav">
+  <button id="prev" aria-label="Anterior">‹</button>
+  <button id="next" aria-label="Siguiente">›</button>
+</div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const counter = document.getElementById('counter');
+  const progress = document.getElementById('progress');
+  let i = 0;
+
+  function fit(){
+    const s = Math.min(window.innerWidth/1280, window.innerHeight/720);
+    slides.forEach(el => el.style.setProperty('--s', s));
+  }
+  function show(n){
+    i = (n + slides.length) % slides.length;
+    slides.forEach((el,k)=> el.classList.toggle('is-active', k===i));
+    counter.textContent = (i+1) + ' / ' + slides.length;
+    progress.style.width = ((i+1)/slides.length*100) + '%';
+  }
+  window.addEventListener('resize', fit);
+  document.getElementById('next').onclick = ()=> show(i+1);
+  document.getElementById('prev').onclick = ()=> show(i-1);
+  window.addEventListener('keydown', e=>{
+    if(['ArrowRight','ArrowDown',' ','PageDown'].includes(e.key)){ show(i+1); e.preventDefault(); }
+    else if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){ show(i-1); e.preventDefault(); }
+    else if(e.key==='f'||e.key==='F'){ document.documentElement.requestFullscreen && document.documentElement.requestFullscreen(); }
+    else if(e.key==='p'||e.key==='P'){ window.print(); }
+    else if(e.key==='Home'){ show(0); }
+    else if(e.key==='End'){ show(slides.length-1); }
+  });
+  fit(); show(0);
+</script>
+</body>
+</html>
