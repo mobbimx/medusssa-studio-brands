@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Medusa OS · Panel Promocional — Pitch beta restaurantes</title>
-<meta name="description" content="Presentación de ventas para captar restaurantes a la prueba beta gratuita del Panel Promocional de Medusa OS." />
+<title>Medusa OS · Panel Promocional — Pitch beta negocios</title>
+<meta name="description" content="Presentación de ventas para captar negocios a la prueba beta gratuita del Panel Promocional de Medusa OS." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -163,6 +163,17 @@
   .step .s{ font-size:15px; color:var(--tx-2); margin-top:4px; line-height:1.45; }
   .dark .step .s{ color:var(--tx-d2); }
 
+  /* flow (slide flujo) */
+  .flow{ display:flex; align-items:stretch; gap:10px; }
+  .flowcard{ flex:1; border-radius:18px; padding:22px 18px; background:var(--ink-2); border:1px solid var(--line-d);
+    display:flex; flex-direction:column; align-items:center; text-align:center; }
+  .flowico{ width:58px; height:58px; border-radius:16px; display:grid; place-items:center; color:#fff;
+    background:linear-gradient(135deg,var(--violet),var(--cyan)); box-shadow:0 10px 28px rgba(109,92,239,.35); margin-bottom:14px; }
+  .flowkick{ font-family:var(--font-h); font-weight:700; font-size:12px; letter-spacing:.16em; color:var(--cyan); }
+  .flowt{ font-family:var(--font-h); font-weight:700; font-size:18px; color:var(--tx-d); margin:8px 0 6px; }
+  .flowd{ font-size:13.5px; line-height:1.5; color:var(--tx-d2); }
+  .flowarrow{ display:grid; place-items:center; color:var(--violet-2); font-size:24px; flex:none; }
+
   /* faq */
   .qa .q{ font-family:var(--font-h); font-weight:600; font-size:17px; color:var(--tx); }
   .qa .a{ font-size:15px; color:var(--tx-2); margin-top:5px; line-height:1.5; }
@@ -173,6 +184,10 @@
     font-family:var(--font-h); font-weight:600; font-size:15px; border:1px solid var(--line); background:#fff; color:var(--tx); }
 
   .glow{ position:absolute; border-radius:50%; filter:blur(70px); opacity:.55; pointer-events:none; }
+
+  /* screen label (slide panel) */
+  .screen-label{ text-align:center; margin-top:12px; font-family:var(--font-h); font-weight:600; font-size:15.5px; color:var(--tx); }
+  .screen-label small{ display:block; font-weight:500; font-size:12.5px; color:var(--tx-3); margin-top:2px; letter-spacing:.01em; }
 
   /* ============ PRINT / PDF ============ */
   @page{ size:1280px 720px; margin:0; }
@@ -193,6 +208,7 @@
   <section class="slide dark is-active">
     <div class="glow" style="width:520px;height:520px;background:var(--violet);top:-160px;right:-120px;"></div>
     <div class="glow" style="width:420px;height:420px;background:var(--cyan);bottom:-180px;left:-120px;opacity:.35;"></div>
+    <div class="glow" style="width:360px;height:360px;background:var(--gold);top:180px;left:40px;opacity:.16;"></div>
     <div class="pad" style="justify-content:space-between; position:relative; z-index:2;">
       <div class="logo">
         <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
@@ -207,11 +223,19 @@
         </div>
       </div>
 
-      <div style="max-width:960px;">
-        <div class="badge beta" style="margin-bottom:22px;">Prueba beta · Gratis</div>
-        <h1 class="title" style="font-size:60px;">Llena tu restaurante con los clientes<br/>que ya están a la vuelta.</h1>
-        <p class="lead" style="margin-top:22px; max-width:760px;">
-          Publicidad local <b style="color:var(--tx-d)">medible</b> para restaurantes de la zona: te ponemos frente
+      <div style="max-width:980px;">
+        <div class="badge beta" style="font-size:14px; padding:10px 18px; box-shadow:0 10px 34px rgba(255,182,71,.28);">✦ Prueba beta</div>
+        <div style="display:flex; align-items:baseline; gap:22px; flex-wrap:wrap; margin-top:20px;">
+          <span style="font-family:var(--font-h); font-weight:700; font-size:120px; line-height:.86; letter-spacing:-.03em;
+            background:linear-gradient(94deg,#ffe08a,#ffc24d 55%,#ff9d3d);
+            -webkit-background-clip:text; background-clip:text; color:transparent;
+            -webkit-text-fill-color:transparent; filter:drop-shadow(0 8px 34px rgba(255,178,71,.4));">GRATIS</span>
+          <span style="font-family:var(--font-h); font-weight:600; font-size:24px; color:var(--tx-d); max-width:320px; line-height:1.2;">
+            para los primeros negocios de la zona
+          </span>
+        </div>
+        <p class="lead" style="margin-top:24px; max-width:820px;">
+          Publicidad local <b style="color:var(--tx-d)">medible</b> para negocios de la zona: te ponemos frente
           a la gente que anda cerca, la <b style="color:var(--tx-d)">redirigimos a tu negocio</b> y te mostramos
           <b style="color:var(--tx-d)">exactamente qué funciona</b>.
         </p>
@@ -225,43 +249,7 @@
     </div>
   </section>
 
-  <!-- ===================== 2 · EL PROBLEMA ===================== -->
-  <section class="slide">
-    <div class="pad">
-      <div class="eyebrow">El problema</div>
-      <h2 class="title" style="margin-top:18px; max-width:980px;">
-        Cada día pasan cientos de personas cerca de ti.<br/>Casi ninguna sabe que existes.
-      </h2>
-      <div class="two" style="margin-top:26px; align-items:center;">
-        <div>
-          <div class="pain">
-            <div class="x">!</div>
-            <div><div class="t">Publicidad que no puedes medir</div>
-              <div class="s">Volantes, lonas y posts que pagas “a ciegas”: nunca sabes si de ahí llegó alguien.</div></div>
-          </div>
-          <div class="pain">
-            <div class="x">%</div>
-            <div><div class="t">Las apps de delivery te comen el margen</div>
-              <div class="s">Comisiones del 20–30% por orden. Y el cliente termina siendo de la app, no tuyo.</div></div>
-          </div>
-          <div class="pain">
-            <div class="x">↧</div>
-            <div><div class="t">Te gana quien sale primero en el mapa</div>
-              <div class="s">Aunque tu comida sea mejor, la decisión se la lleva quien aparece arriba en Google.</div></div>
-          </div>
-        </div>
-        <div class="card" style="background:linear-gradient(135deg,#fbf1f4,#f6f1ff); border-color:#f0d9e6;">
-          <div style="font-family:var(--font-h); font-weight:600; font-size:15px; letter-spacing:.14em; text-transform:uppercase; color:var(--magenta);">En una frase</div>
-          <div style="font-family:var(--font-h); font-weight:700; font-size:30px; line-height:1.2; color:var(--tx); margin-top:12px;">
-            Gastas en publicidad sin saber si sirve — y compites por atención que ya estaba cerca de tu puerta.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>El problema</span></div>
-  </section>
-
-  <!-- ===================== 3 · LA OPORTUNIDAD ===================== -->
+  <!-- ===================== 2 · LA OPORTUNIDAD ===================== -->
   <section class="slide">
     <div class="pad">
       <div class="eyebrow">La oportunidad</div>
@@ -294,7 +282,7 @@
             <circle cx="230" cy="200" r="185" fill="url(#ring)"/>
             <circle cx="230" cy="200" r="185" fill="none" stroke="#c9ccf0" stroke-width="1.5" stroke-dasharray="4 6"/>
             <circle cx="230" cy="200" r="120" fill="none" stroke="#dcdef4" stroke-width="1.5" stroke-dasharray="4 6"/>
-            <!-- pins restaurantes -->
+            <!-- pins negocios -->
             <g fill="#f2568a">
               <circle cx="150" cy="140" r="7"/><circle cx="320" cy="130" r="7"/><circle cx="345" cy="250" r="7"/>
               <circle cx="140" cy="270" r="7"/><circle cx="255" cy="95" r="7"/><circle cx="115" cy="205" r="7"/>
@@ -306,7 +294,7 @@
             <path d="M230 214v18" stroke="#ed6864" stroke-width="3" stroke-linecap="round"/>
             <text x="230" y="256" text-anchor="middle" font-family="Space Grotesk" font-weight="700" font-size="15" fill="#14152e">Sede Mobbitrips</text>
             <text x="378" y="200" font-family="Space Grotesk" font-weight="600" font-size="13" fill="#8b8eb4">1 km</text>
-            <text x="150" y="128" text-anchor="middle" font-family="Inter" font-size="11" fill="#8b8eb4">restaurantes</text>
+            <text x="150" y="128" text-anchor="middle" font-family="Inter" font-size="11" fill="#8b8eb4">negocios</text>
           </svg>
         </div>
       </div>
@@ -314,158 +302,211 @@
     <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>La oportunidad</span></div>
   </section>
 
-  <!-- ===================== 4 · QUÉ ES ===================== -->
+  <!-- ===================== 3 · EL PROBLEMA ===================== -->
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">El problema</div>
+      <h2 class="title" style="margin-top:18px; max-width:980px;">
+        Cada día pasan cientos de personas cerca de ti.<br/>Casi ninguna sabe que existes.
+      </h2>
+      <div class="two" style="margin-top:26px; align-items:center;">
+        <div>
+          <div class="pain">
+            <div class="x">!</div>
+            <div><div class="t">Publicidad que no puedes medir</div>
+              <div class="s">Volantes, lonas y posts que pagas “a ciegas”: nunca sabes si de ahí llegó alguien.</div></div>
+          </div>
+          <div class="pain">
+            <div class="x">%</div>
+            <div><div class="t">Las apps y comisiones te comen el margen</div>
+              <div class="s">Comisiones del 20–30% por venta. Y el cliente termina siendo de la app, no tuyo.</div></div>
+          </div>
+          <div class="pain">
+            <div class="x">↧</div>
+            <div><div class="t">Te gana quien sale primero en el mapa</div>
+              <div class="s">Aunque tu oferta sea mejor, la decisión se la lleva quien aparece arriba en Google.</div></div>
+          </div>
+        </div>
+        <div class="card" style="background:linear-gradient(135deg,#fbf1f4,#f6f1ff); border-color:#f0d9e6;">
+          <div style="font-family:var(--font-h); font-weight:600; font-size:15px; letter-spacing:.14em; text-transform:uppercase; color:var(--magenta);">En una frase</div>
+          <div style="font-family:var(--font-h); font-weight:700; font-size:30px; line-height:1.2; color:var(--tx); margin-top:12px;">
+            Gastas en publicidad sin saber si sirve — y compites por atención que ya estaba cerca de tu puerta.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>El problema</span></div>
+  </section>
+
+  <!-- ===================== 4 · QUÉ ES (resumido) ===================== -->
   <section class="slide dark">
     <div class="glow" style="width:360px;height:360px;background:var(--violet);top:-120px;left:40%;opacity:.4;"></div>
-    <div class="pad" style="position:relative; z-index:2;">
+    <div class="pad" style="position:relative; z-index:2; justify-content:center;">
       <div class="eyebrow on-dark">Qué es</div>
-      <h2 class="title" style="margin-top:18px; max-width:1040px;">
-        Un panel promocional digital que recomienda tu restaurante a la gente de la zona —
-        y <span style="color:var(--cyan)">mide cada resultado</span>.
+      <h2 class="title" style="margin-top:18px; max-width:1000px;">
+        Un panel que recomienda tu negocio a la zona — y <span style="color:var(--cyan)">mide cada resultado</span>.
       </h2>
-      <div class="grid" style="grid-template-columns:repeat(3,1fr); margin-top:38px;">
+      <div class="grid" style="grid-template-columns:repeat(3,1fr); margin-top:44px;">
         <div class="card">
           <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
           <div class="k">Vitrina digital</div>
-          <div class="d">Tu restaurante, tu promo y tus fotos, frente a clientes que están cerca en este momento.</div>
+          <div class="d">Tu negocio, tu promo y tus fotos frente a clientes que están cerca.</div>
         </div>
         <div class="card">
           <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
           <div class="k">Redirección directa</div>
-          <div class="d">Un toque y el cliente llega a tu WhatsApp, tu menú, tu ubicación o tu reserva. Sin intermediarios.</div>
+          <div class="d">Un escaneo y el cliente llega a tu WhatsApp, menú o ubicación. Sin intermediarios.</div>
         </div>
         <div class="card">
           <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
           <div class="k">Métricas reales</div>
-          <div class="d">Ves cuántos te vieron, cuántos tocaron y cuántos llegaron. Publicidad que por fin se puede medir.</div>
+          <div class="d">Cuántos te vieron, cuántos escanearon y cuántos llegaron. Por fin, medible.</div>
         </div>
       </div>
-      <p class="lead" style="margin-top:34px; max-width:900px;">
-        Piensa en el panel como <b style="color:var(--tx-d)">la recomendación de “dónde comer cerca”</b> que ya buscan
-        los huéspedes y vecinos — solo que ahora tú estás en ella, y todo queda registrado.
-      </p>
     </div>
     <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>Qué es</span></div>
   </section>
 
-  <!-- ===================== 5 · ASÍ SE VE EL PANEL (captura real) ===================== -->
+  <!-- ===================== 5 · EL PANEL EN PANTALLA (imágenes reales) ===================== -->
   <section class="slide">
-    <div class="pad">
-      <div class="eyebrow">El panel por dentro</div>
-      <div class="two" style="margin-top:16px;">
-        <div>
-          <h2 class="title">Así te ve un cliente.</h2>
-          <p class="lead" style="margin-top:18px;">
-            Cuando alguien abre el panel, ve las mejores opciones cerca de él. Tu restaurante aparece con foto,
-            promo del día y un botón para actuar al instante.
-          </p>
-          <div style="margin-top:26px; display:flex; flex-direction:column; gap:14px;">
-            <div style="display:flex; gap:12px; align-items:center;"><span style="width:10px;height:10px;border-radius:50%;background:var(--violet);flex:none;"></span><span style="font-size:15.5px;color:var(--tx-2);"><b style="color:var(--tx);">Promo destacada</b> — lo primero que ve, tu gancho del día.</span></div>
-            <div style="display:flex; gap:12px; align-items:center;"><span style="width:10px;height:10px;border-radius:50%;background:var(--cyan);flex:none;"></span><span style="font-size:15.5px;color:var(--tx-2);"><b style="color:var(--tx);">Fotos reales</b> — antojo que entra por los ojos.</span></div>
-            <div style="display:flex; gap:12px; align-items:center;"><span style="width:10px;height:10px;border-radius:50%;background:var(--teal);flex:none;"></span><span style="font-size:15.5px;color:var(--tx-2);"><b style="color:var(--tx);">Botón de acción</b> — “Cómo llegar”, “Ver menú” o “Pedir por WhatsApp”.</span></div>
+    <div class="pad" style="padding:46px 76px;">
+      <div class="eyebrow">El panel en pantalla</div>
+      <h2 class="title" style="margin-top:12px; font-size:40px;">Así se ve en la pantalla.</h2>
+      <p class="lead" style="margin-top:12px; font-size:18px; max-width:1000px;">
+        El panel se proyecta en las pantallas de Mobbitrips. Hay dos vistas: la <b style="color:var(--tx)">principal</b>
+        y la de <b style="color:var(--tx)">recomendaciones de la zona</b>, donde aparece tu anuncio.
+      </p>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:22px; flex:1; min-height:0;">
+        <!-- PANTALLA 1 · PRINCIPAL (reemplazar por imagen real) -->
+        <div style="display:flex; flex-direction:column; justify-content:center;">
+          <div class="mockframe" style="width:100%; aspect-ratio:16/9; padding:6px; position:relative;">
+            <div class="mocktag" style="top:auto; bottom:12px; left:auto; right:12px;"><span class="badge mock">◆ Reemplazar con imagen real</span></div>
+            <svg viewBox="0 0 480 270" preserveAspectRatio="xMidYMid meet" style="width:100%;height:100%;display:block;border-radius:12px;">
+              <defs>
+                <linearGradient id="scr1" x1="0" y1="0" x2="480" y2="270"><stop offset="0" stop-color="#0c0e29"/><stop offset="1" stop-color="#1b1d47"/></linearGradient>
+                <linearGradient id="mk1" x1="0" y1="0" x2="30" y2="30"><stop offset="0" stop-color="#8f80ff"/><stop offset="1" stop-color="#28d7ee"/></linearGradient>
+              </defs>
+              <rect width="480" height="270" fill="url(#scr1)"/>
+              <circle cx="410" cy="60" r="120" fill="#6d5cef" opacity=".18"/>
+              <!-- logo -->
+              <path d="M40 34c-10 0-18 7.5-18 17 0 3.8 1.4 6.4 3.8 6.4 2.3 0 3.2-1.8 3.2-4.3 0-5.3 4.2-9.6 11-9.6s11 4.3 11 9.6c0 2.5.9 4.3 3.2 4.3 2.4 0 3.8-2.6 3.8-6.4 0-9.5-8-17-18-17Z" fill="url(#mk1)"/>
+              <text x="66" y="52" font-family="Space Grotesk" font-weight="700" font-size="16" fill="#eef0ff">MedusaOS</text>
+              <text x="430" y="40" text-anchor="end" font-family="Space Grotesk" font-weight="600" font-size="15" fill="#a7abe0">8:45</text>
+              <!-- headline -->
+              <text x="40" y="140" font-family="Space Grotesk" font-weight="700" font-size="34" fill="#ffffff">Bienvenido a la zona</text>
+              <text x="40" y="172" font-family="Inter" font-size="16" fill="#a7abe0">Descubre lo mejor cerca de ti</text>
+              <!-- chips -->
+              <g font-family="Space Grotesk" font-weight="600" font-size="12" fill="#eef0ff">
+                <rect x="40" y="198" width="92" height="30" rx="15" fill="#242a5e"/><text x="86" y="217" text-anchor="middle">Comida</text>
+                <rect x="140" y="198" width="80" height="30" rx="15" fill="#242a5e"/><text x="180" y="217" text-anchor="middle">Café</text>
+                <rect x="228" y="198" width="110" height="30" rx="15" fill="#242a5e"/><text x="283" y="217" text-anchor="middle">Servicios</text>
+              </g>
+              <rect x="40" y="244" width="180" height="6" rx="3" fill="#6d5cef"/>
+            </svg>
           </div>
+          <div class="screen-label">Pantalla principal</div>
         </div>
 
-        <!-- MOCK PANEL (reemplazar por captura real) -->
-        <div class="mockframe" style="height:520px; display:grid; place-items:center;">
-          <div class="mocktag"><span class="badge mock">◆ Mockup · reemplazar con captura real</span></div>
-          <!-- teléfono -->
-          <svg viewBox="0 0 300 540" width="248" aria-label="Vista previa del panel">
-            <rect x="6" y="6" width="288" height="528" rx="34" fill="#0c0e29"/>
-            <rect x="16" y="16" width="268" height="508" rx="26" fill="#f6f7fd"/>
-            <rect x="112" y="26" width="76" height="8" rx="4" fill="#0c0e29"/>
-            <!-- header -->
-            <text x="34" y="70" font-family="Space Grotesk" font-weight="700" font-size="16" fill="#14152e">Cerca de ti</text>
-            <text x="34" y="88" font-family="Inter" font-size="10.5" fill="#8b8eb4">A menos de 1 km · Xalapa</text>
-            <rect x="204" y="56" width="62" height="22" rx="11" fill="#efeafd"/>
-            <text x="235" y="71" text-anchor="middle" font-family="Inter" font-weight="600" font-size="10" fill="#6d5cef">Abiertos</text>
-            <!-- featured card -->
-            <rect x="30" y="104" width="240" height="150" rx="16" fill="#ffffff" stroke="#e6e7f5"/>
-            <rect x="30" y="104" width="240" height="86" rx="16" fill="#dfe1f4"/>
-            <rect x="30" y="104" width="240" height="86" rx="16" fill="url(#food1)"/>
-            <defs><linearGradient id="food1" x1="30" y1="104" x2="270" y2="190"><stop offset="0" stop-color="#f2568a" stop-opacity=".25"/><stop offset="1" stop-color="#6d5cef" stop-opacity=".22"/></linearGradient></defs>
-            <rect x="42" y="116" width="94" height="20" rx="10" fill="#ffce5a"/>
-            <text x="89" y="130" text-anchor="middle" font-family="Space Grotesk" font-weight="700" font-size="9.5" fill="#4a3200">2x1 HOY</text>
-            <text x="44" y="212" font-family="Space Grotesk" font-weight="700" font-size="14" fill="#14152e">Tu Restaurante</text>
-            <text x="44" y="230" font-family="Inter" font-size="10" fill="#8b8eb4">Tacos · $$ · ★ 4.8 · 6 min</text>
-            <rect x="176" y="200" width="82" height="30" rx="9" fill="#6d5cef"/>
-            <text x="217" y="219" text-anchor="middle" font-family="Space Grotesk" font-weight="600" font-size="10.5" fill="#fff">Cómo llegar</text>
-            <!-- list items -->
-            <g>
-              <rect x="30" y="270" width="240" height="52" rx="12" fill="#fff" stroke="#e6e7f5"/>
-              <rect x="42" y="282" width="28" height="28" rx="8" fill="#eef0ff"/>
-              <rect x="82" y="286" width="96" height="9" rx="4" fill="#d7d9ee"/>
-              <rect x="82" y="302" width="60" height="7" rx="3" fill="#e6e7f5"/>
-              <rect x="214" y="284" width="44" height="24" rx="8" fill="#eafbf7"/><text x="236" y="300" text-anchor="middle" font-family="Inter" font-weight="600" font-size="9" fill="#12b39b">Menú</text>
-            </g>
-            <g>
-              <rect x="30" y="330" width="240" height="52" rx="12" fill="#fff" stroke="#e6e7f5"/>
-              <rect x="42" y="342" width="28" height="28" rx="8" fill="#eef0ff"/>
-              <rect x="82" y="346" width="86" height="9" rx="4" fill="#d7d9ee"/>
-              <rect x="82" y="362" width="52" height="7" rx="3" fill="#e6e7f5"/>
-              <rect x="214" y="344" width="44" height="24" rx="8" fill="#eafbf7"/><text x="236" y="360" text-anchor="middle" font-family="Inter" font-weight="600" font-size="9" fill="#12b39b">WhatsApp</text>
-            </g>
-            <g>
-              <rect x="30" y="390" width="240" height="52" rx="12" fill="#fff" stroke="#e6e7f5"/>
-              <rect x="42" y="402" width="28" height="28" rx="8" fill="#eef0ff"/>
-              <rect x="82" y="406" width="72" height="9" rx="4" fill="#d7d9ee"/>
-              <rect x="82" y="422" width="44" height="7" rx="3" fill="#e6e7f5"/>
-              <rect x="214" y="404" width="44" height="24" rx="8" fill="#eafbf7"/><text x="236" y="420" text-anchor="middle" font-family="Inter" font-weight="600" font-size="9" fill="#12b39b">Menú</text>
-            </g>
-            <!-- tabbar -->
-            <rect x="16" y="470" width="268" height="54" rx="0" fill="#fff"/>
-            <circle cx="70" cy="497" r="4" fill="#6d5cef"/><circle cx="150" cy="497" r="4" fill="#cfd2ec"/><circle cx="230" cy="497" r="4" fill="#cfd2ec"/>
-          </svg>
+        <!-- PANTALLA 2 · RECOMENDACIONES (reemplazar por imagen real) -->
+        <div style="display:flex; flex-direction:column; justify-content:center;">
+          <div class="mockframe" style="width:100%; aspect-ratio:16/9; padding:6px; position:relative;">
+            <div class="mocktag" style="top:auto; bottom:12px; left:auto; right:12px;"><span class="badge mock">◆ Reemplazar con imagen real</span></div>
+            <svg viewBox="0 0 480 270" preserveAspectRatio="xMidYMid meet" style="width:100%;height:100%;display:block;border-radius:12px;">
+              <rect width="480" height="270" fill="#f6f7fd"/>
+              <text x="24" y="40" font-family="Space Grotesk" font-weight="700" font-size="19" fill="#14152e">Recomendados cerca de ti</text>
+              <text x="24" y="60" font-family="Inter" font-size="12" fill="#8b8eb4">A menos de 1 km</text>
+              <!-- 3 ad cards -->
+              <g>
+                <rect x="24" y="76" width="128" height="150" rx="12" fill="#ffffff" stroke="#e6e7f5"/>
+                <rect x="24" y="76" width="128" height="82" rx="12" fill="#e7e3fb"/>
+                <rect x="34" y="86" width="60" height="18" rx="9" fill="#ffce5a"/><text x="64" y="99" text-anchor="middle" font-family="Space Grotesk" font-weight="700" font-size="9" fill="#4a3200">2x1 HOY</text>
+                <text x="34" y="180" font-family="Space Grotesk" font-weight="700" font-size="13" fill="#14152e">Tu negocio</text>
+                <rect x="34" y="192" width="70" height="8" rx="4" fill="#d7d9ee"/>
+                <rect x="34" y="206" width="104" height="11" rx="5.5" fill="#6d5cef"/>
+              </g>
+              <g>
+                <rect x="164" y="76" width="128" height="150" rx="12" fill="#ffffff" stroke="#e6e7f5"/>
+                <rect x="164" y="76" width="128" height="82" rx="12" fill="#d8eef0"/>
+                <text x="174" y="180" font-family="Space Grotesk" font-weight="700" font-size="13" fill="#14152e">Negocio 2</text>
+                <rect x="174" y="192" width="60" height="8" rx="4" fill="#d7d9ee"/>
+                <rect x="174" y="206" width="104" height="11" rx="5.5" fill="#cfd2ec"/>
+              </g>
+              <g>
+                <rect x="304" y="76" width="128" height="150" rx="12" fill="#ffffff" stroke="#e6e7f5"/>
+                <rect x="304" y="76" width="128" height="82" rx="12" fill="#fbe1ea"/>
+                <text x="314" y="180" font-family="Space Grotesk" font-weight="700" font-size="13" fill="#14152e">Negocio 3</text>
+                <rect x="314" y="192" width="66" height="8" rx="4" fill="#d7d9ee"/>
+                <rect x="314" y="206" width="104" height="11" rx="5.5" fill="#cfd2ec"/>
+              </g>
+              <!-- QR -->
+              <g>
+                <rect x="356" y="18" width="100" height="44" rx="10" fill="#0c0e29"/>
+                <g fill="#ffffff">
+                  <rect x="366" y="26" width="7" height="7"/><rect x="375" y="26" width="4" height="4"/><rect x="366" y="35" width="4" height="4"/><rect x="373" y="37" width="6" height="6"/>
+                  <rect x="366" y="44" width="7" height="7"/><rect x="375" y="46" width="4" height="4"/>
+                </g>
+                <text x="392" y="34" font-family="Space Grotesk" font-weight="700" font-size="10" fill="#ffffff">Escanea</text>
+                <text x="392" y="48" font-family="Inter" font-size="8.5" fill="#a7abe0">para más</text>
+              </g>
+            </svg>
+          </div>
+          <div class="screen-label">Recomendaciones de la zona <small>Aquí aparece tu anuncio</small></div>
         </div>
       </div>
     </div>
-    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>El panel por dentro</span></div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>El panel en pantalla</span></div>
   </section>
 
-  <!-- ===================== 6 · REDIRECCIÓN ===================== -->
+  <!-- ===================== 6 · EL FLUJO ===================== -->
   <section class="slide dark">
-    <div class="pad">
-      <div class="eyebrow on-dark">La redirección de clientes</div>
-      <h2 class="title" style="margin-top:16px;">De <span style="color:var(--cyan)">“lo vi”</span> a <span style="color:var(--cyan)">“ya voy”</span> en un toque.</h2>
-      <p class="lead" style="margin-top:14px; max-width:860px;">El panel no solo muestra: <b style="color:var(--tx-d)">manda gente a tu negocio</b>. Tú eliges a dónde llegan.</p>
+    <div class="glow" style="width:400px;height:400px;background:var(--violet);top:-140px;right:10%;opacity:.32;"></div>
+    <div class="pad" style="position:relative; z-index:2; justify-content:center;">
+      <div class="eyebrow on-dark">El flujo</div>
+      <h2 class="title" style="margin-top:14px;">Del anuncio en pantalla <span style="color:var(--cyan)">a un cliente en tu negocio</span>.</h2>
 
-      <!-- flow -->
-      <div style="display:flex; align-items:stretch; gap:14px; margin-top:34px;">
-        <div class="card" style="flex:1; text-align:center;">
-          <div style="font-family:var(--font-h);font-weight:700;font-size:13px;letter-spacing:.14em;color:var(--cyan);">PASO 1</div>
-          <div class="k" style="margin-top:10px;">Te ve</div>
-          <div class="d">Aparece tu promo entre las opciones de la zona.</div>
+      <div class="flow" style="margin-top:40px;">
+        <!-- PASO 1 -->
+        <div class="flowcard">
+          <div class="flowico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M10 8.5l4 2-4 2z" fill="currentColor" stroke="none"/></svg></div>
+          <div class="flowkick">PASO 1</div>
+          <div class="flowt">Se proyecta en la tele</div>
+          <div class="flowd">El anuncio aparece en la pantalla y el huésped consume la publicidad.</div>
         </div>
-        <div style="display:grid;place-items:center;color:var(--violet-2);font-size:26px;">→</div>
-        <div class="card" style="flex:1; text-align:center;">
-          <div style="font-family:var(--font-h);font-weight:700;font-size:13px;letter-spacing:.14em;color:var(--cyan);">PASO 2</div>
-          <div class="k" style="margin-top:10px;">Toca</div>
-          <div class="d">Un tap sobre tu ficha para actuar.</div>
+        <div class="flowarrow">→</div>
+        <!-- PASO 2 -->
+        <div class="flowcard">
+          <div class="flowico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></div>
+          <div class="flowkick">PASO 2</div>
+          <div class="flowt">Conoce el negocio</div>
+          <div class="flowd">Ve la información: menú, cómo llegar e imágenes del lugar.</div>
         </div>
-        <div style="display:grid;place-items:center;color:var(--violet-2);font-size:26px;">→</div>
-        <div class="card" style="flex:1; text-align:center;">
-          <div style="font-family:var(--font-h);font-weight:700;font-size:13px;letter-spacing:.14em;color:var(--cyan);">PASO 3</div>
-          <div class="k" style="margin-top:10px;">Elige acción</div>
-          <div style="display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin-top:8px;">
-            <span class="apill">WhatsApp</span><span class="apill">Menú</span><span class="apill">Cómo llegar</span><span class="apill">Reservar</span>
-          </div>
+        <div class="flowarrow">→</div>
+        <!-- PASO 3 -->
+        <div class="flowcard">
+          <div class="flowico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3M21 14v3M17 17v4M21 21h.01M14 21h.01"/></svg></div>
+          <div class="flowkick">PASO 3</div>
+          <div class="flowt">Escanea el QR</div>
+          <div class="flowd">Lo redirige a comunicación directa contigo, vinculada a la promoción.</div>
         </div>
-        <div style="display:grid;place-items:center;color:var(--violet-2);font-size:26px;">→</div>
-        <div class="card" style="flex:1; text-align:center; background:linear-gradient(135deg,#173a34,#12b39b22); border-color:#1f6b5e;">
-          <div style="font-family:var(--font-h);font-weight:700;font-size:13px;letter-spacing:.14em;color:var(--teal);">RESULTADO</div>
-          <div class="k" style="margin-top:10px;">Llega a ti</div>
-          <div class="d">Cliente en tu mesa o en tu chat.</div>
+        <div class="flowarrow">→</div>
+        <!-- RESULTADO -->
+        <div class="flowcard" style="background:linear-gradient(150deg,#123a33,#12b39b26); border-color:#1f6b5e;">
+          <div class="flowico" style="background:linear-gradient(135deg,var(--teal),#0c8f7c); box-shadow:0 10px 28px rgba(18,179,155,.35);"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l1.6-4.5A2 2 0 0 1 6.5 3h11a2 2 0 0 1 1.9 1.5L21 9"/><path d="M4 9v10a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V9"/><path d="M3 9h18"/></svg></div>
+          <div class="flowkick" style="color:var(--teal);">RESULTADO</div>
+          <div class="flowt">Llega al negocio</div>
+          <div class="flowd">El cliente llega a tu local o cierra un pedido contigo.</div>
         </div>
       </div>
 
-      <div class="card" style="margin-top:26px; background:var(--ink-2); display:flex; align-items:center; gap:16px;">
+      <div class="card" style="margin-top:28px; background:var(--ink-2); display:flex; align-items:center; gap:16px;">
         <div class="badge free">Sin comisión</div>
         <div style="font-size:16px; color:var(--tx-d2);">
-          No cobramos por venta ni nos metemos entre tú y el cliente. <b style="color:var(--tx-d)">El contacto es tuyo</b> — para siempre.
+          Todo va <b style="color:var(--tx-d)">vinculado a tu promoción</b> y el contacto llega directo a ti. No cobramos por venta.
         </div>
       </div>
     </div>
-    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>La redirección</span></div>
+    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>El flujo</span></div>
   </section>
 
   <!-- ===================== 7 · MÉTRICAS (dashboard, captura real) ===================== -->
@@ -481,27 +522,27 @@
         <!-- Panel embudo -->
         <div class="card" style="background:var(--ink); border-color:var(--line-d); display:flex; flex-direction:column; overflow:hidden; padding:20px;">
           <div style="display:flex;justify-content:space-between;align-items:center;">
-            <div style="font-family:var(--font-h);font-weight:600;color:var(--tx-d);font-size:16px;">Tu semana en el panel</div>
-            <div style="font-size:11.5px;color:var(--tx-d2);">1–7 sep</div>
+            <div style="font-family:var(--font-h);font-weight:600;color:var(--tx-d);font-size:16px;">Tu bimestre en el panel</div>
+            <div style="font-size:11.5px;color:var(--tx-d2);">jul – ago</div>
           </div>
           <!-- KPIs -->
           <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px;">
-            <div class="kpi"><div class="v">2,480</div><div class="l">Impresiones</div></div>
-            <div class="kpi"><div class="v">386 <small>15.6%</small></div><div class="l">Clics</div></div>
-            <div class="kpi"><div class="v">142 <small>↑ llegadas</small></div><div class="l">Redirecciones</div></div>
+            <div class="kpi"><div class="v">18,240</div><div class="l">Impresiones</div></div>
+            <div class="kpi"><div class="v">2,860 <small>15.6%</small></div><div class="l">Escaneos</div></div>
+            <div class="kpi"><div class="v">1,050 <small>↑ llegadas</small></div><div class="l">Redirecciones</div></div>
           </div>
           <!-- funnel (sequential, single hue, direct-labeled) -->
           <div style="margin-top:14px;flex:1;display:flex;flex-direction:column;justify-content:center;gap:11px;">
             <div>
-              <div style="display:flex;justify-content:space-between;font-size:12.5px;color:var(--tx-d2);margin-bottom:5px;"><span>Vieron tu promo</span><span style="color:var(--tx-d);font-weight:600;">2,480</span></div>
+              <div style="display:flex;justify-content:space-between;font-size:12.5px;color:var(--tx-d2);margin-bottom:5px;"><span>Vieron tu anuncio</span><span style="color:var(--tx-d);font-weight:600;">18,240</span></div>
               <div style="height:18px;border-radius:6px;background:#2a2e63;overflow:hidden;"><div style="width:100%;height:100%;background:#8f80ff;border-radius:6px;"></div></div>
             </div>
             <div>
-              <div style="display:flex;justify-content:space-between;font-size:12.5px;color:var(--tx-d2);margin-bottom:5px;"><span>Tocaron tu ficha</span><span style="color:var(--tx-d);font-weight:600;">386</span></div>
+              <div style="display:flex;justify-content:space-between;font-size:12.5px;color:var(--tx-d2);margin-bottom:5px;"><span>Escanearon el QR</span><span style="color:var(--tx-d);font-weight:600;">2,860</span></div>
               <div style="height:18px;border-radius:6px;background:#2a2e63;overflow:hidden;"><div style="width:52%;height:100%;background:#6d5cef;border-radius:6px;"></div></div>
             </div>
             <div>
-              <div style="display:flex;justify-content:space-between;font-size:12.5px;color:var(--tx-d2);margin-bottom:5px;"><span>Fueron a WhatsApp / mapa</span><span style="color:var(--tx-d);font-weight:600;">142</span></div>
+              <div style="display:flex;justify-content:space-between;font-size:12.5px;color:var(--tx-d2);margin-bottom:5px;"><span>Fueron a WhatsApp / mapa</span><span style="color:var(--tx-d);font-weight:600;">1,050</span></div>
               <div style="height:18px;border-radius:6px;background:#2a2e63;overflow:hidden;"><div style="width:34%;height:100%;background:#28d7ee;border-radius:6px;"></div></div>
             </div>
           </div>
@@ -512,8 +553,8 @@
           <!-- horarios pico -->
           <div class="card" style="flex:1;">
             <div style="font-family:var(--font-h);font-weight:600;font-size:15px;color:var(--tx);">¿A qué hora te buscan?</div>
-            <div style="font-size:12.5px;color:var(--tx-2);margin-bottom:12px;">Clics por franja — publica tu promo antes del pico.</div>
-            <svg viewBox="0 0 380 130" width="100%" aria-label="Clics por hora">
+            <div style="font-size:12.5px;color:var(--tx-2);margin-bottom:12px;">Escaneos por franja — publica tu promo antes del pico.</div>
+            <svg viewBox="0 0 380 130" width="100%" aria-label="Escaneos por hora">
               <g font-family="Inter" font-size="10" fill="#8b8eb4">
                 <text x="18" y="126">9h</text><text x="78" y="126">12h</text><text x="150" y="126">15h</text><text x="222" y="126">18h</text><text x="300" y="126">21h</text>
               </g>
@@ -536,13 +577,13 @@
           <!-- top promo -->
           <div class="card" style="flex:none;">
             <div style="font-family:var(--font-h);font-weight:600;font-size:15px;color:var(--tx);margin-bottom:10px;">Qué promo jaló más</div>
-            <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--line);"><span style="font-size:14px;color:var(--tx);">🥇 2x1 en tacos (mar–jue)</span><span style="font-family:var(--font-h);font-weight:700;color:var(--teal);">198 clics</span></div>
-            <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;"><span style="font-size:14px;color:var(--tx-2);">Combo comida $99</span><span style="font-family:var(--font-h);font-weight:700;color:var(--tx-2);">121 clics</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--line);"><span style="font-size:14px;color:var(--tx);">🥇 2x1 (mar–jue)</span><span style="font-family:var(--font-h);font-weight:700;color:var(--teal);">1,480 escaneos</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;"><span style="font-size:14px;color:var(--tx-2);">Combo $99</span><span style="font-family:var(--font-h);font-weight:700;color:var(--tx-2);">920 escaneos</span></div>
           </div>
         </div>
       </div>
       <p style="margin-top:12px;font-size:13.5px;color:var(--tx-2);flex:none;">
-        Cada semana te llega un <b style="color:var(--tx);">reporte simple</b>: cuánta gente te vio, qué promo funcionó y a qué hora conviene publicar.
+        Cada bimestre te llega un <b style="color:var(--tx);">reporte simple</b>: cuánta gente te vio, qué promo funcionó y a qué hora conviene publicar.
       </p>
     </div>
     <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>Las métricas</span></div>
@@ -558,15 +599,15 @@
       <h2 class="title" style="margin-top:18px;">Sé de los primeros. Sin costo, sin tarjeta, sin compromiso.</h2>
       <div class="two" style="margin-top:26px; align-items:start;">
         <div style="display:flex;flex-direction:column;gap:14px;">
-          <div class="step"><div class="n" style="background:linear-gradient(135deg,var(--gold),#ffb347);color:#3a2600;">✓</div><div><div class="t">Tu restaurante en el panel — gratis</div><div class="s">Ficha con fotos y promo durante todo el periodo beta.</div></div></div>
+          <div class="step"><div class="n" style="background:linear-gradient(135deg,var(--gold),#ffb347);color:#3a2600;">✓</div><div><div class="t">Tu negocio en el panel — gratis</div><div class="s">Ficha con fotos y promo durante todo el periodo beta.</div></div></div>
           <div class="step"><div class="n" style="background:linear-gradient(135deg,var(--gold),#ffb347);color:#3a2600;">✓</div><div><div class="t">Redirección a WhatsApp, menú y mapa</div><div class="s">Los clientes llegan directo a ti, sin comisión por venta.</div></div></div>
-          <div class="step"><div class="n" style="background:linear-gradient(135deg,var(--gold),#ffb347);color:#3a2600;">✓</div><div><div class="t">Reporte de métricas cada semana</div><div class="s">Datos reales de cuánta gente te vio y te buscó.</div></div></div>
+          <div class="step"><div class="n" style="background:linear-gradient(135deg,var(--gold),#ffb347);color:#3a2600;">✓</div><div><div class="t">Reporte de métricas bimestral</div><div class="s">Datos reales de cuánta gente te vio y te buscó.</div></div></div>
           <div class="step"><div class="n" style="background:linear-gradient(135deg,var(--gold),#ffb347);color:#3a2600;">✓</div><div><div class="t">Nosotros armamos tu ficha</div><div class="s">Tú solo mandas fotos y promo; del resto nos encargamos.</div></div></div>
         </div>
         <div class="card" style="background:linear-gradient(160deg,var(--ink-2),#241a3e); border-color:#4a3a2a;">
           <div style="font-family:var(--font-h);font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);">Cupo limitado por zona</div>
           <div style="font-family:var(--font-h);font-weight:700;font-size:26px;color:var(--tx-d);line-height:1.25;margin-top:14px;">
-            Aceptamos pocos restaurantes por categoría dentro del radio de 1 km.
+            Aceptamos pocos negocios por categoría dentro del radio de 1 km.
           </div>
           <div style="font-size:15px;color:var(--tx-d2);margin-top:14px;line-height:1.55;">
             No saturamos el panel: cuidamos que tu promo destaque. El que entra en la beta
@@ -581,39 +622,10 @@
     <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>Prueba beta gratuita</span></div>
   </section>
 
-  <!-- ===================== 9 · POR QUÉ AHORA ===================== -->
-  <section class="slide">
-    <div class="pad">
-      <div class="eyebrow">Por qué entrar ahora</div>
-      <h2 class="title" style="margin-top:16px; max-width:1000px;">Los que entran en la beta se quedan con la mejor posición.</h2>
-      <div class="grid" style="grid-template-columns:repeat(3,1fr); margin-top:38px;">
-        <div class="card">
-          <div class="ic" style="background:rgba(18,179,155,.14);color:var(--teal);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></div>
-          <div class="k">Sin riesgo</div>
-          <div class="d">Es gratis y lo pruebas con <b style="color:var(--tx);">datos reales</b>. Si no te sirve, no pierdes nada.</div>
-        </div>
-        <div class="card">
-          <div class="ic" style="background:rgba(242,86,138,.12);color:var(--magenta);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7.4-6.3-4.6L5.7 21 8 14 2 9.4h7.6z"/></svg></div>
-          <div class="k">Exclusividad de zona</div>
-          <div class="d">Pocos lugares por categoría. <b style="color:var(--tx);">El que llega primero, se queda</b> con el espacio.</div>
-        </div>
-        <div class="card">
-          <div class="ic" style="background:rgba(109,92,239,.12);color:var(--violet);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 19V5M4 19h16M8 15l4-5 3 3 5-6"/></svg></div>
-          <div class="k">Ventaja de datos</div>
-          <div class="d">Empiezas a acumular métricas de tu zona <b style="color:var(--tx);">antes que tu competencia</b>.</div>
-        </div>
-      </div>
-      <div class="card" style="margin-top:30px; background:linear-gradient(135deg,#f0f2ff,#eafaf7); border-color:#dfe6ff; display:flex; align-items:center; gap:18px;">
-        <div style="font-family:var(--font-h);font-weight:700;font-size:22px;color:var(--tx);">La beta es la única vez que esto es gratis.</div>
-        <div style="font-size:15.5px;color:var(--tx-2);">Después habrá planes — pero los pioneros arrancan con historial, posición y confianza ya ganados.</div>
-      </div>
-    </div>
-    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>Por qué ahora</span></div>
-  </section>
-
-  <!-- ===================== 10 · CÓMO TE SUMAS ===================== -->
+  <!-- ===================== 9 · CÓMO TE SUMAS (cierre) ===================== -->
   <section class="slide dark">
-    <div class="pad">
+    <div class="glow" style="width:460px;height:460px;background:var(--violet);bottom:-180px;left:-120px;opacity:.4;"></div>
+    <div class="pad" style="position:relative; z-index:2;">
       <div class="eyebrow on-dark">Cómo empiezas</div>
       <h2 class="title" style="margin-top:16px;">En 15 minutos estás dentro.</h2>
       <div class="grid" style="grid-template-columns:repeat(3,1fr); margin-top:40px;">
@@ -627,69 +639,22 @@
         </div>
         <div class="card">
           <div class="step"><div class="n">3</div><div><div class="t">Publicamos y mides</div></div></div>
-          <div class="d" style="margin-top:14px;">Tu restaurante entra al panel de la zona y empiezas a recibir clientes — y tu primer reporte.</div>
+          <div class="d" style="margin-top:14px;">Tu negocio entra al panel de la zona y empiezas a recibir clientes — y tu primer reporte.</div>
         </div>
       </div>
-      <div style="margin-top:36px; display:flex; align-items:center; gap:16px;">
+      <div style="margin-top:36px; display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
         <span class="cta-big">Aparta tu lugar en la beta →</span>
-        <span style="color:var(--tx-d2);font-size:15px;">Solo para restaurantes a 1 km de la sede de Mobbitrips.</span>
+        <span style="color:var(--tx-d2);font-size:15px;">Solo para negocios a 1 km de la sede de Mobbitrips.</span>
       </div>
     </div>
     <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>Cómo empiezas</span></div>
-  </section>
-
-  <!-- ===================== 11 · FAQ ===================== -->
-  <section class="slide">
-    <div class="pad">
-      <div class="eyebrow">Lo que todos preguntan</div>
-      <h2 class="title" style="margin-top:16px;">Rápido y claro.</h2>
-      <div class="grid" style="grid-template-columns:1fr 1fr; margin-top:30px; gap:26px 44px;">
-        <div class="qa"><div class="q">¿Cuánto cuesta después de la beta?</div><div class="a">Nada durante la beta. Antes de que termine te presentamos planes claros — y decides con tus propios números en la mano.</div></div>
-        <div class="qa"><div class="q">¿Me compromete a algo?</div><div class="a">No. Entras y sales cuando quieras. Sin contratos ni permanencia.</div></div>
-        <div class="qa"><div class="q">¿Cobran comisión por venta?</div><div class="a">No. No tocamos tus ventas ni nos metemos en tu operación. El cliente es 100% tuyo.</div></div>
-        <div class="qa"><div class="q">¿Qué necesito para empezar?</div><div class="a">Fotos, una promo y a dónde mandar a los clientes. Nosotros armamos todo lo demás.</div></div>
-        <div class="qa"><div class="q">¿Y si ya tengo redes o delivery?</div><div class="a">Perfecto — el panel las alimenta. Redirige gente a tu WhatsApp o menú sin quitarte lo que ya usas.</div></div>
-        <div class="qa"><div class="q">¿Cuándo veo resultados?</div><div class="a">Desde la primera semana ves impresiones y clics reales en tu reporte.</div></div>
-      </div>
-    </div>
-    <div class="foot"><span class="brandmark">MedusaOS · Panel promocional</span><span>Preguntas frecuentes</span></div>
-  </section>
-
-  <!-- ===================== 12 · CIERRE / CTA ===================== -->
-  <section class="slide dark">
-    <div class="glow" style="width:540px;height:540px;background:var(--violet);bottom:-200px;left:-120px;opacity:.45;"></div>
-    <div class="glow" style="width:380px;height:380px;background:var(--cyan);top:-140px;right:-80px;opacity:.3;"></div>
-    <div class="pad" style="justify-content:center; position:relative; z-index:2;">
-      <div class="eyebrow on-dark">El siguiente paso</div>
-      <h1 class="title" style="margin-top:20px; font-size:58px;">¿Apartamos tu lugar<br/>en la zona esta semana?</h1>
-      <p class="lead" style="margin-top:22px; max-width:720px;">
-        Solo necesito tus <b style="color:var(--tx-d)">fotos</b> y tu <b style="color:var(--tx-d)">promo</b> para dejarte listo.
-        Entra gratis a la beta y empieza a recibir clientes de tu propia zona.
-      </p>
-      <div style="margin-top:34px; display:flex; align-items:center; gap:18px; flex-wrap:wrap;">
-        <span class="cta-big" style="font-size:21px;">Regístrate gratis en la beta →</span>
-      </div>
-      <div style="margin-top:44px; display:flex; align-items:center; gap:16px; color:var(--tx-d2); font-size:15px;">
-        <div class="logo">
-          <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-            <defs><linearGradient id="mg2" x1="0" y1="0" x2="40" y2="40">
-              <stop offset="0" stop-color="#8f80ff"/><stop offset="1" stop-color="#28d7ee"/></linearGradient></defs>
-            <path d="M20 3c-8.3 0-15 6.3-15 14.2 0 3.2 1.2 5.4 3.2 5.4 1.9 0 2.7-1.5 2.7-3.6 0-4.4 3.5-8 9.1-8s9.1 3.6 9.1 8c0 2.1.8 3.6 2.7 3.6 2 0 3.2-2.2 3.2-5.4C35 9.3 28.3 3 20 3Z" fill="url(#mg2)"/>
-            <path d="M9.5 25c0 4 1.8 6 3.6 6 1.5 0 2.3-1.1 2.3-2.8M16.6 27.5c0 4.6 1.5 7.5 3.4 7.5s3.4-2.9 3.4-7.5M24.6 28.2c0 1.7.8 2.8 2.3 2.8 1.8 0 3.6-2 3.6-6" stroke="#28d7ee" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-          <div class="wordmark">Medusa<b>OS</b></div>
-        </div>
-        <span style="opacity:.4;">|</span>
-        <span>Medusssa Studio · Xalapa, Ver. · <b style="color:var(--tx-d)">medusssa.studio@gmail.com</b></span>
-      </div>
-    </div>
   </section>
 
 </div>
 
 <!-- HUD -->
 <div class="hud progress" id="progress"></div>
-<div class="hud counter" id="counter">1 / 12</div>
+<div class="hud counter" id="counter">1 / 9</div>
 <div class="hud hint">← → para navegar · F pantalla completa · P imprimir/PDF</div>
 <div class="hud nav">
   <button id="prev" aria-label="Anterior">‹</button>
