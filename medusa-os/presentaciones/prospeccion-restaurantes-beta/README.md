@@ -18,10 +18,13 @@ Sirve igual en **virtual** (compartir pantalla / PDF) que **presencial** (pantal
 ## Archivos
 | Archivo | Qué es |
 |---------|--------|
-| `index.html` | **Fuente editable** del deck (autocontenida, 16:9). Es lo que se edita. |
+| `deck-editable.pptx` | **PowerPoint editable** (texto y tarjetas nativos). Se edita en PowerPoint **y** se importa a Canva. |
+| `index.html` | Fuente HTML del deck (autocontenida, 16:9), para render/PDF. |
 | `deck.pdf` | Render de 9 páginas para revisar, enviar o proyectar sin navegador. |
 | `guion.md` | Guion del presentador: qué decir por slide, tiempos y manejo de objeciones. |
-| `scripts/render.mjs` | Script para volver a generar `deck.pdf`. |
+| `scripts/render.mjs` | Regenera `deck.pdf` desde el HTML. |
+| `scripts/build-pptx.mjs` | Regenera `deck-editable.pptx` (usa `assets-pptx/`). |
+| `assets-pptx/` | Ilustraciones/íconos usados por el `.pptx` (mapa, pantallas, dashboard, íconos). |
 | *(pendiente)* imágenes reales | Ver abajo. |
 
 ## Cómo presentar
@@ -58,9 +61,22 @@ Para dejarlos definitivos:
 
 > Mientras tanto, los mockups comunican bien el concepto para revisar la propuesta.
 
-## Llevarlo a Canva (flujo del estudio)
-El `deck.pdf` se puede **importar a Canva** como base y volver editable con el Brand Kit de
-Medusa OS cuando exista (colores/tipografías provisionales en `../../panel-promocional.md`).
+## Editar en PowerPoint / Canva
+**`deck-editable.pptx`** es el archivo para modificar:
+- **PowerPoint / Google Slides / Keynote:** ábrelo directamente. Texto, tarjetas, badges y
+  CTAs son elementos **nativos editables**. Las ilustraciones (mapa, pantallas, dashboard,
+  íconos) van como imagen.
+- **Canva:** *Crear diseño → Subir → Importar archivo* (o arrastra el `.pptx`). Canva lo
+  convierte en un diseño editable. Ahí aplicas el Brand Kit de Medusa OS cuando exista
+  (colores/tipografías provisionales en `../../panel-promocional.md`).
+  - Fuentes: el deck usa **Space Grotesk** (títulos) e **Inter** (texto), ambas disponibles
+    en Canva. Si abres en PowerPoint sin esas fuentes, se sustituyen (fácil de re-elegir).
+
+Regenerar el `.pptx` (si cambian los assets o el contenido):
+```bash
+npm i pptxgenjs        # una vez
+node scripts/build-pptx.mjs
+```
 
 ## Pendientes de negocio (para cerrar)
 Ver **[POR CONFIRMAR]** en `../../panel-promocional.md`: duración de la beta, cupos por
