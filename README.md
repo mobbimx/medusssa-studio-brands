@@ -21,6 +21,12 @@ Cada carpeta contiene la información de marca necesaria para:
 - Documentar estrategias de publicidad y redes sociales
 - Servir como fuente de verdad para la creación de contenido
 
+## Recursos compartidos
+
+| Carpeta | Descripción |
+|---------|-------------|
+| `prompts/` | Prompts reutilizables de producción de contenido |
+
 ## Contenido por marca
 
 Cada carpeta incluye (según disponibilidad):
