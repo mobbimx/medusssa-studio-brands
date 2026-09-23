@@ -68,6 +68,9 @@
     background:rgba(0,157,254,.14); border:1.5px solid var(--blue);
     display:flex; align-items:center; justify-content:center;
   }
+  .item .emoji svg{display:block;}
+  .item .emoji.socials{flex-wrap:wrap; gap:2px; padding:6px;}
+  .item .emoji.socials svg{width:12px; height:12px;}
   .item p{margin:0; font-size:14.5px; line-height:1.55;}
   .item p b{font-weight:600; font-size:15.5px;}
   .item p span{color:var(--muted);}
@@ -163,7 +166,7 @@
     <h2>¿Qué <span class="accent">incluye</span>?</h2>
     <div class="inc">
       <div class="item">
-        <div class="emoji">📱</div>
+        <div class="emoji socials"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="#ffffff" style="color:#ffffff" height="13" width="13" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" color="#ffffff" style="color:#ffffff" height="13" width="13" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="#ffffff" style="color:#ffffff" height="13" width="13" xmlns="http://www.w3.org/2000/svg"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"></path></svg></div>
         <p><b>2 videos para redes sociales</b><br><span>Grabados y editados por nosotros: productos, promociones, precios, horarios o trends del momento.</span></p>
       </div>
       <div class="item">
@@ -171,7 +174,7 @@
         <p><b>3 plantillas para historias</b><br><span>Diseñadas con la imagen de tu negocio: productos, promociones, precios y horarios.</span></p>
       </div>
       <div class="item">
-        <div class="emoji">🛸</div>
+        <div class="emoji"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#ffffff" style="color:#ffffff" height="28" width="28" xmlns="http://www.w3.org/2000/svg"><path d="M407 24.98v14.04h16V25zM88.99 25v14.03H105V25zM487 57H344.9v15.96H487zm-320 0H25v15.98h142zm256 33.93h-16.1v27.97l13.7.1h2.4zm-318 .1H88.97v28.07H105zm272 45.87l-.1 32.1h-78.5l-16-32h-52.8l-16 32.1-78.6-.1v-32H55.03l-12.04 48L199 214.4V208c.1-31.4 25.7-56.9 57.1-57 31.3 0 57 25.6 56.9 57 0 4.1.1 6.4.1 6.4L469 185.1 457 137zM256.1 169c-21.6 0-39 17.4-39.1 39.1.1 21.5 17.5 38.9 39.1 38.9s39-17.4 38.9-39c.1-21.5-17.3-39-38.9-39zm-.2 14c13.8 0 25 11.3 25.1 25 0 13.7-11.3 25.1-25 25-13.7 0-25.1-11.3-25-24.9 0-13.8 11.3-25 24.9-25.1zm-54.7 40.5L215 279h82l13.9-55.4c-6.8 23.9-28.8 41.4-54.8 41.4-26.1 0-48.1-17.6-54.9-41.5zm-35.8 4.2L60.35 321.1l83.85 107.7c5-5 11.3-8.8 18.2-11.1L100.2 318l87.9-73-3.4-13.4zm181.3.2l-19.4 3.8-3.3 13.4 87.8 73-62.2 99.6c7 2.3 13.2 6.2 18.3 11.3l83.8-107.8zM176 433.6c-15 0-26.9 11.9-26.9 26.7 0 14.9 11.9 26.7 27 26.8 14.9-.1 26.9-12 26.9-26.8-.1-14.8-11.9-26.7-27-26.7zm159.9 0c-14.9.1-27 11.9-26.9 26.8 0 14.7 11.9 26.6 27 26.6 15 0 27-11.8 26.9-26.7.1-14.8-11.9-26.7-27-26.7z"></path></svg></div>
         <p><b>Tomas aéreas con dron</b><br><span>Tu negocio desde el aire, como nadie más lo muestra en Xalapa.</span></p>
       </div>
       <div class="item">
