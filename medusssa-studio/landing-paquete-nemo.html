@@ -97,17 +97,14 @@
     text-decoration:none; text-align:center;
   }
   .btn svg{width:20px; height:20px; flex:0 0 20px;}
-  .btn-wa{background:var(--blue); color:var(--on-blue); box-shadow:0 12px 30px rgba(0,157,254,.35);}
-  .btn-wa svg{fill:var(--on-blue);}
-  .btn-ig{border:2px solid var(--cyan); color:var(--ink);}
-  .btn-ig svg{stroke:var(--cyan); fill:none; stroke-width:1.8;}
-  .btn-vid{border:2px solid var(--line); color:var(--muted);}
-  .btn-vid svg{fill:var(--muted);}
+  .btn-wa,.btn-ig,.btn-vid{background:var(--blue); color:var(--on-blue); box-shadow:0 12px 30px rgba(0,157,254,.35);}
+  .btn-wa svg,.btn-vid svg{fill:var(--on-blue);}
+  .btn-ig svg{stroke:var(--on-blue); fill:none; stroke-width:1.8;}
   .btn:focus-visible{outline:3px solid var(--cyan); outline-offset:3px;}
 
-  .phone-row{display:flex; align-items:center; justify-content:center; gap:10px; margin-top:14px; color:var(--muted); font-size:14px; flex-wrap:wrap;}
-  .phone-row b{color:var(--ink); font-weight:600; letter-spacing:.03em; font-variant-numeric:tabular-nums; user-select:all;}
-  .copy{background:var(--card); color:var(--muted); border:1px solid var(--line); border-radius:9px; font:inherit; font-size:12px; padding:5px 10px; cursor:pointer;}
+  .phone-row{display:flex; align-items:center; justify-content:center; gap:12px; margin-top:18px; color:var(--muted); font-size:17px; flex-wrap:wrap;}
+  .phone-row b{color:var(--ink); font-weight:700; font-size:20px; letter-spacing:.04em; font-variant-numeric:tabular-nums; user-select:all;}
+  .copy{background:var(--card); color:var(--ink); border:1.5px solid var(--cyan); border-radius:11px; font:inherit; font-size:15px; font-weight:600; padding:9px 16px; cursor:pointer;}
   .copy:focus-visible{outline:2px solid var(--cyan); outline-offset:2px;}
 
   footer{text-align:center; color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding-top:22px; margin-top:8px;}
@@ -118,8 +115,7 @@
     .inc{grid-template-columns:1fr 1fr;}
     .ctas{flex-direction:row;}
     .ctas .btn{flex:1;}
-    .videos{grid-template-columns:1fr 1fr;}
-    .vid.soon{grid-column:1 / -1;}
+    .videos{grid-template-columns:repeat(3,1fr);}
   }
   /* Escritorio */
   @media (min-width:1024px){
@@ -167,31 +163,31 @@
     <h2>¿Qué <span class="accent">incluye</span>?</h2>
     <div class="inc">
       <div class="item">
-        <div class="emoji">🎬</div>
+        <div class="emoji">🎥</div>
         <p><b>2 videos para redes sociales</b><br><span>Grabados y editados por nosotros: productos, promociones, precios, horarios o trends del momento.</span></p>
       </div>
       <div class="item">
-        <div class="emoji">🎨</div>
+        <div class="emoji">🖌️</div>
         <p><b>3 plantillas de publicidad</b><br><span>Diseñadas con la imagen de tu negocio: productos, promociones, precios y horarios.</span></p>
       </div>
-      <div class="item featured">
+      <div class="item">
         <div class="emoji">🚁</div>
         <p><b>Tomas aéreas con dron</b><br><span>Tu negocio desde el aire, como nadie más lo muestra en Xalapa.</span></p>
       </div>
       <div class="item">
-        <div class="emoji">🎥</div>
+        <div class="emoji">🎙️</div>
         <p><b>Equipo profesional de grabación</b><br><span>Estabilizador, iluminación y micrófonos en cada grabación.</span></p>
       </div>
       <div class="item">
-        <div class="emoji">📣</div>
+        <div class="emoji">📈</div>
         <p><b>$400 de pauta publicitaria incluida</b><br><span>En Facebook e Instagram, configurada y administrada por nosotros para tu zona.</span></p>
       </div>
       <div class="item">
-        <div class="emoji">✍️</div>
+        <div class="emoji">🖋️</div>
         <p><b>Redacción de copies</b><br><span>Textos persuasivos para cada una de tus publicaciones.</span></p>
       </div>
       <div class="item">
-        <div class="emoji">📅</div>
+        <div class="emoji">🗓️</div>
         <p><b>Calendarización de contenidos</b><br><span>Tu contenido planeado y programado por adelantado; apruebas una sola vez.</span></p>
       </div>
       <div class="item">
@@ -206,15 +202,15 @@
     <div class="videos">
       <div class="vid">
         <video controls playsinline preload="metadata" src="videos/ejemplo-1.mp4"></video>
-        <div class="cap">🎬 Video promocional · grabado y editado por medusssa.studio</div>
+        <div class="cap">🎥 Video promocional · grabado y editado por medusssa.studio</div>
       </div>
       <div class="vid">
         <video controls playsinline preload="metadata" src="videos/ejemplo-2.mp4"></video>
-        <div class="cap">🎬 Video promocional · grabado y editado por medusssa.studio</div>
+        <div class="cap">🎥 Video promocional · grabado y editado por medusssa.studio</div>
       </div>
-      <div class="vid soon">
-        <div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7Z"/></svg></div>
-        <p>Muy pronto, un ejemplo más. Encuentra todo nuestro trabajo en Instagram.</p>
+      <div class="vid">
+        <video controls playsinline preload="metadata" src="videos/ejemplo-3.mp4"></video>
+        <div class="cap">🎥 Video promocional · grabado y editado por medusssa.studio</div>
       </div>
     </div>
   </section>
@@ -227,7 +223,7 @@
         Escríbenos por WhatsApp
       </a>
       <a class="btn btn-ig" href="https://www.instagram.com/medusssa.studio" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.8" fill="#35E1F5" stroke="none"/></svg>
+        <svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.8" fill="#ffffff" stroke="none"/></svg>
         Síguenos en Instagram
       </a>
       <a class="btn btn-vid" href="#videos">
