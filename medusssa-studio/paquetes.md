@@ -32,7 +32,7 @@ La pauta **no se cobra aparte**: el cliente paga un solo precio mensual y Meduss
 - **$400 de pauta publicitaria mensual en Meta ya incluida**: 1 campaña local (promoción del mes o mensajes a WhatsApp), configurada y administrada por nosotros
 - **Calendarización de contenidos**: el mes planeado y programado por adelantado; el cliente aprueba una sola vez
 - **Redacción de copies**: textos persuasivos para cada publicación
-- Resumen trimestral de métricas básicas
+- **Reporte final de resultados**: alcance, interacciones y resultado de la pauta
 
 ### Condiciones específicas de este paquete
 
