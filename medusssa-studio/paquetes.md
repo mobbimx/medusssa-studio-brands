@@ -18,17 +18,20 @@ La pauta **no se cobra aparte**: el cliente paga un solo precio mensual y Meduss
 
 ---
 
-## 🐠 PAQUETE NEMO — Para negocios pequeños
+## 🐠 PAQUETE NEMO — Servicios Esenciales
 
 *Como Nemo: pequeño, pero imposible de no ver. Para el negocio pequeño (local familiar, emprendimiento que empieza) que hoy no publica nada o publica desde el celular sin diseño. Es el paquete más accesible de Medusssa y **funciona porque está sistematizado, no porque esté regalado**.*
 
+> 📱 Página del QR: https://claude.ai/artifact/7sz4UZB48mreJ8Vwm8AzYF (fuente: `landing-paquete-nemo.html`, QR: `qr-paquete-nemo.png`)
+
 ### Incluye — **$2,500 / mes (con publicidad incluida)**
 
-- **2 videos al mes** grabados y editados por nosotros (productos, promociones, precios, horarios o trends del momento)
+- **2 videos al mes para redes sociales** grabados y editados por nosotros (productos, promociones, precios, horarios o trends del momento)
 - **Equipo profesional de grabación incluido**: dron, estabilizador, equipo de iluminación y micrófonos — calidad que ningún negocio logra con el celular
-- **3 plantillas de historias al mes** listas para que el cliente las suba cuando quiera (productos, promociones, precios, horarios)
-- **$300 de publicidad mensual en Meta ya incluida**: 1 campaña local (promoción del mes o mensajes a WhatsApp), configurada y administrada por nosotros
-- **Todo el mes programado por adelantado**: el cliente aprueba una sola vez y se publica automático
+- **3 plantillas de publicidad al mes** con la imagen del negocio (productos, promociones, precios, horarios)
+- **$400 de pauta publicitaria mensual en Meta ya incluida**: 1 campaña local (promoción del mes o mensajes a WhatsApp), configurada y administrada por nosotros
+- **Calendarización de contenidos**: el mes planeado y programado por adelantado; el cliente aprueba una sola vez
+- **Redacción de copies**: textos persuasivos para cada publicación
 - Resumen trimestral de métricas básicas
 
 ### Condiciones específicas de este paquete
@@ -148,10 +151,10 @@ Todo lo del orgánico **+ pauta incluida**:
 |---|---|---|---|---|---|---|
 | Publicaciones/mes | — | 6 | 10 | 10 | 16 | 16 |
 | Videos/reels al mes | 2 (grabados por nosotros) | 2 (material del cliente) | 4 | 4 | 8 (con guión) | 8 (con guión) |
-| Historias | 3 plantillas (las sube el cliente) | 2×semana | 3×semana | 3×semana | Diarias | Diarias |
+| Historias | 3 plantillas de publicidad | 2×semana | 3×semana | 3×semana | Diarias | Diarias |
 | Grabación propia | 1 visita/mes con equipo pro (dron, luces, micrófonos) | — | 1 reel/mes | 1 reel/mes | Sesión 1/mes | Sesión 1/mes |
 | Community mgmt | — | — | — | — | ✔ | ✔ |
-| Pauta incluida | $300/mes | Opcional +$650 | — | $1,000/mes | — | $2,000/mes |
+| Pauta incluida | $400/mes | Opcional +$650 | — | $1,000/mes | — | $2,000/mes |
 | Reportes | Trimestral básico | Mensual simple | Mensual | Mensual | Quincenal | Quincenal |
 | **Precio** | **$2,500** (pago trimestral) | **$1,900** | **$3,500** | **$4,900** | **$7,500** | **$9,900** |
 

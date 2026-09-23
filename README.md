@@ -20,6 +20,8 @@ extravagance/       - Extravagance (Club For Men · Boca del Río)
 | `medusssa-studio/paquetes.md` | Paquetes comerciales (cara al cliente): Nemo, Presencia, Semilla y Crecimiento, con modalidades orgánica e Impulso con pauta incluida |
 | `medusssa-studio/estructura-costos.md` | ⚠️ Interno: márgenes, gestión de pauta, punto de equilibrio y reglas comerciales |
 | `medusssa-studio/cartel-nemo.md` | Prompt de diseño para el cartel del Paquete Nemo (IA o brief para Canva) |
+| `medusssa-studio/landing-paquete-nemo.html` | Página del QR del Paquete Nemo (identidad negro/rosa; publicada en claude.ai/artifact/7sz4UZB48mreJ8Vwm8AzYF) |
+| `medusssa-studio/qr-paquete-nemo.png` | Código QR que abre la página del Paquete Nemo |
 
 ## Propósito
 

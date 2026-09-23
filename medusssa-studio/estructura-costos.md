@@ -20,11 +20,11 @@ La cuota de gestión es tu ganancia por administrar los anuncios (configurar cam
 | Concepto | 🐠 Nemo | 🌱 Semilla Impulso | 🚀 Crecimiento Impulso |
 |---|---|---|---|
 | Precio al cliente | $2,500 | $4,900 | $9,900 |
-| Servicio base | $2,000 | $3,500 | $7,500 |
-| Pauta real pagada a Meta | $300 | $1,000 | $2,000 |
-| **Cuota de gestión de pauta (tu ganancia extra)** | **$200 (67%)** | **$400 (40%)** | **$400 (20%)** |
+| Servicio base | $1,900 | $3,500 | $7,500 |
+| Pauta real pagada a Meta | $400 | $1,000 | $2,000 |
+| **Cuota de gestión de pauta (tu ganancia extra)** | **$200 (50%)** | **$400 (40%)** | **$400 (20%)** |
 
-- En Nemo la cuota parece alta en porcentaje (67%) pero son solo $200 por montar y vigilar 1 campaña al mes — es el mínimo absoluto para que valga tu tiempo, y funciona porque la campaña también se produce en el "día de fábrica" junto con las demás.
+- En Nemo la cuota parece alta en porcentaje (50%) pero son solo $200 por montar y vigilar 1 campaña al mes — es el mínimo absoluto para que valga tu tiempo, y funciona porque la campaña también se produce en el "día de fábrica" junto con las demás.
 - En Semilla la cuota es proporcionalmente alta (40%) porque configurar y optimizar 2 campañas cuesta casi el mismo tiempo con $1,000 que con $2,000.
 - En Crecimiento baja a 20%, que es el estándar de agencia, porque el volumen ya lo compensa.
 
@@ -47,13 +47,13 @@ Supuestos: trabajo hecho por el equipo actual (sin nómina externa), costo de he
 | | 🐠 Nemo | ✨ Presencia | 🌱 Sem. Org. | 🌱 Sem. Imp. | 🚀 Crec. Org. | 🚀 Crec. Imp. |
 |---|---|---|---|---|---|---|
 | Ingreso | $2,500 | $1,900 | $3,500 | $4,900 | $7,500 | $9,900 |
-| Pauta a Meta | $300 | — | — | $1,000 | — | $2,000 |
+| Pauta a Meta | $400 | — | — | $1,000 | — | $2,000 |
 | Insumos/transporte | $200 | $200 | $300 | $300 | $500 | $500 |
-| **Margen bruto (tu trabajo + utilidad)** | **$2,000** | **$1,700** | **$3,200** | **$3,600** | **$7,000** | **$7,400** |
+| **Margen bruto (tu trabajo + utilidad)** | **$1,900** | **$1,700** | **$3,200** | **$3,600** | **$7,000** | **$7,400** |
 | Horas estimadas/mes | ~8 h | ~10 h | ~18 h | ~22 h | ~40 h | ~45 h |
-| Valor hora resultante | ~$250 | ~$170 | ~$178 | ~$164 | ~$175 | ~$164 |
+| Valor hora resultante | ~$238 | ~$170 | ~$178 | ~$164 | ~$175 | ~$164 |
 
-> ✅ **Con el precio en $2,500, Nemo pasó de estar en el piso ($150/hora a $1,700) a ser el mejor valor-hora del catálogo (~$250).** Las ~8 h se desglosan así: 2 h de grabación en sitio + 1 h de traslado/montaje de equipo + 3.5 h de edición de los 2 videos + 0.5 h de plantillas de historias + 0.5 h de campaña + 0.5 h de programación. El colchón ahora aguanta imprevistos ocasionales (una visita lejana, una re-edición), pero las reglas de abajo (día de grabación por zona, 2 h máximo en sitio, 1 ronda de cambios) siguen siendo lo que mantiene esa rentabilidad.
+> ✅ **Con el precio en $2,500, Nemo pasó de estar en el piso ($150/hora a $1,700) a ser el mejor valor-hora del catálogo (~$238).** Las ~8 h se desglosan así: 2 h de grabación en sitio + 1 h de traslado/montaje de equipo + 3.5 h de edición de los 2 videos + 0.5 h de plantillas de publicidad + 0.5 h de campaña + 0.5 h de programación. El colchón ahora aguanta imprevistos ocasionales (una visita lejana, una re-edición), pero las reglas de abajo (día de grabación por zona, 2 h máximo en sitio, 1 ronda de cambios) siguen siendo lo que mantiene esa rentabilidad.
 
 > ⚠️ **Ojo con el escalón Nemo→Presencia:** Nemo ($2,500) ahora incluye grabación con equipo profesional y pauta; Presencia ($1,900) es contenido de feed con material del cliente. Son productos distintos, no niveles: **Nemo = video-first (nosotros grabamos, sin feed); Presencia = feed-first (6 posts + 2 reels con material del cliente, sin grabación)**. Venderlos así evita que Nemo canibalice a Presencia; el cliente que quiere ambas cosas es candidato directo a Semilla ($3,500).
 
@@ -107,7 +107,7 @@ Meta mínima para estabilizar el flujo (ajusta el gasto fijo real del estudio):
 
 | Escenario | Mezcla de clientes | Ingreso mensual | Margen bruto aprox. |
 |---|---|---|---|
-| Caja urgente | 6 Nemo (trimestre anticipado) + 2 Kits de Arranque | $48,600 cobrados ya (≈$15,000/mes + $3,600 únicos) | ~$12,000/mes + $3,000 |
+| Caja urgente | 6 Nemo (trimestre anticipado) + 2 Kits de Arranque | $48,600 cobrados ya (≈$15,000/mes + $3,600 únicos) | ~$11,400/mes + $3,000 |
 | Oxígeno inmediato | 4 Presencia | $7,600 | $6,800 |
 | Sobrevivencia | 3 Semilla Impulso | $14,700 | $10,800 |
 | Sobrevivencia mixta | 3 Presencia + 2 Semilla Impulso | $15,500 | $12,300 |

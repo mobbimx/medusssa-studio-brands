@@ -1,0 +1,247 @@
+<title>Paquete Nemo</title>
+<style>
+  :root{
+    --bg:#0a0807; --card:#171311; --card-hi:#241019; --line:#2a2225;
+    --pink:#e2457c; --ink:#ffffff; --muted:#b5a8ae; --on-pink:#171311;
+    color-scheme:dark;
+  }
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;
+    margin:0; padding-inline:16px; padding-block:0 40px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:620px; margin:0 auto;}
+  a{color:var(--pink);}
+
+  /* header / logo lockup */
+  header{display:flex; align-items:center; justify-content:center; gap:8px; padding-block:28px 6px;}
+  .wordmark{font-weight:700; font-size:24px; letter-spacing:-0.02em;}
+  .chip{
+    border:2.5px solid var(--pink); color:var(--pink); border-radius:9px;
+    font-weight:700; font-size:13px; padding:3px 8px; letter-spacing:.04em;
+  }
+  .locality{text-align:center; color:var(--muted); font-size:13px; margin:0 0 26px;}
+
+  /* hero */
+  .hero{text-align:center; margin-bottom:30px;}
+  .eyebrow{
+    color:var(--pink); font-size:12px; font-weight:600; letter-spacing:.24em;
+    text-transform:uppercase; margin:0 0 10px;
+  }
+  h1{font-size:44px; line-height:1.05; margin:0 0 10px; letter-spacing:-0.03em; text-wrap:balance;}
+  .tagline{color:var(--muted); font-size:16px; margin:0 0 22px;}
+  .jelly{display:block; margin:0 auto 14px;}
+
+  .price-card{
+    background:var(--card-hi); border:2px solid var(--pink); border-radius:22px;
+    padding:20px 24px; display:inline-block;
+  }
+  .price{font-size:38px; font-weight:700; color:var(--pink); line-height:1; font-variant-numeric:tabular-nums;}
+  .price small{font-size:16px; color:var(--ink); font-weight:600;}
+  .price-note{color:var(--muted); font-size:13px; margin-top:6px;}
+
+  section{margin-bottom:34px;}
+  h2{font-size:20px; letter-spacing:-0.01em; margin:0 0 14px;}
+  h2 .accent{color:var(--pink);}
+  .about{background:var(--card); border-radius:22px; padding:20px 22px;}
+  .about p{margin:0; color:var(--muted); font-size:15px; line-height:1.65;}
+  .about p strong{color:var(--ink); font-weight:600;}
+
+  /* includes list */
+  .inc{display:flex; flex-direction:column; gap:10px;}
+  .item{
+    display:flex; gap:14px; align-items:flex-start;
+    background:var(--card); border-radius:18px; padding:15px 16px;
+  }
+  .item .ico{
+    flex:0 0 40px; width:40px; height:40px; border-radius:12px;
+    background:var(--card-hi); border:1.5px solid var(--pink);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .item .ico svg{width:20px; height:20px; stroke:var(--pink); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round;}
+  .item p{margin:0; font-size:14.5px; line-height:1.5;}
+  .item p b{font-weight:600;}
+  .item p span{color:var(--muted);}
+
+  /* videos */
+  .videos{display:flex; flex-direction:column; gap:14px;}
+  .vid{
+    background:var(--card); border-radius:18px; overflow:hidden;
+  }
+  .vid video{display:block; width:100%; max-width:100%; background:#000;}
+  .vid .cap{padding:10px 16px; font-size:13px; color:var(--muted);}
+  .vid.soon{
+    border:1.5px dashed var(--line); background:transparent;
+    display:flex; align-items:center; gap:14px; padding:18px 16px;
+  }
+  .vid.soon .play{
+    flex:0 0 44px; width:44px; height:44px; border-radius:50%;
+    border:1.5px solid var(--pink); display:flex; align-items:center; justify-content:center;
+  }
+  .vid.soon .play svg{width:16px; height:16px; fill:var(--pink);}
+  .vid.soon p{margin:0; color:var(--muted); font-size:14px;}
+
+  /* CTA buttons */
+  .ctas{display:flex; flex-direction:column; gap:12px;}
+  .btn{
+    display:flex; align-items:center; justify-content:center; gap:10px;
+    border-radius:16px; padding:16px 18px; font-size:16px; font-weight:600;
+    text-decoration:none; text-align:center;
+  }
+  .btn svg{width:20px; height:20px; flex:0 0 20px;}
+  .btn-wa{background:var(--pink); color:var(--on-pink);}
+  .btn-wa svg{fill:var(--on-pink);}
+  .btn-ig{border:2px solid var(--pink); color:var(--ink);}
+  .btn-ig svg{stroke:var(--pink); fill:none; stroke-width:1.8;}
+  .btn-vid{border:2px solid var(--line); color:var(--muted);}
+  .btn-vid svg{fill:var(--muted);}
+  .btn:focus-visible{outline:3px solid var(--pink); outline-offset:3px;}
+
+  .phone-row{
+    display:flex; align-items:center; justify-content:center; gap:10px;
+    margin-top:14px; color:var(--muted); font-size:14px;
+  }
+  .phone-row b{color:var(--ink); font-weight:600; letter-spacing:.03em; font-variant-numeric:tabular-nums; user-select:all;}
+  .copy{
+    background:var(--card); color:var(--muted); border:1px solid var(--line);
+    border-radius:9px; font:inherit; font-size:12px; padding:5px 10px; cursor:pointer;
+  }
+  .copy:focus-visible{outline:2px solid var(--pink); outline-offset:2px;}
+
+  footer{
+    text-align:center; color:var(--muted); font-size:13px;
+    border-top:1px solid var(--line); padding-top:22px; margin-top:8px;
+  }
+  footer b{color:var(--ink); font-weight:600;}
+
+  @media (min-width:520px){
+    .inc{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+    .item.wide{grid-column:1 / -1;}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .jelly{animation:float 5s ease-in-out infinite;}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+
+<div class="wrap">
+
+  <header>
+    <span class="wordmark">medusssa</span>
+    <span class="chip">studio</span>
+  </header>
+  <p class="locality">Marketing digital · Xalapa, Veracruz</p>
+
+  <div class="hero">
+    <svg class="jelly" width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+      <g fill="none" stroke="#e2457c" stroke-width="2.6" stroke-linecap="round">
+        <path d="M14 30c0-12 8-20 18-20s18 8 18 20c0 2-1.5 3-3.5 3h-29C15.5 33 14 32 14 30Z"/>
+        <path d="M21 36c-.5 4-2.5 7-2.5 11 0 2.5 1.8 4 3.5 4"/>
+        <path d="M32 37v10c0 3.5 2 5.5 4 5.5"/>
+        <path d="M43 36c.5 4 2.5 7 2.5 11 0 2.5-1.8 4-3.5 4"/>
+      </g>
+    </svg>
+    <p class="eyebrow">Servicios esenciales</p>
+    <h1>Paquete <span style="color:var(--pink)">Nemo</span></h1>
+    <p class="tagline">Pequeño, pero imposible de no ver.</p>
+    <div class="price-card">
+      <div class="price">$2,500 <small>/ mes</small></div>
+      <div class="price-note">Con publicidad incluida · un solo pago mensual</div>
+    </div>
+  </div>
+
+  <section>
+    <h2>Somos <span class="accent">medusssa.studio</span></h2>
+    <div class="about">
+      <p>Estudio de marketing digital en Xalapa. Hacemos que los negocios locales <strong>se vean profesionales y lleguen a más clientes</strong>: grabamos, diseñamos, escribimos y administramos tu publicidad, para que tú te dediques a atender tu negocio.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>¿Qué incluye?</h2>
+    <div class="inc">
+      <div class="item wide">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 7.5A2.5 2.5 0 0 1 5.5 5h8A2.5 2.5 0 0 1 16 7.5v9a2.5 2.5 0 0 1-2.5 2.5h-8A2.5 2.5 0 0 1 3 16.5Z"/><path d="m16 10 4.2-2.6a.6.6 0 0 1 .8.5v8.2a.6.6 0 0 1-.8.5L16 14"/></svg></div>
+        <p><b>2 videos al mes para redes sociales</b><br><span>Grabados y editados por nosotros: productos, promociones, precios, horarios o trends del momento.</span></p>
+      </div>
+      <div class="item wide">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3v11H4Z"/><circle cx="12" cy="13" r="3.2"/></svg></div>
+        <p><b>Equipo profesional de grabación</b><br><span>Dron, estabilizador, equipo de iluminación y micrófonos. Calidad que no se logra con un celular.</span></p>
+      </div>
+      <div class="item">
+        <div class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2.5"/><path d="M4 10h16M10 10v10"/></svg></div>
+        <p><b>3 plantillas de publicidad</b><br><span>Diseñadas con la imagen de tu negocio.</span></p>
+      </div>
+      <div class="item">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 11v3l3 .5V19a1 1 0 0 0 1 1h1.5v-5l9.5 3.5v-13L4 11Z"/></svg></div>
+        <p><b>$400 de pauta publicitaria</b><br><span>En Facebook e Instagram, administrada por nosotros.</span></p>
+      </div>
+      <div class="item">
+        <div class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="5.5" width="16" height="14.5" rx="2.5"/><path d="M4 10.5h16M8.5 3.5v4M15.5 3.5v4"/></svg></div>
+        <p><b>Calendarización de contenidos</b><br><span>Tu mes planeado y programado por adelantado.</span></p>
+      </div>
+      <div class="item">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="m5 19 1-4L16.5 4.5a2.1 2.1 0 0 1 3 3L9 18l-4 1Z"/><path d="M14 7l3 3"/></svg></div>
+        <p><b>Redacción de copies</b><br><span>Textos persuasivos para cada publicación.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="videos">
+    <h2>Videos que hemos <span class="accent">realizado</span></h2>
+    <div class="videos">
+      <div class="vid soon">
+        <div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7Z"/></svg></div>
+        <p>Muy pronto podrás ver aquí ejemplos reales de nuestros videos. Mientras tanto, encuéntralos en nuestro Instagram.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Empieza <span class="accent">hoy</span></h2>
+    <div class="ctas">
+      <a class="btn btn-wa" href="https://wa.me/522283457114?text=Hola%20medusssa.studio%2C%20quiero%20informaci%C3%B3n%20del%20Paquete%20Nemo" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.4 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3Z"/></svg>
+        Escríbenos por WhatsApp
+      </a>
+      <a class="btn btn-ig" href="https://www.instagram.com/medusssa.studio" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.8" fill="#e2457c" stroke="none"/></svg>
+        Síguenos en Instagram
+      </a>
+      <a class="btn btn-vid" href="#videos">
+        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7Z"/></svg>
+        Ver nuestros videos
+      </a>
+    </div>
+    <div class="phone-row">
+      <span>WhatsApp:</span> <b id="phone">228 345 7114</b>
+      <button class="copy" id="copyBtn" type="button">Copiar</button>
+    </div>
+  </section>
+
+  <footer>
+    <b>medusssa.studio</b><br>
+    Xalapa, Veracruz · @medusssa.studio
+  </footer>
+
+</div>
+
+<script>
+  document.getElementById('copyBtn').addEventListener('click', async function () {
+    const btn = this;
+    const num = '2283457114';
+    try {
+      await navigator.clipboard.writeText(num);
+      btn.textContent = 'Copiado ✓';
+    } catch (e) {
+      const range = document.createRange();
+      range.selectNodeContents(document.getElementById('phone'));
+      const sel = window.getSelection();
+      sel.removeAllRanges(); sel.addRange(range);
+      btn.textContent = 'Selecciona y copia';
+    }
+    setTimeout(() => { btn.textContent = 'Copiar'; }, 2500);
+  });
+</script>
