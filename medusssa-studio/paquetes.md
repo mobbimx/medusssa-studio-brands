@@ -28,7 +28,7 @@ La pauta **no se cobra aparte**: el cliente paga un solo precio mensual y Meduss
 
 - **2 videos al mes para redes sociales** grabados y editados por nosotros (productos, promociones, precios, horarios o trends del momento)
 - **Equipo profesional de grabación incluido**: dron, estabilizador, equipo de iluminación y micrófonos — calidad que ningún negocio logra con el celular
-- **3 plantillas de publicidad al mes** con la imagen del negocio (productos, promociones, precios, horarios)
+- **3 plantillas para historias al mes** con la imagen del negocio (productos, promociones, precios, horarios)
 - **$400 de pauta publicitaria mensual en Meta ya incluida**: 1 campaña local (promoción del mes o mensajes a WhatsApp), configurada y administrada por nosotros
 - **Calendarización de contenidos**: el mes planeado y programado por adelantado; el cliente aprueba una sola vez
 - **Redacción de copies**: textos persuasivos para cada publicación
