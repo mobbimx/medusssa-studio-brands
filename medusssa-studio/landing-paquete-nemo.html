@@ -83,7 +83,7 @@
 
   .videos{display:grid; grid-template-columns:1fr; gap:14px;}
   .vid{background:var(--card); border:1px solid var(--line); border-radius:18px; overflow:hidden;}
-  .vid video{display:block; width:100%; max-width:100%; background:#000;}
+  .vid video{display:block; width:100%; max-width:100%; max-height:540px; object-fit:contain; background:#000;}
   .vid .cap{padding:10px 16px; font-size:13px; color:var(--muted);}
   .vid.soon{border:1.5px dashed var(--line); background:transparent; display:flex; align-items:center; gap:14px; padding:18px 16px;}
   .vid.soon .play{flex:0 0 44px; width:44px; height:44px; border-radius:50%; border:1.5px solid var(--cyan); display:flex; align-items:center; justify-content:center;}
@@ -204,9 +204,17 @@
   <section id="videos">
     <h2>Videos que hemos <span class="accent">realizado</span></h2>
     <div class="videos">
+      <div class="vid">
+        <video controls playsinline preload="metadata" src="videos/ejemplo-1.mp4"></video>
+        <div class="cap">🎬 Video promocional · grabado y editado por medusssa.studio</div>
+      </div>
+      <div class="vid">
+        <video controls playsinline preload="metadata" src="videos/ejemplo-2.mp4"></video>
+        <div class="cap">🎬 Video promocional · grabado y editado por medusssa.studio</div>
+      </div>
       <div class="vid soon">
         <div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7Z"/></svg></div>
-        <p>Muy pronto podrás ver aquí ejemplos reales de nuestros videos. Mientras tanto, encuéntralos en nuestro Instagram.</p>
+        <p>Muy pronto, un ejemplo más. Encuentra todo nuestro trabajo en Instagram.</p>
       </div>
     </div>
   </section>
