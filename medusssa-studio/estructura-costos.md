@@ -19,8 +19,8 @@ La cuota de gestión es tu ganancia por administrar los anuncios (configurar cam
 
 | Concepto | 🐠 Nemo | 🌱 Semilla Impulso | 🚀 Crecimiento Impulso |
 |---|---|---|---|
-| Precio al cliente | $2,500 | $4,900 | $9,900 |
-| Servicio base | $1,900 | $3,500 | $7,500 |
+| Precio al cliente | $1,750 | $4,900 | $9,900 |
+| Servicio base | $1,150 | $3,500 | $7,500 |
 | Pauta real pagada a Meta | $400 | $1,000 | $2,000 |
 | **Cuota de gestión de pauta (tu ganancia extra)** | **$200 (50%)** | **$400 (40%)** | **$400 (20%)** |
 
@@ -46,16 +46,16 @@ Supuestos: trabajo hecho por el equipo actual (sin nómina externa), costo de he
 
 | | 🐠 Nemo | ✨ Presencia | 🌱 Sem. Org. | 🌱 Sem. Imp. | 🚀 Crec. Org. | 🚀 Crec. Imp. |
 |---|---|---|---|---|---|---|
-| Ingreso | $2,500 | $1,900 | $3,500 | $4,900 | $7,500 | $9,900 |
+| Ingreso | $1,750 | $1,900 | $3,500 | $4,900 | $7,500 | $9,900 |
 | Pauta a Meta | $400 | — | — | $1,000 | — | $2,000 |
 | Insumos/transporte | $200 | $200 | $300 | $300 | $500 | $500 |
-| **Margen bruto (tu trabajo + utilidad)** | **$1,900** | **$1,700** | **$3,200** | **$3,600** | **$7,000** | **$7,400** |
+| **Margen bruto (tu trabajo + utilidad)** | **$1,150** | **$1,700** | **$3,200** | **$3,600** | **$7,000** | **$7,400** |
 | Horas estimadas/mes | ~8 h | ~10 h | ~18 h | ~22 h | ~40 h | ~45 h |
-| Valor hora resultante | ~$238 | ~$170 | ~$178 | ~$164 | ~$175 | ~$164 |
+| Valor hora resultante | ~$144 | ~$170 | ~$178 | ~$164 | ~$175 | ~$164 |
 
-> ✅ **Con el precio en $2,500, Nemo pasó de estar en el piso ($150/hora a $1,700) a ser el mejor valor-hora del catálogo (~$238).** Las ~8 h se desglosan así: 2 h de grabación en sitio + 1 h de traslado/montaje de equipo + 3.5 h de edición de los 2 videos + 0.5 h de plantillas de publicidad + 0.5 h de campaña + 0.5 h de programación. El colchón ahora aguanta imprevistos ocasionales (una visita lejana, una re-edición), pero las reglas de abajo (día de grabación por zona, 2 h máximo en sitio, 1 ronda de cambios) siguen siendo lo que mantiene esa rentabilidad.
+> ⚠️ **Con el precio en $1,750 (pauta de $400 incluida), Nemo queda en ~$144/hora — LIGERAMENTE DEBAJO del piso de $150.** Las ~8 h se desglosan así: 2 h de grabación en sitio + 1 h de traslado/montaje de equipo + 3.5 h de edición de los 2 videos + 0.5 h de plantillas de publicidad + 0.5 h de campaña + 0.5 h de programación. Se sostiene SOLO si las reglas se cumplen a rajatabla (día de grabación por zona, 2 h máximo en sitio, 1 ronda de cambios) y como paquete de entrada/volumen para el mes crítico. Cualquier extra fuera del flujo se cobra aparte, y a la primera señal de sobrecarga la corrección es subir a $1,900–2,000 o recortar alcance, nunca absorberlo.
 
-> ⚠️ **Ojo con el escalón Nemo→Presencia:** Nemo ($2,500) ahora incluye grabación con equipo profesional y pauta; Presencia ($1,900) es contenido de feed con material del cliente. Son productos distintos, no niveles: **Nemo = video-first (nosotros grabamos, sin feed); Presencia = feed-first (6 posts + 2 reels con material del cliente, sin grabación)**. Venderlos así evita que Nemo canibalice a Presencia; el cliente que quiere ambas cosas es candidato directo a Semilla ($3,500).
+> ⚠️ **Ojo con el escalón Nemo→Presencia:** Nemo ($1,750) ahora incluye grabación con equipo profesional y pauta; Presencia ($1,900) es contenido de feed con material del cliente. Son productos distintos, no niveles: **Nemo = video-first (nosotros grabamos, sin feed); Presencia = feed-first (6 posts + 2 reels con material del cliente, sin grabación)**. Venderlos así evita que Nemo canibalice a Presencia; el cliente que quiere ambas cosas es candidato directo a Semilla ($3,500).
 
 ### Por qué Nemo NO es regalar el trabajo: la fábrica de contenido
 

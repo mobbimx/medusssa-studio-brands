@@ -1,88 +1,95 @@
 <title>Paquete Nemo</title>
 <style>
   :root{
-    --bg:#0a0807; --card:#171311; --card-hi:#241019; --line:#2a2225;
-    --pink:#e2457c; --ink:#ffffff; --muted:#b5a8ae; --on-pink:#171311;
+    --bg:#0E1541; --card:#161d52; --card-hi:#1b2364; --line:#2a3378;
+    --blue:#009DFE; --cyan:#35E1F5; --ink:#ffffff; --muted:#aab6ea; --on-blue:#ffffff;
     color-scheme:dark;
   }
   body{
-    background:var(--bg); color:var(--ink);
+    background:var(--bg);
+    background-image:
+      radial-gradient(900px 500px at 85% -5%, rgba(0,157,254,.16), transparent 60%),
+      radial-gradient(700px 420px at -10% 45%, rgba(53,225,245,.10), transparent 60%);
+    color:var(--ink);
     font-family:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;
-    margin:0; padding-inline:16px; padding-block:0 40px;
+    margin:0; padding-inline:16px; padding-block:0 44px;
     -webkit-font-smoothing:antialiased;
   }
-  .wrap{max-width:620px; margin:0 auto;}
-  a{color:var(--pink);}
+  .wrap{max-width:720px; margin:0 auto; position:relative;}
+  a{color:var(--cyan);}
+  .ring{position:absolute; border-radius:50%; border:5px solid rgba(120,160,255,.35); pointer-events:none;}
+  .r1{width:44px; height:44px; top:22px; left:-6px; border-color:rgba(120,160,255,.45);}
+  .r2{width:20px; height:20px; top:74px; left:44px; border-width:4px;}
+  .r3{width:34px; height:34px; top:230px; right:-4px; border-color:rgba(53,225,245,.35);}
 
-  /* header / logo lockup */
-  header{display:flex; align-items:center; justify-content:center; gap:8px; padding-block:28px 6px;}
-  .wordmark{font-weight:700; font-size:24px; letter-spacing:-0.02em;}
-  .chip{
-    border:2.5px solid var(--pink); color:var(--pink); border-radius:9px;
-    font-weight:700; font-size:13px; padding:3px 8px; letter-spacing:.04em;
+  header{display:flex; flex-direction:column; align-items:center; gap:12px; padding-block:34px 8px; text-align:center;}
+  .logo-badge{
+    width:92px; height:92px; border-radius:50%; overflow:hidden;
+    box-shadow:0 0 0 4px var(--bg), 0 0 0 7px var(--blue), 0 14px 34px rgba(0,157,254,.35);
   }
-  .locality{text-align:center; color:var(--muted); font-size:13px; margin:0 0 26px;}
+  .logo-badge img{width:100%; height:100%; display:block; object-fit:cover;}
+  .wordmark{font-family:'Baloo 2',Poppins,sans-serif; font-weight:700; font-size:34px; line-height:.9; letter-spacing:.01em;}
+  .wordmark small{display:block; font-size:17px; font-weight:600; letter-spacing:.34em; margin-top:4px; text-transform:lowercase;}
+  .agency{font-size:12px; font-weight:600; letter-spacing:.28em; text-transform:uppercase; color:var(--cyan); margin:0 0 26px; text-align:center;}
+  .agency span{color:var(--ink);}
 
-  /* hero */
-  .hero{text-align:center; margin-bottom:30px;}
-  .eyebrow{
-    color:var(--pink); font-size:12px; font-weight:600; letter-spacing:.24em;
-    text-transform:uppercase; margin:0 0 10px;
+  .hero{text-align:center; margin-bottom:32px;}
+  .eyebrow{color:var(--cyan); font-size:12px; font-weight:600; letter-spacing:.24em; text-transform:uppercase; margin:0 0 10px;}
+  h1{font-family:'Baloo 2',Poppins,sans-serif; font-size:46px; line-height:1.02; margin:0 0 8px; text-wrap:balance;}
+  h1 .accent{color:var(--blue);}
+  .tagline{color:var(--muted); font-size:16px; margin:0 0 8px;}
+  .local{
+    display:inline-block; background:rgba(53,225,245,.12); border:1.5px solid var(--cyan);
+    color:var(--ink); border-radius:999px; padding:7px 16px; font-size:13.5px; font-weight:600; margin-bottom:20px;
   }
-  h1{font-size:44px; line-height:1.05; margin:0 0 10px; letter-spacing:-0.03em; text-wrap:balance;}
-  .tagline{color:var(--muted); font-size:16px; margin:0 0 22px;}
-  .jelly{display:block; margin:0 auto 14px;}
-
   .price-card{
-    background:var(--card-hi); border:2px solid var(--pink); border-radius:22px;
-    padding:20px 24px; display:inline-block;
+    background:linear-gradient(160deg, var(--card-hi), var(--card));
+    border:2px solid var(--blue); border-radius:24px; padding:22px 30px; display:inline-block;
+    box-shadow:0 18px 44px rgba(0,157,254,.22);
   }
-  .price{font-size:38px; font-weight:700; color:var(--pink); line-height:1; font-variant-numeric:tabular-nums;}
-  .price small{font-size:16px; color:var(--ink); font-weight:600;}
+  .price{font-family:'Baloo 2',Poppins,sans-serif; font-size:52px; font-weight:700; color:var(--ink); line-height:1; font-variant-numeric:tabular-nums;}
+  .price-inc{color:var(--cyan); font-weight:600; font-size:15px; margin-top:4px;}
   .price-note{color:var(--muted); font-size:13px; margin-top:6px;}
 
-  section{margin-bottom:34px;}
-  h2{font-size:20px; letter-spacing:-0.01em; margin:0 0 14px;}
-  h2 .accent{color:var(--pink);}
-  .about{background:var(--card); border-radius:22px; padding:20px 22px;}
+  section{margin-bottom:36px;}
+  h2{font-family:'Baloo 2',Poppins,sans-serif; font-size:23px; margin:0 0 14px;}
+  h2 .accent{color:var(--cyan);}
+  .about{background:var(--card); border-radius:22px; padding:20px 24px; border:1px solid var(--line);}
   .about p{margin:0; color:var(--muted); font-size:15px; line-height:1.65;}
   .about p strong{color:var(--ink); font-weight:600;}
 
-  /* includes list */
-  .inc{display:flex; flex-direction:column; gap:10px;}
+  .inc{display:grid; grid-template-columns:1fr; gap:12px;}
   .item{
     display:flex; gap:14px; align-items:flex-start;
-    background:var(--card); border-radius:18px; padding:15px 16px;
+    background:var(--card); border:1px solid var(--line); border-radius:18px; padding:16px 18px;
   }
-  .item .ico{
-    flex:0 0 40px; width:40px; height:40px; border-radius:12px;
-    background:var(--card-hi); border:1.5px solid var(--pink);
+  .item .emoji{
+    flex:0 0 46px; width:46px; height:46px; border-radius:14px; font-size:24px;
+    background:rgba(0,157,254,.14); border:1.5px solid var(--blue);
     display:flex; align-items:center; justify-content:center;
   }
-  .item .ico svg{width:20px; height:20px; stroke:var(--pink); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round;}
-  .item p{margin:0; font-size:14.5px; line-height:1.5;}
-  .item p b{font-weight:600;}
+  .item p{margin:0; font-size:14.5px; line-height:1.55;}
+  .item p b{font-weight:600; font-size:15.5px;}
   .item p span{color:var(--muted);}
-
-  /* videos */
-  .videos{display:flex; flex-direction:column; gap:14px;}
-  .vid{
-    background:var(--card); border-radius:18px; overflow:hidden;
+  .item.featured{
+    background:linear-gradient(150deg, rgba(0,157,254,.20), var(--card-hi));
+    border:2px solid var(--cyan);
   }
+  .item.featured .emoji{background:rgba(53,225,245,.16); border-color:var(--cyan);}
+  .badge{
+    display:inline-block; background:var(--cyan); color:#0E1541; font-size:10.5px; font-weight:700;
+    letter-spacing:.12em; text-transform:uppercase; border-radius:999px; padding:3px 10px; margin-bottom:6px;
+  }
+
+  .videos{display:grid; grid-template-columns:1fr; gap:14px;}
+  .vid{background:var(--card); border:1px solid var(--line); border-radius:18px; overflow:hidden;}
   .vid video{display:block; width:100%; max-width:100%; background:#000;}
   .vid .cap{padding:10px 16px; font-size:13px; color:var(--muted);}
-  .vid.soon{
-    border:1.5px dashed var(--line); background:transparent;
-    display:flex; align-items:center; gap:14px; padding:18px 16px;
-  }
-  .vid.soon .play{
-    flex:0 0 44px; width:44px; height:44px; border-radius:50%;
-    border:1.5px solid var(--pink); display:flex; align-items:center; justify-content:center;
-  }
-  .vid.soon .play svg{width:16px; height:16px; fill:var(--pink);}
+  .vid.soon{border:1.5px dashed var(--line); background:transparent; display:flex; align-items:center; gap:14px; padding:18px 16px;}
+  .vid.soon .play{flex:0 0 44px; width:44px; height:44px; border-radius:50%; border:1.5px solid var(--cyan); display:flex; align-items:center; justify-content:center;}
+  .vid.soon .play svg{width:16px; height:16px; fill:var(--cyan);}
   .vid.soon p{margin:0; color:var(--muted); font-size:14px;}
 
-  /* CTA buttons */
   .ctas{display:flex; flex-direction:column; gap:12px;}
   .btn{
     display:flex; align-items:center; justify-content:center; gap:10px;
@@ -90,101 +97,99 @@
     text-decoration:none; text-align:center;
   }
   .btn svg{width:20px; height:20px; flex:0 0 20px;}
-  .btn-wa{background:var(--pink); color:var(--on-pink);}
-  .btn-wa svg{fill:var(--on-pink);}
-  .btn-ig{border:2px solid var(--pink); color:var(--ink);}
-  .btn-ig svg{stroke:var(--pink); fill:none; stroke-width:1.8;}
+  .btn-wa{background:var(--blue); color:var(--on-blue); box-shadow:0 12px 30px rgba(0,157,254,.35);}
+  .btn-wa svg{fill:var(--on-blue);}
+  .btn-ig{border:2px solid var(--cyan); color:var(--ink);}
+  .btn-ig svg{stroke:var(--cyan); fill:none; stroke-width:1.8;}
   .btn-vid{border:2px solid var(--line); color:var(--muted);}
   .btn-vid svg{fill:var(--muted);}
-  .btn:focus-visible{outline:3px solid var(--pink); outline-offset:3px;}
+  .btn:focus-visible{outline:3px solid var(--cyan); outline-offset:3px;}
 
-  .phone-row{
-    display:flex; align-items:center; justify-content:center; gap:10px;
-    margin-top:14px; color:var(--muted); font-size:14px;
-  }
+  .phone-row{display:flex; align-items:center; justify-content:center; gap:10px; margin-top:14px; color:var(--muted); font-size:14px; flex-wrap:wrap;}
   .phone-row b{color:var(--ink); font-weight:600; letter-spacing:.03em; font-variant-numeric:tabular-nums; user-select:all;}
-  .copy{
-    background:var(--card); color:var(--muted); border:1px solid var(--line);
-    border-radius:9px; font:inherit; font-size:12px; padding:5px 10px; cursor:pointer;
-  }
-  .copy:focus-visible{outline:2px solid var(--pink); outline-offset:2px;}
+  .copy{background:var(--card); color:var(--muted); border:1px solid var(--line); border-radius:9px; font:inherit; font-size:12px; padding:5px 10px; cursor:pointer;}
+  .copy:focus-visible{outline:2px solid var(--cyan); outline-offset:2px;}
 
-  footer{
-    text-align:center; color:var(--muted); font-size:13px;
-    border-top:1px solid var(--line); padding-top:22px; margin-top:8px;
-  }
+  footer{text-align:center; color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding-top:22px; margin-top:8px;}
   footer b{color:var(--ink); font-weight:600;}
 
-  @media (min-width:520px){
-    .inc{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
-    .item.wide{grid-column:1 / -1;}
+  /* Tablet */
+  @media (min-width:640px){
+    .inc{grid-template-columns:1fr 1fr;}
+    .item.featured{grid-column:1 / -1;}
+    .ctas{flex-direction:row;}
+    .ctas .btn{flex:1;}
+    .videos{grid-template-columns:1fr 1fr;}
+    .vid.soon{grid-column:1 / -1;}
+  }
+  /* Escritorio */
+  @media (min-width:1024px){
+    .wrap{max-width:860px;}
+    h1{font-size:54px;}
+    header{padding-top:44px;}
   }
   @media (prefers-reduced-motion:no-preference){
-    .jelly{animation:float 5s ease-in-out infinite;}
+    .logo-badge{animation:float 5s ease-in-out infinite;}
     @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
   }
 </style>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Poppins:wght@400;600&display=swap">
 
 <div class="wrap">
+  <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div>
 
   <header>
-    <span class="wordmark">medusssa</span>
-    <span class="chip">studio</span>
+    <div class="logo-badge"><img src="data:image/jpeg;base64,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emf84raFGeY4TDzp2vBq/wAv6TMaleGV4zEwq3tNO3z/AKaMQ9aKKK+rPjgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoxniikPQ460Ae26s7ap8GFnuuZBYRSZbruUjB/T9a8TPWvTfFPj7Rrv4f2ui6U8gneOKGSIoR5KJgkEng5IA4rzKvn+H6FSnTqOcXG8nZM+k4kxFOrVpKnJStFXaCiiivoD5sKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/Z" alt="Logo de medusssa.studio"></div>
+    <div class="wordmark">medusssa<small>studio</small></div>
   </header>
-  <p class="locality">Marketing digital · Xalapa, Veracruz</p>
+  <p class="agency">Agencia <span>· Marketing Digital · Xalapa</span></p>
 
   <div class="hero">
-    <svg class="jelly" width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
-      <g fill="none" stroke="#e2457c" stroke-width="2.6" stroke-linecap="round">
-        <path d="M14 30c0-12 8-20 18-20s18 8 18 20c0 2-1.5 3-3.5 3h-29C15.5 33 14 32 14 30Z"/>
-        <path d="M21 36c-.5 4-2.5 7-2.5 11 0 2.5 1.8 4 3.5 4"/>
-        <path d="M32 37v10c0 3.5 2 5.5 4 5.5"/>
-        <path d="M43 36c.5 4 2.5 7 2.5 11 0 2.5-1.8 4-3.5 4"/>
-      </g>
-    </svg>
     <p class="eyebrow">Servicios esenciales</p>
-    <h1>Paquete <span style="color:var(--pink)">Nemo</span></h1>
+    <h1>Paquete <span class="accent">Nemo</span></h1>
     <p class="tagline">Pequeño, pero imposible de no ver.</p>
+    <div class="local">📍 Hecho para negocios locales y consumo local</div>
+    <br>
     <div class="price-card">
-      <div class="price">$2,500 <small>/ mes</small></div>
-      <div class="price-note">Con publicidad incluida · un solo pago mensual</div>
+      <div class="price">$1,750</div>
+      <div class="price-inc">Pauta publicitaria incluida</div>
+      <div class="price-note">Un solo pago · disponible en plan mensual o quincenal</div>
     </div>
   </div>
 
   <section>
     <h2>Somos <span class="accent">medusssa.studio</span></h2>
     <div class="about">
-      <p>Estudio de marketing digital en Xalapa. Hacemos que los negocios locales <strong>se vean profesionales y lleguen a más clientes</strong>: grabamos, diseñamos, escribimos y administramos tu publicidad, para que tú te dediques a atender tu negocio.</p>
+      <p>Agencia de marketing digital en Xalapa. Centramos nuestro trabajo en <strong>negocios locales y el consumo local</strong>: grabamos, diseñamos, escribimos y administramos tu publicidad para que tu negocio se vea profesional y le llegue a la gente de tu ciudad — mientras tú te dedicas a atenderlo.</p>
     </div>
   </section>
 
   <section>
-    <h2>¿Qué incluye?</h2>
+    <h2>¿Qué <span class="accent">incluye</span>?</h2>
     <div class="inc">
-      <div class="item wide">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 7.5A2.5 2.5 0 0 1 5.5 5h8A2.5 2.5 0 0 1 16 7.5v9a2.5 2.5 0 0 1-2.5 2.5h-8A2.5 2.5 0 0 1 3 16.5Z"/><path d="m16 10 4.2-2.6a.6.6 0 0 1 .8.5v8.2a.6.6 0 0 1-.8.5L16 14"/></svg></div>
-        <p><b>2 videos al mes para redes sociales</b><br><span>Grabados y editados por nosotros: productos, promociones, precios, horarios o trends del momento.</span></p>
-      </div>
-      <div class="item wide">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3v11H4Z"/><circle cx="12" cy="13" r="3.2"/></svg></div>
-        <p><b>Equipo profesional de grabación</b><br><span>Dron, estabilizador, equipo de iluminación y micrófonos. Calidad que no se logra con un celular.</span></p>
+      <div class="item">
+        <div class="emoji">🎬</div>
+        <p><b>2 videos para redes sociales</b><br><span>Grabados y editados por nosotros: productos, promociones, precios, horarios o trends del momento.</span></p>
       </div>
       <div class="item">
-        <div class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2.5"/><path d="M4 10h16M10 10v10"/></svg></div>
-        <p><b>3 plantillas de publicidad</b><br><span>Diseñadas con la imagen de tu negocio.</span></p>
+        <div class="emoji">🎨</div>
+        <p><b>3 plantillas de publicidad</b><br><span>Diseñadas con la imagen de tu negocio: productos, promociones, precios y horarios.</span></p>
+      </div>
+      <div class="item featured">
+        <div class="emoji">🚁</div>
+        <p><span class="badge">Destacado</span><br><b>Tomas aéreas con dron</b><br><span>Tu negocio como nadie más lo muestra en Xalapa — y todo se graba con <b>equipo profesional</b>: 🎥 estabilizador, 💡 iluminación y 🎙️ micrófonos.</span></p>
       </div>
       <div class="item">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 11v3l3 .5V19a1 1 0 0 0 1 1h1.5v-5l9.5 3.5v-13L4 11Z"/></svg></div>
-        <p><b>$400 de pauta publicitaria</b><br><span>En Facebook e Instagram, administrada por nosotros.</span></p>
+        <div class="emoji">📣</div>
+        <p><b>$400 de pauta publicitaria incluida</b><br><span>En Facebook e Instagram, configurada y administrada por nosotros para tu zona.</span></p>
       </div>
       <div class="item">
-        <div class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="5.5" width="16" height="14.5" rx="2.5"/><path d="M4 10.5h16M8.5 3.5v4M15.5 3.5v4"/></svg></div>
-        <p><b>Calendarización de contenidos</b><br><span>Tu mes planeado y programado por adelantado.</span></p>
+        <div class="emoji">✍️</div>
+        <p><b>Redacción de copies</b><br><span>Textos persuasivos para cada una de tus publicaciones.</span></p>
       </div>
       <div class="item">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="m5 19 1-4L16.5 4.5a2.1 2.1 0 0 1 3 3L9 18l-4 1Z"/><path d="M14 7l3 3"/></svg></div>
-        <p><b>Redacción de copies</b><br><span>Textos persuasivos para cada publicación.</span></p>
+        <div class="emoji">📅</div>
+        <p><b>Calendarización de contenidos</b><br><span>Tu contenido planeado y programado por adelantado; apruebas una sola vez.</span></p>
       </div>
     </div>
   </section>
@@ -207,7 +212,7 @@
         Escríbenos por WhatsApp
       </a>
       <a class="btn btn-ig" href="https://www.instagram.com/medusssa.studio" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.8" fill="#e2457c" stroke="none"/></svg>
+        <svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.8" fill="#35E1F5" stroke="none"/></svg>
         Síguenos en Instagram
       </a>
       <a class="btn btn-vid" href="#videos">
@@ -225,15 +230,13 @@
     <b>medusssa.studio</b><br>
     Xalapa, Veracruz · @medusssa.studio
   </footer>
-
 </div>
 
 <script>
   document.getElementById('copyBtn').addEventListener('click', async function () {
     const btn = this;
-    const num = '2283457114';
     try {
-      await navigator.clipboard.writeText(num);
+      await navigator.clipboard.writeText('2283457114');
       btn.textContent = 'Copiado ✓';
     } catch (e) {
       const range = document.createRange();
