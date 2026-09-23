@@ -3,7 +3,19 @@
 > 3 propuestas creativas generadas en Canva con el brand kit de medusssa.studio.
 > Objetivo: tarjeta que NO se tira — el QR lleva a la página del Paquete Nemo.
 
-## Las 3 propuestas (editables en Canva)
+## Las propuestas (editables en Canva)
+
+### Ronda 2 — conceptos en tendencia (preferidos)
+
+| # | Concepto | Enlace |
+|---|---|---|
+| 4 | **Glassmorphism + aurora** — tarjeta de vidrio esmerilado flotando sobre degradado aurora azul/cian con grano; premium y con profundidad | https://www.canva.com/d/ym3jb1M-suvdVrR |
+| 5 | **Bento grid** — casillas redondeadas estilo dashboard/Apple, cada módulo un dato (marca, servicios, WhatsApp, QR) | https://www.canva.com/d/FMeQm3CQCJyEgQj |
+| 6 | **Tipografía gigante + stickers** — wordmark enorme sangrando los bordes y stickers pegados (medusa, "marketing local", "video + pauta + diseño") | https://www.canva.com/d/L1V6x5v-gYEaqwf |
+
+Las tres dicen qué es Medusssa en una línea: *"Video, diseño y publicidad para que tu negocio local sea imposible de no ver"*.
+
+### Ronda 1 — conceptos iniciales
 
 | # | Concepto | Enlace |
 |---|---|---|
