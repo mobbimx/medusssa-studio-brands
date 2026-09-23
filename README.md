@@ -5,12 +5,21 @@ Repositorio centralizado de información, identidad y estrategia de contenido pa
 ## Estructura
 
 ```
+medusssa-studio/    - Documentos comerciales del estudio (paquetes, costos)
 peachystudio/       - Peachy Studio Nails
 mobbitrips/         - Mobbitrips (alojamientos flexibles)
 salones-aurora/     - Salones Aurora (eventos)
 alpha-fitness/      - Alpha Fitness
 extravagance/       - Extravagance (Club For Men · Boca del Río)
 ```
+
+## Documentos del estudio
+
+| Archivo | Descripción |
+|---------|-------------|
+| `medusssa-studio/paquetes.md` | Paquetes comerciales (cara al cliente): Nemo, Presencia, Semilla y Crecimiento, con modalidades orgánica e Impulso con pauta incluida |
+| `medusssa-studio/estructura-costos.md` | ⚠️ Interno: márgenes, gestión de pauta, punto de equilibrio y reglas comerciales |
+| `medusssa-studio/cartel-nemo.md` | Prompt de diseño para el cartel del Paquete Nemo (IA o brief para Canva) |
 
 ## Propósito
 
