@@ -7,13 +7,16 @@
 
 | Alojamiento | Normal | Con 30% |
 |---|---|---|
-| Colina Estacionamiento | $549 | $384 |
+| Colina Estacionamiento | $632 | $443 |
 | N20 H1, H2 y H3 | $631 | $442 |
-| Colina 2, 4, 7 y 9 | $669 | $468 |
-| Colina 2a y 5 | $789 | $552 |
-| Colina 14 | $919 | $643 |
+| Colina 2, 4, 7 y 9 | $770 | $539 |
+| Colina 5 | $908 | $636 |
+| Colina 14 | $1,057 | $740 |
+
+Precios actualizados el 25-nov-2026 según el sistema de reservas. Colina 2a ya no aparece en el sistema. Colina 6a aparece con $908 → $772 (eso es 15%, no 30%): no entra en las piezas hasta confirmar su descuento.
 
 ## Pendientes de confirmar antes de publicar
+- Confirmar 6a (descuento real) y si Colina 2a existe con otro nombre.
 - Vigencia exacta: los diseños dicen «todo diciembre y enero». Poner la fecha real en «Últimas noches» y en la rosca.
 - Datos reales de cada alojamiento (camas, mascotas, capacidad) antes de mencionarlos.
 - Confirmar a qué depa pertenece cada foto usada.
@@ -42,9 +45,9 @@ Todos: vertical 9:16. El 30% se ve o se dice en los primeros 3 segundos y otra v
 | Tiempo | Toma | Voz y texto |
 |---|---|---|
 | 0–3 s | Entrada o fachada | «Hoy empieza tu Navidad en Xalapa.» Texto: 30% DE DESCUENTO |
-| 3–7 s | Colina Estacionamiento | «Desde $384 la noche.» Texto: ~~$549~~ → $384 |
+| 3–7 s | Colina Estacionamiento | «Desde $443 la noche.» Texto: ~~$632~~ → $443 |
 | 7–11 s | N20 (H1, H2, H3) | ~~$631~~ → $442 |
-| 11–15 s | Colina 9 o Colina 2 | ~~$669~~ → $468 |
+| 11–15 s | Colina 9 o Colina 2 | ~~$770~~ → $539 |
 | 15–20 s | Mejor toma del depa | «Todo diciembre y enero. Reserva directo por WhatsApp o en mobbitrips.com.» |
 
 ### Video 2 — «¿Adivina cuánto cuesta?» (15 s)
@@ -54,7 +57,7 @@ Todos: vertical 9:16. El 30% se ve o se dice en los primeros 3 segundos y otra v
 | 0–3 s | Sala de N20 H1 | «¿Cuánto crees que cuesta este depa en Navidad?» |
 | 3–6 s | Recámara y baño, rápido | Texto: ¿? |
 | 6–10 s | Pantalla de color | $442 por noche |
-| 10–15 s | Colina 9 | «Y este… $468. Con 30% de descuento si reservas directo. Todo diciembre y enero.» |
+| 10–15 s | Colina 9 | «Y este… $539. Con 30% de descuento si reservas directo. Todo diciembre y enero.» |
 
 Texto de la publicación: «Dinos tu respuesta antes de ver el precio.»
 
