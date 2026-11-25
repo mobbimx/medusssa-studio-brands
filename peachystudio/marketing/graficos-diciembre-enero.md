@@ -26,6 +26,38 @@ Diciembre es el mes en que la mayor cantidad de personas del año cruza la puert
 
 ---
 
+## 1 bis. Inventario de lo que ya existe en Canva
+
+> Revisado el 25 de noviembre. Brand kit **PeachyStudio** (`kAGo3G1GO_o`).
+
+| Material | Estado | Observación |
+|----------|--------|-------------|
+| **Logo** | Existe | "Peachy Studio nails" en script burbuja rosa/amarillo con contorno. Estilo Y2K. Vive dentro de diseños, **no como archivo vectorial suelto** |
+| **Plantillas de historia** (6 pág.) | Hechas, de septiembre | Calendario de disponibilidad del mes, horarios libres del día, promo del mes. **Ya resuelven la pieza D2** |
+| **Promos de diciembre** | Armadas, sin publicar | Portada de carrusel, 2x1 en Polish, 15% en diseños navideños, 15% por recomendación, cómo agendar, promo relámpago |
+| **Tarjeta de presentación** | Hecha | — |
+| **Descriptor en uso** | `Peachy Studio · Nail Studio Privado · Xalapa` | **No estaba registrado en el repo.** "Nail Studio Privado" es un posicionamiento fuerte y debería usarse en todos lados |
+
+### El problema visual: cuatro lenguajes distintos
+
+Las piezas existentes no se parecen entre sí ni se parecen al studio:
+
+| Material | Lenguaje visual |
+|----------|-----------------|
+| Logo | Burbuja Y2K, rosa y amarillo con contorno grueso |
+| Plantillas de septiembre | Cuadrícula rosa, tipografía bubble, muy Y2K |
+| Portada de carrusel de diciembre | Rosa fuerte + morado + verde limón, serif editorial |
+| 2x1 en Polish | Crema, rosa suave, moños, elegante, foto de stock |
+| Promo de recomendación | Rosa y lila con manchas orgánicas |
+
+Cinco piezas, cinco marcas. Y ninguna se parece al studio real, que es **lila apagado, repisas blancas, luz cálida y peluches**.
+
+**Esto es lo que hay que resolver primero**, porque no es cuestión de gusto: una clienta que ve cuatro estilos no acumula reconocimiento de marca, y el feed se ve como plantillas descargadas en vez de como un lugar.
+
+**La decisión de fondo:** el logo es Y2K burbuja y el studio es suave y cálido. No pueden convivir sin elegir cuál manda. Mi recomendación es que **mande el studio** —porque es lo que la clienta ve cuando llega, y es lo que ninguna competidora puede copiar— y que el logo se use en chico, como firma, no como protagonista.
+
+---
+
 ## 2. Sistema visual — lo que está resuelto y lo que falta
 
 ### Lo verificable hoy (sacado de los videos del studio)
@@ -57,6 +89,56 @@ Diciembre es el mes en que la mayor cantidad de personas del año cruza la puert
 3. **Los montos reales del tabulador de decoración** que ya está impreso en el muro del studio por niveles.
 
 **Mientras tanto se produce igual.** Diciembre no espera al vectorial: las piezas se arman con el sistema provisional y se re-exportan cuando llegue el logo bueno. Lo que no se puede hacer es imprimir nada hasta tenerlo.
+
+---
+
+## 2 bis. Las promos de diciembre, reconvertidas a la tarjeta
+
+Las promos ya armadas en Canva son **tres descuentos en el mes de mayor demanda del año**, sobre precios que ya están en el cuartil bajo de Xalapa, en un negocio que ya opera en su techo de capacidad.
+
+### La aritmética
+
+| | Dato |
+|---|---|
+| Techo de capacidad | ~84 servicios/mes |
+| Softgel | $150 (cuartil bajo del rango local de $100–$1,000) |
+| 15% sobre un softgel | $22.50 por servicio |
+| Si se acumulan recomendación + diseño navideño | 30% = $45 por servicio |
+
+**El punto que decide el asunto:** un descuento sirve para generar volumen incremental. En diciembre **no hay volumen incremental posible** — la agenda se llena de todos modos. Cada cita descontada es una cita que se habría vendido a precio completo. El descuento no trae clientas de más; nada más le baja el precio a la demanda que ya iba a llegar.
+
+Y hay un costo que no se ve: la clienta que paga 15% menos en diciembre aprende que Peachy descuenta. En enero espera el siguiente descuento en vez de pagar precio lleno.
+
+### La conversión: mismo gancho, cero margen perdido
+
+Aquí es donde entra la tarjeta de cliente frecuente, y es justo lo que pediste. **El sello hace el trabajo del descuento sin costar lo que cuesta el descuento.**
+
+| Promo actual | Reconvertida a tarjeta | Costo real hoy | Qué gana además |
+|--------------|------------------------|----------------|-----------------|
+| 15% en diseños navideños | **Doble sello** en diseño navideño | **$0** | La clienta vuelve en enero a usar el avance |
+| 15% por recomendación (las dos) | **Sello para las dos** + la amiga estrena tarjeta con sellos de regalo | **$0** | La amiga entra con la tarjeta ya empezada |
+| 2x1 en Polish | Depende de qué significa (ver abajo) | — | — |
+
+**Por qué el sello funciona igual de bien:** un descuento de $22.50 se consume y se olvida el mismo día. Un sello queda en la cartera y genera la visita de enero. Y si la clienta nunca vuelve, el sello **no costó nada** — mientras que el descuento ya se pagó.
+
+Una amiga referida que estrena tarjeta con los 2 sellos de regalo más el de su visita arranca con 3 de 8. Eso no es un detalle: una tarjeta que empieza con avance se completa mucho más que una que empieza en cero.
+
+### Las dos promos que sí se quedan
+
+**El 2x1 en Polish — hay que aclarar qué es.** La pieza dice *"elige 2 colores y paga solo uno"*. Si significa **segundo color sin costo**, es un añadido barato con valor percibido alto y se queda — pero el titular "2x1" la hace leer como mitad de precio y entrena al descuento. Se renombra a **"segundo color de cortesía"**. Si significa dos servicios al precio de uno, en diciembre no va.
+
+**La promo relámpago sí se queda, y es la única excepción legítima.** Un descuento para llenar un hueco que dejó una cancelación no regala margen: rescata una silla que iba a quedarse vacía. Esa es exactamente la herramienta correcta, y solo debe salir cuando haya hueco real.
+
+### Lo que hay que rehacer de la portada del carrusel
+
+La portada anuncia los tres descuentos. Cambia a:
+
+> **Promos de diciembre**
+> · Doble sello en diseño navideño
+> · Trae a tu amiga: sello para las dos
+> · Segundo color de cortesía
+
+Mismo diseño, mismo número de promos, misma sensación de abundancia. Margen intacto y enero sembrado.
 
 ---
 

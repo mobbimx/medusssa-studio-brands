@@ -34,6 +34,11 @@ Hacerte las uñas como un acto de amor y autocuidado.
 ## Tono de voz
 Juguetona, cercana, cuidadosa. Casual con cariño. Confiada sin arrogancia.
 
+## Descriptor
+> **Peachy Studio · Nail Studio Privado · Xalapa**
+
+Aparece al pie de las piezas gráficas. "Nail studio privado" es un diferenciador real frente a los salones de Xalapa con varias sillas y rotación — se atiende a una clienta a la vez. Debe usarse de forma consistente.
+
 ## Tagline
 > "Hazte las uñas. Cuídate la uña."
 
