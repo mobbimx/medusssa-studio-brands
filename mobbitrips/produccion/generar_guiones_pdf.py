@@ -176,13 +176,104 @@ VIDEOS = [
             "despues": "Compartir en historias con «Hoy empieza. Escríbenos» y enlace a WhatsApp.",
         },
     },
+    {
+        "num": 2,
+        "titulo": "Todos los depas y sus precios",
+        "estado": "SELECCIONADO - listo para grabar",
+        "estado_color": VERDE,
+        "publicar": "Primera semana de diciembre de 2026",
+        "duracion": "30 segundos",
+        "formato": "Vertical 9:16 (1080 x 1920), con subtítulos",
+        "objetivo": "Mostrar todos los departamentos con su precio por noche ya con el 30% de descuento. Directo y claro, sin historia ni contexto.",
+        "gancho": "«Todos nuestros depas, con 30% de descuento.»",
+        "interpretacion": [
+            "Tono claro, amable y seguro, como quien da información útil. Sin humor ni actuación: aquí lo importante es el precio.",
+            "Mismo ritmo en todos los depas: nombre, pausa corta, precio. Que el espectador aprenda el patrón y lo siga solo.",
+            "Resalta siempre el precio y di el nombre del depa sin prisa, sobre todo los números (Colina 2, 4, 7 y 9).",
+            "Sonríe al empezar y al cerrar; en medio, voz tranquila y constante.",
+        ],
+        "pronunciacion": [
+            "$442: «cuatrocientos cuarenta y dos». $443: «cuatrocientos cuarenta y tres». $539: «quinientos treinta y nueve».",
+            "$636: «seiscientos treinta y seis». $740: «setecientos cuarenta». En el video basta decir «$442» sin «pesos».",
+            "N20: «ene veinte». H1, H2 y H3: «hache uno, hache dos y hache tres».",
+            "Todos los precios son por noche y ya incluyen el 30% de descuento.",
+        ],
+        "escenas": [
+            ("1", "0-3 s", "Fachada o entrada del edificio, luz de mañana.",
+             "«Todos nuestros depas, con 30% de descuento.»",
+             "<b>TODOS LOS DEPAS</b><br/><b>30% DE DESCUENTO</b>",
+             "Claro y amable. Sonríe."),
+            ("2", "3-8 s", "N20 H1, N20 H2 y N20 H3: tres tomas de unos 1.7 s cada una (sala o recámara).",
+             "«N20, H1, H2 y H3: $442 la noche.»",
+             "N20 H1 / H2 / H3<br/><strike>$631</strike>  <b>$442</b>",
+             "Di los tres nombres sin correr; el precio, firme."),
+            ("3", "8-12 s", "Colina Estacionamiento: una toma de unos 3.5 s.",
+             "«Colina Estacionamiento: $443.»",
+             "Colina Estacionamiento<br/><strike>$632</strike>  <b>$443</b>",
+             "Mismo ritmo que la escena anterior."),
+            ("4", "12-19 s", "Colina 2, Colina 4, Colina 7 y Colina 9: cuatro tomas de unos 1.75 s cada una.",
+             "«Colina 2, 4, 7 y 9: $539.»",
+             "Colina 2 / 4 / 7 / 9<br/><strike>$770</strike>  <b>$539</b>",
+             "Los números claros, uno por uno."),
+            ("5", "19-22 s", "Colina 5: una toma de unos 3.5 s.",
+             "«Colina 5: $636.»",
+             "Colina 5<br/><strike>$908</strike>  <b>$636</b>",
+             "Constante, sin cambiar de tono."),
+            ("6", "22-26 s", "Colina 14: una toma de unos 3.5 s.",
+             "«Colina 14: $740.»",
+             "Colina 14<br/><strike>$1,057</strike>  <b>$740</b>",
+             "Igual que las anteriores."),
+            ("7", "26-30 s", "Pantalla final: la lista de precios de Navidad (diseño de Canva) con el logo.",
+             "«Todo diciembre y enero. Reserva directo por WhatsApp.»",
+             "<b>Todo diciembre y enero</b><br/>WhatsApp 228 252 5244<br/>mobbitrips.com",
+             "Cálido al cerrar. Baja un poco el tono al terminar."),
+        ],
+        "tomas": [
+            ("1", "Entrada del edificio", "Fachada o puerta, luz de mañana.", "4-5 s", "Avance lento", "2"),
+            ("2", "N20 H1", "Sala o recámara, mejor toma.", "4-5 s", "Avance lento", "2"),
+            ("3", "N20 H2", "Sala o recámara, mejor toma.", "4-5 s", "Avance lento", "2"),
+            ("4", "N20 H3", "Sala o recámara, mejor toma.", "4-5 s", "Avance lento", "2"),
+            ("5", "Colina Estac.", "Sala o recámara, mejor toma.", "4-5 s", "Avance lento", "2"),
+            ("6", "Colina 2", "Sala o recámara, mejor toma.", "4-5 s", "Avance lento", "2"),
+            ("7", "Colina 4", "Sala o recámara, mejor toma.", "4-5 s", "Avance lento", "2"),
+            ("8", "Colina 7", "Sala o recámara, mejor toma.", "4-5 s", "Avance lento", "2"),
+            ("9", "Colina 9", "Sala o recámara, mejor toma.", "4-5 s", "Avance lento", "2"),
+            ("10", "Colina 5", "Sala o recámara, mejor toma.", "4-5 s", "Avance lento", "2"),
+            ("11", "Colina 14", "Sala o recámara, mejor toma.", "4-5 s", "Avance lento", "2"),
+            ("12", "Voz (voz en off)", "Letra completa, leída 3 veces con calma.", "-", "En un cuarto sin eco", "3"),
+        ],
+        "requiere": [
+            "<b>Los 10 depas listos y ordenados</b> el mismo día, si se puede: camas tendidas, sin objetos personales, cocina limpia.",
+            "Celular o cámara en <b>vertical</b>, 4K a 30 cuadros, con estabilizador o tripié.",
+            "<b>La misma toma en todos los depas</b>: mismo ángulo, misma altura y mismo avance lento. Así ninguno parece mejor ni peor y la edición se ve ordenada.",
+            "Luz natural de mañana, cortinas abiertas.",
+            "Grabar siempre el depa del que se habla. Nunca mezclar fotos de uno con el nombre de otro.",
+            "Si el actor sale a cámara, solo en el arranque y el cierre; ropa lisa, sin logos grandes.",
+            "Música: instrumental navideña suave, libre de derechos; la elijo en la edición.",
+            "<b>Fuera de este video:</b> Colina 6a (su descuento es de 15%, por confirmar) y Colina 2a (ya no aparece en el sistema).",
+        ],
+        "edicion": [
+            "Plantilla fija para todos los depas: nombre arriba, precio normal tachado y precio con descuento grande, siempre en el mismo lugar.",
+            "Ritmo constante: el espectador debe poder leer cada precio sin esfuerzo.",
+            "Orden de precio de menor a mayor, para que el video se sienta ordenado.",
+            "Pantalla final con la lista de precios de Navidad (diseño de Canva) durante 4 segundos.",
+            "Texto en coral #ED6864 y blanco, tipografía Comfortaa en los títulos. Subtítulos siempre puestos.",
+        ],
+        "publicacion": {
+            "caption": "Todos nuestros depas, con 30% de descuento. Reserva directo todo diciembre y enero. "
+                       "Escríbenos por WhatsApp 228 252 5244. mobbitrips.com",
+            "hashtags": "#Xalapa  #Veracruz  #NavidadEnXalapa  #RentaVacacional",
+            "portada": "«Todos los depas, 30% de descuento» sobre foto real (por generar).",
+            "despues": "Compartir en historias con el enlace a WhatsApp y fijar un comentario con la lista de precios.",
+        },
+    },
 ]
 
 PENDIENTES = [
     ["#", "Video", "Estado", "Qué sigue"],
     ["1", "Hoy empieza el 30%", "<font color='#3E9B6B'><b>SELECCIONADO - listo para grabar</b></font>", "Grabar y confirmar si es a cámara o voz en off."],
-    ["2", "¿Adivina cuánto cuesta?", "<font color='#D9922E'><b>EN REVISIÓN</b></font>", "Es el siguiente: se afina y se agrega a este documento."],
-    ["3", "Lo que encuentras al llegar", "<font color='#706F6F'><b>PENDIENTE</b></font>", "Falta la lista real de qué tiene cada depa."],
+    ["2", "Todos los depas y sus precios", "<font color='#3E9B6B'><b>SELECCIONADO - listo para grabar</b></font>", "Grabar los 10 depas con la misma toma."],
+    ["3", "Lo que encuentras al llegar", "<font color='#D9922E'><b>EN REVISIÓN</b></font>", "Es el siguiente: falta elegir el depa y confirmar qué tiene."],
     ["4", "Rifa de 3 noches", "<font color='#ED6864'><b>EN PAUSA - no publicar</b></font>", "Falta permiso legal, reglas escritas y costo aprobado."],
 ]
 
@@ -270,7 +361,7 @@ def pagina_grabacion(v):
     filas = [["#", "Lugar", "Qué grabar", "Duración", "Movimiento", "Tomas"]]
     for fila in v["tomas"]:
         filas.append(list(fila))
-    s.append(tabla(filas, [0.3 * inch, 1.3 * inch, 2.2 * inch, 0.85 * inch, 1.65 * inch, 0.7 * inch]))
+    s.append(tabla(filas, [0.4 * inch, 1.5 * inch, 2.15 * inch, 0.75 * inch, 1.5 * inch, 0.7 * inch]))
     s.append(P("Qué se necesita el día de grabación", "h2"))
     for t in v["requiere"]:
         s.append(Paragraph(t, S["bullet"], bulletText="[  ]"))
